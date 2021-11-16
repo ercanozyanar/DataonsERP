@@ -69,5 +69,15 @@ Namespace My.Resources
                 Return CType(obj,DevExpress.Utils.Svg.SvgImage)
             End Get
         End Property
+        
+        '''<summary>
+        '''  System.Drawing.Bitmap türünde yerelleştirilmiş bir kaynak arar.
+        '''</summary>
+        Friend ReadOnly Property next_32x32() As System.Drawing.Bitmap
+            Get
+                Dim obj As Object = ResourceManager.GetObject("next_32x32", resourceCulture)
+                Return CType(obj,System.Drawing.Bitmap)
+            End Get
+        End Property
     End Module
 End Namespace

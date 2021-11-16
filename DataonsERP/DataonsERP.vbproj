@@ -55,6 +55,7 @@
     <Reference Include="DevExpress.Utils.v20.2, Version=20.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
     <Reference Include="DevExpress.XtraBars.v20.2, Version=20.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
     <Reference Include="DevExpress.XtraEditors.v20.2, Version=20.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraNavBar.v20.2, Version=20.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
     <Reference Include="PresentationCore" />
     <Reference Include="System" />
     <Reference Include="System.ComponentModel.DataAnnotations" />
@@ -134,6 +135,116 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\encrypt.svg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Resources\barcode2_16x16.png" />
+    <Content Include="Resources\barcode2_32x32.png" />
+    <Content Include="Resources\bocustomer_32x32.png" />
+    <Content Include="Resources\bocustomer_32x321.png" />
+    <Content Include="Resources\bonote_16x16.png" />
+    <Content Include="Resources\bonote_32x32.png" />
+    <Content Include="Resources\bonote_32x321.png" />
+    <Content Include="Resources\boorderitem_16x16.png" />
+    <Content Include="Resources\boorderitem_32x32.png" />
+    <Content Include="Resources\boorderitem_32x321.png" />
+    <Content Include="Resources\boposition2_16x16.png" />
+    <Content Include="Resources\boposition2_32x32.png" />
+    <Content Include="Resources\boposition2_32x321.png" />
+    <Content Include="Resources\boproductgroup_16x16.png" />
+    <Content Include="Resources\boproductgroup_16x161.png" />
+    <Content Include="Resources\boproductgroup_32x32.png" />
+    <Content Include="Resources\boproductgroup_32x321.png" />
+    <Content Include="Resources\boreport_16x16.png" />
+    <Content Include="Resources\boreport_32x32.png" />
+    <Content Include="Resources\boresume_16x16.png" />
+    <Content Include="Resources\boresume_32x32.png" />
+    <Content Include="Resources\bosaleitem_16x16.png" />
+    <Content Include="Resources\bosaleitem_16x161.png" />
+    <Content Include="Resources\bosaleitem_32x32.png" />
+    <Content Include="Resources\bosaleitem_32x321.png" />
+    <Content Include="Resources\bosale_32x32.png" />
+    <Content Include="Resources\botask_16x16.png" />
+    <Content Include="Resources\botask_32x32.png" />
+    <Content Include="Resources\bottom10%2525_16x16.png" />
+    <Content Include="Resources\bottom10%2525_32x32.png" />
+    <Content Include="Resources\bottom10items_32x32.png" />
+    <Content Include="Resources\buy_16x16.png" />
+    <Content Include="Resources\buy_32x32.png" />
+    <Content Include="Resources\chartsrotate_16x16.png" />
+    <Content Include="Resources\chartsrotate_16x161.png" />
+    <Content Include="Resources\chartsrotate_32x32.png" />
+    <Content Include="Resources\chartsrotate_32x321.png" />
+    <Content Include="Resources\charttype_radararea.svg" />
+    <Content Include="Resources\chartyaxissettings_16x16.png" />
+    <Content Include="Resources\chartyaxissettings_32x32.png" />
+    <Content Include="Resources\clear_16x16.png" />
+    <Content Include="Resources\clear_32x32.png" />
+    <Content Include="Resources\converttorange_16x16.png" />
+    <Content Include="Resources\converttorange_32x32.png" />
+    <Content Include="Resources\convert_16x16.png" />
+    <Content Include="Resources\convert_32x32.png" />
+    <Content Include="Resources\copymodeldifferences_16x16.png" />
+    <Content Include="Resources\copymodeldifferences_32x32.png" />
+    <Content Include="Resources\costanalysis_16x16.png" />
+    <Content Include="Resources\costanalysis_32x32.png" />
+    <Content Include="Resources\createmodeldifferences_16x16.png" />
+    <Content Include="Resources\createmodeldifferences_32x32.png" />
+    <Content Include="Resources\crossdatasourcefiltering_32x32.png" />
+    <Content Include="Resources\currency_16x16.png" />
+    <Content Include="Resources\currency_16x161.png" />
+    <Content Include="Resources\currency_16x162.png" />
+    <Content Include="Resources\currency_32x32.png" />
+    <Content Include="Resources\currency_32x321.png" />
+    <Content Include="Resources\currency_32x322.png" />
+    <Content Include="Resources\currency_32x323.png" />
+    <Content Include="Resources\drilldownonarguments_chart_16x16.png" />
+    <Content Include="Resources\drilldownonarguments_chart_32x32.png" />
+    <Content Include="Resources\editcontact_32x32.png" />
+    <Content Include="Resources\errorbarsstandarddeviation_16x16.png" />
+    <Content Include="Resources\errorbarsstandarddeviation_32x32.png" />
+    <Content Include="Resources\filterbyargument_chart_16x16.png" />
+    <Content Include="Resources\filterbyargument_chart_32x32.png" />
+    <Content Include="Resources\gradientpurpledatabar_16x16.png" />
+    <Content Include="Resources\gradientpurpledatabar_32x32.png" />
+    <Content Include="Resources\hight_16x16.png" />
+    <Content Include="Resources\hight_32x32.png" />
+    <Content Include="Resources\importimage_16x16.png" />
+    <Content Include="Resources\importimage_32x32.png" />
+    <Content Include="Resources\inbox_16x16.png" />
+    <Content Include="Resources\inbox_32x32.png" />
+    <Content Include="Resources\low_16x16.png" />
+    <Content Include="Resources\low_32x32.png" />
+    <Content Include="Resources\managedatasource_16x16.png" />
+    <Content Include="Resources\managedatasource_32x32.png" />
+    <Content Include="Resources\multiplemasterfilter_16x16.png" />
+    <Content Include="Resources\multiplemasterfilter_32x32.png" />
+    <Content Include="Resources\newsales_16x16.png" />
+    <Content Include="Resources\newsales_32x32.png" />
+    <None Include="Resources\next_32x32.png" />
+    <Content Include="Resources\printincludeevaluations_32x32.png" />
+    <Content Include="Resources\printlayoutview_16x16.png" />
+    <Content Include="Resources\printlayoutview_32x32.png" />
+    <Content Include="Resources\printlayoutview_32x321.png" />
+    <Content Include="Resources\replace_16x16.png" />
+    <Content Include="Resources\replace_32x32.png" />
+    <Content Include="Resources\right_16x16.png" />
+    <Content Include="Resources\right_32x32.png" />
+    <Content Include="Resources\showproduct_16x16.png" />
+    <Content Include="Resources\showproduct_32x32.png" />
+    <Content Include="Resources\sortbyorderdate_16x16.png" />
+    <Content Include="Resources\sortbyorderdate_32x32.png" />
+    <Content Include="Resources\square_16x16.png" />
+    <Content Include="Resources\square_32x32.png" />
+    <Content Include="Resources\top10items_16x16.png" />
+    <Content Include="Resources\top10items_32x32.png" />
+    <Content Include="Resources\top10items_32x321.png" />
+    <Content Include="Resources\unlike_16x16.png" />
+    <Content Include="Resources\unlike_32x32.png" />
+    <Content Include="Resources\up2_32x32.png" />
+    <Content Include="Resources\verticalaxisbillions_16x16.png" />
+    <Content Include="Resources\verticalaxisbillions_32x32.png" />
+    <Content Include="Resources\wifi_16x16.png" />
+    <Content Include="Resources\wifi_32x32.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
 </Project>
