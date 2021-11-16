@@ -112,6 +112,12 @@
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
     <Compile Include="SearchHelper.vb" />
+    <Compile Include="stok_tanim.Designer.vb">
+      <DependentUpon>stok_tanim.vb</DependentUpon>
+    </Compile>
+    <Compile Include="stok_tanim.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="stok_tanimlama.Designer.vb">
       <DependentUpon>stok_tanimlama.vb</DependentUpon>
     </Compile>
@@ -129,6 +135,9 @@
       <LastGenOutput>Resources.Designer.vb</LastGenOutput>
       <CustomToolNamespace>My.Resources</CustomToolNamespace>
       <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="stok_tanim.resx">
+      <DependentUpon>stok_tanim.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="stok_tanimlama.resx">
       <DependentUpon>stok_tanimlama.vb</DependentUpon>

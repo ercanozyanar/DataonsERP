@@ -38,7 +38,25 @@ Partial Class stok_tanimlama
         Me.SimpleButton8 = New DevExpress.XtraEditors.SimpleButton()
         Me.XtraTabControl1 = New DevExpress.XtraTab.XtraTabControl()
         Me.XtraTabPage1 = New DevExpress.XtraTab.XtraTabPage()
+        Me.GroupControl4 = New DevExpress.XtraEditors.GroupControl()
+        Me.LabelControl20 = New DevExpress.XtraEditors.LabelControl()
         Me.TextEdit5 = New DevExpress.XtraEditors.TextEdit()
+        Me.ComboBoxEdit14 = New DevExpress.XtraEditors.ComboBoxEdit()
+        Me.LabelControl19 = New DevExpress.XtraEditors.LabelControl()
+        Me.ComboBoxEdit13 = New DevExpress.XtraEditors.ComboBoxEdit()
+        Me.LabelControl18 = New DevExpress.XtraEditors.LabelControl()
+        Me.TextEdit6 = New DevExpress.XtraEditors.TextEdit()
+        Me.LabelControl17 = New DevExpress.XtraEditors.LabelControl()
+        Me.SimpleButton21 = New DevExpress.XtraEditors.SimpleButton()
+        Me.SimpleButton22 = New DevExpress.XtraEditors.SimpleButton()
+        Me.LabelControl16 = New DevExpress.XtraEditors.LabelControl()
+        Me.ComboBoxEdit12 = New DevExpress.XtraEditors.ComboBoxEdit()
+        Me.LabelControl15 = New DevExpress.XtraEditors.LabelControl()
+        Me.ComboBoxEdit11 = New DevExpress.XtraEditors.ComboBoxEdit()
+        Me.LabelControl14 = New DevExpress.XtraEditors.LabelControl()
+        Me.ComboBoxEdit10 = New DevExpress.XtraEditors.ComboBoxEdit()
+        Me.LabelControl13 = New DevExpress.XtraEditors.LabelControl()
+        Me.DateEdit1 = New DevExpress.XtraEditors.DateEdit()
         Me.TextEdit4 = New DevExpress.XtraEditors.TextEdit()
         Me.LabelControl12 = New DevExpress.XtraEditors.LabelControl()
         Me.ComboBoxEdit9 = New DevExpress.XtraEditors.ComboBoxEdit()
@@ -61,7 +79,35 @@ Partial Class stok_tanimlama
         Me.XtraTabPage3 = New DevExpress.XtraTab.XtraTabPage()
         Me.XtraTabPage4 = New DevExpress.XtraTab.XtraTabPage()
         Me.GroupControl1 = New DevExpress.XtraEditors.GroupControl()
+        Me.LabelControl28 = New DevExpress.XtraEditors.LabelControl()
+        Me.LabelControl27 = New DevExpress.XtraEditors.LabelControl()
+        Me.LabelControl26 = New DevExpress.XtraEditors.LabelControl()
+        Me.LabelControl25 = New DevExpress.XtraEditors.LabelControl()
+        Me.TextEdit11 = New DevExpress.XtraEditors.TextEdit()
+        Me.TextEdit12 = New DevExpress.XtraEditors.TextEdit()
+        Me.TextEdit13 = New DevExpress.XtraEditors.TextEdit()
+        Me.TextEdit14 = New DevExpress.XtraEditors.TextEdit()
+        Me.LabelControl23 = New DevExpress.XtraEditors.LabelControl()
+        Me.TextEdit10 = New DevExpress.XtraEditors.TextEdit()
+        Me.TextEdit9 = New DevExpress.XtraEditors.TextEdit()
+        Me.TextEdit8 = New DevExpress.XtraEditors.TextEdit()
+        Me.TextEdit7 = New DevExpress.XtraEditors.TextEdit()
+        Me.LabelControl21 = New DevExpress.XtraEditors.LabelControl()
         Me.GroupControl2 = New DevExpress.XtraEditors.GroupControl()
+        Me.LabelControl29 = New DevExpress.XtraEditors.LabelControl()
+        Me.LabelControl30 = New DevExpress.XtraEditors.LabelControl()
+        Me.LabelControl31 = New DevExpress.XtraEditors.LabelControl()
+        Me.LabelControl32 = New DevExpress.XtraEditors.LabelControl()
+        Me.TextEdit15 = New DevExpress.XtraEditors.TextEdit()
+        Me.TextEdit16 = New DevExpress.XtraEditors.TextEdit()
+        Me.TextEdit17 = New DevExpress.XtraEditors.TextEdit()
+        Me.TextEdit18 = New DevExpress.XtraEditors.TextEdit()
+        Me.LabelControl22 = New DevExpress.XtraEditors.LabelControl()
+        Me.TextEdit19 = New DevExpress.XtraEditors.TextEdit()
+        Me.TextEdit20 = New DevExpress.XtraEditors.TextEdit()
+        Me.TextEdit21 = New DevExpress.XtraEditors.TextEdit()
+        Me.TextEdit22 = New DevExpress.XtraEditors.TextEdit()
+        Me.LabelControl24 = New DevExpress.XtraEditors.LabelControl()
         Me.SimpleButton9 = New DevExpress.XtraEditors.SimpleButton()
         Me.SimpleButton10 = New DevExpress.XtraEditors.SimpleButton()
         Me.SimpleButton11 = New DevExpress.XtraEditors.SimpleButton()
@@ -78,52 +124,6 @@ Partial Class stok_tanimlama
         Me.LabelControl2 = New DevExpress.XtraEditors.LabelControl()
         Me.LabelControl3 = New DevExpress.XtraEditors.LabelControl()
         Me.LabelControl4 = New DevExpress.XtraEditors.LabelControl()
-        Me.GroupControl4 = New DevExpress.XtraEditors.GroupControl()
-        Me.LabelControl20 = New DevExpress.XtraEditors.LabelControl()
-        Me.ComboBoxEdit14 = New DevExpress.XtraEditors.ComboBoxEdit()
-        Me.LabelControl19 = New DevExpress.XtraEditors.LabelControl()
-        Me.ComboBoxEdit13 = New DevExpress.XtraEditors.ComboBoxEdit()
-        Me.LabelControl18 = New DevExpress.XtraEditors.LabelControl()
-        Me.TextEdit6 = New DevExpress.XtraEditors.TextEdit()
-        Me.LabelControl17 = New DevExpress.XtraEditors.LabelControl()
-        Me.SimpleButton21 = New DevExpress.XtraEditors.SimpleButton()
-        Me.SimpleButton22 = New DevExpress.XtraEditors.SimpleButton()
-        Me.LabelControl16 = New DevExpress.XtraEditors.LabelControl()
-        Me.ComboBoxEdit12 = New DevExpress.XtraEditors.ComboBoxEdit()
-        Me.LabelControl15 = New DevExpress.XtraEditors.LabelControl()
-        Me.ComboBoxEdit11 = New DevExpress.XtraEditors.ComboBoxEdit()
-        Me.LabelControl14 = New DevExpress.XtraEditors.LabelControl()
-        Me.ComboBoxEdit10 = New DevExpress.XtraEditors.ComboBoxEdit()
-        Me.LabelControl13 = New DevExpress.XtraEditors.LabelControl()
-        Me.DateEdit1 = New DevExpress.XtraEditors.DateEdit()
-        Me.LabelControl21 = New DevExpress.XtraEditors.LabelControl()
-        Me.TextEdit7 = New DevExpress.XtraEditors.TextEdit()
-        Me.TextEdit8 = New DevExpress.XtraEditors.TextEdit()
-        Me.TextEdit9 = New DevExpress.XtraEditors.TextEdit()
-        Me.TextEdit10 = New DevExpress.XtraEditors.TextEdit()
-        Me.TextEdit11 = New DevExpress.XtraEditors.TextEdit()
-        Me.TextEdit12 = New DevExpress.XtraEditors.TextEdit()
-        Me.TextEdit13 = New DevExpress.XtraEditors.TextEdit()
-        Me.TextEdit14 = New DevExpress.XtraEditors.TextEdit()
-        Me.LabelControl23 = New DevExpress.XtraEditors.LabelControl()
-        Me.TextEdit15 = New DevExpress.XtraEditors.TextEdit()
-        Me.TextEdit16 = New DevExpress.XtraEditors.TextEdit()
-        Me.TextEdit17 = New DevExpress.XtraEditors.TextEdit()
-        Me.TextEdit18 = New DevExpress.XtraEditors.TextEdit()
-        Me.LabelControl22 = New DevExpress.XtraEditors.LabelControl()
-        Me.TextEdit19 = New DevExpress.XtraEditors.TextEdit()
-        Me.TextEdit20 = New DevExpress.XtraEditors.TextEdit()
-        Me.TextEdit21 = New DevExpress.XtraEditors.TextEdit()
-        Me.TextEdit22 = New DevExpress.XtraEditors.TextEdit()
-        Me.LabelControl24 = New DevExpress.XtraEditors.LabelControl()
-        Me.LabelControl25 = New DevExpress.XtraEditors.LabelControl()
-        Me.LabelControl26 = New DevExpress.XtraEditors.LabelControl()
-        Me.LabelControl27 = New DevExpress.XtraEditors.LabelControl()
-        Me.LabelControl28 = New DevExpress.XtraEditors.LabelControl()
-        Me.LabelControl29 = New DevExpress.XtraEditors.LabelControl()
-        Me.LabelControl30 = New DevExpress.XtraEditors.LabelControl()
-        Me.LabelControl31 = New DevExpress.XtraEditors.LabelControl()
-        Me.LabelControl32 = New DevExpress.XtraEditors.LabelControl()
         CType(Me.TextEdit1.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.ComboBoxEdit1.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.TextEdit2.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -132,7 +132,17 @@ Partial Class stok_tanimlama
         CType(Me.XtraTabControl1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.XtraTabControl1.SuspendLayout()
         Me.XtraTabPage1.SuspendLayout()
+        CType(Me.GroupControl4, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.GroupControl4.SuspendLayout()
         CType(Me.TextEdit5.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.ComboBoxEdit14.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.ComboBoxEdit13.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.TextEdit6.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.ComboBoxEdit12.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.ComboBoxEdit11.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.ComboBoxEdit10.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.DateEdit1.Properties.CalendarTimeProperties, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.DateEdit1.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.TextEdit4.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.ComboBoxEdit9.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.GroupControl3, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -146,28 +156,16 @@ Partial Class stok_tanimlama
         CType(Me.ComboBoxEdit2.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.GroupControl1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.GroupControl1.SuspendLayout()
-        CType(Me.GroupControl2, System.ComponentModel.ISupportInitialize).BeginInit()
-        Me.GroupControl2.SuspendLayout()
-        CType(Me.GridControl1, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.GridView1, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.GroupControl4, System.ComponentModel.ISupportInitialize).BeginInit()
-        Me.GroupControl4.SuspendLayout()
-        CType(Me.ComboBoxEdit14.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.ComboBoxEdit13.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.TextEdit6.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.ComboBoxEdit12.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.ComboBoxEdit11.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.ComboBoxEdit10.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.DateEdit1.Properties.CalendarTimeProperties, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.DateEdit1.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.TextEdit7.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.TextEdit8.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.TextEdit9.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.TextEdit10.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.TextEdit11.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.TextEdit12.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.TextEdit13.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.TextEdit14.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.TextEdit10.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.TextEdit9.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.TextEdit8.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.TextEdit7.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.GroupControl2, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.GroupControl2.SuspendLayout()
         CType(Me.TextEdit15.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.TextEdit16.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.TextEdit17.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -176,6 +174,8 @@ Partial Class stok_tanimlama
         CType(Me.TextEdit20.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.TextEdit21.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.TextEdit22.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.GridControl1, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.GridView1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'LabelControl1
@@ -292,10 +292,10 @@ Partial Class stok_tanimlama
         '
         'XtraTabControl1
         '
-        Me.XtraTabControl1.Location = New System.Drawing.Point(3, 62)
+        Me.XtraTabControl1.Location = New System.Drawing.Point(3, 54)
         Me.XtraTabControl1.Name = "XtraTabControl1"
         Me.XtraTabControl1.SelectedTabPage = Me.XtraTabPage1
-        Me.XtraTabControl1.Size = New System.Drawing.Size(906, 439)
+        Me.XtraTabControl1.Size = New System.Drawing.Size(792, 354)
         Me.XtraTabControl1.TabIndex = 14
         Me.XtraTabControl1.TabPages.AddRange(New DevExpress.XtraTab.XtraTabPage() {Me.XtraTabPage1, Me.XtraTabPage2, Me.XtraTabPage3, Me.XtraTabPage4})
         '
@@ -311,399 +311,8 @@ Partial Class stok_tanimlama
         Me.XtraTabPage1.Controls.Add(Me.LabelControl5)
         Me.XtraTabPage1.Controls.Add(Me.ComboBoxEdit2)
         Me.XtraTabPage1.Name = "XtraTabPage1"
-        Me.XtraTabPage1.Size = New System.Drawing.Size(901, 413)
+        Me.XtraTabPage1.Size = New System.Drawing.Size(787, 328)
         Me.XtraTabPage1.Text = "Kod Tanımlamarı"
-        '
-        'TextEdit5
-        '
-        Me.TextEdit5.Location = New System.Drawing.Point(106, 176)
-        Me.TextEdit5.Name = "TextEdit5"
-        Me.TextEdit5.Properties.Appearance.Font = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(162, Byte))
-        Me.TextEdit5.Properties.Appearance.Options.UseFont = True
-        Me.TextEdit5.Size = New System.Drawing.Size(229, 20)
-        Me.TextEdit5.TabIndex = 47
-        '
-        'TextEdit4
-        '
-        Me.TextEdit4.Location = New System.Drawing.Point(197, 89)
-        Me.TextEdit4.Name = "TextEdit4"
-        Me.TextEdit4.Properties.Appearance.Font = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(162, Byte))
-        Me.TextEdit4.Properties.Appearance.Options.UseFont = True
-        Me.TextEdit4.Size = New System.Drawing.Size(106, 20)
-        Me.TextEdit4.TabIndex = 38
-        '
-        'LabelControl12
-        '
-        Me.LabelControl12.Appearance.Font = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(162, Byte))
-        Me.LabelControl12.Appearance.Options.UseFont = True
-        Me.LabelControl12.Location = New System.Drawing.Point(9, 69)
-        Me.LabelControl12.Name = "LabelControl12"
-        Me.LabelControl12.Size = New System.Drawing.Size(36, 14)
-        Me.LabelControl12.TabIndex = 37
-        Me.LabelControl12.Text = "Milyem"
-        '
-        'ComboBoxEdit9
-        '
-        Me.ComboBoxEdit9.Location = New System.Drawing.Point(9, 89)
-        Me.ComboBoxEdit9.Name = "ComboBoxEdit9"
-        Me.ComboBoxEdit9.Properties.Appearance.Font = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(162, Byte))
-        Me.ComboBoxEdit9.Properties.Appearance.Options.UseFont = True
-        Me.ComboBoxEdit9.Properties.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)})
-        Me.ComboBoxEdit9.Size = New System.Drawing.Size(181, 20)
-        Me.ComboBoxEdit9.TabIndex = 36
-        '
-        'GroupControl3
-        '
-        Me.GroupControl3.Controls.Add(Me.LabelControl11)
-        Me.GroupControl3.Controls.Add(Me.ComboBoxEdit8)
-        Me.GroupControl3.Controls.Add(Me.LabelControl10)
-        Me.GroupControl3.Controls.Add(Me.ComboBoxEdit7)
-        Me.GroupControl3.Controls.Add(Me.LabelControl9)
-        Me.GroupControl3.Controls.Add(Me.ComboBoxEdit6)
-        Me.GroupControl3.Controls.Add(Me.LabelControl8)
-        Me.GroupControl3.Controls.Add(Me.ComboBoxEdit5)
-        Me.GroupControl3.Controls.Add(Me.LabelControl7)
-        Me.GroupControl3.Controls.Add(Me.ComboBoxEdit4)
-        Me.GroupControl3.Location = New System.Drawing.Point(9, 202)
-        Me.GroupControl3.Name = "GroupControl3"
-        Me.GroupControl3.Size = New System.Drawing.Size(294, 196)
-        Me.GroupControl3.TabIndex = 35
-        Me.GroupControl3.Text = "Stok Grupları"
-        '
-        'LabelControl11
-        '
-        Me.LabelControl11.Appearance.Font = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(162, Byte))
-        Me.LabelControl11.Appearance.Options.UseFont = True
-        Me.LabelControl11.Location = New System.Drawing.Point(20, 156)
-        Me.LabelControl11.Name = "LabelControl11"
-        Me.LabelControl11.Size = New System.Drawing.Size(37, 14)
-        Me.LabelControl11.TabIndex = 40
-        Me.LabelControl11.Text = "Grup 5"
-        '
-        'ComboBoxEdit8
-        '
-        Me.ComboBoxEdit8.Location = New System.Drawing.Point(77, 153)
-        Me.ComboBoxEdit8.Name = "ComboBoxEdit8"
-        Me.ComboBoxEdit8.Properties.Appearance.Font = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(162, Byte))
-        Me.ComboBoxEdit8.Properties.Appearance.Options.UseFont = True
-        Me.ComboBoxEdit8.Properties.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)})
-        Me.ComboBoxEdit8.Size = New System.Drawing.Size(205, 20)
-        Me.ComboBoxEdit8.TabIndex = 39
-        '
-        'LabelControl10
-        '
-        Me.LabelControl10.Appearance.Font = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(162, Byte))
-        Me.LabelControl10.Appearance.Options.UseFont = True
-        Me.LabelControl10.Location = New System.Drawing.Point(20, 123)
-        Me.LabelControl10.Name = "LabelControl10"
-        Me.LabelControl10.Size = New System.Drawing.Size(37, 14)
-        Me.LabelControl10.TabIndex = 38
-        Me.LabelControl10.Text = "Grup 4"
-        '
-        'ComboBoxEdit7
-        '
-        Me.ComboBoxEdit7.Location = New System.Drawing.Point(77, 120)
-        Me.ComboBoxEdit7.Name = "ComboBoxEdit7"
-        Me.ComboBoxEdit7.Properties.Appearance.Font = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(162, Byte))
-        Me.ComboBoxEdit7.Properties.Appearance.Options.UseFont = True
-        Me.ComboBoxEdit7.Properties.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)})
-        Me.ComboBoxEdit7.Size = New System.Drawing.Size(205, 20)
-        Me.ComboBoxEdit7.TabIndex = 37
-        '
-        'LabelControl9
-        '
-        Me.LabelControl9.Appearance.Font = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(162, Byte))
-        Me.LabelControl9.Appearance.Options.UseFont = True
-        Me.LabelControl9.Location = New System.Drawing.Point(20, 95)
-        Me.LabelControl9.Name = "LabelControl9"
-        Me.LabelControl9.Size = New System.Drawing.Size(37, 14)
-        Me.LabelControl9.TabIndex = 36
-        Me.LabelControl9.Text = "Grup 3"
-        '
-        'ComboBoxEdit6
-        '
-        Me.ComboBoxEdit6.Location = New System.Drawing.Point(77, 92)
-        Me.ComboBoxEdit6.Name = "ComboBoxEdit6"
-        Me.ComboBoxEdit6.Properties.Appearance.Font = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(162, Byte))
-        Me.ComboBoxEdit6.Properties.Appearance.Options.UseFont = True
-        Me.ComboBoxEdit6.Properties.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)})
-        Me.ComboBoxEdit6.Size = New System.Drawing.Size(205, 20)
-        Me.ComboBoxEdit6.TabIndex = 35
-        '
-        'LabelControl8
-        '
-        Me.LabelControl8.Appearance.Font = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(162, Byte))
-        Me.LabelControl8.Appearance.Options.UseFont = True
-        Me.LabelControl8.Location = New System.Drawing.Point(20, 67)
-        Me.LabelControl8.Name = "LabelControl8"
-        Me.LabelControl8.Size = New System.Drawing.Size(37, 14)
-        Me.LabelControl8.TabIndex = 34
-        Me.LabelControl8.Text = "Grup 2"
-        '
-        'ComboBoxEdit5
-        '
-        Me.ComboBoxEdit5.Location = New System.Drawing.Point(77, 64)
-        Me.ComboBoxEdit5.Name = "ComboBoxEdit5"
-        Me.ComboBoxEdit5.Properties.Appearance.Font = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(162, Byte))
-        Me.ComboBoxEdit5.Properties.Appearance.Options.UseFont = True
-        Me.ComboBoxEdit5.Properties.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)})
-        Me.ComboBoxEdit5.Size = New System.Drawing.Size(205, 20)
-        Me.ComboBoxEdit5.TabIndex = 33
-        '
-        'LabelControl7
-        '
-        Me.LabelControl7.Appearance.Font = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(162, Byte))
-        Me.LabelControl7.Appearance.Options.UseFont = True
-        Me.LabelControl7.Location = New System.Drawing.Point(20, 39)
-        Me.LabelControl7.Name = "LabelControl7"
-        Me.LabelControl7.Size = New System.Drawing.Size(37, 14)
-        Me.LabelControl7.TabIndex = 32
-        Me.LabelControl7.Text = "Grup 1"
-        '
-        'ComboBoxEdit4
-        '
-        Me.ComboBoxEdit4.Location = New System.Drawing.Point(77, 36)
-        Me.ComboBoxEdit4.Name = "ComboBoxEdit4"
-        Me.ComboBoxEdit4.Properties.Appearance.Font = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(162, Byte))
-        Me.ComboBoxEdit4.Properties.Appearance.Options.UseFont = True
-        Me.ComboBoxEdit4.Properties.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)})
-        Me.ComboBoxEdit4.Size = New System.Drawing.Size(205, 20)
-        Me.ComboBoxEdit4.TabIndex = 31
-        '
-        'LabelControl6
-        '
-        Me.LabelControl6.Appearance.Font = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(162, Byte))
-        Me.LabelControl6.Appearance.Options.UseFont = True
-        Me.LabelControl6.Location = New System.Drawing.Point(9, 123)
-        Me.LabelControl6.Name = "LabelControl6"
-        Me.LabelControl6.Size = New System.Drawing.Size(34, 14)
-        Me.LabelControl6.TabIndex = 34
-        Me.LabelControl6.Text = "Özellik"
-        '
-        'ComboBoxEdit3
-        '
-        Me.ComboBoxEdit3.Location = New System.Drawing.Point(9, 150)
-        Me.ComboBoxEdit3.Name = "ComboBoxEdit3"
-        Me.ComboBoxEdit3.Properties.Appearance.Font = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(162, Byte))
-        Me.ComboBoxEdit3.Properties.Appearance.Options.UseFont = True
-        Me.ComboBoxEdit3.Properties.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)})
-        Me.ComboBoxEdit3.Size = New System.Drawing.Size(294, 20)
-        Me.ComboBoxEdit3.TabIndex = 33
-        '
-        'LabelControl5
-        '
-        Me.LabelControl5.Appearance.Font = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(162, Byte))
-        Me.LabelControl5.Appearance.Options.UseFont = True
-        Me.LabelControl5.Location = New System.Drawing.Point(9, 19)
-        Me.LabelControl5.Name = "LabelControl5"
-        Me.LabelControl5.Size = New System.Drawing.Size(23, 14)
-        Me.LabelControl5.TabIndex = 32
-        Me.LabelControl5.Text = "Cinsi"
-        '
-        'ComboBoxEdit2
-        '
-        Me.ComboBoxEdit2.Location = New System.Drawing.Point(9, 41)
-        Me.ComboBoxEdit2.Name = "ComboBoxEdit2"
-        Me.ComboBoxEdit2.Properties.Appearance.Font = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(162, Byte))
-        Me.ComboBoxEdit2.Properties.Appearance.Options.UseFont = True
-        Me.ComboBoxEdit2.Properties.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)})
-        Me.ComboBoxEdit2.Size = New System.Drawing.Size(294, 20)
-        Me.ComboBoxEdit2.TabIndex = 31
-        '
-        'XtraTabPage2
-        '
-        Me.XtraTabPage2.Name = "XtraTabPage2"
-        Me.XtraTabPage2.Size = New System.Drawing.Size(962, 413)
-        Me.XtraTabPage2.Text = "Standart Değerler"
-        '
-        'XtraTabPage3
-        '
-        Me.XtraTabPage3.Name = "XtraTabPage3"
-        Me.XtraTabPage3.Size = New System.Drawing.Size(962, 413)
-        Me.XtraTabPage3.Text = "İlk Stok Mevcudu"
-        '
-        'XtraTabPage4
-        '
-        Me.XtraTabPage4.Name = "XtraTabPage4"
-        Me.XtraTabPage4.Size = New System.Drawing.Size(962, 413)
-        Me.XtraTabPage4.Text = "Seçenekler"
-        '
-        'GroupControl1
-        '
-        Me.GroupControl1.Controls.Add(Me.LabelControl28)
-        Me.GroupControl1.Controls.Add(Me.LabelControl27)
-        Me.GroupControl1.Controls.Add(Me.LabelControl26)
-        Me.GroupControl1.Controls.Add(Me.LabelControl25)
-        Me.GroupControl1.Controls.Add(Me.TextEdit11)
-        Me.GroupControl1.Controls.Add(Me.TextEdit12)
-        Me.GroupControl1.Controls.Add(Me.TextEdit13)
-        Me.GroupControl1.Controls.Add(Me.TextEdit14)
-        Me.GroupControl1.Controls.Add(Me.LabelControl23)
-        Me.GroupControl1.Controls.Add(Me.TextEdit10)
-        Me.GroupControl1.Controls.Add(Me.TextEdit9)
-        Me.GroupControl1.Controls.Add(Me.TextEdit8)
-        Me.GroupControl1.Controls.Add(Me.TextEdit7)
-        Me.GroupControl1.Controls.Add(Me.LabelControl21)
-        Me.GroupControl1.Location = New System.Drawing.Point(915, 281)
-        Me.GroupControl1.Name = "GroupControl1"
-        Me.GroupControl1.Size = New System.Drawing.Size(399, 99)
-        Me.GroupControl1.TabIndex = 15
-        Me.GroupControl1.Text = "Maliyetler"
-        '
-        'GroupControl2
-        '
-        Me.GroupControl2.Controls.Add(Me.LabelControl29)
-        Me.GroupControl2.Controls.Add(Me.LabelControl30)
-        Me.GroupControl2.Controls.Add(Me.LabelControl31)
-        Me.GroupControl2.Controls.Add(Me.LabelControl32)
-        Me.GroupControl2.Controls.Add(Me.TextEdit15)
-        Me.GroupControl2.Controls.Add(Me.TextEdit16)
-        Me.GroupControl2.Controls.Add(Me.TextEdit17)
-        Me.GroupControl2.Controls.Add(Me.TextEdit18)
-        Me.GroupControl2.Controls.Add(Me.LabelControl22)
-        Me.GroupControl2.Controls.Add(Me.TextEdit19)
-        Me.GroupControl2.Controls.Add(Me.TextEdit20)
-        Me.GroupControl2.Controls.Add(Me.TextEdit21)
-        Me.GroupControl2.Controls.Add(Me.TextEdit22)
-        Me.GroupControl2.Controls.Add(Me.LabelControl24)
-        Me.GroupControl2.Location = New System.Drawing.Point(915, 389)
-        Me.GroupControl2.Name = "GroupControl2"
-        Me.GroupControl2.Size = New System.Drawing.Size(399, 108)
-        Me.GroupControl2.TabIndex = 16
-        Me.GroupControl2.Text = "Satış Fiyatları"
-        '
-        'SimpleButton9
-        '
-        Me.SimpleButton9.Location = New System.Drawing.Point(5, 507)
-        Me.SimpleButton9.Name = "SimpleButton9"
-        Me.SimpleButton9.Size = New System.Drawing.Size(302, 34)
-        Me.SimpleButton9.TabIndex = 17
-        Me.SimpleButton9.Text = "Stok Kodunu Kaydet"
-        '
-        'SimpleButton10
-        '
-        Me.SimpleButton10.Location = New System.Drawing.Point(327, 507)
-        Me.SimpleButton10.Name = "SimpleButton10"
-        Me.SimpleButton10.Size = New System.Drawing.Size(92, 34)
-        Me.SimpleButton10.TabIndex = 18
-        Me.SimpleButton10.Text = "Düzelt"
-        '
-        'SimpleButton11
-        '
-        Me.SimpleButton11.Location = New System.Drawing.Point(439, 507)
-        Me.SimpleButton11.Name = "SimpleButton11"
-        Me.SimpleButton11.Size = New System.Drawing.Size(92, 34)
-        Me.SimpleButton11.TabIndex = 19
-        Me.SimpleButton11.Text = "Sil"
-        '
-        'SimpleButton12
-        '
-        Me.SimpleButton12.Location = New System.Drawing.Point(775, 507)
-        Me.SimpleButton12.Name = "SimpleButton12"
-        Me.SimpleButton12.Size = New System.Drawing.Size(92, 34)
-        Me.SimpleButton12.TabIndex = 22
-        Me.SimpleButton12.Text = "Stok"
-        '
-        'SimpleButton13
-        '
-        Me.SimpleButton13.Location = New System.Drawing.Point(663, 507)
-        Me.SimpleButton13.Name = "SimpleButton13"
-        Me.SimpleButton13.Size = New System.Drawing.Size(92, 34)
-        Me.SimpleButton13.TabIndex = 21
-        Me.SimpleButton13.Text = "Kod Çoğalt"
-        '
-        'SimpleButton14
-        '
-        Me.SimpleButton14.Location = New System.Drawing.Point(551, 507)
-        Me.SimpleButton14.Name = "SimpleButton14"
-        Me.SimpleButton14.Size = New System.Drawing.Size(92, 34)
-        Me.SimpleButton14.TabIndex = 20
-        Me.SimpleButton14.Text = "Yeni"
-        '
-        'SimpleButton17
-        '
-        Me.SimpleButton17.Location = New System.Drawing.Point(1222, 507)
-        Me.SimpleButton17.Name = "SimpleButton17"
-        Me.SimpleButton17.Size = New System.Drawing.Size(92, 34)
-        Me.SimpleButton17.TabIndex = 26
-        Me.SimpleButton17.Text = "Kapat"
-        '
-        'SimpleButton18
-        '
-        Me.SimpleButton18.Location = New System.Drawing.Point(1111, 507)
-        Me.SimpleButton18.Name = "SimpleButton18"
-        Me.SimpleButton18.Size = New System.Drawing.Size(92, 34)
-        Me.SimpleButton18.TabIndex = 25
-        Me.SimpleButton18.Text = "Barkod"
-        '
-        'SimpleButton19
-        '
-        Me.SimpleButton19.Location = New System.Drawing.Point(999, 507)
-        Me.SimpleButton19.Name = "SimpleButton19"
-        Me.SimpleButton19.Size = New System.Drawing.Size(92, 34)
-        Me.SimpleButton19.TabIndex = 24
-        Me.SimpleButton19.Text = "Aktar"
-        '
-        'SimpleButton20
-        '
-        Me.SimpleButton20.Location = New System.Drawing.Point(887, 507)
-        Me.SimpleButton20.Name = "SimpleButton20"
-        Me.SimpleButton20.Size = New System.Drawing.Size(92, 34)
-        Me.SimpleButton20.TabIndex = 23
-        Me.SimpleButton20.Text = "Değiştir"
-        '
-        'GridControl1
-        '
-        Me.GridControl1.Location = New System.Drawing.Point(8, 556)
-        Me.GridControl1.MainView = Me.GridView1
-        Me.GridControl1.Name = "GridControl1"
-        Me.GridControl1.Size = New System.Drawing.Size(1306, 166)
-        Me.GridControl1.TabIndex = 29
-        Me.GridControl1.ViewCollection.AddRange(New DevExpress.XtraGrid.Views.Base.BaseView() {Me.GridView1})
-        '
-        'GridView1
-        '
-        Me.GridView1.DetailHeight = 377
-        Me.GridView1.GridControl = Me.GridControl1
-        Me.GridView1.Name = "GridView1"
-        '
-        'SimpleButton1
-        '
-        Me.SimpleButton1.ImageOptions.Image = Global.DataonsERP.My.Resources.Resources.find_16x161
-        Me.SimpleButton1.Location = New System.Drawing.Point(302, 26)
-        Me.SimpleButton1.Name = "SimpleButton1"
-        Me.SimpleButton1.Size = New System.Drawing.Size(29, 25)
-        Me.SimpleButton1.TabIndex = 2
-        '
-        'LabelControl2
-        '
-        Me.LabelControl2.Appearance.Font = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(162, Byte))
-        Me.LabelControl2.Appearance.Options.UseFont = True
-        Me.LabelControl2.Location = New System.Drawing.Point(412, 8)
-        Me.LabelControl2.Name = "LabelControl2"
-        Me.LabelControl2.Size = New System.Drawing.Size(56, 14)
-        Me.LabelControl2.TabIndex = 30
-        Me.LabelControl2.Text = "Malın Türü"
-        '
-        'LabelControl3
-        '
-        Me.LabelControl3.Appearance.Font = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(162, Byte))
-        Me.LabelControl3.Appearance.Options.UseFont = True
-        Me.LabelControl3.Location = New System.Drawing.Point(680, 8)
-        Me.LabelControl3.Name = "LabelControl3"
-        Me.LabelControl3.Size = New System.Drawing.Size(26, 14)
-        Me.LabelControl3.TabIndex = 31
-        Me.LabelControl3.Text = "Stok"
-        '
-        'LabelControl4
-        '
-        Me.LabelControl4.Appearance.Font = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(162, Byte))
-        Me.LabelControl4.Appearance.Options.UseFont = True
-        Me.LabelControl4.Location = New System.Drawing.Point(803, 8)
-        Me.LabelControl4.Name = "LabelControl4"
-        Me.LabelControl4.Size = New System.Drawing.Size(64, 14)
-        Me.LabelControl4.TabIndex = 32
-        Me.LabelControl4.Text = "Stok (adet)"
         '
         'GroupControl4
         '
@@ -725,9 +334,9 @@ Partial Class stok_tanimlama
         Me.GroupControl4.Controls.Add(Me.ComboBoxEdit10)
         Me.GroupControl4.Controls.Add(Me.LabelControl13)
         Me.GroupControl4.Controls.Add(Me.DateEdit1)
-        Me.GroupControl4.Location = New System.Drawing.Point(415, 19)
+        Me.GroupControl4.Location = New System.Drawing.Point(359, 19)
         Me.GroupControl4.Name = "GroupControl4"
-        Me.GroupControl4.Size = New System.Drawing.Size(448, 379)
+        Me.GroupControl4.Size = New System.Drawing.Size(419, 297)
         Me.GroupControl4.TabIndex = 57
         Me.GroupControl4.Text = "Diğer"
         '
@@ -735,15 +344,24 @@ Partial Class stok_tanimlama
         '
         Me.LabelControl20.Appearance.Font = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(162, Byte))
         Me.LabelControl20.Appearance.Options.UseFont = True
-        Me.LabelControl20.Location = New System.Drawing.Point(11, 304)
+        Me.LabelControl20.Location = New System.Drawing.Point(13, 227)
         Me.LabelControl20.Name = "LabelControl20"
         Me.LabelControl20.Size = New System.Drawing.Size(86, 14)
         Me.LabelControl20.TabIndex = 73
         Me.LabelControl20.Text = "İade - Miat (Ay)"
         '
+        'TextEdit5
+        '
+        Me.TextEdit5.Location = New System.Drawing.Point(107, 141)
+        Me.TextEdit5.Name = "TextEdit5"
+        Me.TextEdit5.Properties.Appearance.Font = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(162, Byte))
+        Me.TextEdit5.Properties.Appearance.Options.UseFont = True
+        Me.TextEdit5.Size = New System.Drawing.Size(229, 20)
+        Me.TextEdit5.TabIndex = 47
+        '
         'ComboBoxEdit14
         '
-        Me.ComboBoxEdit14.Location = New System.Drawing.Point(106, 301)
+        Me.ComboBoxEdit14.Location = New System.Drawing.Point(107, 221)
         Me.ComboBoxEdit14.Name = "ComboBoxEdit14"
         Me.ComboBoxEdit14.Properties.Appearance.Font = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(162, Byte))
         Me.ComboBoxEdit14.Properties.Appearance.Options.UseFont = True
@@ -755,7 +373,7 @@ Partial Class stok_tanimlama
         '
         Me.LabelControl19.Appearance.Font = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(162, Byte))
         Me.LabelControl19.Appearance.Options.UseFont = True
-        Me.LabelControl19.Location = New System.Drawing.Point(11, 260)
+        Me.LabelControl19.Location = New System.Drawing.Point(12, 196)
         Me.LabelControl19.Name = "LabelControl19"
         Me.LabelControl19.Size = New System.Drawing.Size(24, 14)
         Me.LabelControl19.TabIndex = 71
@@ -763,7 +381,7 @@ Partial Class stok_tanimlama
         '
         'ComboBoxEdit13
         '
-        Me.ComboBoxEdit13.Location = New System.Drawing.Point(106, 257)
+        Me.ComboBoxEdit13.Location = New System.Drawing.Point(107, 193)
         Me.ComboBoxEdit13.Name = "ComboBoxEdit13"
         Me.ComboBoxEdit13.Properties.Appearance.Font = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(162, Byte))
         Me.ComboBoxEdit13.Properties.Appearance.Options.UseFont = True
@@ -775,7 +393,7 @@ Partial Class stok_tanimlama
         '
         Me.LabelControl18.Appearance.Font = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(162, Byte))
         Me.LabelControl18.Appearance.Options.UseFont = True
-        Me.LabelControl18.Location = New System.Drawing.Point(11, 219)
+        Me.LabelControl18.Location = New System.Drawing.Point(12, 170)
         Me.LabelControl18.Name = "LabelControl18"
         Me.LabelControl18.Size = New System.Drawing.Size(49, 14)
         Me.LabelControl18.TabIndex = 69
@@ -783,7 +401,7 @@ Partial Class stok_tanimlama
         '
         'TextEdit6
         '
-        Me.TextEdit6.Location = New System.Drawing.Point(106, 216)
+        Me.TextEdit6.Location = New System.Drawing.Point(107, 167)
         Me.TextEdit6.Name = "TextEdit6"
         Me.TextEdit6.Properties.Appearance.Font = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(162, Byte))
         Me.TextEdit6.Properties.Appearance.Options.UseFont = True
@@ -794,7 +412,7 @@ Partial Class stok_tanimlama
         '
         Me.LabelControl17.Appearance.Font = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(162, Byte))
         Me.LabelControl17.Appearance.Options.UseFont = True
-        Me.LabelControl17.Location = New System.Drawing.Point(11, 182)
+        Me.LabelControl17.Location = New System.Drawing.Point(13, 144)
         Me.LabelControl17.Name = "LabelControl17"
         Me.LabelControl17.Size = New System.Drawing.Size(37, 14)
         Me.LabelControl17.TabIndex = 67
@@ -803,7 +421,7 @@ Partial Class stok_tanimlama
         'SimpleButton21
         '
         Me.SimpleButton21.ImageOptions.Image = Global.DataonsERP.My.Resources.Resources.barcode_16x161
-        Me.SimpleButton21.Location = New System.Drawing.Point(377, 171)
+        Me.SimpleButton21.Location = New System.Drawing.Point(377, 139)
         Me.SimpleButton21.Name = "SimpleButton21"
         Me.SimpleButton21.Size = New System.Drawing.Size(24, 25)
         Me.SimpleButton21.TabIndex = 66
@@ -811,7 +429,7 @@ Partial Class stok_tanimlama
         'SimpleButton22
         '
         Me.SimpleButton22.ImageOptions.Image = Global.DataonsERP.My.Resources.Resources.barcode_16x16
-        Me.SimpleButton22.Location = New System.Drawing.Point(347, 171)
+        Me.SimpleButton22.Location = New System.Drawing.Point(342, 139)
         Me.SimpleButton22.Name = "SimpleButton22"
         Me.SimpleButton22.Size = New System.Drawing.Size(24, 25)
         Me.SimpleButton22.TabIndex = 65
@@ -820,7 +438,7 @@ Partial Class stok_tanimlama
         '
         Me.LabelControl16.Appearance.Font = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(162, Byte))
         Me.LabelControl16.Appearance.Options.UseFont = True
-        Me.LabelControl16.Location = New System.Drawing.Point(11, 137)
+        Me.LabelControl16.Location = New System.Drawing.Point(11, 118)
         Me.LabelControl16.Name = "LabelControl16"
         Me.LabelControl16.Size = New System.Drawing.Size(35, 14)
         Me.LabelControl16.TabIndex = 64
@@ -828,7 +446,7 @@ Partial Class stok_tanimlama
         '
         'ComboBoxEdit12
         '
-        Me.ComboBoxEdit12.Location = New System.Drawing.Point(107, 134)
+        Me.ComboBoxEdit12.Location = New System.Drawing.Point(106, 115)
         Me.ComboBoxEdit12.Name = "ComboBoxEdit12"
         Me.ComboBoxEdit12.Properties.Appearance.Font = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(162, Byte))
         Me.ComboBoxEdit12.Properties.Appearance.Options.UseFont = True
@@ -840,7 +458,7 @@ Partial Class stok_tanimlama
         '
         Me.LabelControl15.Appearance.Font = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(162, Byte))
         Me.LabelControl15.Appearance.Options.UseFont = True
-        Me.LabelControl15.Location = New System.Drawing.Point(11, 101)
+        Me.LabelControl15.Location = New System.Drawing.Point(11, 92)
         Me.LabelControl15.Name = "LabelControl15"
         Me.LabelControl15.Size = New System.Drawing.Size(53, 14)
         Me.LabelControl15.TabIndex = 62
@@ -848,7 +466,7 @@ Partial Class stok_tanimlama
         '
         'ComboBoxEdit11
         '
-        Me.ComboBoxEdit11.Location = New System.Drawing.Point(107, 98)
+        Me.ComboBoxEdit11.Location = New System.Drawing.Point(107, 89)
         Me.ComboBoxEdit11.Name = "ComboBoxEdit11"
         Me.ComboBoxEdit11.Properties.Appearance.Font = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(162, Byte))
         Me.ComboBoxEdit11.Properties.Appearance.Options.UseFont = True
@@ -860,7 +478,7 @@ Partial Class stok_tanimlama
         '
         Me.LabelControl14.Appearance.Font = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(162, Byte))
         Me.LabelControl14.Appearance.Options.UseFont = True
-        Me.LabelControl14.Location = New System.Drawing.Point(11, 66)
+        Me.LabelControl14.Location = New System.Drawing.Point(12, 66)
         Me.LabelControl14.Name = "LabelControl14"
         Me.LabelControl14.Size = New System.Drawing.Size(48, 14)
         Me.LabelControl14.TabIndex = 60
@@ -898,63 +516,272 @@ Partial Class stok_tanimlama
         Me.DateEdit1.Size = New System.Drawing.Size(136, 20)
         Me.DateEdit1.TabIndex = 57
         '
-        'LabelControl21
+        'TextEdit4
         '
-        Me.LabelControl21.Appearance.Font = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(162, Byte))
-        Me.LabelControl21.Appearance.Options.UseFont = True
-        Me.LabelControl21.Location = New System.Drawing.Point(5, 51)
-        Me.LabelControl21.Name = "LabelControl21"
-        Me.LabelControl21.Size = New System.Drawing.Size(25, 14)
-        Me.LabelControl21.TabIndex = 33
-        Me.LabelControl21.Text = "Birim"
+        Me.TextEdit4.Location = New System.Drawing.Point(236, 52)
+        Me.TextEdit4.Name = "TextEdit4"
+        Me.TextEdit4.Properties.Appearance.Font = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(162, Byte))
+        Me.TextEdit4.Properties.Appearance.Options.UseFont = True
+        Me.TextEdit4.Size = New System.Drawing.Size(107, 20)
+        Me.TextEdit4.TabIndex = 38
         '
-        'TextEdit7
+        'LabelControl12
         '
-        Me.TextEdit7.EditValue = "0"
-        Me.TextEdit7.Location = New System.Drawing.Point(54, 48)
-        Me.TextEdit7.Name = "TextEdit7"
-        Me.TextEdit7.Properties.Appearance.BackColor = System.Drawing.Color.PowderBlue
-        Me.TextEdit7.Properties.Appearance.Font = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(162, Byte))
-        Me.TextEdit7.Properties.Appearance.Options.UseBackColor = True
-        Me.TextEdit7.Properties.Appearance.Options.UseFont = True
-        Me.TextEdit7.Size = New System.Drawing.Size(81, 20)
-        Me.TextEdit7.TabIndex = 35
+        Me.LabelControl12.Appearance.Font = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(162, Byte))
+        Me.LabelControl12.Appearance.Options.UseFont = True
+        Me.LabelControl12.Location = New System.Drawing.Point(7, 55)
+        Me.LabelControl12.Name = "LabelControl12"
+        Me.LabelControl12.Size = New System.Drawing.Size(36, 14)
+        Me.LabelControl12.TabIndex = 37
+        Me.LabelControl12.Text = "Milyem"
         '
-        'TextEdit8
+        'ComboBoxEdit9
         '
-        Me.TextEdit8.EditValue = "0"
-        Me.TextEdit8.Location = New System.Drawing.Point(141, 48)
-        Me.TextEdit8.Name = "TextEdit8"
-        Me.TextEdit8.Properties.Appearance.BackColor = System.Drawing.Color.PowderBlue
-        Me.TextEdit8.Properties.Appearance.Font = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(162, Byte))
-        Me.TextEdit8.Properties.Appearance.Options.UseBackColor = True
-        Me.TextEdit8.Properties.Appearance.Options.UseFont = True
-        Me.TextEdit8.Size = New System.Drawing.Size(81, 20)
-        Me.TextEdit8.TabIndex = 36
+        Me.ComboBoxEdit9.Location = New System.Drawing.Point(49, 52)
+        Me.ComboBoxEdit9.Name = "ComboBoxEdit9"
+        Me.ComboBoxEdit9.Properties.Appearance.Font = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(162, Byte))
+        Me.ComboBoxEdit9.Properties.Appearance.Options.UseFont = True
+        Me.ComboBoxEdit9.Properties.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)})
+        Me.ComboBoxEdit9.Size = New System.Drawing.Size(181, 20)
+        Me.ComboBoxEdit9.TabIndex = 36
         '
-        'TextEdit9
+        'GroupControl3
         '
-        Me.TextEdit9.EditValue = "0"
-        Me.TextEdit9.Location = New System.Drawing.Point(228, 48)
-        Me.TextEdit9.Name = "TextEdit9"
-        Me.TextEdit9.Properties.Appearance.BackColor = System.Drawing.Color.PowderBlue
-        Me.TextEdit9.Properties.Appearance.Font = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(162, Byte))
-        Me.TextEdit9.Properties.Appearance.Options.UseBackColor = True
-        Me.TextEdit9.Properties.Appearance.Options.UseFont = True
-        Me.TextEdit9.Size = New System.Drawing.Size(81, 20)
-        Me.TextEdit9.TabIndex = 37
+        Me.GroupControl3.Controls.Add(Me.LabelControl11)
+        Me.GroupControl3.Controls.Add(Me.ComboBoxEdit8)
+        Me.GroupControl3.Controls.Add(Me.LabelControl10)
+        Me.GroupControl3.Controls.Add(Me.ComboBoxEdit7)
+        Me.GroupControl3.Controls.Add(Me.LabelControl9)
+        Me.GroupControl3.Controls.Add(Me.ComboBoxEdit6)
+        Me.GroupControl3.Controls.Add(Me.LabelControl8)
+        Me.GroupControl3.Controls.Add(Me.ComboBoxEdit5)
+        Me.GroupControl3.Controls.Add(Me.LabelControl7)
+        Me.GroupControl3.Controls.Add(Me.ComboBoxEdit4)
+        Me.GroupControl3.Location = New System.Drawing.Point(9, 120)
+        Me.GroupControl3.Name = "GroupControl3"
+        Me.GroupControl3.Size = New System.Drawing.Size(334, 196)
+        Me.GroupControl3.TabIndex = 35
+        Me.GroupControl3.Text = "Stok Grupları"
         '
-        'TextEdit10
+        'LabelControl11
         '
-        Me.TextEdit10.EditValue = "0"
-        Me.TextEdit10.Location = New System.Drawing.Point(315, 48)
-        Me.TextEdit10.Name = "TextEdit10"
-        Me.TextEdit10.Properties.Appearance.BackColor = System.Drawing.Color.PowderBlue
-        Me.TextEdit10.Properties.Appearance.Font = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(162, Byte))
-        Me.TextEdit10.Properties.Appearance.Options.UseBackColor = True
-        Me.TextEdit10.Properties.Appearance.Options.UseFont = True
-        Me.TextEdit10.Size = New System.Drawing.Size(81, 20)
-        Me.TextEdit10.TabIndex = 38
+        Me.LabelControl11.Appearance.Font = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(162, Byte))
+        Me.LabelControl11.Appearance.Options.UseFont = True
+        Me.LabelControl11.Location = New System.Drawing.Point(20, 156)
+        Me.LabelControl11.Name = "LabelControl11"
+        Me.LabelControl11.Size = New System.Drawing.Size(37, 14)
+        Me.LabelControl11.TabIndex = 40
+        Me.LabelControl11.Text = "Grup 5"
+        '
+        'ComboBoxEdit8
+        '
+        Me.ComboBoxEdit8.Location = New System.Drawing.Point(77, 153)
+        Me.ComboBoxEdit8.Name = "ComboBoxEdit8"
+        Me.ComboBoxEdit8.Properties.Appearance.Font = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(162, Byte))
+        Me.ComboBoxEdit8.Properties.Appearance.Options.UseFont = True
+        Me.ComboBoxEdit8.Properties.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)})
+        Me.ComboBoxEdit8.Size = New System.Drawing.Size(241, 20)
+        Me.ComboBoxEdit8.TabIndex = 39
+        '
+        'LabelControl10
+        '
+        Me.LabelControl10.Appearance.Font = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(162, Byte))
+        Me.LabelControl10.Appearance.Options.UseFont = True
+        Me.LabelControl10.Location = New System.Drawing.Point(20, 123)
+        Me.LabelControl10.Name = "LabelControl10"
+        Me.LabelControl10.Size = New System.Drawing.Size(37, 14)
+        Me.LabelControl10.TabIndex = 38
+        Me.LabelControl10.Text = "Grup 4"
+        '
+        'ComboBoxEdit7
+        '
+        Me.ComboBoxEdit7.Location = New System.Drawing.Point(77, 120)
+        Me.ComboBoxEdit7.Name = "ComboBoxEdit7"
+        Me.ComboBoxEdit7.Properties.Appearance.Font = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(162, Byte))
+        Me.ComboBoxEdit7.Properties.Appearance.Options.UseFont = True
+        Me.ComboBoxEdit7.Properties.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)})
+        Me.ComboBoxEdit7.Size = New System.Drawing.Size(241, 20)
+        Me.ComboBoxEdit7.TabIndex = 37
+        '
+        'LabelControl9
+        '
+        Me.LabelControl9.Appearance.Font = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(162, Byte))
+        Me.LabelControl9.Appearance.Options.UseFont = True
+        Me.LabelControl9.Location = New System.Drawing.Point(20, 95)
+        Me.LabelControl9.Name = "LabelControl9"
+        Me.LabelControl9.Size = New System.Drawing.Size(37, 14)
+        Me.LabelControl9.TabIndex = 36
+        Me.LabelControl9.Text = "Grup 3"
+        '
+        'ComboBoxEdit6
+        '
+        Me.ComboBoxEdit6.Location = New System.Drawing.Point(77, 92)
+        Me.ComboBoxEdit6.Name = "ComboBoxEdit6"
+        Me.ComboBoxEdit6.Properties.Appearance.Font = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(162, Byte))
+        Me.ComboBoxEdit6.Properties.Appearance.Options.UseFont = True
+        Me.ComboBoxEdit6.Properties.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)})
+        Me.ComboBoxEdit6.Size = New System.Drawing.Size(241, 20)
+        Me.ComboBoxEdit6.TabIndex = 35
+        '
+        'LabelControl8
+        '
+        Me.LabelControl8.Appearance.Font = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(162, Byte))
+        Me.LabelControl8.Appearance.Options.UseFont = True
+        Me.LabelControl8.Location = New System.Drawing.Point(20, 67)
+        Me.LabelControl8.Name = "LabelControl8"
+        Me.LabelControl8.Size = New System.Drawing.Size(37, 14)
+        Me.LabelControl8.TabIndex = 34
+        Me.LabelControl8.Text = "Grup 2"
+        '
+        'ComboBoxEdit5
+        '
+        Me.ComboBoxEdit5.Location = New System.Drawing.Point(77, 64)
+        Me.ComboBoxEdit5.Name = "ComboBoxEdit5"
+        Me.ComboBoxEdit5.Properties.Appearance.Font = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(162, Byte))
+        Me.ComboBoxEdit5.Properties.Appearance.Options.UseFont = True
+        Me.ComboBoxEdit5.Properties.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)})
+        Me.ComboBoxEdit5.Size = New System.Drawing.Size(241, 20)
+        Me.ComboBoxEdit5.TabIndex = 33
+        '
+        'LabelControl7
+        '
+        Me.LabelControl7.Appearance.Font = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(162, Byte))
+        Me.LabelControl7.Appearance.Options.UseFont = True
+        Me.LabelControl7.Location = New System.Drawing.Point(20, 39)
+        Me.LabelControl7.Name = "LabelControl7"
+        Me.LabelControl7.Size = New System.Drawing.Size(37, 14)
+        Me.LabelControl7.TabIndex = 32
+        Me.LabelControl7.Text = "Grup 1"
+        '
+        'ComboBoxEdit4
+        '
+        Me.ComboBoxEdit4.Location = New System.Drawing.Point(77, 36)
+        Me.ComboBoxEdit4.Name = "ComboBoxEdit4"
+        Me.ComboBoxEdit4.Properties.Appearance.Font = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(162, Byte))
+        Me.ComboBoxEdit4.Properties.Appearance.Options.UseFont = True
+        Me.ComboBoxEdit4.Properties.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)})
+        Me.ComboBoxEdit4.Size = New System.Drawing.Size(241, 20)
+        Me.ComboBoxEdit4.TabIndex = 31
+        '
+        'LabelControl6
+        '
+        Me.LabelControl6.Appearance.Font = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(162, Byte))
+        Me.LabelControl6.Appearance.Options.UseFont = True
+        Me.LabelControl6.Location = New System.Drawing.Point(9, 88)
+        Me.LabelControl6.Name = "LabelControl6"
+        Me.LabelControl6.Size = New System.Drawing.Size(34, 14)
+        Me.LabelControl6.TabIndex = 34
+        Me.LabelControl6.Text = "Özellik"
+        '
+        'ComboBoxEdit3
+        '
+        Me.ComboBoxEdit3.Location = New System.Drawing.Point(49, 85)
+        Me.ComboBoxEdit3.Name = "ComboBoxEdit3"
+        Me.ComboBoxEdit3.Properties.Appearance.Font = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(162, Byte))
+        Me.ComboBoxEdit3.Properties.Appearance.Options.UseFont = True
+        Me.ComboBoxEdit3.Properties.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)})
+        Me.ComboBoxEdit3.Size = New System.Drawing.Size(294, 20)
+        Me.ComboBoxEdit3.TabIndex = 33
+        '
+        'LabelControl5
+        '
+        Me.LabelControl5.Appearance.Font = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(162, Byte))
+        Me.LabelControl5.Appearance.Options.UseFont = True
+        Me.LabelControl5.Location = New System.Drawing.Point(9, 19)
+        Me.LabelControl5.Name = "LabelControl5"
+        Me.LabelControl5.Size = New System.Drawing.Size(23, 14)
+        Me.LabelControl5.TabIndex = 32
+        Me.LabelControl5.Text = "Cinsi"
+        '
+        'ComboBoxEdit2
+        '
+        Me.ComboBoxEdit2.Location = New System.Drawing.Point(49, 16)
+        Me.ComboBoxEdit2.Name = "ComboBoxEdit2"
+        Me.ComboBoxEdit2.Properties.Appearance.Font = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(162, Byte))
+        Me.ComboBoxEdit2.Properties.Appearance.Options.UseFont = True
+        Me.ComboBoxEdit2.Properties.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)})
+        Me.ComboBoxEdit2.Size = New System.Drawing.Size(294, 20)
+        Me.ComboBoxEdit2.TabIndex = 31
+        '
+        'XtraTabPage2
+        '
+        Me.XtraTabPage2.Name = "XtraTabPage2"
+        Me.XtraTabPage2.Size = New System.Drawing.Size(901, 413)
+        Me.XtraTabPage2.Text = "Standart Değerler"
+        '
+        'XtraTabPage3
+        '
+        Me.XtraTabPage3.Name = "XtraTabPage3"
+        Me.XtraTabPage3.Size = New System.Drawing.Size(901, 413)
+        Me.XtraTabPage3.Text = "İlk Stok Mevcudu"
+        '
+        'XtraTabPage4
+        '
+        Me.XtraTabPage4.Name = "XtraTabPage4"
+        Me.XtraTabPage4.Size = New System.Drawing.Size(787, 328)
+        Me.XtraTabPage4.Text = "Seçenekler"
+        '
+        'GroupControl1
+        '
+        Me.GroupControl1.Controls.Add(Me.LabelControl28)
+        Me.GroupControl1.Controls.Add(Me.LabelControl27)
+        Me.GroupControl1.Controls.Add(Me.LabelControl26)
+        Me.GroupControl1.Controls.Add(Me.LabelControl25)
+        Me.GroupControl1.Controls.Add(Me.TextEdit11)
+        Me.GroupControl1.Controls.Add(Me.TextEdit12)
+        Me.GroupControl1.Controls.Add(Me.TextEdit13)
+        Me.GroupControl1.Controls.Add(Me.TextEdit14)
+        Me.GroupControl1.Controls.Add(Me.LabelControl23)
+        Me.GroupControl1.Controls.Add(Me.TextEdit10)
+        Me.GroupControl1.Controls.Add(Me.TextEdit9)
+        Me.GroupControl1.Controls.Add(Me.TextEdit8)
+        Me.GroupControl1.Controls.Add(Me.TextEdit7)
+        Me.GroupControl1.Controls.Add(Me.LabelControl21)
+        Me.GroupControl1.Location = New System.Drawing.Point(915, 281)
+        Me.GroupControl1.Name = "GroupControl1"
+        Me.GroupControl1.Size = New System.Drawing.Size(399, 99)
+        Me.GroupControl1.TabIndex = 15
+        Me.GroupControl1.Text = "Maliyetler"
+        '
+        'LabelControl28
+        '
+        Me.LabelControl28.Appearance.Font = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(162, Byte))
+        Me.LabelControl28.Appearance.Options.UseFont = True
+        Me.LabelControl28.Location = New System.Drawing.Point(335, 28)
+        Me.LabelControl28.Name = "LabelControl28"
+        Me.LabelControl28.Size = New System.Drawing.Size(23, 14)
+        Me.LabelControl28.TabIndex = 47
+        Me.LabelControl28.Text = "HAS"
+        '
+        'LabelControl27
+        '
+        Me.LabelControl27.Appearance.Font = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(162, Byte))
+        Me.LabelControl27.Appearance.Options.UseFont = True
+        Me.LabelControl27.Location = New System.Drawing.Point(245, 28)
+        Me.LabelControl27.Name = "LabelControl27"
+        Me.LabelControl27.Size = New System.Drawing.Size(31, 14)
+        Me.LabelControl27.TabIndex = 46
+        Me.LabelControl27.Text = "EURO"
+        '
+        'LabelControl26
+        '
+        Me.LabelControl26.Appearance.Font = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(162, Byte))
+        Me.LabelControl26.Appearance.Options.UseFont = True
+        Me.LabelControl26.Location = New System.Drawing.Point(164, 28)
+        Me.LabelControl26.Name = "LabelControl26"
+        Me.LabelControl26.Size = New System.Drawing.Size(23, 14)
+        Me.LabelControl26.TabIndex = 45
+        Me.LabelControl26.Text = "USD"
+        '
+        'LabelControl25
+        '
+        Me.LabelControl25.Appearance.Font = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(162, Byte))
+        Me.LabelControl25.Appearance.Options.UseFont = True
+        Me.LabelControl25.Location = New System.Drawing.Point(82, 28)
+        Me.LabelControl25.Name = "LabelControl25"
+        Me.LabelControl25.Size = New System.Drawing.Size(14, 14)
+        Me.LabelControl25.TabIndex = 44
+        Me.LabelControl25.Text = "TL"
         '
         'TextEdit11
         '
@@ -1013,6 +840,126 @@ Partial Class stok_tanimlama
         Me.LabelControl23.Size = New System.Drawing.Size(40, 14)
         Me.LabelControl23.TabIndex = 39
         Me.LabelControl23.Text = "Toplam"
+        '
+        'TextEdit10
+        '
+        Me.TextEdit10.EditValue = "0"
+        Me.TextEdit10.Location = New System.Drawing.Point(315, 48)
+        Me.TextEdit10.Name = "TextEdit10"
+        Me.TextEdit10.Properties.Appearance.BackColor = System.Drawing.Color.PowderBlue
+        Me.TextEdit10.Properties.Appearance.Font = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(162, Byte))
+        Me.TextEdit10.Properties.Appearance.Options.UseBackColor = True
+        Me.TextEdit10.Properties.Appearance.Options.UseFont = True
+        Me.TextEdit10.Size = New System.Drawing.Size(81, 20)
+        Me.TextEdit10.TabIndex = 38
+        '
+        'TextEdit9
+        '
+        Me.TextEdit9.EditValue = "0"
+        Me.TextEdit9.Location = New System.Drawing.Point(228, 48)
+        Me.TextEdit9.Name = "TextEdit9"
+        Me.TextEdit9.Properties.Appearance.BackColor = System.Drawing.Color.PowderBlue
+        Me.TextEdit9.Properties.Appearance.Font = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(162, Byte))
+        Me.TextEdit9.Properties.Appearance.Options.UseBackColor = True
+        Me.TextEdit9.Properties.Appearance.Options.UseFont = True
+        Me.TextEdit9.Size = New System.Drawing.Size(81, 20)
+        Me.TextEdit9.TabIndex = 37
+        '
+        'TextEdit8
+        '
+        Me.TextEdit8.EditValue = "0"
+        Me.TextEdit8.Location = New System.Drawing.Point(141, 48)
+        Me.TextEdit8.Name = "TextEdit8"
+        Me.TextEdit8.Properties.Appearance.BackColor = System.Drawing.Color.PowderBlue
+        Me.TextEdit8.Properties.Appearance.Font = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(162, Byte))
+        Me.TextEdit8.Properties.Appearance.Options.UseBackColor = True
+        Me.TextEdit8.Properties.Appearance.Options.UseFont = True
+        Me.TextEdit8.Size = New System.Drawing.Size(81, 20)
+        Me.TextEdit8.TabIndex = 36
+        '
+        'TextEdit7
+        '
+        Me.TextEdit7.EditValue = "0"
+        Me.TextEdit7.Location = New System.Drawing.Point(54, 48)
+        Me.TextEdit7.Name = "TextEdit7"
+        Me.TextEdit7.Properties.Appearance.BackColor = System.Drawing.Color.PowderBlue
+        Me.TextEdit7.Properties.Appearance.Font = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(162, Byte))
+        Me.TextEdit7.Properties.Appearance.Options.UseBackColor = True
+        Me.TextEdit7.Properties.Appearance.Options.UseFont = True
+        Me.TextEdit7.Size = New System.Drawing.Size(81, 20)
+        Me.TextEdit7.TabIndex = 35
+        '
+        'LabelControl21
+        '
+        Me.LabelControl21.Appearance.Font = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(162, Byte))
+        Me.LabelControl21.Appearance.Options.UseFont = True
+        Me.LabelControl21.Location = New System.Drawing.Point(5, 51)
+        Me.LabelControl21.Name = "LabelControl21"
+        Me.LabelControl21.Size = New System.Drawing.Size(25, 14)
+        Me.LabelControl21.TabIndex = 33
+        Me.LabelControl21.Text = "Birim"
+        '
+        'GroupControl2
+        '
+        Me.GroupControl2.Controls.Add(Me.LabelControl29)
+        Me.GroupControl2.Controls.Add(Me.LabelControl30)
+        Me.GroupControl2.Controls.Add(Me.LabelControl31)
+        Me.GroupControl2.Controls.Add(Me.LabelControl32)
+        Me.GroupControl2.Controls.Add(Me.TextEdit15)
+        Me.GroupControl2.Controls.Add(Me.TextEdit16)
+        Me.GroupControl2.Controls.Add(Me.TextEdit17)
+        Me.GroupControl2.Controls.Add(Me.TextEdit18)
+        Me.GroupControl2.Controls.Add(Me.LabelControl22)
+        Me.GroupControl2.Controls.Add(Me.TextEdit19)
+        Me.GroupControl2.Controls.Add(Me.TextEdit20)
+        Me.GroupControl2.Controls.Add(Me.TextEdit21)
+        Me.GroupControl2.Controls.Add(Me.TextEdit22)
+        Me.GroupControl2.Controls.Add(Me.LabelControl24)
+        Me.GroupControl2.Location = New System.Drawing.Point(915, 389)
+        Me.GroupControl2.Name = "GroupControl2"
+        Me.GroupControl2.Size = New System.Drawing.Size(399, 108)
+        Me.GroupControl2.TabIndex = 16
+        Me.GroupControl2.Text = "Satış Fiyatları"
+        '
+        'LabelControl29
+        '
+        Me.LabelControl29.Appearance.Font = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(162, Byte))
+        Me.LabelControl29.Appearance.Options.UseFont = True
+        Me.LabelControl29.Location = New System.Drawing.Point(335, 27)
+        Me.LabelControl29.Name = "LabelControl29"
+        Me.LabelControl29.Size = New System.Drawing.Size(23, 14)
+        Me.LabelControl29.TabIndex = 57
+        Me.LabelControl29.Text = "HAS"
+        '
+        'LabelControl30
+        '
+        Me.LabelControl30.Appearance.Font = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(162, Byte))
+        Me.LabelControl30.Appearance.Options.UseFont = True
+        Me.LabelControl30.Location = New System.Drawing.Point(245, 27)
+        Me.LabelControl30.Name = "LabelControl30"
+        Me.LabelControl30.Size = New System.Drawing.Size(31, 14)
+        Me.LabelControl30.TabIndex = 56
+        Me.LabelControl30.Text = "EURO"
+        '
+        'LabelControl31
+        '
+        Me.LabelControl31.Appearance.Font = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(162, Byte))
+        Me.LabelControl31.Appearance.Options.UseFont = True
+        Me.LabelControl31.Location = New System.Drawing.Point(164, 27)
+        Me.LabelControl31.Name = "LabelControl31"
+        Me.LabelControl31.Size = New System.Drawing.Size(23, 14)
+        Me.LabelControl31.TabIndex = 55
+        Me.LabelControl31.Text = "USD"
+        '
+        'LabelControl32
+        '
+        Me.LabelControl32.Appearance.Font = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(162, Byte))
+        Me.LabelControl32.Appearance.Options.UseFont = True
+        Me.LabelControl32.Location = New System.Drawing.Point(82, 27)
+        Me.LabelControl32.Name = "LabelControl32"
+        Me.LabelControl32.Size = New System.Drawing.Size(14, 14)
+        Me.LabelControl32.TabIndex = 54
+        Me.LabelControl32.Text = "TL"
         '
         'TextEdit15
         '
@@ -1130,91 +1077,146 @@ Partial Class stok_tanimlama
         Me.LabelControl24.TabIndex = 44
         Me.LabelControl24.Text = "Birim"
         '
-        'LabelControl25
+        'SimpleButton9
         '
-        Me.LabelControl25.Appearance.Font = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(162, Byte))
-        Me.LabelControl25.Appearance.Options.UseFont = True
-        Me.LabelControl25.Location = New System.Drawing.Point(82, 28)
-        Me.LabelControl25.Name = "LabelControl25"
-        Me.LabelControl25.Size = New System.Drawing.Size(14, 14)
-        Me.LabelControl25.TabIndex = 44
-        Me.LabelControl25.Text = "TL"
+        Me.SimpleButton9.Location = New System.Drawing.Point(3, 416)
+        Me.SimpleButton9.Name = "SimpleButton9"
+        Me.SimpleButton9.Size = New System.Drawing.Size(164, 34)
+        Me.SimpleButton9.TabIndex = 17
+        Me.SimpleButton9.Text = "Stok Kodunu Kaydet"
         '
-        'LabelControl26
+        'SimpleButton10
         '
-        Me.LabelControl26.Appearance.Font = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(162, Byte))
-        Me.LabelControl26.Appearance.Options.UseFont = True
-        Me.LabelControl26.Location = New System.Drawing.Point(164, 28)
-        Me.LabelControl26.Name = "LabelControl26"
-        Me.LabelControl26.Size = New System.Drawing.Size(23, 14)
-        Me.LabelControl26.TabIndex = 45
-        Me.LabelControl26.Text = "USD"
+        Me.SimpleButton10.Location = New System.Drawing.Point(173, 416)
+        Me.SimpleButton10.Name = "SimpleButton10"
+        Me.SimpleButton10.Size = New System.Drawing.Size(92, 34)
+        Me.SimpleButton10.TabIndex = 18
+        Me.SimpleButton10.Text = "Düzelt"
         '
-        'LabelControl27
+        'SimpleButton11
         '
-        Me.LabelControl27.Appearance.Font = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(162, Byte))
-        Me.LabelControl27.Appearance.Options.UseFont = True
-        Me.LabelControl27.Location = New System.Drawing.Point(245, 28)
-        Me.LabelControl27.Name = "LabelControl27"
-        Me.LabelControl27.Size = New System.Drawing.Size(31, 14)
-        Me.LabelControl27.TabIndex = 46
-        Me.LabelControl27.Text = "EURO"
+        Me.SimpleButton11.Location = New System.Drawing.Point(271, 416)
+        Me.SimpleButton11.Name = "SimpleButton11"
+        Me.SimpleButton11.Size = New System.Drawing.Size(92, 34)
+        Me.SimpleButton11.TabIndex = 19
+        Me.SimpleButton11.Text = "Sil"
         '
-        'LabelControl28
+        'SimpleButton12
         '
-        Me.LabelControl28.Appearance.Font = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(162, Byte))
-        Me.LabelControl28.Appearance.Options.UseFont = True
-        Me.LabelControl28.Location = New System.Drawing.Point(335, 28)
-        Me.LabelControl28.Name = "LabelControl28"
-        Me.LabelControl28.Size = New System.Drawing.Size(23, 14)
-        Me.LabelControl28.TabIndex = 47
-        Me.LabelControl28.Text = "HAS"
+        Me.SimpleButton12.Location = New System.Drawing.Point(568, 416)
+        Me.SimpleButton12.Name = "SimpleButton12"
+        Me.SimpleButton12.Size = New System.Drawing.Size(92, 34)
+        Me.SimpleButton12.TabIndex = 22
+        Me.SimpleButton12.Text = "Stok"
         '
-        'LabelControl29
+        'SimpleButton13
         '
-        Me.LabelControl29.Appearance.Font = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(162, Byte))
-        Me.LabelControl29.Appearance.Options.UseFont = True
-        Me.LabelControl29.Location = New System.Drawing.Point(335, 27)
-        Me.LabelControl29.Name = "LabelControl29"
-        Me.LabelControl29.Size = New System.Drawing.Size(23, 14)
-        Me.LabelControl29.TabIndex = 57
-        Me.LabelControl29.Text = "HAS"
+        Me.SimpleButton13.Location = New System.Drawing.Point(470, 416)
+        Me.SimpleButton13.Name = "SimpleButton13"
+        Me.SimpleButton13.Size = New System.Drawing.Size(92, 34)
+        Me.SimpleButton13.TabIndex = 21
+        Me.SimpleButton13.Text = "Kod Çoğalt"
         '
-        'LabelControl30
+        'SimpleButton14
         '
-        Me.LabelControl30.Appearance.Font = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(162, Byte))
-        Me.LabelControl30.Appearance.Options.UseFont = True
-        Me.LabelControl30.Location = New System.Drawing.Point(245, 27)
-        Me.LabelControl30.Name = "LabelControl30"
-        Me.LabelControl30.Size = New System.Drawing.Size(31, 14)
-        Me.LabelControl30.TabIndex = 56
-        Me.LabelControl30.Text = "EURO"
+        Me.SimpleButton14.Location = New System.Drawing.Point(370, 416)
+        Me.SimpleButton14.Name = "SimpleButton14"
+        Me.SimpleButton14.Size = New System.Drawing.Size(92, 34)
+        Me.SimpleButton14.TabIndex = 20
+        Me.SimpleButton14.Text = "Yeni"
         '
-        'LabelControl31
+        'SimpleButton17
         '
-        Me.LabelControl31.Appearance.Font = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(162, Byte))
-        Me.LabelControl31.Appearance.Options.UseFont = True
-        Me.LabelControl31.Location = New System.Drawing.Point(164, 27)
-        Me.LabelControl31.Name = "LabelControl31"
-        Me.LabelControl31.Size = New System.Drawing.Size(23, 14)
-        Me.LabelControl31.TabIndex = 55
-        Me.LabelControl31.Text = "USD"
+        Me.SimpleButton17.Location = New System.Drawing.Point(1222, 507)
+        Me.SimpleButton17.Name = "SimpleButton17"
+        Me.SimpleButton17.Size = New System.Drawing.Size(92, 34)
+        Me.SimpleButton17.TabIndex = 26
+        Me.SimpleButton17.Text = "Kapat"
         '
-        'LabelControl32
+        'SimpleButton18
         '
-        Me.LabelControl32.Appearance.Font = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(162, Byte))
-        Me.LabelControl32.Appearance.Options.UseFont = True
-        Me.LabelControl32.Location = New System.Drawing.Point(82, 27)
-        Me.LabelControl32.Name = "LabelControl32"
-        Me.LabelControl32.Size = New System.Drawing.Size(14, 14)
-        Me.LabelControl32.TabIndex = 54
-        Me.LabelControl32.Text = "TL"
+        Me.SimpleButton18.Location = New System.Drawing.Point(1111, 507)
+        Me.SimpleButton18.Name = "SimpleButton18"
+        Me.SimpleButton18.Size = New System.Drawing.Size(92, 34)
+        Me.SimpleButton18.TabIndex = 25
+        Me.SimpleButton18.Text = "Barkod"
+        '
+        'SimpleButton19
+        '
+        Me.SimpleButton19.Location = New System.Drawing.Point(999, 507)
+        Me.SimpleButton19.Name = "SimpleButton19"
+        Me.SimpleButton19.Size = New System.Drawing.Size(92, 34)
+        Me.SimpleButton19.TabIndex = 24
+        Me.SimpleButton19.Text = "Aktar"
+        '
+        'SimpleButton20
+        '
+        Me.SimpleButton20.Location = New System.Drawing.Point(666, 416)
+        Me.SimpleButton20.Name = "SimpleButton20"
+        Me.SimpleButton20.Size = New System.Drawing.Size(92, 34)
+        Me.SimpleButton20.TabIndex = 23
+        Me.SimpleButton20.Text = "Değiştir"
+        '
+        'GridControl1
+        '
+        Me.GridControl1.Location = New System.Drawing.Point(8, 556)
+        Me.GridControl1.MainView = Me.GridView1
+        Me.GridControl1.Name = "GridControl1"
+        Me.GridControl1.Size = New System.Drawing.Size(1306, 166)
+        Me.GridControl1.TabIndex = 29
+        Me.GridControl1.ViewCollection.AddRange(New DevExpress.XtraGrid.Views.Base.BaseView() {Me.GridView1})
+        '
+        'GridView1
+        '
+        Me.GridView1.DetailHeight = 377
+        Me.GridView1.GridControl = Me.GridControl1
+        Me.GridView1.Name = "GridView1"
+        '
+        'SimpleButton1
+        '
+        Me.SimpleButton1.ImageOptions.Image = Global.DataonsERP.My.Resources.Resources.find_16x161
+        Me.SimpleButton1.Location = New System.Drawing.Point(302, 26)
+        Me.SimpleButton1.Name = "SimpleButton1"
+        Me.SimpleButton1.Size = New System.Drawing.Size(29, 25)
+        Me.SimpleButton1.TabIndex = 2
+        '
+        'LabelControl2
+        '
+        Me.LabelControl2.Appearance.Font = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(162, Byte))
+        Me.LabelControl2.Appearance.Options.UseFont = True
+        Me.LabelControl2.Location = New System.Drawing.Point(412, 8)
+        Me.LabelControl2.Name = "LabelControl2"
+        Me.LabelControl2.Size = New System.Drawing.Size(56, 14)
+        Me.LabelControl2.TabIndex = 30
+        Me.LabelControl2.Text = "Malın Türü"
+        '
+        'LabelControl3
+        '
+        Me.LabelControl3.Appearance.Font = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(162, Byte))
+        Me.LabelControl3.Appearance.Options.UseFont = True
+        Me.LabelControl3.Location = New System.Drawing.Point(680, 8)
+        Me.LabelControl3.Name = "LabelControl3"
+        Me.LabelControl3.Size = New System.Drawing.Size(26, 14)
+        Me.LabelControl3.TabIndex = 31
+        Me.LabelControl3.Text = "Stok"
+        '
+        'LabelControl4
+        '
+        Me.LabelControl4.Appearance.Font = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(162, Byte))
+        Me.LabelControl4.Appearance.Options.UseFont = True
+        Me.LabelControl4.Location = New System.Drawing.Point(803, 8)
+        Me.LabelControl4.Name = "LabelControl4"
+        Me.LabelControl4.Size = New System.Drawing.Size(64, 14)
+        Me.LabelControl4.TabIndex = 32
+        Me.LabelControl4.Text = "Stok (adet)"
         '
         'stok_tanimlama
         '
         Me.Appearance.Options.UseFont = True
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(7.0!, 14.0!)
-        Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(96.0!, 96.0!)
+        Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Dpi
+        Me.AutoSize = True
+        Me.AutoValidate = System.Windows.Forms.AutoValidate.EnableAllowFocusChange
         Me.ClientSize = New System.Drawing.Size(1326, 729)
         Me.Controls.Add(Me.LabelControl4)
         Me.Controls.Add(Me.LabelControl3)
@@ -1249,6 +1251,8 @@ Partial Class stok_tanimlama
         Me.Controls.Add(Me.LabelControl1)
         Me.Font = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(162, Byte))
         Me.Name = "stok_tanimlama"
+        Me.RightToLeftLayout = True
+        Me.SizeGripStyle = System.Windows.Forms.SizeGripStyle.Show
         Me.Text = "Stok Kodu Tanımlama"
         CType(Me.TextEdit1.Properties, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.ComboBoxEdit1.Properties, System.ComponentModel.ISupportInitialize).EndInit()
@@ -1259,7 +1263,18 @@ Partial Class stok_tanimlama
         Me.XtraTabControl1.ResumeLayout(False)
         Me.XtraTabPage1.ResumeLayout(False)
         Me.XtraTabPage1.PerformLayout()
+        CType(Me.GroupControl4, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.GroupControl4.ResumeLayout(False)
+        Me.GroupControl4.PerformLayout()
         CType(Me.TextEdit5.Properties, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.ComboBoxEdit14.Properties, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.ComboBoxEdit13.Properties, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.TextEdit6.Properties, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.ComboBoxEdit12.Properties, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.ComboBoxEdit11.Properties, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.ComboBoxEdit10.Properties, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.DateEdit1.Properties.CalendarTimeProperties, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.DateEdit1.Properties, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.TextEdit4.Properties, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.ComboBoxEdit9.Properties, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.GroupControl3, System.ComponentModel.ISupportInitialize).EndInit()
@@ -1275,30 +1290,17 @@ Partial Class stok_tanimlama
         CType(Me.GroupControl1, System.ComponentModel.ISupportInitialize).EndInit()
         Me.GroupControl1.ResumeLayout(False)
         Me.GroupControl1.PerformLayout()
-        CType(Me.GroupControl2, System.ComponentModel.ISupportInitialize).EndInit()
-        Me.GroupControl2.ResumeLayout(False)
-        Me.GroupControl2.PerformLayout()
-        CType(Me.GridControl1, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.GridView1, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.GroupControl4, System.ComponentModel.ISupportInitialize).EndInit()
-        Me.GroupControl4.ResumeLayout(False)
-        Me.GroupControl4.PerformLayout()
-        CType(Me.ComboBoxEdit14.Properties, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.ComboBoxEdit13.Properties, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.TextEdit6.Properties, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.ComboBoxEdit12.Properties, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.ComboBoxEdit11.Properties, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.ComboBoxEdit10.Properties, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.DateEdit1.Properties.CalendarTimeProperties, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.DateEdit1.Properties, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.TextEdit7.Properties, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.TextEdit8.Properties, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.TextEdit9.Properties, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.TextEdit10.Properties, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.TextEdit11.Properties, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.TextEdit12.Properties, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.TextEdit13.Properties, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.TextEdit14.Properties, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.TextEdit10.Properties, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.TextEdit9.Properties, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.TextEdit8.Properties, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.TextEdit7.Properties, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.GroupControl2, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.GroupControl2.ResumeLayout(False)
+        Me.GroupControl2.PerformLayout()
         CType(Me.TextEdit15.Properties, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.TextEdit16.Properties, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.TextEdit17.Properties, System.ComponentModel.ISupportInitialize).EndInit()
@@ -1307,6 +1309,8 @@ Partial Class stok_tanimlama
         CType(Me.TextEdit20.Properties, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.TextEdit21.Properties, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.TextEdit22.Properties, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.GridControl1, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.GridView1, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
         Me.PerformLayout()
 

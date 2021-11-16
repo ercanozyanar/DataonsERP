@@ -51,9 +51,19 @@ Partial Class main
         Me.barButtonItem15 = New DevExpress.XtraBars.BarButtonItem()
         Me.barButtonItem16 = New DevExpress.XtraBars.BarButtonItem()
         Me.barButtonItem17 = New DevExpress.XtraBars.BarButtonItem()
-        Me.SidePanel1 = New DevExpress.XtraEditors.SidePanel()
-        Me.SplitterControl1 = New DevExpress.XtraEditors.SplitterControl()
         Me.NavBarControl2 = New DevExpress.XtraNavBar.NavBarControl()
+        Me.NavBarGroup5 = New DevExpress.XtraNavBar.NavBarGroup()
+        Me.NavBarItem17 = New DevExpress.XtraNavBar.NavBarItem()
+        Me.NavBarItem18 = New DevExpress.XtraNavBar.NavBarItem()
+        Me.NavBarItem19 = New DevExpress.XtraNavBar.NavBarItem()
+        Me.NavBarItem20 = New DevExpress.XtraNavBar.NavBarItem()
+        Me.NavBarItem21 = New DevExpress.XtraNavBar.NavBarItem()
+        Me.NavBarItem22 = New DevExpress.XtraNavBar.NavBarItem()
+        Me.NavBarItem23 = New DevExpress.XtraNavBar.NavBarItem()
+        Me.NavBarItem24 = New DevExpress.XtraNavBar.NavBarItem()
+        Me.NavBarItem25 = New DevExpress.XtraNavBar.NavBarItem()
+        Me.NavBarItem26 = New DevExpress.XtraNavBar.NavBarItem()
+        Me.NavBarItem27 = New DevExpress.XtraNavBar.NavBarItem()
         Me.NavBarGroup4 = New DevExpress.XtraNavBar.NavBarGroup()
         Me.NavBarItem1 = New DevExpress.XtraNavBar.NavBarItem()
         Me.NavBarItem2 = New DevExpress.XtraNavBar.NavBarItem()
@@ -71,18 +81,6 @@ Partial Class main
         Me.NavBarItem14 = New DevExpress.XtraNavBar.NavBarItem()
         Me.NavBarItem15 = New DevExpress.XtraNavBar.NavBarItem()
         Me.NavBarItem16 = New DevExpress.XtraNavBar.NavBarItem()
-        Me.NavBarGroup5 = New DevExpress.XtraNavBar.NavBarGroup()
-        Me.NavBarItem17 = New DevExpress.XtraNavBar.NavBarItem()
-        Me.NavBarItem18 = New DevExpress.XtraNavBar.NavBarItem()
-        Me.NavBarItem19 = New DevExpress.XtraNavBar.NavBarItem()
-        Me.NavBarItem20 = New DevExpress.XtraNavBar.NavBarItem()
-        Me.NavBarItem21 = New DevExpress.XtraNavBar.NavBarItem()
-        Me.NavBarItem22 = New DevExpress.XtraNavBar.NavBarItem()
-        Me.NavBarItem23 = New DevExpress.XtraNavBar.NavBarItem()
-        Me.NavBarItem24 = New DevExpress.XtraNavBar.NavBarItem()
-        Me.NavBarItem25 = New DevExpress.XtraNavBar.NavBarItem()
-        Me.NavBarItem26 = New DevExpress.XtraNavBar.NavBarItem()
-        Me.NavBarItem27 = New DevExpress.XtraNavBar.NavBarItem()
         Me.NavBarGroup6 = New DevExpress.XtraNavBar.NavBarGroup()
         Me.NavBarItem28 = New DevExpress.XtraNavBar.NavBarItem()
         Me.NavBarItem29 = New DevExpress.XtraNavBar.NavBarItem()
@@ -100,25 +98,16 @@ Partial Class main
         Me.NavBarItem41 = New DevExpress.XtraNavBar.NavBarItem()
         Me.NavBarGroup7 = New DevExpress.XtraNavBar.NavBarGroup()
         Me.NavBarGroup8 = New DevExpress.XtraNavBar.NavBarGroup()
-        Me.GroupControl1 = New DevExpress.XtraEditors.GroupControl()
-        Me.Label10 = New System.Windows.Forms.Label()
-        Me.Label7 = New System.Windows.Forms.Label()
-        Me.Label9 = New System.Windows.Forms.Label()
-        Me.Label6 = New System.Windows.Forms.Label()
-        Me.Label8 = New System.Windows.Forms.Label()
-        Me.Label5 = New System.Windows.Forms.Label()
-        Me.DataGridView1 = New System.Windows.Forms.DataGridView()
         Me.AccordionControlElement2 = New DevExpress.XtraBars.Navigation.AccordionControlElement()
         Me.Timer1 = New System.Windows.Forms.Timer(Me.components)
         Me.BackgroundWorker1 = New System.ComponentModel.BackgroundWorker()
+        Me.XtraTabbedMdiManager1 = New DevExpress.XtraTabbedMdi.XtraTabbedMdiManager(Me.components)
+        Me.SplitterControl1 = New DevExpress.XtraEditors.SplitterControl()
         CType(Me.BarAndDockingController1, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.DefaultBarAndDockingController1.Controller, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.BarManager1, System.ComponentModel.ISupportInitialize).BeginInit()
-        Me.SidePanel1.SuspendLayout()
         CType(Me.NavBarControl2, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.GroupControl1, System.ComponentModel.ISupportInitialize).BeginInit()
-        Me.GroupControl1.SuspendLayout()
-        CType(Me.DataGridView1, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.XtraTabbedMdiManager1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'AccordionControlElement53
@@ -322,34 +311,13 @@ Partial Class main
         Me.barButtonItem17.Id = 21
         Me.barButtonItem17.Name = "barButtonItem17"
         '
-        'SidePanel1
-        '
-        Me.SidePanel1.Controls.Add(Me.SplitterControl1)
-        Me.SidePanel1.Controls.Add(Me.NavBarControl2)
-        Me.SidePanel1.Controls.Add(Me.GroupControl1)
-        Me.SidePanel1.Controls.Add(Me.DataGridView1)
-        Me.SidePanel1.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.SidePanel1.Location = New System.Drawing.Point(0, 25)
-        Me.SidePanel1.Name = "SidePanel1"
-        Me.SidePanel1.Size = New System.Drawing.Size(1368, 652)
-        Me.SidePanel1.TabIndex = 33
-        Me.SidePanel1.Text = "SidePanel1"
-        '
-        'SplitterControl1
-        '
-        Me.SplitterControl1.Location = New System.Drawing.Point(249, 0)
-        Me.SplitterControl1.Name = "SplitterControl1"
-        Me.SplitterControl1.Size = New System.Drawing.Size(6, 652)
-        Me.SplitterControl1.TabIndex = 54
-        Me.SplitterControl1.TabStop = False
-        '
         'NavBarControl2
         '
         Me.NavBarControl2.ActiveGroup = Me.NavBarGroup5
         Me.NavBarControl2.Dock = System.Windows.Forms.DockStyle.Left
         Me.NavBarControl2.Groups.AddRange(New DevExpress.XtraNavBar.NavBarGroup() {Me.NavBarGroup5, Me.NavBarGroup4, Me.NavBarGroup6, Me.NavBarGroup7, Me.NavBarGroup8})
         Me.NavBarControl2.Items.AddRange(New DevExpress.XtraNavBar.NavBarItem() {Me.NavBarItem1, Me.NavBarItem2, Me.NavBarItem3, Me.NavBarItem4, Me.NavBarItem5, Me.NavBarItem6, Me.NavBarItem7, Me.NavBarItem8, Me.NavBarItem9, Me.NavBarItem10, Me.NavBarItem11, Me.NavBarItem12, Me.NavBarItem13, Me.NavBarItem14, Me.NavBarItem15, Me.NavBarItem16, Me.NavBarItem17, Me.NavBarItem18, Me.NavBarItem19, Me.NavBarItem20, Me.NavBarItem21, Me.NavBarItem22, Me.NavBarItem23, Me.NavBarItem24, Me.NavBarItem25, Me.NavBarItem26, Me.NavBarItem27, Me.NavBarItem28, Me.NavBarItem29, Me.NavBarItem30, Me.NavBarItem31, Me.NavBarItem32, Me.NavBarItem33, Me.NavBarItem34, Me.NavBarItem35, Me.NavBarItem36, Me.NavBarItem37, Me.NavBarItem38, Me.NavBarItem39, Me.NavBarItem40, Me.NavBarItem41})
-        Me.NavBarControl2.Location = New System.Drawing.Point(0, 0)
+        Me.NavBarControl2.Location = New System.Drawing.Point(0, 25)
         Me.NavBarControl2.Name = "NavBarControl2"
         Me.NavBarControl2.OptionsNavPane.ExpandedWidth = 249
         Me.NavBarControl2.PaintStyleKind = DevExpress.XtraNavBar.NavBarViewKind.NavigationPane
@@ -357,10 +325,71 @@ Partial Class main
         Me.NavBarControl2.TabIndex = 53
         Me.NavBarControl2.Text = "NavBarControl2"
         '
+        'NavBarGroup5
+        '
+        Me.NavBarGroup5.Caption = "Stok İşlemleri"
+        Me.NavBarGroup5.Expanded = True
+        Me.NavBarGroup5.ItemLinks.AddRange(New DevExpress.XtraNavBar.NavBarItemLink() {New DevExpress.XtraNavBar.NavBarItemLink(Me.NavBarItem17), New DevExpress.XtraNavBar.NavBarItemLink(Me.NavBarItem18), New DevExpress.XtraNavBar.NavBarItemLink(Me.NavBarItem19), New DevExpress.XtraNavBar.NavBarItemLink(Me.NavBarItem20), New DevExpress.XtraNavBar.NavBarItemLink(Me.NavBarItem21), New DevExpress.XtraNavBar.NavBarItemLink(Me.NavBarItem22), New DevExpress.XtraNavBar.NavBarItemLink(Me.NavBarItem23), New DevExpress.XtraNavBar.NavBarItemLink(Me.NavBarItem24), New DevExpress.XtraNavBar.NavBarItemLink(Me.NavBarItem25), New DevExpress.XtraNavBar.NavBarItemLink(Me.NavBarItem26), New DevExpress.XtraNavBar.NavBarItemLink(Me.NavBarItem27)})
+        Me.NavBarGroup5.Name = "NavBarGroup5"
+        '
+        'NavBarItem17
+        '
+        Me.NavBarItem17.Caption = "Stok Kodu Tanımlama"
+        Me.NavBarItem17.Name = "NavBarItem17"
+        '
+        'NavBarItem18
+        '
+        Me.NavBarItem18.Caption = "Stoklar ve Envanter"
+        Me.NavBarItem18.Name = "NavBarItem18"
+        '
+        'NavBarItem19
+        '
+        Me.NavBarItem19.Caption = "Diğer Stok Hareketleri"
+        Me.NavBarItem19.Name = "NavBarItem19"
+        '
+        'NavBarItem20
+        '
+        Me.NavBarItem20.Caption = "Banko Değişikliği Merkez"
+        Me.NavBarItem20.Name = "NavBarItem20"
+        '
+        'NavBarItem21
+        '
+        Me.NavBarItem21.Caption = "Banko Değişikliği Şube"
+        Me.NavBarItem21.Name = "NavBarItem21"
+        '
+        'NavBarItem22
+        '
+        Me.NavBarItem22.Caption = "Çoklu Resim"
+        Me.NavBarItem22.Name = "NavBarItem22"
+        '
+        'NavBarItem23
+        '
+        Me.NavBarItem23.Caption = "Tüm Stok İşlemleri"
+        Me.NavBarItem23.Name = "NavBarItem23"
+        '
+        'NavBarItem24
+        '
+        Me.NavBarItem24.Caption = "Sayım İşlemleri"
+        Me.NavBarItem24.Name = "NavBarItem24"
+        '
+        'NavBarItem25
+        '
+        Me.NavBarItem25.Caption = "Ürün Sil"
+        Me.NavBarItem25.Name = "NavBarItem25"
+        '
+        'NavBarItem26
+        '
+        Me.NavBarItem26.Caption = "Slayt"
+        Me.NavBarItem26.Name = "NavBarItem26"
+        '
+        'NavBarItem27
+        '
+        Me.NavBarItem27.Caption = "RFID Sayım"
+        Me.NavBarItem27.Name = "NavBarItem27"
+        '
         'NavBarGroup4
         '
         Me.NavBarGroup4.Caption = "Cari İşlemleri"
-        Me.NavBarGroup4.CollapsedNavPaneContentControl = Me.GroupControl1
         Me.NavBarGroup4.ItemLinks.AddRange(New DevExpress.XtraNavBar.NavBarItemLink() {New DevExpress.XtraNavBar.NavBarItemLink(Me.NavBarItem1), New DevExpress.XtraNavBar.NavBarItemLink(Me.NavBarItem2), New DevExpress.XtraNavBar.NavBarItemLink(Me.NavBarItem3), New DevExpress.XtraNavBar.NavBarItemLink(Me.NavBarItem4), New DevExpress.XtraNavBar.NavBarItemLink(Me.NavBarItem5), New DevExpress.XtraNavBar.NavBarItemLink(Me.NavBarItem6), New DevExpress.XtraNavBar.NavBarItemLink(Me.NavBarItem7), New DevExpress.XtraNavBar.NavBarItemLink(Me.NavBarItem8), New DevExpress.XtraNavBar.NavBarItemLink(Me.NavBarItem9), New DevExpress.XtraNavBar.NavBarItemLink(Me.NavBarItem10), New DevExpress.XtraNavBar.NavBarItemLink(Me.NavBarItem11), New DevExpress.XtraNavBar.NavBarItemLink(Me.NavBarItem12), New DevExpress.XtraNavBar.NavBarItemLink(Me.NavBarItem13), New DevExpress.XtraNavBar.NavBarItemLink(Me.NavBarItem14), New DevExpress.XtraNavBar.NavBarItemLink(Me.NavBarItem15), New DevExpress.XtraNavBar.NavBarItemLink(Me.NavBarItem16)})
         Me.NavBarGroup4.Name = "NavBarGroup4"
         '
@@ -443,68 +472,6 @@ Partial Class main
         '
         Me.NavBarItem16.Caption = "Kur Güncelle"
         Me.NavBarItem16.Name = "NavBarItem16"
-        '
-        'NavBarGroup5
-        '
-        Me.NavBarGroup5.Caption = "Stok İşlemleri"
-        Me.NavBarGroup5.Expanded = True
-        Me.NavBarGroup5.ItemLinks.AddRange(New DevExpress.XtraNavBar.NavBarItemLink() {New DevExpress.XtraNavBar.NavBarItemLink(Me.NavBarItem17), New DevExpress.XtraNavBar.NavBarItemLink(Me.NavBarItem18), New DevExpress.XtraNavBar.NavBarItemLink(Me.NavBarItem19), New DevExpress.XtraNavBar.NavBarItemLink(Me.NavBarItem20), New DevExpress.XtraNavBar.NavBarItemLink(Me.NavBarItem21), New DevExpress.XtraNavBar.NavBarItemLink(Me.NavBarItem22), New DevExpress.XtraNavBar.NavBarItemLink(Me.NavBarItem23), New DevExpress.XtraNavBar.NavBarItemLink(Me.NavBarItem24), New DevExpress.XtraNavBar.NavBarItemLink(Me.NavBarItem25), New DevExpress.XtraNavBar.NavBarItemLink(Me.NavBarItem26), New DevExpress.XtraNavBar.NavBarItemLink(Me.NavBarItem27)})
-        Me.NavBarGroup5.Name = "NavBarGroup5"
-        '
-        'NavBarItem17
-        '
-        Me.NavBarItem17.Caption = "Stok Kodu Tanımlama"
-        Me.NavBarItem17.Name = "NavBarItem17"
-        '
-        'NavBarItem18
-        '
-        Me.NavBarItem18.Caption = "Stoklar ve Envanter"
-        Me.NavBarItem18.Name = "NavBarItem18"
-        '
-        'NavBarItem19
-        '
-        Me.NavBarItem19.Caption = "Diğer Stok Hareketleri"
-        Me.NavBarItem19.Name = "NavBarItem19"
-        '
-        'NavBarItem20
-        '
-        Me.NavBarItem20.Caption = "Banko Değişikliği Merkez"
-        Me.NavBarItem20.Name = "NavBarItem20"
-        '
-        'NavBarItem21
-        '
-        Me.NavBarItem21.Caption = "Banko Değişikliği Şube"
-        Me.NavBarItem21.Name = "NavBarItem21"
-        '
-        'NavBarItem22
-        '
-        Me.NavBarItem22.Caption = "Çoklu Resim"
-        Me.NavBarItem22.Name = "NavBarItem22"
-        '
-        'NavBarItem23
-        '
-        Me.NavBarItem23.Caption = "Tüm Stok İşlemleri"
-        Me.NavBarItem23.Name = "NavBarItem23"
-        '
-        'NavBarItem24
-        '
-        Me.NavBarItem24.Caption = "Sayım İşlemleri"
-        Me.NavBarItem24.Name = "NavBarItem24"
-        '
-        'NavBarItem25
-        '
-        Me.NavBarItem25.Caption = "Ürün Sil"
-        Me.NavBarItem25.Name = "NavBarItem25"
-        '
-        'NavBarItem26
-        '
-        Me.NavBarItem26.Caption = "Slayt"
-        Me.NavBarItem26.Name = "NavBarItem26"
-        '
-        'NavBarItem27
-        '
-        Me.NavBarItem27.Caption = "RFID Sayım"
-        Me.NavBarItem27.Name = "NavBarItem27"
         '
         'NavBarGroup6
         '
@@ -592,89 +559,6 @@ Partial Class main
         Me.NavBarGroup8.Caption = "Ayarlar"
         Me.NavBarGroup8.Name = "NavBarGroup8"
         '
-        'GroupControl1
-        '
-        Me.GroupControl1.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink
-        Me.GroupControl1.CaptionLocation = DevExpress.Utils.Locations.Bottom
-        Me.GroupControl1.Controls.Add(Me.Label10)
-        Me.GroupControl1.Controls.Add(Me.Label7)
-        Me.GroupControl1.Controls.Add(Me.Label9)
-        Me.GroupControl1.Controls.Add(Me.Label6)
-        Me.GroupControl1.Controls.Add(Me.Label8)
-        Me.GroupControl1.Controls.Add(Me.Label5)
-        Me.GroupControl1.GroupStyle = DevExpress.Utils.GroupStyle.Card
-        Me.GroupControl1.Location = New System.Drawing.Point(261, 6)
-        Me.GroupControl1.Name = "GroupControl1"
-        Me.GroupControl1.Size = New System.Drawing.Size(470, 154)
-        Me.GroupControl1.TabIndex = 51
-        '
-        'Label10
-        '
-        Me.Label10.AutoSize = True
-        Me.Label10.Font = New System.Drawing.Font("Tahoma", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(162, Byte))
-        Me.Label10.Location = New System.Drawing.Point(245, 99)
-        Me.Label10.Name = "Label10"
-        Me.Label10.Size = New System.Drawing.Size(0, 19)
-        Me.Label10.TabIndex = 59
-        '
-        'Label7
-        '
-        Me.Label7.AutoSize = True
-        Me.Label7.Font = New System.Drawing.Font("Tahoma", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(162, Byte))
-        Me.Label7.ForeColor = System.Drawing.SystemColors.Desktop
-        Me.Label7.Location = New System.Drawing.Point(245, 13)
-        Me.Label7.Name = "Label7"
-        Me.Label7.Size = New System.Drawing.Size(65, 23)
-        Me.Label7.TabIndex = 52
-        Me.Label7.Text = "EURO"
-        '
-        'Label9
-        '
-        Me.Label9.AutoSize = True
-        Me.Label9.Font = New System.Drawing.Font("Tahoma", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(162, Byte))
-        Me.Label9.Location = New System.Drawing.Point(245, 53)
-        Me.Label9.Name = "Label9"
-        Me.Label9.Size = New System.Drawing.Size(0, 19)
-        Me.Label9.TabIndex = 58
-        '
-        'Label6
-        '
-        Me.Label6.AutoSize = True
-        Me.Label6.Font = New System.Drawing.Font("Tahoma", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(162, Byte))
-        Me.Label6.ForeColor = System.Drawing.SystemColors.Desktop
-        Me.Label6.Location = New System.Drawing.Point(11, 13)
-        Me.Label6.Name = "Label6"
-        Me.Label6.Size = New System.Drawing.Size(50, 23)
-        Me.Label6.TabIndex = 51
-        Me.Label6.Text = "USD"
-        '
-        'Label8
-        '
-        Me.Label8.AutoSize = True
-        Me.Label8.Font = New System.Drawing.Font("Tahoma", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(162, Byte))
-        Me.Label8.Location = New System.Drawing.Point(11, 99)
-        Me.Label8.Name = "Label8"
-        Me.Label8.Size = New System.Drawing.Size(0, 19)
-        Me.Label8.TabIndex = 57
-        '
-        'Label5
-        '
-        Me.Label5.AutoSize = True
-        Me.Label5.Font = New System.Drawing.Font("Tahoma", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(162, Byte))
-        Me.Label5.Location = New System.Drawing.Point(11, 53)
-        Me.Label5.Name = "Label5"
-        Me.Label5.Size = New System.Drawing.Size(0, 19)
-        Me.Label5.TabIndex = 56
-        '
-        'DataGridView1
-        '
-        Me.DataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
-        Me.DataGridView1.Location = New System.Drawing.Point(979, 9)
-        Me.DataGridView1.Name = "DataGridView1"
-        Me.DataGridView1.Size = New System.Drawing.Size(17, 17)
-        Me.DataGridView1.TabIndex = 43
-        Me.DataGridView1.Visible = False
-        '
         'AccordionControlElement2
         '
         Me.AccordionControlElement2.Expanded = True
@@ -687,12 +571,26 @@ Partial Class main
         '
         Me.Timer1.Interval = 2000
         '
+        'XtraTabbedMdiManager1
+        '
+        Me.XtraTabbedMdiManager1.Controller = Me.BarAndDockingController1
+        Me.XtraTabbedMdiManager1.MdiParent = Me
+        '
+        'SplitterControl1
+        '
+        Me.SplitterControl1.Location = New System.Drawing.Point(249, 25)
+        Me.SplitterControl1.Name = "SplitterControl1"
+        Me.SplitterControl1.Size = New System.Drawing.Size(6, 652)
+        Me.SplitterControl1.TabIndex = 55
+        Me.SplitterControl1.TabStop = False
+        '
         'main
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(1368, 700)
-        Me.Controls.Add(Me.SidePanel1)
+        Me.Controls.Add(Me.SplitterControl1)
+        Me.Controls.Add(Me.NavBarControl2)
         Me.Controls.Add(Me.barDockControlLeft)
         Me.Controls.Add(Me.barDockControlRight)
         Me.Controls.Add(Me.barDockControlBottom)
@@ -705,12 +603,8 @@ Partial Class main
         CType(Me.BarAndDockingController1, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.DefaultBarAndDockingController1.Controller, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.BarManager1, System.ComponentModel.ISupportInitialize).EndInit()
-        Me.SidePanel1.ResumeLayout(False)
         CType(Me.NavBarControl2, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.GroupControl1, System.ComponentModel.ISupportInitialize).EndInit()
-        Me.GroupControl1.ResumeLayout(False)
-        Me.GroupControl1.PerformLayout()
-        CType(Me.DataGridView1, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.XtraTabbedMdiManager1, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
@@ -731,7 +625,6 @@ Partial Class main
     Friend WithEvents barDockControlBottom As DevExpress.XtraBars.BarDockControl
     Friend WithEvents barDockControlLeft As DevExpress.XtraBars.BarDockControl
     Friend WithEvents barDockControlRight As DevExpress.XtraBars.BarDockControl
-    Friend WithEvents SidePanel1 As DevExpress.XtraEditors.SidePanel
     Friend WithEvents AccordionControlElement2 As DevExpress.XtraBars.Navigation.AccordionControlElement
     Friend WithEvents barButtonItem1 As DevExpress.XtraBars.BarButtonItem
     Friend WithEvents barButtonItem2 As DevExpress.XtraBars.BarButtonItem
@@ -750,17 +643,8 @@ Partial Class main
     Friend WithEvents barButtonItem15 As DevExpress.XtraBars.BarButtonItem
     Friend WithEvents barButtonItem16 As DevExpress.XtraBars.BarButtonItem
     Friend WithEvents barButtonItem17 As DevExpress.XtraBars.BarButtonItem
-    Friend WithEvents DataGridView1 As DataGridView
     Friend WithEvents Timer1 As Timer
-    Friend WithEvents Label6 As Label
-    Friend WithEvents Label7 As Label
-    Friend WithEvents GroupControl1 As DevExpress.XtraEditors.GroupControl
-    Friend WithEvents Label10 As Label
-    Friend WithEvents Label9 As Label
-    Friend WithEvents Label8 As Label
-    Friend WithEvents Label5 As Label
     Friend WithEvents BackgroundWorker1 As System.ComponentModel.BackgroundWorker
-    Friend WithEvents SplitterControl1 As DevExpress.XtraEditors.SplitterControl
     Friend WithEvents NavBarControl2 As DevExpress.XtraNavBar.NavBarControl
     Friend WithEvents NavBarGroup4 As DevExpress.XtraNavBar.NavBarGroup
     Friend WithEvents NavBarItem1 As DevExpress.XtraNavBar.NavBarItem
@@ -808,4 +692,6 @@ Partial Class main
     Friend WithEvents NavBarItem41 As DevExpress.XtraNavBar.NavBarItem
     Friend WithEvents NavBarGroup7 As DevExpress.XtraNavBar.NavBarGroup
     Friend WithEvents NavBarGroup8 As DevExpress.XtraNavBar.NavBarGroup
+    Friend WithEvents XtraTabbedMdiManager1 As DevExpress.XtraTabbedMdi.XtraTabbedMdiManager
+    Friend WithEvents SplitterControl1 As DevExpress.XtraEditors.SplitterControl
 End Class
