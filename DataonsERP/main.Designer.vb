@@ -52,19 +52,7 @@ Partial Class main
         Me.barButtonItem16 = New DevExpress.XtraBars.BarButtonItem()
         Me.barButtonItem17 = New DevExpress.XtraBars.BarButtonItem()
         Me.SidePanel1 = New DevExpress.XtraEditors.SidePanel()
-        Me.GroupControl2 = New DevExpress.XtraEditors.GroupControl()
-        Me.CalendarControl1 = New DevExpress.XtraEditors.Controls.CalendarControl()
-        Me.GroupControl1 = New DevExpress.XtraEditors.GroupControl()
-        Me.Label10 = New System.Windows.Forms.Label()
-        Me.Label7 = New System.Windows.Forms.Label()
-        Me.Label9 = New System.Windows.Forms.Label()
-        Me.Label6 = New System.Windows.Forms.Label()
-        Me.Label8 = New System.Windows.Forms.Label()
-        Me.Label5 = New System.Windows.Forms.Label()
-        Me.DataGridView1 = New System.Windows.Forms.DataGridView()
-        Me.AccordionControlElement2 = New DevExpress.XtraBars.Navigation.AccordionControlElement()
-        Me.Timer1 = New System.Windows.Forms.Timer(Me.components)
-        Me.BackgroundWorker1 = New System.ComponentModel.BackgroundWorker()
+        Me.SplitterControl1 = New DevExpress.XtraEditors.SplitterControl()
         Me.NavBarControl2 = New DevExpress.XtraNavBar.NavBarControl()
         Me.NavBarGroup4 = New DevExpress.XtraNavBar.NavBarGroup()
         Me.NavBarItem1 = New DevExpress.XtraNavBar.NavBarItem()
@@ -112,18 +100,25 @@ Partial Class main
         Me.NavBarItem41 = New DevExpress.XtraNavBar.NavBarItem()
         Me.NavBarGroup7 = New DevExpress.XtraNavBar.NavBarGroup()
         Me.NavBarGroup8 = New DevExpress.XtraNavBar.NavBarGroup()
-        Me.SplitterControl1 = New DevExpress.XtraEditors.SplitterControl()
+        Me.GroupControl1 = New DevExpress.XtraEditors.GroupControl()
+        Me.Label10 = New System.Windows.Forms.Label()
+        Me.Label7 = New System.Windows.Forms.Label()
+        Me.Label9 = New System.Windows.Forms.Label()
+        Me.Label6 = New System.Windows.Forms.Label()
+        Me.Label8 = New System.Windows.Forms.Label()
+        Me.Label5 = New System.Windows.Forms.Label()
+        Me.DataGridView1 = New System.Windows.Forms.DataGridView()
+        Me.AccordionControlElement2 = New DevExpress.XtraBars.Navigation.AccordionControlElement()
+        Me.Timer1 = New System.Windows.Forms.Timer(Me.components)
+        Me.BackgroundWorker1 = New System.ComponentModel.BackgroundWorker()
         CType(Me.BarAndDockingController1, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.DefaultBarAndDockingController1.Controller, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.BarManager1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SidePanel1.SuspendLayout()
-        CType(Me.GroupControl2, System.ComponentModel.ISupportInitialize).BeginInit()
-        Me.GroupControl2.SuspendLayout()
-        CType(Me.CalendarControl1.CalendarTimeProperties, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.NavBarControl2, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.GroupControl1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.GroupControl1.SuspendLayout()
         CType(Me.DataGridView1, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.NavBarControl2, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'AccordionControlElement53
@@ -331,7 +326,6 @@ Partial Class main
         '
         Me.SidePanel1.Controls.Add(Me.SplitterControl1)
         Me.SidePanel1.Controls.Add(Me.NavBarControl2)
-        Me.SidePanel1.Controls.Add(Me.GroupControl2)
         Me.SidePanel1.Controls.Add(Me.GroupControl1)
         Me.SidePanel1.Controls.Add(Me.DataGridView1)
         Me.SidePanel1.Dock = System.Windows.Forms.DockStyle.Fill
@@ -341,127 +335,19 @@ Partial Class main
         Me.SidePanel1.TabIndex = 33
         Me.SidePanel1.Text = "SidePanel1"
         '
-        'GroupControl2
+        'SplitterControl1
         '
-        Me.GroupControl2.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink
-        Me.GroupControl2.CaptionLocation = DevExpress.Utils.Locations.Bottom
-        Me.GroupControl2.Controls.Add(Me.CalendarControl1)
-        Me.GroupControl2.GroupStyle = DevExpress.Utils.GroupStyle.Card
-        Me.GroupControl2.Location = New System.Drawing.Point(737, 6)
-        Me.GroupControl2.Name = "GroupControl2"
-        Me.GroupControl2.Size = New System.Drawing.Size(236, 256)
-        Me.GroupControl2.TabIndex = 52
-        '
-        'CalendarControl1
-        '
-        Me.CalendarControl1.CalendarTimeProperties.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)})
-        Me.CalendarControl1.DateTime = New Date(2021, 11, 15, 0, 0, 0, 0)
-        Me.CalendarControl1.EditValue = New Date(2021, 11, 15, 0, 0, 0, 0)
-        Me.CalendarControl1.Location = New System.Drawing.Point(5, 3)
-        Me.CalendarControl1.Name = "CalendarControl1"
-        Me.CalendarControl1.Size = New System.Drawing.Size(225, 227)
-        Me.CalendarControl1.TabIndex = 49
-        '
-        'GroupControl1
-        '
-        Me.GroupControl1.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink
-        Me.GroupControl1.CaptionLocation = DevExpress.Utils.Locations.Bottom
-        Me.GroupControl1.Controls.Add(Me.Label10)
-        Me.GroupControl1.Controls.Add(Me.Label7)
-        Me.GroupControl1.Controls.Add(Me.Label9)
-        Me.GroupControl1.Controls.Add(Me.Label6)
-        Me.GroupControl1.Controls.Add(Me.Label8)
-        Me.GroupControl1.Controls.Add(Me.Label5)
-        Me.GroupControl1.GroupStyle = DevExpress.Utils.GroupStyle.Card
-        Me.GroupControl1.Location = New System.Drawing.Point(261, 6)
-        Me.GroupControl1.Name = "GroupControl1"
-        Me.GroupControl1.Size = New System.Drawing.Size(470, 154)
-        Me.GroupControl1.TabIndex = 51
-        '
-        'Label10
-        '
-        Me.Label10.AutoSize = True
-        Me.Label10.Font = New System.Drawing.Font("Tahoma", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(162, Byte))
-        Me.Label10.Location = New System.Drawing.Point(245, 99)
-        Me.Label10.Name = "Label10"
-        Me.Label10.Size = New System.Drawing.Size(0, 19)
-        Me.Label10.TabIndex = 59
-        '
-        'Label7
-        '
-        Me.Label7.AutoSize = True
-        Me.Label7.Font = New System.Drawing.Font("Tahoma", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(162, Byte))
-        Me.Label7.ForeColor = System.Drawing.SystemColors.Desktop
-        Me.Label7.Location = New System.Drawing.Point(245, 13)
-        Me.Label7.Name = "Label7"
-        Me.Label7.Size = New System.Drawing.Size(65, 23)
-        Me.Label7.TabIndex = 52
-        Me.Label7.Text = "EURO"
-        '
-        'Label9
-        '
-        Me.Label9.AutoSize = True
-        Me.Label9.Font = New System.Drawing.Font("Tahoma", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(162, Byte))
-        Me.Label9.Location = New System.Drawing.Point(245, 53)
-        Me.Label9.Name = "Label9"
-        Me.Label9.Size = New System.Drawing.Size(0, 19)
-        Me.Label9.TabIndex = 58
-        '
-        'Label6
-        '
-        Me.Label6.AutoSize = True
-        Me.Label6.Font = New System.Drawing.Font("Tahoma", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(162, Byte))
-        Me.Label6.ForeColor = System.Drawing.SystemColors.Desktop
-        Me.Label6.Location = New System.Drawing.Point(11, 13)
-        Me.Label6.Name = "Label6"
-        Me.Label6.Size = New System.Drawing.Size(50, 23)
-        Me.Label6.TabIndex = 51
-        Me.Label6.Text = "USD"
-        '
-        'Label8
-        '
-        Me.Label8.AutoSize = True
-        Me.Label8.Font = New System.Drawing.Font("Tahoma", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(162, Byte))
-        Me.Label8.Location = New System.Drawing.Point(11, 99)
-        Me.Label8.Name = "Label8"
-        Me.Label8.Size = New System.Drawing.Size(0, 19)
-        Me.Label8.TabIndex = 57
-        '
-        'Label5
-        '
-        Me.Label5.AutoSize = True
-        Me.Label5.Font = New System.Drawing.Font("Tahoma", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(162, Byte))
-        Me.Label5.Location = New System.Drawing.Point(11, 53)
-        Me.Label5.Name = "Label5"
-        Me.Label5.Size = New System.Drawing.Size(0, 19)
-        Me.Label5.TabIndex = 56
-        '
-        'DataGridView1
-        '
-        Me.DataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
-        Me.DataGridView1.Location = New System.Drawing.Point(979, 9)
-        Me.DataGridView1.Name = "DataGridView1"
-        Me.DataGridView1.Size = New System.Drawing.Size(17, 17)
-        Me.DataGridView1.TabIndex = 43
-        Me.DataGridView1.Visible = False
-        '
-        'AccordionControlElement2
-        '
-        Me.AccordionControlElement2.Expanded = True
-        Me.AccordionControlElement2.HeaderTemplate.AddRange(New DevExpress.XtraBars.Navigation.HeaderElementInfo() {New DevExpress.XtraBars.Navigation.HeaderElementInfo(DevExpress.XtraBars.Navigation.HeaderElementType.Text), New DevExpress.XtraBars.Navigation.HeaderElementInfo(DevExpress.XtraBars.Navigation.HeaderElementType.Image), New DevExpress.XtraBars.Navigation.HeaderElementInfo(DevExpress.XtraBars.Navigation.HeaderElementType.HeaderControl), New DevExpress.XtraBars.Navigation.HeaderElementInfo(DevExpress.XtraBars.Navigation.HeaderElementType.ContextButtons)})
-        Me.AccordionControlElement2.Name = "AccordionControlElement2"
-        Me.AccordionControlElement2.Style = DevExpress.XtraBars.Navigation.ElementStyle.Item
-        Me.AccordionControlElement2.Text = "Cari Hesap İşlemleri"
-        '
-        'Timer1
-        '
-        Me.Timer1.Interval = 2000
+        Me.SplitterControl1.Location = New System.Drawing.Point(249, 0)
+        Me.SplitterControl1.Name = "SplitterControl1"
+        Me.SplitterControl1.Size = New System.Drawing.Size(6, 652)
+        Me.SplitterControl1.TabIndex = 54
+        Me.SplitterControl1.TabStop = False
         '
         'NavBarControl2
         '
-        Me.NavBarControl2.ActiveGroup = Me.NavBarGroup4
+        Me.NavBarControl2.ActiveGroup = Me.NavBarGroup5
         Me.NavBarControl2.Dock = System.Windows.Forms.DockStyle.Left
-        Me.NavBarControl2.Groups.AddRange(New DevExpress.XtraNavBar.NavBarGroup() {Me.NavBarGroup4, Me.NavBarGroup5, Me.NavBarGroup6, Me.NavBarGroup7, Me.NavBarGroup8})
+        Me.NavBarControl2.Groups.AddRange(New DevExpress.XtraNavBar.NavBarGroup() {Me.NavBarGroup5, Me.NavBarGroup4, Me.NavBarGroup6, Me.NavBarGroup7, Me.NavBarGroup8})
         Me.NavBarControl2.Items.AddRange(New DevExpress.XtraNavBar.NavBarItem() {Me.NavBarItem1, Me.NavBarItem2, Me.NavBarItem3, Me.NavBarItem4, Me.NavBarItem5, Me.NavBarItem6, Me.NavBarItem7, Me.NavBarItem8, Me.NavBarItem9, Me.NavBarItem10, Me.NavBarItem11, Me.NavBarItem12, Me.NavBarItem13, Me.NavBarItem14, Me.NavBarItem15, Me.NavBarItem16, Me.NavBarItem17, Me.NavBarItem18, Me.NavBarItem19, Me.NavBarItem20, Me.NavBarItem21, Me.NavBarItem22, Me.NavBarItem23, Me.NavBarItem24, Me.NavBarItem25, Me.NavBarItem26, Me.NavBarItem27, Me.NavBarItem28, Me.NavBarItem29, Me.NavBarItem30, Me.NavBarItem31, Me.NavBarItem32, Me.NavBarItem33, Me.NavBarItem34, Me.NavBarItem35, Me.NavBarItem36, Me.NavBarItem37, Me.NavBarItem38, Me.NavBarItem39, Me.NavBarItem40, Me.NavBarItem41})
         Me.NavBarControl2.Location = New System.Drawing.Point(0, 0)
         Me.NavBarControl2.Name = "NavBarControl2"
@@ -474,7 +360,7 @@ Partial Class main
         'NavBarGroup4
         '
         Me.NavBarGroup4.Caption = "Cari İşlemleri"
-        Me.NavBarGroup4.Expanded = True
+        Me.NavBarGroup4.CollapsedNavPaneContentControl = Me.GroupControl1
         Me.NavBarGroup4.ItemLinks.AddRange(New DevExpress.XtraNavBar.NavBarItemLink() {New DevExpress.XtraNavBar.NavBarItemLink(Me.NavBarItem1), New DevExpress.XtraNavBar.NavBarItemLink(Me.NavBarItem2), New DevExpress.XtraNavBar.NavBarItemLink(Me.NavBarItem3), New DevExpress.XtraNavBar.NavBarItemLink(Me.NavBarItem4), New DevExpress.XtraNavBar.NavBarItemLink(Me.NavBarItem5), New DevExpress.XtraNavBar.NavBarItemLink(Me.NavBarItem6), New DevExpress.XtraNavBar.NavBarItemLink(Me.NavBarItem7), New DevExpress.XtraNavBar.NavBarItemLink(Me.NavBarItem8), New DevExpress.XtraNavBar.NavBarItemLink(Me.NavBarItem9), New DevExpress.XtraNavBar.NavBarItemLink(Me.NavBarItem10), New DevExpress.XtraNavBar.NavBarItemLink(Me.NavBarItem11), New DevExpress.XtraNavBar.NavBarItemLink(Me.NavBarItem12), New DevExpress.XtraNavBar.NavBarItemLink(Me.NavBarItem13), New DevExpress.XtraNavBar.NavBarItemLink(Me.NavBarItem14), New DevExpress.XtraNavBar.NavBarItemLink(Me.NavBarItem15), New DevExpress.XtraNavBar.NavBarItemLink(Me.NavBarItem16)})
         Me.NavBarGroup4.Name = "NavBarGroup4"
         '
@@ -561,22 +447,23 @@ Partial Class main
         'NavBarGroup5
         '
         Me.NavBarGroup5.Caption = "Stok İşlemleri"
+        Me.NavBarGroup5.Expanded = True
         Me.NavBarGroup5.ItemLinks.AddRange(New DevExpress.XtraNavBar.NavBarItemLink() {New DevExpress.XtraNavBar.NavBarItemLink(Me.NavBarItem17), New DevExpress.XtraNavBar.NavBarItemLink(Me.NavBarItem18), New DevExpress.XtraNavBar.NavBarItemLink(Me.NavBarItem19), New DevExpress.XtraNavBar.NavBarItemLink(Me.NavBarItem20), New DevExpress.XtraNavBar.NavBarItemLink(Me.NavBarItem21), New DevExpress.XtraNavBar.NavBarItemLink(Me.NavBarItem22), New DevExpress.XtraNavBar.NavBarItemLink(Me.NavBarItem23), New DevExpress.XtraNavBar.NavBarItemLink(Me.NavBarItem24), New DevExpress.XtraNavBar.NavBarItemLink(Me.NavBarItem25), New DevExpress.XtraNavBar.NavBarItemLink(Me.NavBarItem26), New DevExpress.XtraNavBar.NavBarItemLink(Me.NavBarItem27)})
         Me.NavBarGroup5.Name = "NavBarGroup5"
         '
         'NavBarItem17
         '
-        Me.NavBarItem17.Caption = "Altın Ürün Barkodlama"
+        Me.NavBarItem17.Caption = "Stok Kodu Tanımlama"
         Me.NavBarItem17.Name = "NavBarItem17"
         '
         'NavBarItem18
         '
-        Me.NavBarItem18.Caption = "Banka Değişikliği"
+        Me.NavBarItem18.Caption = "Stoklar ve Envanter"
         Me.NavBarItem18.Name = "NavBarItem18"
         '
         'NavBarItem19
         '
-        Me.NavBarItem19.Caption = "Özel Ürün Barkodlama"
+        Me.NavBarItem19.Caption = "Diğer Stok Hareketleri"
         Me.NavBarItem19.Name = "NavBarItem19"
         '
         'NavBarItem20
@@ -705,13 +592,100 @@ Partial Class main
         Me.NavBarGroup8.Caption = "Ayarlar"
         Me.NavBarGroup8.Name = "NavBarGroup8"
         '
-        'SplitterControl1
+        'GroupControl1
         '
-        Me.SplitterControl1.Location = New System.Drawing.Point(249, 0)
-        Me.SplitterControl1.Name = "SplitterControl1"
-        Me.SplitterControl1.Size = New System.Drawing.Size(6, 652)
-        Me.SplitterControl1.TabIndex = 54
-        Me.SplitterControl1.TabStop = False
+        Me.GroupControl1.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink
+        Me.GroupControl1.CaptionLocation = DevExpress.Utils.Locations.Bottom
+        Me.GroupControl1.Controls.Add(Me.Label10)
+        Me.GroupControl1.Controls.Add(Me.Label7)
+        Me.GroupControl1.Controls.Add(Me.Label9)
+        Me.GroupControl1.Controls.Add(Me.Label6)
+        Me.GroupControl1.Controls.Add(Me.Label8)
+        Me.GroupControl1.Controls.Add(Me.Label5)
+        Me.GroupControl1.GroupStyle = DevExpress.Utils.GroupStyle.Card
+        Me.GroupControl1.Location = New System.Drawing.Point(261, 6)
+        Me.GroupControl1.Name = "GroupControl1"
+        Me.GroupControl1.Size = New System.Drawing.Size(470, 154)
+        Me.GroupControl1.TabIndex = 51
+        '
+        'Label10
+        '
+        Me.Label10.AutoSize = True
+        Me.Label10.Font = New System.Drawing.Font("Tahoma", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(162, Byte))
+        Me.Label10.Location = New System.Drawing.Point(245, 99)
+        Me.Label10.Name = "Label10"
+        Me.Label10.Size = New System.Drawing.Size(0, 19)
+        Me.Label10.TabIndex = 59
+        '
+        'Label7
+        '
+        Me.Label7.AutoSize = True
+        Me.Label7.Font = New System.Drawing.Font("Tahoma", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(162, Byte))
+        Me.Label7.ForeColor = System.Drawing.SystemColors.Desktop
+        Me.Label7.Location = New System.Drawing.Point(245, 13)
+        Me.Label7.Name = "Label7"
+        Me.Label7.Size = New System.Drawing.Size(65, 23)
+        Me.Label7.TabIndex = 52
+        Me.Label7.Text = "EURO"
+        '
+        'Label9
+        '
+        Me.Label9.AutoSize = True
+        Me.Label9.Font = New System.Drawing.Font("Tahoma", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(162, Byte))
+        Me.Label9.Location = New System.Drawing.Point(245, 53)
+        Me.Label9.Name = "Label9"
+        Me.Label9.Size = New System.Drawing.Size(0, 19)
+        Me.Label9.TabIndex = 58
+        '
+        'Label6
+        '
+        Me.Label6.AutoSize = True
+        Me.Label6.Font = New System.Drawing.Font("Tahoma", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(162, Byte))
+        Me.Label6.ForeColor = System.Drawing.SystemColors.Desktop
+        Me.Label6.Location = New System.Drawing.Point(11, 13)
+        Me.Label6.Name = "Label6"
+        Me.Label6.Size = New System.Drawing.Size(50, 23)
+        Me.Label6.TabIndex = 51
+        Me.Label6.Text = "USD"
+        '
+        'Label8
+        '
+        Me.Label8.AutoSize = True
+        Me.Label8.Font = New System.Drawing.Font("Tahoma", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(162, Byte))
+        Me.Label8.Location = New System.Drawing.Point(11, 99)
+        Me.Label8.Name = "Label8"
+        Me.Label8.Size = New System.Drawing.Size(0, 19)
+        Me.Label8.TabIndex = 57
+        '
+        'Label5
+        '
+        Me.Label5.AutoSize = True
+        Me.Label5.Font = New System.Drawing.Font("Tahoma", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(162, Byte))
+        Me.Label5.Location = New System.Drawing.Point(11, 53)
+        Me.Label5.Name = "Label5"
+        Me.Label5.Size = New System.Drawing.Size(0, 19)
+        Me.Label5.TabIndex = 56
+        '
+        'DataGridView1
+        '
+        Me.DataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
+        Me.DataGridView1.Location = New System.Drawing.Point(979, 9)
+        Me.DataGridView1.Name = "DataGridView1"
+        Me.DataGridView1.Size = New System.Drawing.Size(17, 17)
+        Me.DataGridView1.TabIndex = 43
+        Me.DataGridView1.Visible = False
+        '
+        'AccordionControlElement2
+        '
+        Me.AccordionControlElement2.Expanded = True
+        Me.AccordionControlElement2.HeaderTemplate.AddRange(New DevExpress.XtraBars.Navigation.HeaderElementInfo() {New DevExpress.XtraBars.Navigation.HeaderElementInfo(DevExpress.XtraBars.Navigation.HeaderElementType.Text), New DevExpress.XtraBars.Navigation.HeaderElementInfo(DevExpress.XtraBars.Navigation.HeaderElementType.Image), New DevExpress.XtraBars.Navigation.HeaderElementInfo(DevExpress.XtraBars.Navigation.HeaderElementType.HeaderControl), New DevExpress.XtraBars.Navigation.HeaderElementInfo(DevExpress.XtraBars.Navigation.HeaderElementType.ContextButtons)})
+        Me.AccordionControlElement2.Name = "AccordionControlElement2"
+        Me.AccordionControlElement2.Style = DevExpress.XtraBars.Navigation.ElementStyle.Item
+        Me.AccordionControlElement2.Text = "Cari Hesap İşlemleri"
+        '
+        'Timer1
+        '
+        Me.Timer1.Interval = 2000
         '
         'main
         '
@@ -732,15 +706,11 @@ Partial Class main
         CType(Me.DefaultBarAndDockingController1.Controller, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.BarManager1, System.ComponentModel.ISupportInitialize).EndInit()
         Me.SidePanel1.ResumeLayout(False)
-        CType(Me.GroupControl2, System.ComponentModel.ISupportInitialize).EndInit()
-        Me.GroupControl2.ResumeLayout(False)
-        Me.GroupControl2.PerformLayout()
-        CType(Me.CalendarControl1.CalendarTimeProperties, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.NavBarControl2, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.GroupControl1, System.ComponentModel.ISupportInitialize).EndInit()
         Me.GroupControl1.ResumeLayout(False)
         Me.GroupControl1.PerformLayout()
         CType(Me.DataGridView1, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.NavBarControl2, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
@@ -782,7 +752,6 @@ Partial Class main
     Friend WithEvents barButtonItem17 As DevExpress.XtraBars.BarButtonItem
     Friend WithEvents DataGridView1 As DataGridView
     Friend WithEvents Timer1 As Timer
-    Friend WithEvents CalendarControl1 As DevExpress.XtraEditors.Controls.CalendarControl
     Friend WithEvents Label6 As Label
     Friend WithEvents Label7 As Label
     Friend WithEvents GroupControl1 As DevExpress.XtraEditors.GroupControl
@@ -790,7 +759,6 @@ Partial Class main
     Friend WithEvents Label9 As Label
     Friend WithEvents Label8 As Label
     Friend WithEvents Label5 As Label
-    Friend WithEvents GroupControl2 As DevExpress.XtraEditors.GroupControl
     Friend WithEvents BackgroundWorker1 As System.ComponentModel.BackgroundWorker
     Friend WithEvents SplitterControl1 As DevExpress.XtraEditors.SplitterControl
     Friend WithEvents NavBarControl2 As DevExpress.XtraNavBar.NavBarControl

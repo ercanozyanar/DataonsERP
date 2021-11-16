@@ -55,7 +55,10 @@
     <Reference Include="DevExpress.Utils.v20.2, Version=20.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
     <Reference Include="DevExpress.XtraBars.v20.2, Version=20.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
     <Reference Include="DevExpress.XtraEditors.v20.2, Version=20.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraGrid.v20.2, Version=20.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraLayout.v20.2, Version=20.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
     <Reference Include="DevExpress.XtraNavBar.v20.2, Version=20.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraPrinting.v20.2, Version=20.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
     <Reference Include="PresentationCore" />
     <Reference Include="System" />
     <Reference Include="System.ComponentModel.DataAnnotations" />
@@ -108,6 +111,13 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
+    <Compile Include="SearchHelper.vb" />
+    <Compile Include="stok_tanimlama.Designer.vb">
+      <DependentUpon>stok_tanimlama.vb</DependentUpon>
+    </Compile>
+    <Compile Include="stok_tanimlama.vb">
+      <SubType>Form</SubType>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="main.resx">
@@ -119,6 +129,9 @@
       <LastGenOutput>Resources.Designer.vb</LastGenOutput>
       <CustomToolNamespace>My.Resources</CustomToolNamespace>
       <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="stok_tanimlama.resx">
+      <DependentUpon>stok_tanimlama.vb</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
@@ -139,6 +152,8 @@
   <ItemGroup>
     <Content Include="Resources\barcode2_16x16.png" />
     <Content Include="Resources\barcode2_32x32.png" />
+    <None Include="Resources\barcode_16x161.png" />
+    <None Include="Resources\barcode_16x16.png" />
     <Content Include="Resources\bocustomer_32x32.png" />
     <Content Include="Resources\bocustomer_32x321.png" />
     <Content Include="Resources\bonote_16x16.png" />
@@ -170,6 +185,7 @@
     <Content Include="Resources\bottom10items_32x32.png" />
     <Content Include="Resources\buy_16x16.png" />
     <Content Include="Resources\buy_32x32.png" />
+    <None Include="Resources\calculatenow_16x16.png" />
     <Content Include="Resources\chartsrotate_16x16.png" />
     <Content Include="Resources\chartsrotate_16x161.png" />
     <Content Include="Resources\chartsrotate_32x32.png" />
@@ -204,6 +220,10 @@
     <Content Include="Resources\errorbarsstandarddeviation_32x32.png" />
     <Content Include="Resources\filterbyargument_chart_16x16.png" />
     <Content Include="Resources\filterbyargument_chart_32x32.png" />
+    <None Include="Resources\find_16x161.png" />
+    <None Include="Resources\quickfilter_16x16.png" />
+    <None Include="Resources\find_16x16.png" />
+    <None Include="Resources\find.svg" />
     <Content Include="Resources\gradientpurpledatabar_16x16.png" />
     <Content Include="Resources\gradientpurpledatabar_32x32.png" />
     <Content Include="Resources\hight_16x16.png" />

@@ -17,9 +17,9 @@ Public Class main
     Inherits DevExpress.XtraEditors.XtraForm
     Public Sub New()
         InitializeComponent()
-        'SearchHelper.CreateSearchPanel(AccordionControl1, SearchCriteria.Contains)
+        SearchHelper.CreateSearchPanel(NavBarControl2, SearchCriteria.Contains)
 
-        ' InitNavBar()
+        'InitNavBar()
     End Sub
     Private Sub Form1_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         BarManager1.RestoreLayoutFromXml("c:\XtraBars_SaveToXML.xml")

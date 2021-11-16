@@ -61,6 +61,36 @@ Namespace My.Resources
         End Property
         
         '''<summary>
+        '''  System.Drawing.Bitmap türünde yerelleştirilmiş bir kaynak arar.
+        '''</summary>
+        Friend ReadOnly Property barcode_16x16() As System.Drawing.Bitmap
+            Get
+                Dim obj As Object = ResourceManager.GetObject("barcode_16x16", resourceCulture)
+                Return CType(obj,System.Drawing.Bitmap)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  System.Drawing.Bitmap türünde yerelleştirilmiş bir kaynak arar.
+        '''</summary>
+        Friend ReadOnly Property barcode_16x161() As System.Drawing.Bitmap
+            Get
+                Dim obj As Object = ResourceManager.GetObject("barcode_16x161", resourceCulture)
+                Return CType(obj,System.Drawing.Bitmap)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  System.Drawing.Bitmap türünde yerelleştirilmiş bir kaynak arar.
+        '''</summary>
+        Friend ReadOnly Property calculatenow_16x16() As System.Drawing.Bitmap
+            Get
+                Dim obj As Object = ResourceManager.GetObject("calculatenow_16x16", resourceCulture)
+                Return CType(obj,System.Drawing.Bitmap)
+            End Get
+        End Property
+        
+        '''<summary>
         '''  DevExpress.Utils.Svg.SvgImage türünde yerelleştirilmiş bir kaynak arar.
         '''</summary>
         Friend ReadOnly Property encrypt() As DevExpress.Utils.Svg.SvgImage
@@ -71,11 +101,51 @@ Namespace My.Resources
         End Property
         
         '''<summary>
+        '''  DevExpress.Utils.Svg.SvgImage türünde yerelleştirilmiş bir kaynak arar.
+        '''</summary>
+        Friend ReadOnly Property find() As DevExpress.Utils.Svg.SvgImage
+            Get
+                Dim obj As Object = ResourceManager.GetObject("find", resourceCulture)
+                Return CType(obj,DevExpress.Utils.Svg.SvgImage)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  System.Drawing.Bitmap türünde yerelleştirilmiş bir kaynak arar.
+        '''</summary>
+        Friend ReadOnly Property find_16x16() As System.Drawing.Bitmap
+            Get
+                Dim obj As Object = ResourceManager.GetObject("find_16x16", resourceCulture)
+                Return CType(obj,System.Drawing.Bitmap)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  System.Drawing.Bitmap türünde yerelleştirilmiş bir kaynak arar.
+        '''</summary>
+        Friend ReadOnly Property find_16x161() As System.Drawing.Bitmap
+            Get
+                Dim obj As Object = ResourceManager.GetObject("find_16x161", resourceCulture)
+                Return CType(obj,System.Drawing.Bitmap)
+            End Get
+        End Property
+        
+        '''<summary>
         '''  System.Drawing.Bitmap türünde yerelleştirilmiş bir kaynak arar.
         '''</summary>
         Friend ReadOnly Property next_32x32() As System.Drawing.Bitmap
             Get
                 Dim obj As Object = ResourceManager.GetObject("next_32x32", resourceCulture)
+                Return CType(obj,System.Drawing.Bitmap)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  System.Drawing.Bitmap türünde yerelleştirilmiş bir kaynak arar.
+        '''</summary>
+        Friend ReadOnly Property quickfilter_16x16() As System.Drawing.Bitmap
+            Get
+                Dim obj As Object = ResourceManager.GetObject("quickfilter_16x16", resourceCulture)
                 Return CType(obj,System.Drawing.Bitmap)
             End Get
         End Property
