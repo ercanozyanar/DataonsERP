@@ -89,6 +89,11 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="dataonsDataSet.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dataonsDataSet.xsd</DependentUpon>
+    </Compile>
     <Compile Include="main.vb">
       <SubType>Form</SubType>
     </Compile>
@@ -144,6 +149,17 @@
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
+    <None Include="dataonsDataSet.xsc">
+      <DependentUpon>dataonsDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="dataonsDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dataonsDataSet.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="dataonsDataSet.xss">
+      <DependentUpon>dataonsDataSet.xsd</DependentUpon>
+    </None>
     <None Include="My Project\Application.myapp">
       <Generator>MyApplicationCodeGenerator</Generator>
       <LastGenOutput>Application.Designer.vb</LastGenOutput>
@@ -159,6 +175,9 @@
     <None Include="Resources\encrypt.svg" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="dataons.mdb">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
     <Content Include="Resources\barcode2_16x16.png" />
     <Content Include="Resources\barcode2_32x32.png" />
     <None Include="Resources\barcode_16x161.png" />
