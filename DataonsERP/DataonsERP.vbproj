@@ -51,6 +51,7 @@
     <Reference Include="DevExpress.BonusSkins.v20.2, Version=20.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
     <Reference Include="DevExpress.Data.Desktop.v20.2, Version=20.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
     <Reference Include="DevExpress.Data.v20.2, Version=20.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.PivotGrid.v20.2.Core, Version=20.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
     <Reference Include="DevExpress.Printing.v20.2.Core, Version=20.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
     <Reference Include="DevExpress.Utils.v20.2, Version=20.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
     <Reference Include="DevExpress.XtraBars.v20.2, Version=20.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
@@ -58,7 +59,11 @@
     <Reference Include="DevExpress.XtraGrid.v20.2, Version=20.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
     <Reference Include="DevExpress.XtraLayout.v20.2, Version=20.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
     <Reference Include="DevExpress.XtraNavBar.v20.2, Version=20.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraPivotGrid.v20.2, Version=20.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
     <Reference Include="DevExpress.XtraPrinting.v20.2, Version=20.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraVerticalGrid.v20.2, Version=20.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="MySql.Data, Version=8.0.27.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL" />
+    <Reference Include="MySql.Data.EntityFramework, Version=8.0.27.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL" />
     <Reference Include="PresentationCore" />
     <Reference Include="System" />
     <Reference Include="System.ComponentModel.DataAnnotations" />
@@ -93,6 +98,17 @@
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>dataonsDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="dataonsDataSet1.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dataonsDataSet1.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Form1.Designer.vb">
+      <DependentUpon>Form1.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form1.vb">
+      <SubType>Form</SubType>
     </Compile>
     <Compile Include="main.vb">
       <SubType>Form</SubType>
@@ -131,6 +147,9 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="main.resx">
       <DependentUpon>main.vb</DependentUpon>
     </EmbeddedResource>
@@ -146,6 +165,7 @@
     </EmbeddedResource>
     <EmbeddedResource Include="stok_tanimlama.resx">
       <DependentUpon>stok_tanimlama.vb</DependentUpon>
+      <SubType>Designer</SubType>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
@@ -159,6 +179,17 @@
     </None>
     <None Include="dataonsDataSet.xss">
       <DependentUpon>dataonsDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="dataonsDataSet1.xsc">
+      <DependentUpon>dataonsDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="dataonsDataSet1.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dataonsDataSet1.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="dataonsDataSet1.xss">
+      <DependentUpon>dataonsDataSet1.xsd</DependentUpon>
     </None>
     <None Include="My Project\Application.myapp">
       <Generator>MyApplicationCodeGenerator</Generator>
@@ -178,10 +209,14 @@
     <Content Include="dataons.mdb">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
+    <None Include="Resources\apply_32x32.png" />
+    <None Include="Resources\add_16x16.png" />
+    <None Include="Resources\apply_32x321.png" />
     <Content Include="Resources\barcode2_16x16.png" />
     <Content Include="Resources\barcode2_32x32.png" />
     <None Include="Resources\barcode_16x161.png" />
     <None Include="Resources\barcode_16x16.png" />
+    <None Include="Resources\barcode_32x321.png" />
     <Content Include="Resources\bocustomer_32x32.png" />
     <Content Include="Resources\bocustomer_32x321.png" />
     <Content Include="Resources\bonote_16x16.png" />
@@ -214,6 +249,8 @@
     <Content Include="Resources\buy_16x16.png" />
     <Content Include="Resources\buy_32x32.png" />
     <None Include="Resources\calculatenow_16x16.png" />
+    <None Include="Resources\cancel_32x32.png" />
+    <None Include="Resources\cancel_32x321.png" />
     <Content Include="Resources\chartsrotate_16x16.png" />
     <Content Include="Resources\chartsrotate_16x161.png" />
     <Content Include="Resources\chartsrotate_32x32.png" />
@@ -223,6 +260,7 @@
     <Content Include="Resources\chartyaxissettings_32x32.png" />
     <Content Include="Resources\clear_16x16.png" />
     <Content Include="Resources\clear_32x32.png" />
+    <None Include="Resources\close_32x32.png" />
     <Content Include="Resources\converttorange_16x16.png" />
     <Content Include="Resources\converttorange_32x32.png" />
     <Content Include="Resources\convert_16x16.png" />
@@ -252,6 +290,7 @@
     <None Include="Resources\quickfilter_16x16.png" />
     <None Include="Resources\find_16x16.png" />
     <None Include="Resources\find.svg" />
+    <None Include="Resources\finishmerge_32x32.png" />
     <Content Include="Resources\gradientpurpledatabar_16x16.png" />
     <Content Include="Resources\gradientpurpledatabar_32x32.png" />
     <Content Include="Resources\hight_16x16.png" />
@@ -286,6 +325,7 @@
     <Content Include="Resources\top10items_16x16.png" />
     <Content Include="Resources\top10items_32x32.png" />
     <Content Include="Resources\top10items_32x321.png" />
+    <None Include="Resources\undo_32x32.png" />
     <Content Include="Resources\unlike_16x16.png" />
     <Content Include="Resources\unlike_32x32.png" />
     <Content Include="Resources\up2_32x32.png" />
