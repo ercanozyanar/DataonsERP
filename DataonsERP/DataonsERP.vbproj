@@ -53,6 +53,7 @@
     <Reference Include="DevExpress.Data.v20.2, Version=20.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
     <Reference Include="DevExpress.PivotGrid.v20.2.Core, Version=20.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
     <Reference Include="DevExpress.Printing.v20.2.Core, Version=20.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.TreeMap.v20.2.Core, Version=20.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
     <Reference Include="DevExpress.Utils.v20.2, Version=20.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
     <Reference Include="DevExpress.XtraBars.v20.2, Version=20.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
     <Reference Include="DevExpress.XtraEditors.v20.2, Version=20.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
@@ -61,6 +62,8 @@
     <Reference Include="DevExpress.XtraNavBar.v20.2, Version=20.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
     <Reference Include="DevExpress.XtraPivotGrid.v20.2, Version=20.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
     <Reference Include="DevExpress.XtraPrinting.v20.2, Version=20.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraTreeMap.v20.2, Version=20.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraTreeMap.v20.2.UI, Version=20.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
     <Reference Include="DevExpress.XtraVerticalGrid.v20.2, Version=20.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
     <Reference Include="MySql.Data, Version=8.0.27.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL" />
     <Reference Include="MySql.Data.EntityFramework, Version=8.0.27.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL" />
@@ -94,6 +97,12 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="carihesap_islem.Designer.vb">
+      <DependentUpon>carihesap_islem.vb</DependentUpon>
+    </Compile>
+    <Compile Include="carihesap_islem.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="dataonsDataSet.Designer.vb">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
@@ -110,28 +119,64 @@
     <Compile Include="Form1.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="toptan_satis.Designer.vb">
+      <DependentUpon>toptan_satis.vb</DependentUpon>
+    </Compile>
+    <Compile Include="toptan_satis.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="Form2.Designer.vb">
       <DependentUpon>Form2.vb</DependentUpon>
     </Compile>
     <Compile Include="Form2.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form3.Designer.vb">
-      <DependentUpon>Form3.vb</DependentUpon>
+    <Compile Include="stok_birim.Designer.vb">
+      <DependentUpon>stok_birim.vb</DependentUpon>
     </Compile>
-    <Compile Include="Form3.vb">
+    <Compile Include="stok_birim.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form4.Designer.vb">
-      <DependentUpon>Form4.vb</DependentUpon>
+    <Compile Include="vezne_tanim.Designer.vb">
+      <DependentUpon>vezne_tanim.vb</DependentUpon>
     </Compile>
-    <Compile Include="Form4.vb">
+    <Compile Include="vezne_tanim.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form5.Designer.vb">
-      <DependentUpon>Form5.vb</DependentUpon>
+    <Compile Include="stokgrup_tanim.Designer.vb">
+      <DependentUpon>stokgrup_tanim.vb</DependentUpon>
     </Compile>
-    <Compile Include="Form5.vb">
+    <Compile Include="stokgrup_tanim.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="stoktur_tanim.Designer.vb">
+      <DependentUpon>stoktur_tanim.vb</DependentUpon>
+    </Compile>
+    <Compile Include="stoktur_tanim.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="cari_tanim.Designer.vb">
+      <DependentUpon>cari_tanim.vb</DependentUpon>
+    </Compile>
+    <Compile Include="cari_tanim.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="musteritemsil_tanim.Designer.vb">
+      <DependentUpon>musteritemsil_tanim.vb</DependentUpon>
+    </Compile>
+    <Compile Include="musteritemsil_tanim.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="carihesap_tanim.Designer.vb">
+      <DependentUpon>carihesap_tanim.vb</DependentUpon>
+    </Compile>
+    <Compile Include="carihesap_tanim.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="carihesapgrup_tanimi.Designer.vb">
+      <DependentUpon>carihesapgrup_tanimi.vb</DependentUpon>
+    </Compile>
+    <Compile Include="carihesapgrup_tanimi.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="main.vb">
@@ -171,20 +216,41 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="carihesap_islem.resx">
+      <DependentUpon>carihesap_islem.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="toptan_satis.resx">
+      <DependentUpon>toptan_satis.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Form2.resx">
       <DependentUpon>Form2.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Form3.resx">
-      <DependentUpon>Form3.vb</DependentUpon>
+    <EmbeddedResource Include="stok_birim.resx">
+      <DependentUpon>stok_birim.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Form4.resx">
-      <DependentUpon>Form4.vb</DependentUpon>
+    <EmbeddedResource Include="vezne_tanim.resx">
+      <DependentUpon>vezne_tanim.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Form5.resx">
-      <DependentUpon>Form5.vb</DependentUpon>
+    <EmbeddedResource Include="stokgrup_tanim.resx">
+      <DependentUpon>stokgrup_tanim.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="stoktur_tanim.resx">
+      <DependentUpon>stoktur_tanim.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="cari_tanim.resx">
+      <DependentUpon>cari_tanim.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="musteritemsil_tanim.resx">
+      <DependentUpon>musteritemsil_tanim.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="carihesap_tanim.resx">
+      <DependentUpon>carihesap_tanim.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="carihesapgrup_tanimi.resx">
+      <DependentUpon>carihesapgrup_tanimi.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="main.resx">
       <DependentUpon>main.vb</DependentUpon>
