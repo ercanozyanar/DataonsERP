@@ -59,30 +59,6 @@ Public Class main
 
     End Sub
 
-    Private Sub SidePanel1_Click(sender As Object, e As EventArgs)
-
-    End Sub
-
-    Private Sub SplitterControl1_SplitterMoved(sender As Object, e As SplitterEventArgs)
-
-    End Sub
-
-    Private Sub AccordionControlElement54_Click(sender As Object, e As EventArgs)
-
-    End Sub
-
-    Private Sub NavBarControl2_Click(sender As Object, e As EventArgs) Handles NavBarControl2.Click
-
-    End Sub
-
-    Private Sub NavBarItem18_LinkClicked(sender As Object, e As NavBarLinkEventArgs) Handles NavBarItem18.LinkClicked
-
-    End Sub
-
-    Private Sub NavBarItem17_LinkPressed(sender As Object, e As NavBarLinkEventArgs) Handles NavBarItem17.LinkPressed
-
-    End Sub
-
     Private Sub NavBarItem17_LinkClicked(sender As Object, e As NavBarLinkEventArgs) Handles NavBarItem17.LinkClicked
         stok_tanimlama.MdiParent = Me
         stok_tanimlama.Show()

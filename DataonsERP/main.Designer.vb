@@ -52,35 +52,17 @@ Partial Class main
         Me.barButtonItem16 = New DevExpress.XtraBars.BarButtonItem()
         Me.barButtonItem17 = New DevExpress.XtraBars.BarButtonItem()
         Me.NavBarControl2 = New DevExpress.XtraNavBar.NavBarControl()
+        Me.NavBarGroup11 = New DevExpress.XtraNavBar.NavBarGroup()
+        Me.NavBarItem26 = New DevExpress.XtraNavBar.NavBarItem()
         Me.NavBarGroup5 = New DevExpress.XtraNavBar.NavBarGroup()
         Me.NavBarItem17 = New DevExpress.XtraNavBar.NavBarItem()
         Me.NavBarItem18 = New DevExpress.XtraNavBar.NavBarItem()
-        Me.NavBarItem19 = New DevExpress.XtraNavBar.NavBarItem()
-        Me.NavBarItem20 = New DevExpress.XtraNavBar.NavBarItem()
-        Me.NavBarItem21 = New DevExpress.XtraNavBar.NavBarItem()
-        Me.NavBarItem22 = New DevExpress.XtraNavBar.NavBarItem()
-        Me.NavBarItem23 = New DevExpress.XtraNavBar.NavBarItem()
-        Me.NavBarItem24 = New DevExpress.XtraNavBar.NavBarItem()
-        Me.NavBarItem25 = New DevExpress.XtraNavBar.NavBarItem()
-        Me.NavBarItem26 = New DevExpress.XtraNavBar.NavBarItem()
-        Me.NavBarItem27 = New DevExpress.XtraNavBar.NavBarItem()
         Me.NavBarGroup4 = New DevExpress.XtraNavBar.NavBarGroup()
         Me.NavBarItem1 = New DevExpress.XtraNavBar.NavBarItem()
         Me.NavBarItem2 = New DevExpress.XtraNavBar.NavBarItem()
         Me.NavBarItem3 = New DevExpress.XtraNavBar.NavBarItem()
         Me.NavBarItem4 = New DevExpress.XtraNavBar.NavBarItem()
         Me.NavBarItem5 = New DevExpress.XtraNavBar.NavBarItem()
-        Me.NavBarItem6 = New DevExpress.XtraNavBar.NavBarItem()
-        Me.NavBarItem7 = New DevExpress.XtraNavBar.NavBarItem()
-        Me.NavBarItem8 = New DevExpress.XtraNavBar.NavBarItem()
-        Me.NavBarItem9 = New DevExpress.XtraNavBar.NavBarItem()
-        Me.NavBarItem10 = New DevExpress.XtraNavBar.NavBarItem()
-        Me.NavBarItem11 = New DevExpress.XtraNavBar.NavBarItem()
-        Me.NavBarItem12 = New DevExpress.XtraNavBar.NavBarItem()
-        Me.NavBarItem13 = New DevExpress.XtraNavBar.NavBarItem()
-        Me.NavBarItem14 = New DevExpress.XtraNavBar.NavBarItem()
-        Me.NavBarItem15 = New DevExpress.XtraNavBar.NavBarItem()
-        Me.NavBarItem16 = New DevExpress.XtraNavBar.NavBarItem()
         Me.NavBarGroup6 = New DevExpress.XtraNavBar.NavBarGroup()
         Me.NavBarItem28 = New DevExpress.XtraNavBar.NavBarItem()
         Me.NavBarItem29 = New DevExpress.XtraNavBar.NavBarItem()
@@ -88,16 +70,31 @@ Partial Class main
         Me.NavBarItem39 = New DevExpress.XtraNavBar.NavBarItem()
         Me.NavBarItem31 = New DevExpress.XtraNavBar.NavBarItem()
         Me.NavBarItem32 = New DevExpress.XtraNavBar.NavBarItem()
-        Me.NavBarItem33 = New DevExpress.XtraNavBar.NavBarItem()
-        Me.NavBarItem34 = New DevExpress.XtraNavBar.NavBarItem()
-        Me.NavBarItem35 = New DevExpress.XtraNavBar.NavBarItem()
-        Me.NavBarItem36 = New DevExpress.XtraNavBar.NavBarItem()
-        Me.NavBarItem37 = New DevExpress.XtraNavBar.NavBarItem()
-        Me.NavBarItem38 = New DevExpress.XtraNavBar.NavBarItem()
-        Me.NavBarItem40 = New DevExpress.XtraNavBar.NavBarItem()
-        Me.NavBarItem41 = New DevExpress.XtraNavBar.NavBarItem()
         Me.NavBarGroup7 = New DevExpress.XtraNavBar.NavBarGroup()
+        Me.NavBarItem6 = New DevExpress.XtraNavBar.NavBarItem()
+        Me.NavBarItem7 = New DevExpress.XtraNavBar.NavBarItem()
+        Me.NavBarItem8 = New DevExpress.XtraNavBar.NavBarItem()
         Me.NavBarGroup8 = New DevExpress.XtraNavBar.NavBarGroup()
+        Me.NavBarItem9 = New DevExpress.XtraNavBar.NavBarItem()
+        Me.NavBarItem10 = New DevExpress.XtraNavBar.NavBarItem()
+        Me.NavBarItem11 = New DevExpress.XtraNavBar.NavBarItem()
+        Me.NavBarGroup1 = New DevExpress.XtraNavBar.NavBarGroup()
+        Me.NavBarItem12 = New DevExpress.XtraNavBar.NavBarItem()
+        Me.NavBarItem13 = New DevExpress.XtraNavBar.NavBarItem()
+        Me.NavBarItem14 = New DevExpress.XtraNavBar.NavBarItem()
+        Me.NavBarGroup2 = New DevExpress.XtraNavBar.NavBarGroup()
+        Me.NavBarItem15 = New DevExpress.XtraNavBar.NavBarItem()
+        Me.NavBarItem16 = New DevExpress.XtraNavBar.NavBarItem()
+        Me.NavBarGroup3 = New DevExpress.XtraNavBar.NavBarGroup()
+        Me.NavBarItem19 = New DevExpress.XtraNavBar.NavBarItem()
+        Me.NavBarItem20 = New DevExpress.XtraNavBar.NavBarItem()
+        Me.NavBarItem21 = New DevExpress.XtraNavBar.NavBarItem()
+        Me.NavBarGroup9 = New DevExpress.XtraNavBar.NavBarGroup()
+        Me.NavBarItem22 = New DevExpress.XtraNavBar.NavBarItem()
+        Me.NavBarGroup10 = New DevExpress.XtraNavBar.NavBarGroup()
+        Me.NavBarItem23 = New DevExpress.XtraNavBar.NavBarItem()
+        Me.NavBarItem24 = New DevExpress.XtraNavBar.NavBarItem()
+        Me.NavBarItem25 = New DevExpress.XtraNavBar.NavBarItem()
         Me.AccordionControlElement2 = New DevExpress.XtraBars.Navigation.AccordionControlElement()
         Me.Timer1 = New System.Windows.Forms.Timer(Me.components)
         Me.BackgroundWorker1 = New System.ComponentModel.BackgroundWorker()
@@ -313,10 +310,10 @@ Partial Class main
         '
         'NavBarControl2
         '
-        Me.NavBarControl2.ActiveGroup = Me.NavBarGroup5
+        Me.NavBarControl2.ActiveGroup = Me.NavBarGroup4
         Me.NavBarControl2.Dock = System.Windows.Forms.DockStyle.Left
-        Me.NavBarControl2.Groups.AddRange(New DevExpress.XtraNavBar.NavBarGroup() {Me.NavBarGroup5, Me.NavBarGroup4, Me.NavBarGroup6, Me.NavBarGroup7, Me.NavBarGroup8})
-        Me.NavBarControl2.Items.AddRange(New DevExpress.XtraNavBar.NavBarItem() {Me.NavBarItem1, Me.NavBarItem2, Me.NavBarItem3, Me.NavBarItem4, Me.NavBarItem5, Me.NavBarItem6, Me.NavBarItem7, Me.NavBarItem8, Me.NavBarItem9, Me.NavBarItem10, Me.NavBarItem11, Me.NavBarItem12, Me.NavBarItem13, Me.NavBarItem14, Me.NavBarItem15, Me.NavBarItem16, Me.NavBarItem17, Me.NavBarItem18, Me.NavBarItem19, Me.NavBarItem20, Me.NavBarItem21, Me.NavBarItem22, Me.NavBarItem23, Me.NavBarItem24, Me.NavBarItem25, Me.NavBarItem26, Me.NavBarItem27, Me.NavBarItem28, Me.NavBarItem29, Me.NavBarItem30, Me.NavBarItem31, Me.NavBarItem32, Me.NavBarItem33, Me.NavBarItem34, Me.NavBarItem35, Me.NavBarItem36, Me.NavBarItem37, Me.NavBarItem38, Me.NavBarItem39, Me.NavBarItem40, Me.NavBarItem41})
+        Me.NavBarControl2.Groups.AddRange(New DevExpress.XtraNavBar.NavBarGroup() {Me.NavBarGroup5, Me.NavBarGroup4, Me.NavBarGroup6, Me.NavBarGroup7, Me.NavBarGroup8, Me.NavBarGroup1, Me.NavBarGroup2, Me.NavBarGroup3, Me.NavBarGroup9, Me.NavBarGroup10, Me.NavBarGroup11})
+        Me.NavBarControl2.Items.AddRange(New DevExpress.XtraNavBar.NavBarItem() {Me.NavBarItem1, Me.NavBarItem2, Me.NavBarItem3, Me.NavBarItem4, Me.NavBarItem5, Me.NavBarItem17, Me.NavBarItem18, Me.NavBarItem28, Me.NavBarItem29, Me.NavBarItem30, Me.NavBarItem31, Me.NavBarItem32, Me.NavBarItem39, Me.NavBarItem6, Me.NavBarItem7, Me.NavBarItem8, Me.NavBarItem9, Me.NavBarItem10, Me.NavBarItem11, Me.NavBarItem12, Me.NavBarItem13, Me.NavBarItem14, Me.NavBarItem15, Me.NavBarItem16, Me.NavBarItem19, Me.NavBarItem20, Me.NavBarItem21, Me.NavBarItem22, Me.NavBarItem23, Me.NavBarItem24, Me.NavBarItem25, Me.NavBarItem26})
         Me.NavBarControl2.Location = New System.Drawing.Point(0, 25)
         Me.NavBarControl2.Name = "NavBarControl2"
         Me.NavBarControl2.OptionsNavPane.ExpandedWidth = 249
@@ -325,239 +322,232 @@ Partial Class main
         Me.NavBarControl2.TabIndex = 53
         Me.NavBarControl2.Text = "NavBarControl2"
         '
+        'NavBarGroup11
+        '
+        Me.NavBarGroup11.Caption = "Barkod Etiket"
+        Me.NavBarGroup11.ItemLinks.AddRange(New DevExpress.XtraNavBar.NavBarItemLink() {New DevExpress.XtraNavBar.NavBarItemLink(Me.NavBarItem26)})
+        Me.NavBarGroup11.Name = "NavBarGroup11"
+        '
+        'NavBarItem26
+        '
+        Me.NavBarItem26.Caption = "Barkod Etiket Yazdır"
+        Me.NavBarItem26.Name = "NavBarItem26"
+        '
         'NavBarGroup5
         '
-        Me.NavBarGroup5.Caption = "Stok İşlemleri"
-        Me.NavBarGroup5.Expanded = True
-        Me.NavBarGroup5.ItemLinks.AddRange(New DevExpress.XtraNavBar.NavBarItemLink() {New DevExpress.XtraNavBar.NavBarItemLink(Me.NavBarItem17), New DevExpress.XtraNavBar.NavBarItemLink(Me.NavBarItem18), New DevExpress.XtraNavBar.NavBarItemLink(Me.NavBarItem19), New DevExpress.XtraNavBar.NavBarItemLink(Me.NavBarItem20), New DevExpress.XtraNavBar.NavBarItemLink(Me.NavBarItem21), New DevExpress.XtraNavBar.NavBarItemLink(Me.NavBarItem22), New DevExpress.XtraNavBar.NavBarItemLink(Me.NavBarItem23), New DevExpress.XtraNavBar.NavBarItemLink(Me.NavBarItem24), New DevExpress.XtraNavBar.NavBarItemLink(Me.NavBarItem25), New DevExpress.XtraNavBar.NavBarItemLink(Me.NavBarItem26), New DevExpress.XtraNavBar.NavBarItemLink(Me.NavBarItem27)})
+        Me.NavBarGroup5.Caption = "Tanımlar"
+        Me.NavBarGroup5.ItemLinks.AddRange(New DevExpress.XtraNavBar.NavBarItemLink() {New DevExpress.XtraNavBar.NavBarItemLink(Me.NavBarItem17), New DevExpress.XtraNavBar.NavBarItemLink(Me.NavBarItem18)})
         Me.NavBarGroup5.Name = "NavBarGroup5"
         '
         'NavBarItem17
         '
-        Me.NavBarItem17.Caption = "Stok Kodu Tanımlama"
+        Me.NavBarItem17.Caption = "Döviz Türü Tanımlama"
         Me.NavBarItem17.Name = "NavBarItem17"
         '
         'NavBarItem18
         '
-        Me.NavBarItem18.Caption = "Stoklar ve Envanter"
+        Me.NavBarItem18.Caption = "Döviz Kur Girişi"
         Me.NavBarItem18.Name = "NavBarItem18"
-        '
-        'NavBarItem19
-        '
-        Me.NavBarItem19.Caption = "Diğer Stok Hareketleri"
-        Me.NavBarItem19.Name = "NavBarItem19"
-        '
-        'NavBarItem20
-        '
-        Me.NavBarItem20.Caption = "Banko Değişikliği Merkez"
-        Me.NavBarItem20.Name = "NavBarItem20"
-        '
-        'NavBarItem21
-        '
-        Me.NavBarItem21.Caption = "Banko Değişikliği Şube"
-        Me.NavBarItem21.Name = "NavBarItem21"
-        '
-        'NavBarItem22
-        '
-        Me.NavBarItem22.Caption = "Çoklu Resim"
-        Me.NavBarItem22.Name = "NavBarItem22"
-        '
-        'NavBarItem23
-        '
-        Me.NavBarItem23.Caption = "Tüm Stok İşlemleri"
-        Me.NavBarItem23.Name = "NavBarItem23"
-        '
-        'NavBarItem24
-        '
-        Me.NavBarItem24.Caption = "Sayım İşlemleri"
-        Me.NavBarItem24.Name = "NavBarItem24"
-        '
-        'NavBarItem25
-        '
-        Me.NavBarItem25.Caption = "Ürün Sil"
-        Me.NavBarItem25.Name = "NavBarItem25"
-        '
-        'NavBarItem26
-        '
-        Me.NavBarItem26.Caption = "Slayt"
-        Me.NavBarItem26.Name = "NavBarItem26"
-        '
-        'NavBarItem27
-        '
-        Me.NavBarItem27.Caption = "RFID Sayım"
-        Me.NavBarItem27.Name = "NavBarItem27"
         '
         'NavBarGroup4
         '
-        Me.NavBarGroup4.Caption = "Cari İşlemleri"
-        Me.NavBarGroup4.ItemLinks.AddRange(New DevExpress.XtraNavBar.NavBarItemLink() {New DevExpress.XtraNavBar.NavBarItemLink(Me.NavBarItem1), New DevExpress.XtraNavBar.NavBarItemLink(Me.NavBarItem2), New DevExpress.XtraNavBar.NavBarItemLink(Me.NavBarItem3), New DevExpress.XtraNavBar.NavBarItemLink(Me.NavBarItem4), New DevExpress.XtraNavBar.NavBarItemLink(Me.NavBarItem5), New DevExpress.XtraNavBar.NavBarItemLink(Me.NavBarItem6), New DevExpress.XtraNavBar.NavBarItemLink(Me.NavBarItem7), New DevExpress.XtraNavBar.NavBarItemLink(Me.NavBarItem8), New DevExpress.XtraNavBar.NavBarItemLink(Me.NavBarItem9), New DevExpress.XtraNavBar.NavBarItemLink(Me.NavBarItem10), New DevExpress.XtraNavBar.NavBarItemLink(Me.NavBarItem11), New DevExpress.XtraNavBar.NavBarItemLink(Me.NavBarItem12), New DevExpress.XtraNavBar.NavBarItemLink(Me.NavBarItem13), New DevExpress.XtraNavBar.NavBarItemLink(Me.NavBarItem14), New DevExpress.XtraNavBar.NavBarItemLink(Me.NavBarItem15), New DevExpress.XtraNavBar.NavBarItemLink(Me.NavBarItem16)})
+        Me.NavBarGroup4.Caption = "Stok Yönetimi"
+        Me.NavBarGroup4.Expanded = True
+        Me.NavBarGroup4.ItemLinks.AddRange(New DevExpress.XtraNavBar.NavBarItemLink() {New DevExpress.XtraNavBar.NavBarItemLink(Me.NavBarItem2), New DevExpress.XtraNavBar.NavBarItemLink(Me.NavBarItem1), New DevExpress.XtraNavBar.NavBarItemLink(Me.NavBarItem3), New DevExpress.XtraNavBar.NavBarItemLink(Me.NavBarItem4), New DevExpress.XtraNavBar.NavBarItemLink(Me.NavBarItem5)})
         Me.NavBarGroup4.Name = "NavBarGroup4"
         '
         'NavBarItem1
         '
-        Me.NavBarItem1.Caption = "Satış İşlemleri"
+        Me.NavBarItem1.Caption = "Stok Tanımları"
         Me.NavBarItem1.Name = "NavBarItem1"
         '
         'NavBarItem2
         '
-        Me.NavBarItem2.Caption = "Kur Girişleri"
+        Me.NavBarItem2.Caption = "Stok İşlemleri"
         Me.NavBarItem2.Name = "NavBarItem2"
         '
         'NavBarItem3
         '
-        Me.NavBarItem3.Caption = "Altın Satış İşlemleri"
+        Me.NavBarItem3.Caption = "Stok Raporları"
         Me.NavBarItem3.Name = "NavBarItem3"
         '
         'NavBarItem4
         '
-        Me.NavBarItem4.Caption = "Fatura Basımı"
+        Me.NavBarItem4.Caption = "Genel Stok Durumu"
         Me.NavBarItem4.Name = "NavBarItem4"
         '
         'NavBarItem5
         '
-        Me.NavBarItem5.Caption = "Gider Pusulası"
+        Me.NavBarItem5.Caption = "Kullanıcı Stok Durumu"
         Me.NavBarItem5.Name = "NavBarItem5"
-        '
-        'NavBarItem6
-        '
-        Me.NavBarItem6.Caption = "Hatırlatma"
-        Me.NavBarItem6.Name = "NavBarItem6"
-        '
-        'NavBarItem7
-        '
-        Me.NavBarItem7.Caption = "Banka Komisyonları"
-        Me.NavBarItem7.Name = "NavBarItem7"
-        '
-        'NavBarItem8
-        '
-        Me.NavBarItem8.Caption = "Hızlı Fiyat Sorgulama"
-        Me.NavBarItem8.Name = "NavBarItem8"
-        '
-        'NavBarItem9
-        '
-        Me.NavBarItem9.Caption = "Hızlı Fiyat"
-        Me.NavBarItem9.Name = "NavBarItem9"
-        '
-        'NavBarItem10
-        '
-        Me.NavBarItem10.Caption = "Ziynet Alış"
-        Me.NavBarItem10.Name = "NavBarItem10"
-        '
-        'NavBarItem11
-        '
-        Me.NavBarItem11.Caption = "Döviz Alış"
-        Me.NavBarItem11.Name = "NavBarItem11"
-        '
-        'NavBarItem12
-        '
-        Me.NavBarItem12.Caption = "Döviz Satış"
-        Me.NavBarItem12.Name = "NavBarItem12"
-        '
-        'NavBarItem13
-        '
-        Me.NavBarItem13.Caption = "Hurda Alış"
-        Me.NavBarItem13.Name = "NavBarItem13"
-        '
-        'NavBarItem14
-        '
-        Me.NavBarItem14.Caption = "Hurda Satış"
-        Me.NavBarItem14.Name = "NavBarItem14"
-        '
-        'NavBarItem15
-        '
-        Me.NavBarItem15.Caption = "Altın Fiyatları"
-        Me.NavBarItem15.Name = "NavBarItem15"
-        '
-        'NavBarItem16
-        '
-        Me.NavBarItem16.Caption = "Kur Güncelle"
-        Me.NavBarItem16.Name = "NavBarItem16"
         '
         'NavBarGroup6
         '
-        Me.NavBarGroup6.Caption = "Cari Raporlar"
-        Me.NavBarGroup6.ItemLinks.AddRange(New DevExpress.XtraNavBar.NavBarItemLink() {New DevExpress.XtraNavBar.NavBarItemLink(Me.NavBarItem28), New DevExpress.XtraNavBar.NavBarItemLink(Me.NavBarItem29), New DevExpress.XtraNavBar.NavBarItemLink(Me.NavBarItem30), New DevExpress.XtraNavBar.NavBarItemLink(Me.NavBarItem39), New DevExpress.XtraNavBar.NavBarItemLink(Me.NavBarItem31), New DevExpress.XtraNavBar.NavBarItemLink(Me.NavBarItem32), New DevExpress.XtraNavBar.NavBarItemLink(Me.NavBarItem33), New DevExpress.XtraNavBar.NavBarItemLink(Me.NavBarItem34), New DevExpress.XtraNavBar.NavBarItemLink(Me.NavBarItem35), New DevExpress.XtraNavBar.NavBarItemLink(Me.NavBarItem36), New DevExpress.XtraNavBar.NavBarItemLink(Me.NavBarItem37), New DevExpress.XtraNavBar.NavBarItemLink(Me.NavBarItem38), New DevExpress.XtraNavBar.NavBarItemLink(Me.NavBarItem40), New DevExpress.XtraNavBar.NavBarItemLink(Me.NavBarItem41)})
+        Me.NavBarGroup6.Caption = "Cari Hesap"
+        Me.NavBarGroup6.ItemLinks.AddRange(New DevExpress.XtraNavBar.NavBarItemLink() {New DevExpress.XtraNavBar.NavBarItemLink(Me.NavBarItem28), New DevExpress.XtraNavBar.NavBarItemLink(Me.NavBarItem29), New DevExpress.XtraNavBar.NavBarItemLink(Me.NavBarItem30), New DevExpress.XtraNavBar.NavBarItemLink(Me.NavBarItem39), New DevExpress.XtraNavBar.NavBarItemLink(Me.NavBarItem31), New DevExpress.XtraNavBar.NavBarItemLink(Me.NavBarItem32)})
         Me.NavBarGroup6.Name = "NavBarGroup6"
         '
         'NavBarItem28
         '
-        Me.NavBarItem28.Caption = "Satış Rapor Genel"
+        Me.NavBarItem28.Caption = "Cari Hesap Kartları"
         Me.NavBarItem28.Name = "NavBarItem28"
         '
         'NavBarItem29
         '
-        Me.NavBarItem29.Caption = "Satış Raporu Detay"
+        Me.NavBarItem29.Caption = "Cari Hesap Kartı Tanımı"
         Me.NavBarItem29.Name = "NavBarItem29"
         '
         'NavBarItem30
         '
-        Me.NavBarItem30.Caption = "Satış Raporu Özet"
+        Me.NavBarItem30.Caption = "Cari Hesap Parametre Tanımı"
         Me.NavBarItem30.Name = "NavBarItem30"
         '
         'NavBarItem39
         '
-        Me.NavBarItem39.Caption = "Satış Raporu Ayar"
+        Me.NavBarItem39.Caption = "Cari Hesap İşlemleri"
         Me.NavBarItem39.Name = "NavBarItem39"
         '
         'NavBarItem31
         '
-        Me.NavBarItem31.Caption = "Bakiye Listesi"
+        Me.NavBarItem31.Caption = "Cari Hesap Raporları"
         Me.NavBarItem31.Name = "NavBarItem31"
         '
         'NavBarItem32
         '
-        Me.NavBarItem32.Caption = "Bilanço"
+        Me.NavBarItem32.Caption = "Analiz Raporları"
         Me.NavBarItem32.Name = "NavBarItem32"
-        '
-        'NavBarItem33
-        '
-        Me.NavBarItem33.Caption = "İşlem Rapor"
-        Me.NavBarItem33.Name = "NavBarItem33"
-        '
-        'NavBarItem34
-        '
-        Me.NavBarItem34.Caption = "Günlük Giriş-Çıkış Raporu"
-        Me.NavBarItem34.Name = "NavBarItem34"
-        '
-        'NavBarItem35
-        '
-        Me.NavBarItem35.Caption = "Ürün Satış Analizi"
-        Me.NavBarItem35.Name = "NavBarItem35"
-        '
-        'NavBarItem36
-        '
-        Me.NavBarItem36.Caption = "Hesap Ekstresi"
-        Me.NavBarItem36.Name = "NavBarItem36"
-        '
-        'NavBarItem37
-        '
-        Me.NavBarItem37.Caption = "Döviz Alış-Satış Raporu"
-        Me.NavBarItem37.Name = "NavBarItem37"
-        '
-        'NavBarItem38
-        '
-        Me.NavBarItem38.Caption = "Kasa Raporu"
-        Me.NavBarItem38.Name = "NavBarItem38"
-        '
-        'NavBarItem40
-        '
-        Me.NavBarItem40.Caption = "Gider Rapor"
-        Me.NavBarItem40.Name = "NavBarItem40"
-        '
-        'NavBarItem41
-        '
-        Me.NavBarItem41.Caption = "Nakit Giriş Çıkış Raporu"
-        Me.NavBarItem41.Name = "NavBarItem41"
         '
         'NavBarGroup7
         '
-        Me.NavBarGroup7.Caption = "Stok Raporlar"
+        Me.NavBarGroup7.Caption = "Banka İşlemleri"
+        Me.NavBarGroup7.ItemLinks.AddRange(New DevExpress.XtraNavBar.NavBarItemLink() {New DevExpress.XtraNavBar.NavBarItemLink(Me.NavBarItem6), New DevExpress.XtraNavBar.NavBarItemLink(Me.NavBarItem7), New DevExpress.XtraNavBar.NavBarItemLink(Me.NavBarItem8)})
         Me.NavBarGroup7.Name = "NavBarGroup7"
+        '
+        'NavBarItem6
+        '
+        Me.NavBarItem6.Caption = "Banka Tanımı"
+        Me.NavBarItem6.Name = "NavBarItem6"
+        '
+        'NavBarItem7
+        '
+        Me.NavBarItem7.Caption = "Banka İşlemleri"
+        Me.NavBarItem7.Name = "NavBarItem7"
+        '
+        'NavBarItem8
+        '
+        Me.NavBarItem8.Caption = "Banka Raporları"
+        Me.NavBarItem8.Name = "NavBarItem8"
         '
         'NavBarGroup8
         '
-        Me.NavBarGroup8.Caption = "Ayarlar"
+        Me.NavBarGroup8.Caption = "Kasa"
+        Me.NavBarGroup8.ItemLinks.AddRange(New DevExpress.XtraNavBar.NavBarItemLink() {New DevExpress.XtraNavBar.NavBarItemLink(Me.NavBarItem9), New DevExpress.XtraNavBar.NavBarItemLink(Me.NavBarItem10), New DevExpress.XtraNavBar.NavBarItemLink(Me.NavBarItem11)})
         Me.NavBarGroup8.Name = "NavBarGroup8"
+        '
+        'NavBarItem9
+        '
+        Me.NavBarItem9.Caption = "Kasa Tanımı"
+        Me.NavBarItem9.Name = "NavBarItem9"
+        '
+        'NavBarItem10
+        '
+        Me.NavBarItem10.Caption = "Kasa İşlemleri"
+        Me.NavBarItem10.Name = "NavBarItem10"
+        '
+        'NavBarItem11
+        '
+        Me.NavBarItem11.Caption = "Kasa Raporları"
+        Me.NavBarItem11.Name = "NavBarItem11"
+        '
+        'NavBarGroup1
+        '
+        Me.NavBarGroup1.Caption = "Emanet Hesapları"
+        Me.NavBarGroup1.ItemLinks.AddRange(New DevExpress.XtraNavBar.NavBarItemLink() {New DevExpress.XtraNavBar.NavBarItemLink(Me.NavBarItem12), New DevExpress.XtraNavBar.NavBarItemLink(Me.NavBarItem13), New DevExpress.XtraNavBar.NavBarItemLink(Me.NavBarItem14)})
+        Me.NavBarGroup1.Name = "NavBarGroup1"
+        '
+        'NavBarItem12
+        '
+        Me.NavBarItem12.Caption = "Alınan Emanet Girişi"
+        Me.NavBarItem12.Name = "NavBarItem12"
+        '
+        'NavBarItem13
+        '
+        Me.NavBarItem13.Caption = "Verilen Emanet Çıkışı"
+        Me.NavBarItem13.Name = "NavBarItem13"
+        '
+        'NavBarItem14
+        '
+        Me.NavBarItem14.Caption = "Emanet Listesi"
+        Me.NavBarItem14.Name = "NavBarItem14"
+        '
+        'NavBarGroup2
+        '
+        Me.NavBarGroup2.Caption = "Tamirat İşlemleri"
+        Me.NavBarGroup2.ItemLinks.AddRange(New DevExpress.XtraNavBar.NavBarItemLink() {New DevExpress.XtraNavBar.NavBarItemLink(Me.NavBarItem15), New DevExpress.XtraNavBar.NavBarItemLink(Me.NavBarItem16)})
+        Me.NavBarGroup2.Name = "NavBarGroup2"
+        '
+        'NavBarItem15
+        '
+        Me.NavBarItem15.Caption = "Tamirat Girişi"
+        Me.NavBarItem15.Name = "NavBarItem15"
+        '
+        'NavBarItem16
+        '
+        Me.NavBarItem16.Caption = "Tamirat Raporları"
+        Me.NavBarItem16.Name = "NavBarItem16"
+        '
+        'NavBarGroup3
+        '
+        Me.NavBarGroup3.Caption = "Masraf İşlemleri"
+        Me.NavBarGroup3.ItemLinks.AddRange(New DevExpress.XtraNavBar.NavBarItemLink() {New DevExpress.XtraNavBar.NavBarItemLink(Me.NavBarItem19), New DevExpress.XtraNavBar.NavBarItemLink(Me.NavBarItem20), New DevExpress.XtraNavBar.NavBarItemLink(Me.NavBarItem21)})
+        Me.NavBarGroup3.Name = "NavBarGroup3"
+        '
+        'NavBarItem19
+        '
+        Me.NavBarItem19.Caption = "Tanımlar"
+        Me.NavBarItem19.Name = "NavBarItem19"
+        '
+        'NavBarItem20
+        '
+        Me.NavBarItem20.Caption = "Masraf Girişi"
+        Me.NavBarItem20.Name = "NavBarItem20"
+        '
+        'NavBarItem21
+        '
+        Me.NavBarItem21.Caption = "Raporlar"
+        Me.NavBarItem21.Name = "NavBarItem21"
+        '
+        'NavBarGroup9
+        '
+        Me.NavBarGroup9.Caption = "Garanti Sertifika İşlemleri"
+        Me.NavBarGroup9.ItemLinks.AddRange(New DevExpress.XtraNavBar.NavBarItemLink() {New DevExpress.XtraNavBar.NavBarItemLink(Me.NavBarItem22)})
+        Me.NavBarGroup9.Name = "NavBarGroup9"
+        '
+        'NavBarItem22
+        '
+        Me.NavBarItem22.Caption = "Garanti Sertifika Girişi"
+        Me.NavBarItem22.Name = "NavBarItem22"
+        '
+        'NavBarGroup10
+        '
+        Me.NavBarGroup10.Caption = "Servis İşlemleri"
+        Me.NavBarGroup10.ItemLinks.AddRange(New DevExpress.XtraNavBar.NavBarItemLink() {New DevExpress.XtraNavBar.NavBarItemLink(Me.NavBarItem23), New DevExpress.XtraNavBar.NavBarItemLink(Me.NavBarItem24), New DevExpress.XtraNavBar.NavBarItemLink(Me.NavBarItem25)})
+        Me.NavBarGroup10.Name = "NavBarGroup10"
+        '
+        'NavBarItem23
+        '
+        Me.NavBarItem23.Caption = "Stok Servis Kontrol"
+        Me.NavBarItem23.Name = "NavBarItem23"
+        '
+        'NavBarItem24
+        '
+        Me.NavBarItem24.Caption = "Cari Servis Kontrol"
+        Me.NavBarItem24.Name = "NavBarItem24"
+        '
+        'NavBarItem25
+        '
+        Me.NavBarItem25.Caption = "Silinen Kayıtlar"
+        Me.NavBarItem25.Name = "NavBarItem25"
         '
         'AccordionControlElement2
         '
@@ -652,29 +642,9 @@ Partial Class main
     Friend WithEvents NavBarItem3 As DevExpress.XtraNavBar.NavBarItem
     Friend WithEvents NavBarItem4 As DevExpress.XtraNavBar.NavBarItem
     Friend WithEvents NavBarItem5 As DevExpress.XtraNavBar.NavBarItem
-    Friend WithEvents NavBarItem6 As DevExpress.XtraNavBar.NavBarItem
-    Friend WithEvents NavBarItem7 As DevExpress.XtraNavBar.NavBarItem
-    Friend WithEvents NavBarItem8 As DevExpress.XtraNavBar.NavBarItem
-    Friend WithEvents NavBarItem9 As DevExpress.XtraNavBar.NavBarItem
-    Friend WithEvents NavBarItem10 As DevExpress.XtraNavBar.NavBarItem
-    Friend WithEvents NavBarItem11 As DevExpress.XtraNavBar.NavBarItem
-    Friend WithEvents NavBarItem12 As DevExpress.XtraNavBar.NavBarItem
-    Friend WithEvents NavBarItem13 As DevExpress.XtraNavBar.NavBarItem
-    Friend WithEvents NavBarItem14 As DevExpress.XtraNavBar.NavBarItem
-    Friend WithEvents NavBarItem15 As DevExpress.XtraNavBar.NavBarItem
-    Friend WithEvents NavBarItem16 As DevExpress.XtraNavBar.NavBarItem
     Friend WithEvents NavBarGroup5 As DevExpress.XtraNavBar.NavBarGroup
     Friend WithEvents NavBarItem17 As DevExpress.XtraNavBar.NavBarItem
     Friend WithEvents NavBarItem18 As DevExpress.XtraNavBar.NavBarItem
-    Friend WithEvents NavBarItem19 As DevExpress.XtraNavBar.NavBarItem
-    Friend WithEvents NavBarItem20 As DevExpress.XtraNavBar.NavBarItem
-    Friend WithEvents NavBarItem21 As DevExpress.XtraNavBar.NavBarItem
-    Friend WithEvents NavBarItem22 As DevExpress.XtraNavBar.NavBarItem
-    Friend WithEvents NavBarItem23 As DevExpress.XtraNavBar.NavBarItem
-    Friend WithEvents NavBarItem24 As DevExpress.XtraNavBar.NavBarItem
-    Friend WithEvents NavBarItem25 As DevExpress.XtraNavBar.NavBarItem
-    Friend WithEvents NavBarItem26 As DevExpress.XtraNavBar.NavBarItem
-    Friend WithEvents NavBarItem27 As DevExpress.XtraNavBar.NavBarItem
     Friend WithEvents NavBarGroup6 As DevExpress.XtraNavBar.NavBarGroup
     Friend WithEvents NavBarItem28 As DevExpress.XtraNavBar.NavBarItem
     Friend WithEvents NavBarItem29 As DevExpress.XtraNavBar.NavBarItem
@@ -682,16 +652,33 @@ Partial Class main
     Friend WithEvents NavBarItem39 As DevExpress.XtraNavBar.NavBarItem
     Friend WithEvents NavBarItem31 As DevExpress.XtraNavBar.NavBarItem
     Friend WithEvents NavBarItem32 As DevExpress.XtraNavBar.NavBarItem
-    Friend WithEvents NavBarItem33 As DevExpress.XtraNavBar.NavBarItem
-    Friend WithEvents NavBarItem34 As DevExpress.XtraNavBar.NavBarItem
-    Friend WithEvents NavBarItem35 As DevExpress.XtraNavBar.NavBarItem
-    Friend WithEvents NavBarItem36 As DevExpress.XtraNavBar.NavBarItem
-    Friend WithEvents NavBarItem37 As DevExpress.XtraNavBar.NavBarItem
-    Friend WithEvents NavBarItem38 As DevExpress.XtraNavBar.NavBarItem
-    Friend WithEvents NavBarItem40 As DevExpress.XtraNavBar.NavBarItem
-    Friend WithEvents NavBarItem41 As DevExpress.XtraNavBar.NavBarItem
     Friend WithEvents NavBarGroup7 As DevExpress.XtraNavBar.NavBarGroup
     Friend WithEvents NavBarGroup8 As DevExpress.XtraNavBar.NavBarGroup
     Friend WithEvents XtraTabbedMdiManager1 As DevExpress.XtraTabbedMdi.XtraTabbedMdiManager
     Friend WithEvents SplitterControl1 As DevExpress.XtraEditors.SplitterControl
+    Friend WithEvents NavBarGroup11 As DevExpress.XtraNavBar.NavBarGroup
+    Friend WithEvents NavBarItem26 As DevExpress.XtraNavBar.NavBarItem
+    Friend WithEvents NavBarItem6 As DevExpress.XtraNavBar.NavBarItem
+    Friend WithEvents NavBarItem7 As DevExpress.XtraNavBar.NavBarItem
+    Friend WithEvents NavBarItem8 As DevExpress.XtraNavBar.NavBarItem
+    Friend WithEvents NavBarItem9 As DevExpress.XtraNavBar.NavBarItem
+    Friend WithEvents NavBarItem10 As DevExpress.XtraNavBar.NavBarItem
+    Friend WithEvents NavBarItem11 As DevExpress.XtraNavBar.NavBarItem
+    Friend WithEvents NavBarGroup1 As DevExpress.XtraNavBar.NavBarGroup
+    Friend WithEvents NavBarItem12 As DevExpress.XtraNavBar.NavBarItem
+    Friend WithEvents NavBarItem13 As DevExpress.XtraNavBar.NavBarItem
+    Friend WithEvents NavBarItem14 As DevExpress.XtraNavBar.NavBarItem
+    Friend WithEvents NavBarGroup2 As DevExpress.XtraNavBar.NavBarGroup
+    Friend WithEvents NavBarItem15 As DevExpress.XtraNavBar.NavBarItem
+    Friend WithEvents NavBarItem16 As DevExpress.XtraNavBar.NavBarItem
+    Friend WithEvents NavBarGroup3 As DevExpress.XtraNavBar.NavBarGroup
+    Friend WithEvents NavBarItem19 As DevExpress.XtraNavBar.NavBarItem
+    Friend WithEvents NavBarItem20 As DevExpress.XtraNavBar.NavBarItem
+    Friend WithEvents NavBarItem21 As DevExpress.XtraNavBar.NavBarItem
+    Friend WithEvents NavBarGroup9 As DevExpress.XtraNavBar.NavBarGroup
+    Friend WithEvents NavBarItem22 As DevExpress.XtraNavBar.NavBarItem
+    Friend WithEvents NavBarGroup10 As DevExpress.XtraNavBar.NavBarGroup
+    Friend WithEvents NavBarItem23 As DevExpress.XtraNavBar.NavBarItem
+    Friend WithEvents NavBarItem24 As DevExpress.XtraNavBar.NavBarItem
+    Friend WithEvents NavBarItem25 As DevExpress.XtraNavBar.NavBarItem
 End Class
