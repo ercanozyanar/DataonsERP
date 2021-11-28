@@ -1,5 +1,5 @@
 ﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
-Partial Class alis_satis_rapor
+Partial Class banka_havale_list
     Inherits DevExpress.XtraEditors.XtraForm
 
     'Form, bileşen listesini temizlemeyi bırakmayı geçersiz kılar.
@@ -22,8 +22,6 @@ Partial Class alis_satis_rapor
     'Kod düzenleyicisini kullanarak değiştirmeyin.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
-        Dim GridLevelNode1 As DevExpress.XtraGrid.GridLevelNode = New DevExpress.XtraGrid.GridLevelNode()
-        Dim GridLevelNode2 As DevExpress.XtraGrid.GridLevelNode = New DevExpress.XtraGrid.GridLevelNode()
         Me.FormAssistant1 = New DevExpress.XtraBars.FormAssistant()
         Me.GroupBox1 = New System.Windows.Forms.GroupBox()
         Me.LabelControl6 = New DevExpress.XtraEditors.LabelControl()
@@ -33,6 +31,23 @@ Partial Class alis_satis_rapor
         Me.LabelControl2 = New DevExpress.XtraEditors.LabelControl()
         Me.LabelControl1 = New DevExpress.XtraEditors.LabelControl()
         Me.GroupBox2 = New System.Windows.Forms.GroupBox()
+        Me.GroupBox4 = New System.Windows.Forms.GroupBox()
+        Me.LabelControl11 = New DevExpress.XtraEditors.LabelControl()
+        Me.LabelControl12 = New DevExpress.XtraEditors.LabelControl()
+        Me.LabelControl7 = New DevExpress.XtraEditors.LabelControl()
+        Me.GroupBox3 = New System.Windows.Forms.GroupBox()
+        Me.GroupBox5 = New System.Windows.Forms.GroupBox()
+        Me.RadioButton1 = New System.Windows.Forms.RadioButton()
+        Me.RadioButton2 = New System.Windows.Forms.RadioButton()
+        Me.GroupBox6 = New System.Windows.Forms.GroupBox()
+        Me.SimpleButton1 = New DevExpress.XtraEditors.SimpleButton()
+        Me.SimpleButton2 = New DevExpress.XtraEditors.SimpleButton()
+        Me.TextEdit11 = New DevExpress.XtraEditors.TextEdit()
+        Me.TextEdit12 = New DevExpress.XtraEditors.TextEdit()
+        Me.TextEdit15 = New DevExpress.XtraEditors.TextEdit()
+        Me.TextEdit16 = New DevExpress.XtraEditors.TextEdit()
+        Me.TextEdit17 = New DevExpress.XtraEditors.TextEdit()
+        Me.TextEdit18 = New DevExpress.XtraEditors.TextEdit()
         Me.TextEdit7 = New DevExpress.XtraEditors.TextEdit()
         Me.TextEdit8 = New DevExpress.XtraEditors.TextEdit()
         Me.TextEdit9 = New DevExpress.XtraEditors.TextEdit()
@@ -45,27 +60,21 @@ Partial Class alis_satis_rapor
         Me.TextEdit1 = New DevExpress.XtraEditors.TextEdit()
         Me.DateEdit2 = New DevExpress.XtraEditors.DateEdit()
         Me.DateEdit1 = New DevExpress.XtraEditors.DateEdit()
-        Me.GroupBox3 = New System.Windows.Forms.GroupBox()
-        Me.TextEdit15 = New DevExpress.XtraEditors.TextEdit()
-        Me.TextEdit16 = New DevExpress.XtraEditors.TextEdit()
-        Me.TextEdit17 = New DevExpress.XtraEditors.TextEdit()
-        Me.TextEdit18 = New DevExpress.XtraEditors.TextEdit()
-        Me.GroupBox4 = New System.Windows.Forms.GroupBox()
-        Me.LabelControl11 = New DevExpress.XtraEditors.LabelControl()
-        Me.LabelControl12 = New DevExpress.XtraEditors.LabelControl()
-        Me.GroupBox5 = New System.Windows.Forms.GroupBox()
-        Me.RadioButton5 = New System.Windows.Forms.RadioButton()
-        Me.RadioButton6 = New System.Windows.Forms.RadioButton()
-        Me.RadioButton3 = New System.Windows.Forms.RadioButton()
-        Me.RadioButton4 = New System.Windows.Forms.RadioButton()
-        Me.RadioButton2 = New System.Windows.Forms.RadioButton()
-        Me.RadioButton1 = New System.Windows.Forms.RadioButton()
-        Me.SimpleButton1 = New DevExpress.XtraEditors.SimpleButton()
-        Me.SimpleButton2 = New DevExpress.XtraEditors.SimpleButton()
         Me.GridControl1 = New DevExpress.XtraGrid.GridControl()
         Me.GridView1 = New DevExpress.XtraGrid.Views.Grid.GridView()
+        Me.SimpleButton3 = New DevExpress.XtraEditors.SimpleButton()
         Me.GroupBox1.SuspendLayout()
         Me.GroupBox2.SuspendLayout()
+        Me.GroupBox4.SuspendLayout()
+        Me.GroupBox3.SuspendLayout()
+        Me.GroupBox5.SuspendLayout()
+        Me.GroupBox6.SuspendLayout()
+        CType(Me.TextEdit11.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.TextEdit12.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.TextEdit15.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.TextEdit16.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.TextEdit17.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.TextEdit18.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.TextEdit7.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.TextEdit8.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.TextEdit9.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -80,13 +89,6 @@ Partial Class alis_satis_rapor
         CType(Me.DateEdit2.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.DateEdit1.Properties.CalendarTimeProperties, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.DateEdit1.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
-        Me.GroupBox3.SuspendLayout()
-        CType(Me.TextEdit15.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.TextEdit16.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.TextEdit17.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.TextEdit18.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
-        Me.GroupBox4.SuspendLayout()
-        Me.GroupBox5.SuspendLayout()
         CType(Me.GridControl1, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.GridView1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
@@ -99,10 +101,10 @@ Partial Class alis_satis_rapor
         Me.GroupBox1.Controls.Add(Me.LabelControl4)
         Me.GroupBox1.Controls.Add(Me.LabelControl2)
         Me.GroupBox1.Controls.Add(Me.LabelControl1)
-        Me.GroupBox1.Location = New System.Drawing.Point(3, 5)
+        Me.GroupBox1.Location = New System.Drawing.Point(1, 1)
         Me.GroupBox1.Name = "GroupBox1"
         Me.GroupBox1.Size = New System.Drawing.Size(107, 180)
-        Me.GroupBox1.TabIndex = 0
+        Me.GroupBox1.TabIndex = 1
         Me.GroupBox1.TabStop = False
         Me.GroupBox1.Text = "Filtre"
         '
@@ -168,12 +170,165 @@ Partial Class alis_satis_rapor
         Me.GroupBox2.Controls.Add(Me.TextEdit1)
         Me.GroupBox2.Controls.Add(Me.DateEdit2)
         Me.GroupBox2.Controls.Add(Me.DateEdit1)
-        Me.GroupBox2.Location = New System.Drawing.Point(116, 4)
+        Me.GroupBox2.Location = New System.Drawing.Point(108, 1)
         Me.GroupBox2.Name = "GroupBox2"
         Me.GroupBox2.Size = New System.Drawing.Size(219, 180)
-        Me.GroupBox2.TabIndex = 1
+        Me.GroupBox2.TabIndex = 2
         Me.GroupBox2.TabStop = False
         Me.GroupBox2.Text = "Koşul"
+        '
+        'GroupBox4
+        '
+        Me.GroupBox4.Controls.Add(Me.LabelControl7)
+        Me.GroupBox4.Controls.Add(Me.LabelControl11)
+        Me.GroupBox4.Controls.Add(Me.LabelControl12)
+        Me.GroupBox4.Location = New System.Drawing.Point(333, 1)
+        Me.GroupBox4.Name = "GroupBox4"
+        Me.GroupBox4.Size = New System.Drawing.Size(94, 94)
+        Me.GroupBox4.TabIndex = 3
+        Me.GroupBox4.TabStop = False
+        Me.GroupBox4.Text = "Filtre"
+        '
+        'LabelControl11
+        '
+        Me.LabelControl11.Location = New System.Drawing.Point(6, 47)
+        Me.LabelControl11.Name = "LabelControl11"
+        Me.LabelControl11.Size = New System.Drawing.Size(81, 13)
+        Me.LabelControl11.TabIndex = 1
+        Me.LabelControl11.Text = "Müşteri Temsilcisi"
+        '
+        'LabelControl12
+        '
+        Me.LabelControl12.Location = New System.Drawing.Point(6, 21)
+        Me.LabelControl12.Name = "LabelControl12"
+        Me.LabelControl12.Size = New System.Drawing.Size(79, 13)
+        Me.LabelControl12.TabIndex = 0
+        Me.LabelControl12.Text = "Cari Hesap Kodu"
+        '
+        'LabelControl7
+        '
+        Me.LabelControl7.Location = New System.Drawing.Point(6, 73)
+        Me.LabelControl7.Name = "LabelControl7"
+        Me.LabelControl7.Size = New System.Drawing.Size(56, 13)
+        Me.LabelControl7.TabIndex = 2
+        Me.LabelControl7.Text = "Banka Kodu"
+        '
+        'GroupBox3
+        '
+        Me.GroupBox3.Controls.Add(Me.TextEdit11)
+        Me.GroupBox3.Controls.Add(Me.TextEdit12)
+        Me.GroupBox3.Controls.Add(Me.TextEdit15)
+        Me.GroupBox3.Controls.Add(Me.TextEdit16)
+        Me.GroupBox3.Controls.Add(Me.TextEdit17)
+        Me.GroupBox3.Controls.Add(Me.TextEdit18)
+        Me.GroupBox3.Location = New System.Drawing.Point(426, 1)
+        Me.GroupBox3.Name = "GroupBox3"
+        Me.GroupBox3.Size = New System.Drawing.Size(342, 94)
+        Me.GroupBox3.TabIndex = 4
+        Me.GroupBox3.TabStop = False
+        Me.GroupBox3.Text = "Koşul"
+        '
+        'GroupBox5
+        '
+        Me.GroupBox5.Controls.Add(Me.RadioButton2)
+        Me.GroupBox5.Controls.Add(Me.RadioButton1)
+        Me.GroupBox5.Location = New System.Drawing.Point(333, 100)
+        Me.GroupBox5.Name = "GroupBox5"
+        Me.GroupBox5.Size = New System.Drawing.Size(435, 81)
+        Me.GroupBox5.TabIndex = 5
+        Me.GroupBox5.TabStop = False
+        Me.GroupBox5.Text = "Rapor Kriteri"
+        '
+        'RadioButton1
+        '
+        Me.RadioButton1.AutoSize = True
+        Me.RadioButton1.Location = New System.Drawing.Point(6, 24)
+        Me.RadioButton1.Name = "RadioButton1"
+        Me.RadioButton1.Size = New System.Drawing.Size(88, 17)
+        Me.RadioButton1.TabIndex = 0
+        Me.RadioButton1.TabStop = True
+        Me.RadioButton1.Text = "Gelen Havale"
+        Me.RadioButton1.UseVisualStyleBackColor = True
+        '
+        'RadioButton2
+        '
+        Me.RadioButton2.AutoSize = True
+        Me.RadioButton2.Location = New System.Drawing.Point(6, 50)
+        Me.RadioButton2.Name = "RadioButton2"
+        Me.RadioButton2.Size = New System.Drawing.Size(112, 17)
+        Me.RadioButton2.TabIndex = 1
+        Me.RadioButton2.TabStop = True
+        Me.RadioButton2.Text = "Gönderilen Havale"
+        Me.RadioButton2.UseVisualStyleBackColor = True
+        '
+        'GroupBox6
+        '
+        Me.GroupBox6.Controls.Add(Me.SimpleButton3)
+        Me.GroupBox6.Controls.Add(Me.SimpleButton2)
+        Me.GroupBox6.Controls.Add(Me.SimpleButton1)
+        Me.GroupBox6.Location = New System.Drawing.Point(949, 1)
+        Me.GroupBox6.Name = "GroupBox6"
+        Me.GroupBox6.Size = New System.Drawing.Size(129, 180)
+        Me.GroupBox6.TabIndex = 6
+        Me.GroupBox6.TabStop = False
+        '
+        'SimpleButton1
+        '
+        Me.SimpleButton1.Location = New System.Drawing.Point(6, 16)
+        Me.SimpleButton1.Name = "SimpleButton1"
+        Me.SimpleButton1.Size = New System.Drawing.Size(117, 44)
+        Me.SimpleButton1.TabIndex = 0
+        Me.SimpleButton1.Text = "Listele"
+        '
+        'SimpleButton2
+        '
+        Me.SimpleButton2.Location = New System.Drawing.Point(6, 68)
+        Me.SimpleButton2.Name = "SimpleButton2"
+        Me.SimpleButton2.Size = New System.Drawing.Size(117, 44)
+        Me.SimpleButton2.TabIndex = 1
+        Me.SimpleButton2.Text = "Yazdır"
+        '
+        'TextEdit11
+        '
+        Me.TextEdit11.Location = New System.Drawing.Point(175, 68)
+        Me.TextEdit11.Name = "TextEdit11"
+        Me.TextEdit11.Size = New System.Drawing.Size(160, 20)
+        Me.TextEdit11.TabIndex = 9
+        '
+        'TextEdit12
+        '
+        Me.TextEdit12.Location = New System.Drawing.Point(7, 68)
+        Me.TextEdit12.Name = "TextEdit12"
+        Me.TextEdit12.Size = New System.Drawing.Size(160, 20)
+        Me.TextEdit12.TabIndex = 8
+        '
+        'TextEdit15
+        '
+        Me.TextEdit15.Location = New System.Drawing.Point(174, 44)
+        Me.TextEdit15.Name = "TextEdit15"
+        Me.TextEdit15.Size = New System.Drawing.Size(160, 20)
+        Me.TextEdit15.TabIndex = 7
+        '
+        'TextEdit16
+        '
+        Me.TextEdit16.Location = New System.Drawing.Point(6, 44)
+        Me.TextEdit16.Name = "TextEdit16"
+        Me.TextEdit16.Size = New System.Drawing.Size(160, 20)
+        Me.TextEdit16.TabIndex = 6
+        '
+        'TextEdit17
+        '
+        Me.TextEdit17.Location = New System.Drawing.Point(174, 18)
+        Me.TextEdit17.Name = "TextEdit17"
+        Me.TextEdit17.Size = New System.Drawing.Size(160, 20)
+        Me.TextEdit17.TabIndex = 5
+        '
+        'TextEdit18
+        '
+        Me.TextEdit18.Location = New System.Drawing.Point(6, 18)
+        Me.TextEdit18.Name = "TextEdit18"
+        Me.TextEdit18.Size = New System.Drawing.Size(160, 20)
+        Me.TextEdit18.TabIndex = 4
         '
         'TextEdit7
         '
@@ -265,181 +420,13 @@ Partial Class alis_satis_rapor
         Me.DateEdit1.Size = New System.Drawing.Size(100, 20)
         Me.DateEdit1.TabIndex = 0
         '
-        'GroupBox3
-        '
-        Me.GroupBox3.Controls.Add(Me.TextEdit15)
-        Me.GroupBox3.Controls.Add(Me.TextEdit16)
-        Me.GroupBox3.Controls.Add(Me.TextEdit17)
-        Me.GroupBox3.Controls.Add(Me.TextEdit18)
-        Me.GroupBox3.Location = New System.Drawing.Point(441, 4)
-        Me.GroupBox3.Name = "GroupBox3"
-        Me.GroupBox3.Size = New System.Drawing.Size(342, 86)
-        Me.GroupBox3.TabIndex = 3
-        Me.GroupBox3.TabStop = False
-        Me.GroupBox3.Text = "Koşul"
-        '
-        'TextEdit15
-        '
-        Me.TextEdit15.Location = New System.Drawing.Point(174, 44)
-        Me.TextEdit15.Name = "TextEdit15"
-        Me.TextEdit15.Size = New System.Drawing.Size(160, 20)
-        Me.TextEdit15.TabIndex = 7
-        '
-        'TextEdit16
-        '
-        Me.TextEdit16.Location = New System.Drawing.Point(6, 44)
-        Me.TextEdit16.Name = "TextEdit16"
-        Me.TextEdit16.Size = New System.Drawing.Size(160, 20)
-        Me.TextEdit16.TabIndex = 6
-        '
-        'TextEdit17
-        '
-        Me.TextEdit17.Location = New System.Drawing.Point(174, 18)
-        Me.TextEdit17.Name = "TextEdit17"
-        Me.TextEdit17.Size = New System.Drawing.Size(160, 20)
-        Me.TextEdit17.TabIndex = 5
-        '
-        'TextEdit18
-        '
-        Me.TextEdit18.Location = New System.Drawing.Point(6, 18)
-        Me.TextEdit18.Name = "TextEdit18"
-        Me.TextEdit18.Size = New System.Drawing.Size(160, 20)
-        Me.TextEdit18.TabIndex = 4
-        '
-        'GroupBox4
-        '
-        Me.GroupBox4.Controls.Add(Me.LabelControl11)
-        Me.GroupBox4.Controls.Add(Me.LabelControl12)
-        Me.GroupBox4.Location = New System.Drawing.Point(341, 4)
-        Me.GroupBox4.Name = "GroupBox4"
-        Me.GroupBox4.Size = New System.Drawing.Size(94, 86)
-        Me.GroupBox4.TabIndex = 2
-        Me.GroupBox4.TabStop = False
-        Me.GroupBox4.Text = "Filtre"
-        '
-        'LabelControl11
-        '
-        Me.LabelControl11.Location = New System.Drawing.Point(6, 47)
-        Me.LabelControl11.Name = "LabelControl11"
-        Me.LabelControl11.Size = New System.Drawing.Size(81, 13)
-        Me.LabelControl11.TabIndex = 1
-        Me.LabelControl11.Text = "Müşteri Temsilcisi"
-        '
-        'LabelControl12
-        '
-        Me.LabelControl12.Location = New System.Drawing.Point(6, 21)
-        Me.LabelControl12.Name = "LabelControl12"
-        Me.LabelControl12.Size = New System.Drawing.Size(79, 13)
-        Me.LabelControl12.TabIndex = 0
-        Me.LabelControl12.Text = "Cari Hesap Kodu"
-        '
-        'GroupBox5
-        '
-        Me.GroupBox5.Controls.Add(Me.RadioButton5)
-        Me.GroupBox5.Controls.Add(Me.RadioButton6)
-        Me.GroupBox5.Controls.Add(Me.RadioButton3)
-        Me.GroupBox5.Controls.Add(Me.RadioButton4)
-        Me.GroupBox5.Controls.Add(Me.RadioButton2)
-        Me.GroupBox5.Controls.Add(Me.RadioButton1)
-        Me.GroupBox5.Location = New System.Drawing.Point(799, 4)
-        Me.GroupBox5.Name = "GroupBox5"
-        Me.GroupBox5.Size = New System.Drawing.Size(135, 180)
-        Me.GroupBox5.TabIndex = 4
-        Me.GroupBox5.TabStop = False
-        Me.GroupBox5.Text = "Rapor Kriteri"
-        '
-        'RadioButton5
-        '
-        Me.RadioButton5.AutoSize = True
-        Me.RadioButton5.Location = New System.Drawing.Point(7, 138)
-        Me.RadioButton5.Name = "RadioButton5"
-        Me.RadioButton5.Size = New System.Drawing.Size(102, 17)
-        Me.RadioButton5.TabIndex = 5
-        Me.RadioButton5.TabStop = True
-        Me.RadioButton5.Text = "Perakende Satış"
-        Me.RadioButton5.UseVisualStyleBackColor = True
-        '
-        'RadioButton6
-        '
-        Me.RadioButton6.AutoSize = True
-        Me.RadioButton6.Location = New System.Drawing.Point(7, 115)
-        Me.RadioButton6.Name = "RadioButton6"
-        Me.RadioButton6.Size = New System.Drawing.Size(95, 17)
-        Me.RadioButton6.TabIndex = 4
-        Me.RadioButton6.TabStop = True
-        Me.RadioButton6.Text = "Perakende Alış"
-        Me.RadioButton6.UseVisualStyleBackColor = True
-        '
-        'RadioButton3
-        '
-        Me.RadioButton3.AutoSize = True
-        Me.RadioButton3.Location = New System.Drawing.Point(7, 92)
-        Me.RadioButton3.Name = "RadioButton3"
-        Me.RadioButton3.Size = New System.Drawing.Size(110, 17)
-        Me.RadioButton3.TabIndex = 3
-        Me.RadioButton3.TabStop = True
-        Me.RadioButton3.Text = "Toptan Satış İade"
-        Me.RadioButton3.UseVisualStyleBackColor = True
-        '
-        'RadioButton4
-        '
-        Me.RadioButton4.AutoSize = True
-        Me.RadioButton4.Location = New System.Drawing.Point(7, 69)
-        Me.RadioButton4.Name = "RadioButton4"
-        Me.RadioButton4.Size = New System.Drawing.Size(103, 17)
-        Me.RadioButton4.TabIndex = 2
-        Me.RadioButton4.TabStop = True
-        Me.RadioButton4.Text = "Toptan Alış İade"
-        Me.RadioButton4.UseVisualStyleBackColor = True
-        '
-        'RadioButton2
-        '
-        Me.RadioButton2.AutoSize = True
-        Me.RadioButton2.Location = New System.Drawing.Point(7, 45)
-        Me.RadioButton2.Name = "RadioButton2"
-        Me.RadioButton2.Size = New System.Drawing.Size(85, 17)
-        Me.RadioButton2.TabIndex = 1
-        Me.RadioButton2.TabStop = True
-        Me.RadioButton2.Text = "Toptan Satış"
-        Me.RadioButton2.UseVisualStyleBackColor = True
-        '
-        'RadioButton1
-        '
-        Me.RadioButton1.AutoSize = True
-        Me.RadioButton1.Location = New System.Drawing.Point(7, 21)
-        Me.RadioButton1.Name = "RadioButton1"
-        Me.RadioButton1.Size = New System.Drawing.Size(78, 17)
-        Me.RadioButton1.TabIndex = 0
-        Me.RadioButton1.TabStop = True
-        Me.RadioButton1.Text = "Toptan Alış"
-        Me.RadioButton1.UseVisualStyleBackColor = True
-        '
-        'SimpleButton1
-        '
-        Me.SimpleButton1.Location = New System.Drawing.Point(957, 12)
-        Me.SimpleButton1.Name = "SimpleButton1"
-        Me.SimpleButton1.Size = New System.Drawing.Size(120, 64)
-        Me.SimpleButton1.TabIndex = 0
-        Me.SimpleButton1.Text = "Listele"
-        '
-        'SimpleButton2
-        '
-        Me.SimpleButton2.Location = New System.Drawing.Point(957, 120)
-        Me.SimpleButton2.Name = "SimpleButton2"
-        Me.SimpleButton2.Size = New System.Drawing.Size(120, 64)
-        Me.SimpleButton2.TabIndex = 1
-        Me.SimpleButton2.Text = "Yazdır"
-        '
         'GridControl1
         '
-        GridLevelNode1.RelationName = "Level1"
-        GridLevelNode2.RelationName = "Level2"
-        Me.GridControl1.LevelTree.Nodes.AddRange(New DevExpress.XtraGrid.GridLevelNode() {GridLevelNode1, GridLevelNode2})
-        Me.GridControl1.Location = New System.Drawing.Point(3, 191)
+        Me.GridControl1.Location = New System.Drawing.Point(1, 187)
         Me.GridControl1.MainView = Me.GridView1
         Me.GridControl1.Name = "GridControl1"
-        Me.GridControl1.Size = New System.Drawing.Size(1074, 422)
-        Me.GridControl1.TabIndex = 6
+        Me.GridControl1.Size = New System.Drawing.Size(1077, 426)
+        Me.GridControl1.TabIndex = 7
         Me.GridControl1.ViewCollection.AddRange(New DevExpress.XtraGrid.Views.Base.BaseView() {Me.GridView1})
         '
         'GridView1
@@ -447,24 +434,43 @@ Partial Class alis_satis_rapor
         Me.GridView1.GridControl = Me.GridControl1
         Me.GridView1.Name = "GridView1"
         '
-        'alis_satis_rapor
+        'SimpleButton3
+        '
+        Me.SimpleButton3.Location = New System.Drawing.Point(6, 123)
+        Me.SimpleButton3.Name = "SimpleButton3"
+        Me.SimpleButton3.Size = New System.Drawing.Size(117, 44)
+        Me.SimpleButton3.TabIndex = 2
+        Me.SimpleButton3.Text = "Excel"
+        '
+        'banka_havale_list
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(1079, 616)
-        Me.Controls.Add(Me.SimpleButton2)
         Me.Controls.Add(Me.GridControl1)
-        Me.Controls.Add(Me.SimpleButton1)
+        Me.Controls.Add(Me.GroupBox6)
         Me.Controls.Add(Me.GroupBox5)
         Me.Controls.Add(Me.GroupBox3)
         Me.Controls.Add(Me.GroupBox4)
         Me.Controls.Add(Me.GroupBox2)
         Me.Controls.Add(Me.GroupBox1)
-        Me.Name = "alis_satis_rapor"
-        Me.Text = "Alış Satış Raporu"
+        Me.Name = "banka_havale_list"
+        Me.Text = "Banka Havale Listesi"
         Me.GroupBox1.ResumeLayout(False)
         Me.GroupBox1.PerformLayout()
         Me.GroupBox2.ResumeLayout(False)
+        Me.GroupBox4.ResumeLayout(False)
+        Me.GroupBox4.PerformLayout()
+        Me.GroupBox3.ResumeLayout(False)
+        Me.GroupBox5.ResumeLayout(False)
+        Me.GroupBox5.PerformLayout()
+        Me.GroupBox6.ResumeLayout(False)
+        CType(Me.TextEdit11.Properties, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.TextEdit12.Properties, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.TextEdit15.Properties, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.TextEdit16.Properties, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.TextEdit17.Properties, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.TextEdit18.Properties, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.TextEdit7.Properties, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.TextEdit8.Properties, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.TextEdit9.Properties, System.ComponentModel.ISupportInitialize).EndInit()
@@ -479,15 +485,6 @@ Partial Class alis_satis_rapor
         CType(Me.DateEdit2.Properties, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.DateEdit1.Properties.CalendarTimeProperties, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.DateEdit1.Properties, System.ComponentModel.ISupportInitialize).EndInit()
-        Me.GroupBox3.ResumeLayout(False)
-        CType(Me.TextEdit15.Properties, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.TextEdit16.Properties, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.TextEdit17.Properties, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.TextEdit18.Properties, System.ComponentModel.ISupportInitialize).EndInit()
-        Me.GroupBox4.ResumeLayout(False)
-        Me.GroupBox4.PerformLayout()
-        Me.GroupBox5.ResumeLayout(False)
-        Me.GroupBox5.PerformLayout()
         CType(Me.GridControl1, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.GridView1, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
@@ -515,23 +512,24 @@ Partial Class alis_satis_rapor
     Friend WithEvents TextEdit1 As DevExpress.XtraEditors.TextEdit
     Friend WithEvents DateEdit2 As DevExpress.XtraEditors.DateEdit
     Friend WithEvents DateEdit1 As DevExpress.XtraEditors.DateEdit
+    Friend WithEvents GroupBox4 As GroupBox
+    Friend WithEvents LabelControl7 As DevExpress.XtraEditors.LabelControl
+    Friend WithEvents LabelControl11 As DevExpress.XtraEditors.LabelControl
+    Friend WithEvents LabelControl12 As DevExpress.XtraEditors.LabelControl
     Friend WithEvents GroupBox3 As GroupBox
+    Friend WithEvents TextEdit11 As DevExpress.XtraEditors.TextEdit
+    Friend WithEvents TextEdit12 As DevExpress.XtraEditors.TextEdit
     Friend WithEvents TextEdit15 As DevExpress.XtraEditors.TextEdit
     Friend WithEvents TextEdit16 As DevExpress.XtraEditors.TextEdit
     Friend WithEvents TextEdit17 As DevExpress.XtraEditors.TextEdit
     Friend WithEvents TextEdit18 As DevExpress.XtraEditors.TextEdit
-    Friend WithEvents GroupBox4 As GroupBox
-    Friend WithEvents LabelControl11 As DevExpress.XtraEditors.LabelControl
-    Friend WithEvents LabelControl12 As DevExpress.XtraEditors.LabelControl
     Friend WithEvents GroupBox5 As GroupBox
-    Friend WithEvents RadioButton5 As RadioButton
-    Friend WithEvents RadioButton6 As RadioButton
-    Friend WithEvents RadioButton3 As RadioButton
-    Friend WithEvents RadioButton4 As RadioButton
     Friend WithEvents RadioButton2 As RadioButton
     Friend WithEvents RadioButton1 As RadioButton
+    Friend WithEvents GroupBox6 As GroupBox
     Friend WithEvents SimpleButton2 As DevExpress.XtraEditors.SimpleButton
     Friend WithEvents SimpleButton1 As DevExpress.XtraEditors.SimpleButton
     Friend WithEvents GridControl1 As DevExpress.XtraGrid.GridControl
     Friend WithEvents GridView1 As DevExpress.XtraGrid.Views.Grid.GridView
+    Friend WithEvents SimpleButton3 As DevExpress.XtraEditors.SimpleButton
 End Class

@@ -125,10 +125,58 @@
     <Compile Include="alis_satis_rapor.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="bankadan_cekilen.Designer.vb">
+      <DependentUpon>bankadan_cekilen.vb</DependentUpon>
+    </Compile>
+    <Compile Include="bankadan_cekilen.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="banka_acilis_islem.Designer.vb">
+      <DependentUpon>banka_acilis_islem.vb</DependentUpon>
+    </Compile>
+    <Compile Include="banka_acilis_islem.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="banka_bakiye_liste.Designer.vb">
+      <DependentUpon>banka_bakiye_liste.vb</DependentUpon>
+    </Compile>
+    <Compile Include="banka_bakiye_liste.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="banka_havale_list.Designer.vb">
+      <DependentUpon>banka_havale_list.vb</DependentUpon>
+    </Compile>
+    <Compile Include="banka_havale_list.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="banka_hesap_ekstresi.Designer.vb">
+      <DependentUpon>banka_hesap_ekstresi.vb</DependentUpon>
+    </Compile>
+    <Compile Include="banka_hesap_ekstresi.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="banka_nakit.Designer.vb">
+      <DependentUpon>banka_nakit.vb</DependentUpon>
+    </Compile>
+    <Compile Include="banka_nakit.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="banka_tanim.Designer.vb">
       <DependentUpon>banka_tanim.vb</DependentUpon>
     </Compile>
     <Compile Include="banka_tanim.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="banka_virman_fisi.Designer.vb">
+      <DependentUpon>banka_virman_fisi.vb</DependentUpon>
+    </Compile>
+    <Compile Include="banka_virman_fisi.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="banka_yatirilan.Designer.vb">
+      <DependentUpon>banka_yatirilan.vb</DependentUpon>
+    </Compile>
+    <Compile Include="banka_yatirilan.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="carihesap_islem.Designer.vb">
@@ -146,6 +194,30 @@
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>dataonsDataSet1.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="gelen_havale.Designer.vb">
+      <DependentUpon>gelen_havale.vb</DependentUpon>
+    </Compile>
+    <Compile Include="gelen_havale.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="giden_havale.Designer.vb">
+      <DependentUpon>giden_havale.vb</DependentUpon>
+    </Compile>
+    <Compile Include="giden_havale.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="kasa_giriscikis.Designer.vb">
+      <DependentUpon>kasa_giriscikis.vb</DependentUpon>
+    </Compile>
+    <Compile Include="kasa_giriscikis.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="kasa_tanim.Designer.vb">
+      <DependentUpon>kasa_tanim.vb</DependentUpon>
+    </Compile>
+    <Compile Include="kasa_tanim.vb">
+      <SubType>Form</SubType>
     </Compile>
     <Compile Include="perakende_alis.Designer.vb">
       <DependentUpon>perakende_alis.vb</DependentUpon>
@@ -265,11 +337,47 @@
     <EmbeddedResource Include="alis_satis_rapor.resx">
       <DependentUpon>alis_satis_rapor.vb</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="bankadan_cekilen.resx">
+      <DependentUpon>bankadan_cekilen.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="banka_acilis_islem.resx">
+      <DependentUpon>banka_acilis_islem.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="banka_bakiye_liste.resx">
+      <DependentUpon>banka_bakiye_liste.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="banka_havale_list.resx">
+      <DependentUpon>banka_havale_list.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="banka_hesap_ekstresi.resx">
+      <DependentUpon>banka_hesap_ekstresi.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="banka_nakit.resx">
+      <DependentUpon>banka_nakit.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="banka_tanim.resx">
       <DependentUpon>banka_tanim.vb</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="banka_virman_fisi.resx">
+      <DependentUpon>banka_virman_fisi.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="banka_yatirilan.resx">
+      <DependentUpon>banka_yatirilan.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="carihesap_islem.resx">
       <DependentUpon>carihesap_islem.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="gelen_havale.resx">
+      <DependentUpon>gelen_havale.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="giden_havale.resx">
+      <DependentUpon>giden_havale.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="kasa_giriscikis.resx">
+      <DependentUpon>kasa_giriscikis.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="kasa_tanim.resx">
+      <DependentUpon>kasa_tanim.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="perakende_alis.resx">
       <DependentUpon>perakende_alis.vb</DependentUpon>
