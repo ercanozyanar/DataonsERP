@@ -1,5 +1,5 @@
 ﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
-Partial Class Form1
+Partial Class perakende_satis
     Inherits DevExpress.XtraEditors.XtraForm
 
     'Form, bileşen listesini temizlemeyi bırakmayı geçersiz kılar.
@@ -60,12 +60,34 @@ Partial Class Form1
         Me.LabelControl8 = New DevExpress.XtraEditors.LabelControl()
         Me.TextEdit25 = New DevExpress.XtraEditors.TextEdit()
         Me.PanelControl1 = New DevExpress.XtraEditors.PanelControl()
+        Me.GroupControl4 = New DevExpress.XtraEditors.GroupControl()
+        Me.RadioButton3 = New System.Windows.Forms.RadioButton()
+        Me.RadioButton4 = New System.Windows.Forms.RadioButton()
+        Me.GroupControl2 = New DevExpress.XtraEditors.GroupControl()
+        Me.RadioButton2 = New System.Windows.Forms.RadioButton()
+        Me.RadioButton1 = New System.Windows.Forms.RadioButton()
+        Me.LabelControl5 = New DevExpress.XtraEditors.LabelControl()
+        Me.DateEdit2 = New DevExpress.XtraEditors.DateEdit()
+        Me.ComboBoxEdit3 = New DevExpress.XtraEditors.ComboBoxEdit()
+        Me.LabelControl2 = New DevExpress.XtraEditors.LabelControl()
         Me.LabelControl3 = New DevExpress.XtraEditors.LabelControl()
         Me.LabelControl1 = New DevExpress.XtraEditors.LabelControl()
         Me.TextEdit1 = New DevExpress.XtraEditors.TextEdit()
         Me.LabelControl4 = New DevExpress.XtraEditors.LabelControl()
         Me.LabelControl34 = New DevExpress.XtraEditors.LabelControl()
         Me.GroupControl1 = New DevExpress.XtraEditors.GroupControl()
+        Me.TextEdit10 = New DevExpress.XtraEditors.TextEdit()
+        Me.TextEdit11 = New DevExpress.XtraEditors.TextEdit()
+        Me.TextEdit13 = New DevExpress.XtraEditors.TextEdit()
+        Me.TextEdit29 = New DevExpress.XtraEditors.TextEdit()
+        Me.TextEdit3 = New DevExpress.XtraEditors.TextEdit()
+        Me.TextEdit7 = New DevExpress.XtraEditors.TextEdit()
+        Me.TextEdit8 = New DevExpress.XtraEditors.TextEdit()
+        Me.TextEdit9 = New DevExpress.XtraEditors.TextEdit()
+        Me.LabelControl12 = New DevExpress.XtraEditors.LabelControl()
+        Me.LabelControl11 = New DevExpress.XtraEditors.LabelControl()
+        Me.LabelControl9 = New DevExpress.XtraEditors.LabelControl()
+        Me.LabelControl10 = New DevExpress.XtraEditors.LabelControl()
         Me.TextEdit27 = New DevExpress.XtraEditors.TextEdit()
         Me.LabelControl25 = New DevExpress.XtraEditors.LabelControl()
         Me.LabelControl24 = New DevExpress.XtraEditors.LabelControl()
@@ -79,28 +101,6 @@ Partial Class Form1
         Me.LabelControl30 = New DevExpress.XtraEditors.LabelControl()
         Me.LabelControl31 = New DevExpress.XtraEditors.LabelControl()
         Me.GroupControl5 = New DevExpress.XtraEditors.GroupControl()
-        Me.ComboBoxEdit3 = New DevExpress.XtraEditors.ComboBoxEdit()
-        Me.LabelControl2 = New DevExpress.XtraEditors.LabelControl()
-        Me.LabelControl5 = New DevExpress.XtraEditors.LabelControl()
-        Me.DateEdit2 = New DevExpress.XtraEditors.DateEdit()
-        Me.GroupControl2 = New DevExpress.XtraEditors.GroupControl()
-        Me.RadioButton1 = New System.Windows.Forms.RadioButton()
-        Me.RadioButton2 = New System.Windows.Forms.RadioButton()
-        Me.GroupControl4 = New DevExpress.XtraEditors.GroupControl()
-        Me.RadioButton3 = New System.Windows.Forms.RadioButton()
-        Me.RadioButton4 = New System.Windows.Forms.RadioButton()
-        Me.LabelControl9 = New DevExpress.XtraEditors.LabelControl()
-        Me.LabelControl10 = New DevExpress.XtraEditors.LabelControl()
-        Me.LabelControl11 = New DevExpress.XtraEditors.LabelControl()
-        Me.LabelControl12 = New DevExpress.XtraEditors.LabelControl()
-        Me.TextEdit3 = New DevExpress.XtraEditors.TextEdit()
-        Me.TextEdit7 = New DevExpress.XtraEditors.TextEdit()
-        Me.TextEdit8 = New DevExpress.XtraEditors.TextEdit()
-        Me.TextEdit9 = New DevExpress.XtraEditors.TextEdit()
-        Me.TextEdit10 = New DevExpress.XtraEditors.TextEdit()
-        Me.TextEdit11 = New DevExpress.XtraEditors.TextEdit()
-        Me.TextEdit13 = New DevExpress.XtraEditors.TextEdit()
-        Me.TextEdit29 = New DevExpress.XtraEditors.TextEdit()
         Me.GroupControl6 = New DevExpress.XtraEditors.GroupControl()
         Me.TextEdit28 = New DevExpress.XtraEditors.TextEdit()
         Me.LabelControl15 = New DevExpress.XtraEditors.LabelControl()
@@ -111,14 +111,14 @@ Partial Class Form1
         Me.TextEdit32 = New DevExpress.XtraEditors.TextEdit()
         Me.LabelControl35 = New DevExpress.XtraEditors.LabelControl()
         Me.Panel1 = New System.Windows.Forms.Panel()
-        Me.TextEdit33 = New DevExpress.XtraEditors.TextEdit()
-        Me.LabelControl36 = New DevExpress.XtraEditors.LabelControl()
-        Me.TextEdit34 = New DevExpress.XtraEditors.TextEdit()
-        Me.LabelControl37 = New DevExpress.XtraEditors.LabelControl()
-        Me.TextEdit35 = New DevExpress.XtraEditors.TextEdit()
-        Me.LabelControl38 = New DevExpress.XtraEditors.LabelControl()
         Me.TextEdit36 = New DevExpress.XtraEditors.TextEdit()
         Me.LabelControl39 = New DevExpress.XtraEditors.LabelControl()
+        Me.TextEdit35 = New DevExpress.XtraEditors.TextEdit()
+        Me.LabelControl38 = New DevExpress.XtraEditors.LabelControl()
+        Me.TextEdit34 = New DevExpress.XtraEditors.TextEdit()
+        Me.LabelControl37 = New DevExpress.XtraEditors.LabelControl()
+        Me.TextEdit33 = New DevExpress.XtraEditors.TextEdit()
+        Me.LabelControl36 = New DevExpress.XtraEditors.LabelControl()
         Me.SimpleButton2 = New DevExpress.XtraEditors.SimpleButton()
         Me.SimpleButton3 = New DevExpress.XtraEditors.SimpleButton()
         Me.SimpleButton4 = New DevExpress.XtraEditors.SimpleButton()
@@ -153,29 +153,29 @@ Partial Class Form1
         CType(Me.TextEdit25.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PanelControl1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.PanelControl1.SuspendLayout()
+        CType(Me.GroupControl4, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.GroupControl4.SuspendLayout()
+        CType(Me.GroupControl2, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.GroupControl2.SuspendLayout()
+        CType(Me.DateEdit2.Properties.CalendarTimeProperties, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.DateEdit2.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.ComboBoxEdit3.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.TextEdit1.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.GroupControl1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.GroupControl1.SuspendLayout()
+        CType(Me.TextEdit10.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.TextEdit11.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.TextEdit13.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.TextEdit29.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.TextEdit3.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.TextEdit7.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.TextEdit8.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.TextEdit9.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.TextEdit27.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.GroupControl3, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.GroupControl3.SuspendLayout()
         CType(Me.GroupControl5, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.GroupControl5.SuspendLayout()
-        CType(Me.ComboBoxEdit3.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.DateEdit2.Properties.CalendarTimeProperties, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.DateEdit2.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.GroupControl2, System.ComponentModel.ISupportInitialize).BeginInit()
-        Me.GroupControl2.SuspendLayout()
-        CType(Me.GroupControl4, System.ComponentModel.ISupportInitialize).BeginInit()
-        Me.GroupControl4.SuspendLayout()
-        CType(Me.TextEdit3.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.TextEdit7.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.TextEdit8.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.TextEdit9.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.TextEdit10.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.TextEdit11.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.TextEdit13.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.TextEdit29.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.GroupControl6, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.GroupControl6.SuspendLayout()
         CType(Me.TextEdit28.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -183,10 +183,10 @@ Partial Class Form1
         CType(Me.TextEdit31.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.TextEdit32.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.Panel1.SuspendLayout()
-        CType(Me.TextEdit33.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.TextEdit34.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.TextEdit35.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.TextEdit36.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.TextEdit35.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.TextEdit34.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.TextEdit33.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'DataGridView1
@@ -586,6 +586,119 @@ Partial Class Form1
         Me.PanelControl1.Size = New System.Drawing.Size(1072, 131)
         Me.PanelControl1.TabIndex = 87
         '
+        'GroupControl4
+        '
+        Me.GroupControl4.Controls.Add(Me.RadioButton3)
+        Me.GroupControl4.Controls.Add(Me.RadioButton4)
+        Me.GroupControl4.Location = New System.Drawing.Point(892, 80)
+        Me.GroupControl4.Name = "GroupControl4"
+        Me.GroupControl4.Size = New System.Drawing.Size(175, 46)
+        Me.GroupControl4.TabIndex = 115
+        Me.GroupControl4.Text = "Yazdırma Tipi"
+        '
+        'RadioButton3
+        '
+        Me.RadioButton3.AutoSize = True
+        Me.RadioButton3.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.RadioButton3.Font = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(162, Byte))
+        Me.RadioButton3.Location = New System.Drawing.Point(108, 25)
+        Me.RadioButton3.Name = "RadioButton3"
+        Me.RadioButton3.Size = New System.Drawing.Size(63, 18)
+        Me.RadioButton3.TabIndex = 1
+        Me.RadioButton3.TabStop = True
+        Me.RadioButton3.Text = "Fatura"
+        Me.RadioButton3.UseVisualStyleBackColor = True
+        '
+        'RadioButton4
+        '
+        Me.RadioButton4.AutoSize = True
+        Me.RadioButton4.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.RadioButton4.Font = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(162, Byte))
+        Me.RadioButton4.Location = New System.Drawing.Point(24, 25)
+        Me.RadioButton4.Name = "RadioButton4"
+        Me.RadioButton4.Size = New System.Drawing.Size(39, 18)
+        Me.RadioButton4.TabIndex = 0
+        Me.RadioButton4.TabStop = True
+        Me.RadioButton4.Text = "Fiş"
+        Me.RadioButton4.UseVisualStyleBackColor = True
+        '
+        'GroupControl2
+        '
+        Me.GroupControl2.Controls.Add(Me.RadioButton2)
+        Me.GroupControl2.Controls.Add(Me.RadioButton1)
+        Me.GroupControl2.Location = New System.Drawing.Point(666, 80)
+        Me.GroupControl2.Name = "GroupControl2"
+        Me.GroupControl2.Size = New System.Drawing.Size(175, 46)
+        Me.GroupControl2.TabIndex = 114
+        Me.GroupControl2.Text = "Yazdırma"
+        '
+        'RadioButton2
+        '
+        Me.RadioButton2.AutoSize = True
+        Me.RadioButton2.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.RadioButton2.Font = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(162, Byte))
+        Me.RadioButton2.Location = New System.Drawing.Point(108, 24)
+        Me.RadioButton2.Name = "RadioButton2"
+        Me.RadioButton2.Size = New System.Drawing.Size(55, 18)
+        Me.RadioButton2.TabIndex = 1
+        Me.RadioButton2.TabStop = True
+        Me.RadioButton2.Text = "Hayır"
+        Me.RadioButton2.UseVisualStyleBackColor = True
+        '
+        'RadioButton1
+        '
+        Me.RadioButton1.AutoSize = True
+        Me.RadioButton1.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.RadioButton1.Font = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(162, Byte))
+        Me.RadioButton1.Location = New System.Drawing.Point(24, 25)
+        Me.RadioButton1.Name = "RadioButton1"
+        Me.RadioButton1.Size = New System.Drawing.Size(51, 18)
+        Me.RadioButton1.TabIndex = 0
+        Me.RadioButton1.TabStop = True
+        Me.RadioButton1.Text = "Evet"
+        Me.RadioButton1.UseVisualStyleBackColor = True
+        '
+        'LabelControl5
+        '
+        Me.LabelControl5.Appearance.Font = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(162, Byte))
+        Me.LabelControl5.Appearance.Options.UseFont = True
+        Me.LabelControl5.Location = New System.Drawing.Point(897, 31)
+        Me.LabelControl5.Name = "LabelControl5"
+        Me.LabelControl5.Size = New System.Drawing.Size(62, 14)
+        Me.LabelControl5.TabIndex = 113
+        Me.LabelControl5.Text = "Depo/Şube"
+        '
+        'DateEdit2
+        '
+        Me.DateEdit2.EditValue = Nothing
+        Me.DateEdit2.Location = New System.Drawing.Point(968, 29)
+        Me.DateEdit2.Name = "DateEdit2"
+        Me.DateEdit2.Properties.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)})
+        Me.DateEdit2.Properties.CalendarTimeProperties.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)})
+        Me.DateEdit2.Size = New System.Drawing.Size(87, 20)
+        Me.DateEdit2.TabIndex = 112
+        '
+        'ComboBoxEdit3
+        '
+        Me.ComboBoxEdit3.Location = New System.Drawing.Point(756, 54)
+        Me.ComboBoxEdit3.Name = "ComboBoxEdit3"
+        Me.ComboBoxEdit3.Properties.Appearance.Font = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(162, Byte))
+        Me.ComboBoxEdit3.Properties.Appearance.Options.UseFont = True
+        Me.ComboBoxEdit3.Properties.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)})
+        Me.ComboBoxEdit3.Properties.Items.AddRange(New Object() {"GRAM", "ADET", "MILYEM"})
+        Me.ComboBoxEdit3.Size = New System.Drawing.Size(121, 20)
+        Me.ComboBoxEdit3.TabIndex = 111
+        '
+        'LabelControl2
+        '
+        Me.LabelControl2.Appearance.Font = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(162, Byte))
+        Me.LabelControl2.Appearance.Options.UseFont = True
+        Me.LabelControl2.Location = New System.Drawing.Point(666, 57)
+        Me.LabelControl2.Name = "LabelControl2"
+        Me.LabelControl2.Size = New System.Drawing.Size(84, 14)
+        Me.LabelControl2.TabIndex = 110
+        Me.LabelControl2.Text = "Kasa/Vezne Adı"
+        '
         'LabelControl3
         '
         Me.LabelControl3.Appearance.Font = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(162, Byte))
@@ -662,6 +775,134 @@ Partial Class Form1
         Me.GroupControl1.Size = New System.Drawing.Size(269, 206)
         Me.GroupControl1.TabIndex = 91
         Me.GroupControl1.Text = "Altın Alış - Satış"
+        '
+        'TextEdit10
+        '
+        Me.TextEdit10.Location = New System.Drawing.Point(164, 178)
+        Me.TextEdit10.Name = "TextEdit10"
+        Me.TextEdit10.Properties.Appearance.BackColor = System.Drawing.Color.LightSteelBlue
+        Me.TextEdit10.Properties.Appearance.Font = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(162, Byte))
+        Me.TextEdit10.Properties.Appearance.Options.UseBackColor = True
+        Me.TextEdit10.Properties.Appearance.Options.UseFont = True
+        Me.TextEdit10.Size = New System.Drawing.Size(96, 20)
+        Me.TextEdit10.TabIndex = 92
+        '
+        'TextEdit11
+        '
+        Me.TextEdit11.Location = New System.Drawing.Point(164, 152)
+        Me.TextEdit11.Name = "TextEdit11"
+        Me.TextEdit11.Properties.Appearance.BackColor = System.Drawing.Color.LightSteelBlue
+        Me.TextEdit11.Properties.Appearance.Font = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(162, Byte))
+        Me.TextEdit11.Properties.Appearance.Options.UseBackColor = True
+        Me.TextEdit11.Properties.Appearance.Options.UseFont = True
+        Me.TextEdit11.Size = New System.Drawing.Size(96, 20)
+        Me.TextEdit11.TabIndex = 91
+        '
+        'TextEdit13
+        '
+        Me.TextEdit13.Location = New System.Drawing.Point(62, 178)
+        Me.TextEdit13.Name = "TextEdit13"
+        Me.TextEdit13.Properties.Appearance.BackColor = System.Drawing.Color.LightSteelBlue
+        Me.TextEdit13.Properties.Appearance.Font = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(162, Byte))
+        Me.TextEdit13.Properties.Appearance.Options.UseBackColor = True
+        Me.TextEdit13.Properties.Appearance.Options.UseFont = True
+        Me.TextEdit13.Size = New System.Drawing.Size(96, 20)
+        Me.TextEdit13.TabIndex = 90
+        '
+        'TextEdit29
+        '
+        Me.TextEdit29.Location = New System.Drawing.Point(62, 152)
+        Me.TextEdit29.Name = "TextEdit29"
+        Me.TextEdit29.Properties.Appearance.BackColor = System.Drawing.Color.LightSteelBlue
+        Me.TextEdit29.Properties.Appearance.Font = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(162, Byte))
+        Me.TextEdit29.Properties.Appearance.Options.UseBackColor = True
+        Me.TextEdit29.Properties.Appearance.Options.UseFont = True
+        Me.TextEdit29.Size = New System.Drawing.Size(96, 20)
+        Me.TextEdit29.TabIndex = 89
+        '
+        'TextEdit3
+        '
+        Me.TextEdit3.Location = New System.Drawing.Point(164, 127)
+        Me.TextEdit3.Name = "TextEdit3"
+        Me.TextEdit3.Properties.Appearance.BackColor = System.Drawing.Color.LightSteelBlue
+        Me.TextEdit3.Properties.Appearance.Font = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(162, Byte))
+        Me.TextEdit3.Properties.Appearance.Options.UseBackColor = True
+        Me.TextEdit3.Properties.Appearance.Options.UseFont = True
+        Me.TextEdit3.Size = New System.Drawing.Size(96, 20)
+        Me.TextEdit3.TabIndex = 88
+        '
+        'TextEdit7
+        '
+        Me.TextEdit7.Location = New System.Drawing.Point(164, 101)
+        Me.TextEdit7.Name = "TextEdit7"
+        Me.TextEdit7.Properties.Appearance.BackColor = System.Drawing.Color.LightSteelBlue
+        Me.TextEdit7.Properties.Appearance.Font = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(162, Byte))
+        Me.TextEdit7.Properties.Appearance.Options.UseBackColor = True
+        Me.TextEdit7.Properties.Appearance.Options.UseFont = True
+        Me.TextEdit7.Size = New System.Drawing.Size(96, 20)
+        Me.TextEdit7.TabIndex = 87
+        '
+        'TextEdit8
+        '
+        Me.TextEdit8.Location = New System.Drawing.Point(164, 75)
+        Me.TextEdit8.Name = "TextEdit8"
+        Me.TextEdit8.Properties.Appearance.BackColor = System.Drawing.Color.LightSteelBlue
+        Me.TextEdit8.Properties.Appearance.Font = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(162, Byte))
+        Me.TextEdit8.Properties.Appearance.Options.UseBackColor = True
+        Me.TextEdit8.Properties.Appearance.Options.UseFont = True
+        Me.TextEdit8.Size = New System.Drawing.Size(96, 20)
+        Me.TextEdit8.TabIndex = 86
+        '
+        'TextEdit9
+        '
+        Me.TextEdit9.Location = New System.Drawing.Point(164, 48)
+        Me.TextEdit9.Name = "TextEdit9"
+        Me.TextEdit9.Properties.Appearance.BackColor = System.Drawing.Color.LightSteelBlue
+        Me.TextEdit9.Properties.Appearance.Font = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(162, Byte))
+        Me.TextEdit9.Properties.Appearance.Options.UseBackColor = True
+        Me.TextEdit9.Properties.Appearance.Options.UseFont = True
+        Me.TextEdit9.Size = New System.Drawing.Size(96, 20)
+        Me.TextEdit9.TabIndex = 85
+        '
+        'LabelControl12
+        '
+        Me.LabelControl12.Appearance.Font = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(162, Byte))
+        Me.LabelControl12.Appearance.Options.UseFont = True
+        Me.LabelControl12.Location = New System.Drawing.Point(190, 28)
+        Me.LabelControl12.Name = "LabelControl12"
+        Me.LabelControl12.Size = New System.Drawing.Size(25, 14)
+        Me.LabelControl12.TabIndex = 84
+        Me.LabelControl12.Text = "Satış"
+        '
+        'LabelControl11
+        '
+        Me.LabelControl11.Appearance.Font = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(162, Byte))
+        Me.LabelControl11.Appearance.Options.UseFont = True
+        Me.LabelControl11.Location = New System.Drawing.Point(90, 28)
+        Me.LabelControl11.Name = "LabelControl11"
+        Me.LabelControl11.Size = New System.Drawing.Size(17, 14)
+        Me.LabelControl11.TabIndex = 83
+        Me.LabelControl11.Text = "Alış"
+        '
+        'LabelControl9
+        '
+        Me.LabelControl9.Appearance.Font = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(162, Byte))
+        Me.LabelControl9.Appearance.Options.UseFont = True
+        Me.LabelControl9.Location = New System.Drawing.Point(5, 181)
+        Me.LabelControl9.Name = "LabelControl9"
+        Me.LabelControl9.Size = New System.Drawing.Size(35, 14)
+        Me.LabelControl9.TabIndex = 82
+        Me.LabelControl9.Text = "8 Ayar"
+        '
+        'LabelControl10
+        '
+        Me.LabelControl10.Appearance.Font = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(162, Byte))
+        Me.LabelControl10.Appearance.Options.UseFont = True
+        Me.LabelControl10.Location = New System.Drawing.Point(5, 155)
+        Me.LabelControl10.Name = "LabelControl10"
+        Me.LabelControl10.Size = New System.Drawing.Size(42, 14)
+        Me.LabelControl10.TabIndex = 81
+        Me.LabelControl10.Text = "14 Ayar"
         '
         'TextEdit27
         '
@@ -810,247 +1051,6 @@ Partial Class Form1
         Me.GroupControl5.TabIndex = 89
         Me.GroupControl5.Text = "Cari Hesap Bakiye"
         '
-        'ComboBoxEdit3
-        '
-        Me.ComboBoxEdit3.Location = New System.Drawing.Point(756, 54)
-        Me.ComboBoxEdit3.Name = "ComboBoxEdit3"
-        Me.ComboBoxEdit3.Properties.Appearance.Font = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(162, Byte))
-        Me.ComboBoxEdit3.Properties.Appearance.Options.UseFont = True
-        Me.ComboBoxEdit3.Properties.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)})
-        Me.ComboBoxEdit3.Properties.Items.AddRange(New Object() {"GRAM", "ADET", "MILYEM"})
-        Me.ComboBoxEdit3.Size = New System.Drawing.Size(121, 20)
-        Me.ComboBoxEdit3.TabIndex = 111
-        '
-        'LabelControl2
-        '
-        Me.LabelControl2.Appearance.Font = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(162, Byte))
-        Me.LabelControl2.Appearance.Options.UseFont = True
-        Me.LabelControl2.Location = New System.Drawing.Point(666, 57)
-        Me.LabelControl2.Name = "LabelControl2"
-        Me.LabelControl2.Size = New System.Drawing.Size(84, 14)
-        Me.LabelControl2.TabIndex = 110
-        Me.LabelControl2.Text = "Kasa/Vezne Adı"
-        '
-        'LabelControl5
-        '
-        Me.LabelControl5.Appearance.Font = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(162, Byte))
-        Me.LabelControl5.Appearance.Options.UseFont = True
-        Me.LabelControl5.Location = New System.Drawing.Point(897, 31)
-        Me.LabelControl5.Name = "LabelControl5"
-        Me.LabelControl5.Size = New System.Drawing.Size(62, 14)
-        Me.LabelControl5.TabIndex = 113
-        Me.LabelControl5.Text = "Depo/Şube"
-        '
-        'DateEdit2
-        '
-        Me.DateEdit2.EditValue = Nothing
-        Me.DateEdit2.Location = New System.Drawing.Point(968, 29)
-        Me.DateEdit2.Name = "DateEdit2"
-        Me.DateEdit2.Properties.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)})
-        Me.DateEdit2.Properties.CalendarTimeProperties.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)})
-        Me.DateEdit2.Size = New System.Drawing.Size(87, 20)
-        Me.DateEdit2.TabIndex = 112
-        '
-        'GroupControl2
-        '
-        Me.GroupControl2.Controls.Add(Me.RadioButton2)
-        Me.GroupControl2.Controls.Add(Me.RadioButton1)
-        Me.GroupControl2.Location = New System.Drawing.Point(666, 80)
-        Me.GroupControl2.Name = "GroupControl2"
-        Me.GroupControl2.Size = New System.Drawing.Size(175, 46)
-        Me.GroupControl2.TabIndex = 114
-        Me.GroupControl2.Text = "Yazdırma"
-        '
-        'RadioButton1
-        '
-        Me.RadioButton1.AutoSize = True
-        Me.RadioButton1.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.RadioButton1.Font = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(162, Byte))
-        Me.RadioButton1.Location = New System.Drawing.Point(24, 25)
-        Me.RadioButton1.Name = "RadioButton1"
-        Me.RadioButton1.Size = New System.Drawing.Size(51, 18)
-        Me.RadioButton1.TabIndex = 0
-        Me.RadioButton1.TabStop = True
-        Me.RadioButton1.Text = "Evet"
-        Me.RadioButton1.UseVisualStyleBackColor = True
-        '
-        'RadioButton2
-        '
-        Me.RadioButton2.AutoSize = True
-        Me.RadioButton2.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.RadioButton2.Font = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(162, Byte))
-        Me.RadioButton2.Location = New System.Drawing.Point(108, 24)
-        Me.RadioButton2.Name = "RadioButton2"
-        Me.RadioButton2.Size = New System.Drawing.Size(55, 18)
-        Me.RadioButton2.TabIndex = 1
-        Me.RadioButton2.TabStop = True
-        Me.RadioButton2.Text = "Hayır"
-        Me.RadioButton2.UseVisualStyleBackColor = True
-        '
-        'GroupControl4
-        '
-        Me.GroupControl4.Controls.Add(Me.RadioButton3)
-        Me.GroupControl4.Controls.Add(Me.RadioButton4)
-        Me.GroupControl4.Location = New System.Drawing.Point(892, 80)
-        Me.GroupControl4.Name = "GroupControl4"
-        Me.GroupControl4.Size = New System.Drawing.Size(175, 46)
-        Me.GroupControl4.TabIndex = 115
-        Me.GroupControl4.Text = "Yazdırma Tipi"
-        '
-        'RadioButton3
-        '
-        Me.RadioButton3.AutoSize = True
-        Me.RadioButton3.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.RadioButton3.Font = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(162, Byte))
-        Me.RadioButton3.Location = New System.Drawing.Point(108, 25)
-        Me.RadioButton3.Name = "RadioButton3"
-        Me.RadioButton3.Size = New System.Drawing.Size(63, 18)
-        Me.RadioButton3.TabIndex = 1
-        Me.RadioButton3.TabStop = True
-        Me.RadioButton3.Text = "Fatura"
-        Me.RadioButton3.UseVisualStyleBackColor = True
-        '
-        'RadioButton4
-        '
-        Me.RadioButton4.AutoSize = True
-        Me.RadioButton4.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.RadioButton4.Font = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(162, Byte))
-        Me.RadioButton4.Location = New System.Drawing.Point(24, 25)
-        Me.RadioButton4.Name = "RadioButton4"
-        Me.RadioButton4.Size = New System.Drawing.Size(39, 18)
-        Me.RadioButton4.TabIndex = 0
-        Me.RadioButton4.TabStop = True
-        Me.RadioButton4.Text = "Fiş"
-        Me.RadioButton4.UseVisualStyleBackColor = True
-        '
-        'LabelControl9
-        '
-        Me.LabelControl9.Appearance.Font = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(162, Byte))
-        Me.LabelControl9.Appearance.Options.UseFont = True
-        Me.LabelControl9.Location = New System.Drawing.Point(5, 181)
-        Me.LabelControl9.Name = "LabelControl9"
-        Me.LabelControl9.Size = New System.Drawing.Size(35, 14)
-        Me.LabelControl9.TabIndex = 82
-        Me.LabelControl9.Text = "8 Ayar"
-        '
-        'LabelControl10
-        '
-        Me.LabelControl10.Appearance.Font = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(162, Byte))
-        Me.LabelControl10.Appearance.Options.UseFont = True
-        Me.LabelControl10.Location = New System.Drawing.Point(5, 155)
-        Me.LabelControl10.Name = "LabelControl10"
-        Me.LabelControl10.Size = New System.Drawing.Size(42, 14)
-        Me.LabelControl10.TabIndex = 81
-        Me.LabelControl10.Text = "14 Ayar"
-        '
-        'LabelControl11
-        '
-        Me.LabelControl11.Appearance.Font = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(162, Byte))
-        Me.LabelControl11.Appearance.Options.UseFont = True
-        Me.LabelControl11.Location = New System.Drawing.Point(90, 28)
-        Me.LabelControl11.Name = "LabelControl11"
-        Me.LabelControl11.Size = New System.Drawing.Size(17, 14)
-        Me.LabelControl11.TabIndex = 83
-        Me.LabelControl11.Text = "Alış"
-        '
-        'LabelControl12
-        '
-        Me.LabelControl12.Appearance.Font = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(162, Byte))
-        Me.LabelControl12.Appearance.Options.UseFont = True
-        Me.LabelControl12.Location = New System.Drawing.Point(190, 28)
-        Me.LabelControl12.Name = "LabelControl12"
-        Me.LabelControl12.Size = New System.Drawing.Size(25, 14)
-        Me.LabelControl12.TabIndex = 84
-        Me.LabelControl12.Text = "Satış"
-        '
-        'TextEdit3
-        '
-        Me.TextEdit3.Location = New System.Drawing.Point(164, 127)
-        Me.TextEdit3.Name = "TextEdit3"
-        Me.TextEdit3.Properties.Appearance.BackColor = System.Drawing.Color.LightSteelBlue
-        Me.TextEdit3.Properties.Appearance.Font = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(162, Byte))
-        Me.TextEdit3.Properties.Appearance.Options.UseBackColor = True
-        Me.TextEdit3.Properties.Appearance.Options.UseFont = True
-        Me.TextEdit3.Size = New System.Drawing.Size(96, 20)
-        Me.TextEdit3.TabIndex = 88
-        '
-        'TextEdit7
-        '
-        Me.TextEdit7.Location = New System.Drawing.Point(164, 101)
-        Me.TextEdit7.Name = "TextEdit7"
-        Me.TextEdit7.Properties.Appearance.BackColor = System.Drawing.Color.LightSteelBlue
-        Me.TextEdit7.Properties.Appearance.Font = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(162, Byte))
-        Me.TextEdit7.Properties.Appearance.Options.UseBackColor = True
-        Me.TextEdit7.Properties.Appearance.Options.UseFont = True
-        Me.TextEdit7.Size = New System.Drawing.Size(96, 20)
-        Me.TextEdit7.TabIndex = 87
-        '
-        'TextEdit8
-        '
-        Me.TextEdit8.Location = New System.Drawing.Point(164, 75)
-        Me.TextEdit8.Name = "TextEdit8"
-        Me.TextEdit8.Properties.Appearance.BackColor = System.Drawing.Color.LightSteelBlue
-        Me.TextEdit8.Properties.Appearance.Font = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(162, Byte))
-        Me.TextEdit8.Properties.Appearance.Options.UseBackColor = True
-        Me.TextEdit8.Properties.Appearance.Options.UseFont = True
-        Me.TextEdit8.Size = New System.Drawing.Size(96, 20)
-        Me.TextEdit8.TabIndex = 86
-        '
-        'TextEdit9
-        '
-        Me.TextEdit9.Location = New System.Drawing.Point(164, 48)
-        Me.TextEdit9.Name = "TextEdit9"
-        Me.TextEdit9.Properties.Appearance.BackColor = System.Drawing.Color.LightSteelBlue
-        Me.TextEdit9.Properties.Appearance.Font = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(162, Byte))
-        Me.TextEdit9.Properties.Appearance.Options.UseBackColor = True
-        Me.TextEdit9.Properties.Appearance.Options.UseFont = True
-        Me.TextEdit9.Size = New System.Drawing.Size(96, 20)
-        Me.TextEdit9.TabIndex = 85
-        '
-        'TextEdit10
-        '
-        Me.TextEdit10.Location = New System.Drawing.Point(164, 178)
-        Me.TextEdit10.Name = "TextEdit10"
-        Me.TextEdit10.Properties.Appearance.BackColor = System.Drawing.Color.LightSteelBlue
-        Me.TextEdit10.Properties.Appearance.Font = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(162, Byte))
-        Me.TextEdit10.Properties.Appearance.Options.UseBackColor = True
-        Me.TextEdit10.Properties.Appearance.Options.UseFont = True
-        Me.TextEdit10.Size = New System.Drawing.Size(96, 20)
-        Me.TextEdit10.TabIndex = 92
-        '
-        'TextEdit11
-        '
-        Me.TextEdit11.Location = New System.Drawing.Point(164, 152)
-        Me.TextEdit11.Name = "TextEdit11"
-        Me.TextEdit11.Properties.Appearance.BackColor = System.Drawing.Color.LightSteelBlue
-        Me.TextEdit11.Properties.Appearance.Font = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(162, Byte))
-        Me.TextEdit11.Properties.Appearance.Options.UseBackColor = True
-        Me.TextEdit11.Properties.Appearance.Options.UseFont = True
-        Me.TextEdit11.Size = New System.Drawing.Size(96, 20)
-        Me.TextEdit11.TabIndex = 91
-        '
-        'TextEdit13
-        '
-        Me.TextEdit13.Location = New System.Drawing.Point(62, 178)
-        Me.TextEdit13.Name = "TextEdit13"
-        Me.TextEdit13.Properties.Appearance.BackColor = System.Drawing.Color.LightSteelBlue
-        Me.TextEdit13.Properties.Appearance.Font = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(162, Byte))
-        Me.TextEdit13.Properties.Appearance.Options.UseBackColor = True
-        Me.TextEdit13.Properties.Appearance.Options.UseFont = True
-        Me.TextEdit13.Size = New System.Drawing.Size(96, 20)
-        Me.TextEdit13.TabIndex = 90
-        '
-        'TextEdit29
-        '
-        Me.TextEdit29.Location = New System.Drawing.Point(62, 152)
-        Me.TextEdit29.Name = "TextEdit29"
-        Me.TextEdit29.Properties.Appearance.BackColor = System.Drawing.Color.LightSteelBlue
-        Me.TextEdit29.Properties.Appearance.Font = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(162, Byte))
-        Me.TextEdit29.Properties.Appearance.Options.UseBackColor = True
-        Me.TextEdit29.Properties.Appearance.Options.UseFont = True
-        Me.TextEdit29.Size = New System.Drawing.Size(96, 20)
-        Me.TextEdit29.TabIndex = 89
-        '
         'GroupControl6
         '
         Me.GroupControl6.Controls.Add(Me.TextEdit28)
@@ -1167,43 +1167,24 @@ Partial Class Form1
         Me.Panel1.Size = New System.Drawing.Size(207, 206)
         Me.Panel1.TabIndex = 93
         '
-        'TextEdit33
+        'TextEdit36
         '
-        Me.TextEdit33.Location = New System.Drawing.Point(72, 6)
-        Me.TextEdit33.Name = "TextEdit33"
-        Me.TextEdit33.Properties.Appearance.Font = New System.Drawing.Font("Tahoma", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(162, Byte))
-        Me.TextEdit33.Properties.Appearance.Options.UseFont = True
-        Me.TextEdit33.Size = New System.Drawing.Size(130, 24)
-        Me.TextEdit33.TabIndex = 75
+        Me.TextEdit36.Location = New System.Drawing.Point(72, 134)
+        Me.TextEdit36.Name = "TextEdit36"
+        Me.TextEdit36.Properties.Appearance.Font = New System.Drawing.Font("Tahoma", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(162, Byte))
+        Me.TextEdit36.Properties.Appearance.Options.UseFont = True
+        Me.TextEdit36.Size = New System.Drawing.Size(130, 24)
+        Me.TextEdit36.TabIndex = 81
         '
-        'LabelControl36
+        'LabelControl39
         '
-        Me.LabelControl36.Appearance.Font = New System.Drawing.Font("Tahoma", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(162, Byte))
-        Me.LabelControl36.Appearance.Options.UseFont = True
-        Me.LabelControl36.Location = New System.Drawing.Point(3, 9)
-        Me.LabelControl36.Name = "LabelControl36"
-        Me.LabelControl36.Size = New System.Drawing.Size(63, 18)
-        Me.LabelControl36.TabIndex = 35
-        Me.LabelControl36.Text = "TOPLAM"
-        '
-        'TextEdit34
-        '
-        Me.TextEdit34.Location = New System.Drawing.Point(72, 45)
-        Me.TextEdit34.Name = "TextEdit34"
-        Me.TextEdit34.Properties.Appearance.Font = New System.Drawing.Font("Tahoma", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(162, Byte))
-        Me.TextEdit34.Properties.Appearance.Options.UseFont = True
-        Me.TextEdit34.Size = New System.Drawing.Size(130, 24)
-        Me.TextEdit34.TabIndex = 77
-        '
-        'LabelControl37
-        '
-        Me.LabelControl37.Appearance.Font = New System.Drawing.Font("Tahoma", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(162, Byte))
-        Me.LabelControl37.Appearance.Options.UseFont = True
-        Me.LabelControl37.Location = New System.Drawing.Point(3, 48)
-        Me.LabelControl37.Name = "LabelControl37"
-        Me.LabelControl37.Size = New System.Drawing.Size(49, 18)
-        Me.LabelControl37.TabIndex = 76
-        Me.LabelControl37.Text = "NAKIT"
+        Me.LabelControl39.Appearance.Font = New System.Drawing.Font("Tahoma", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(162, Byte))
+        Me.LabelControl39.Appearance.Options.UseFont = True
+        Me.LabelControl39.Location = New System.Drawing.Point(3, 137)
+        Me.LabelControl39.Name = "LabelControl39"
+        Me.LabelControl39.Size = New System.Drawing.Size(56, 18)
+        Me.LabelControl39.TabIndex = 80
+        Me.LabelControl39.Text = "P.USTU"
         '
         'TextEdit35
         '
@@ -1224,24 +1205,43 @@ Partial Class Form1
         Me.LabelControl38.TabIndex = 78
         Me.LabelControl38.Text = "K.KARTI"
         '
-        'TextEdit36
+        'TextEdit34
         '
-        Me.TextEdit36.Location = New System.Drawing.Point(72, 134)
-        Me.TextEdit36.Name = "TextEdit36"
-        Me.TextEdit36.Properties.Appearance.Font = New System.Drawing.Font("Tahoma", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(162, Byte))
-        Me.TextEdit36.Properties.Appearance.Options.UseFont = True
-        Me.TextEdit36.Size = New System.Drawing.Size(130, 24)
-        Me.TextEdit36.TabIndex = 81
+        Me.TextEdit34.Location = New System.Drawing.Point(72, 45)
+        Me.TextEdit34.Name = "TextEdit34"
+        Me.TextEdit34.Properties.Appearance.Font = New System.Drawing.Font("Tahoma", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(162, Byte))
+        Me.TextEdit34.Properties.Appearance.Options.UseFont = True
+        Me.TextEdit34.Size = New System.Drawing.Size(130, 24)
+        Me.TextEdit34.TabIndex = 77
         '
-        'LabelControl39
+        'LabelControl37
         '
-        Me.LabelControl39.Appearance.Font = New System.Drawing.Font("Tahoma", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(162, Byte))
-        Me.LabelControl39.Appearance.Options.UseFont = True
-        Me.LabelControl39.Location = New System.Drawing.Point(3, 137)
-        Me.LabelControl39.Name = "LabelControl39"
-        Me.LabelControl39.Size = New System.Drawing.Size(56, 18)
-        Me.LabelControl39.TabIndex = 80
-        Me.LabelControl39.Text = "P.USTU"
+        Me.LabelControl37.Appearance.Font = New System.Drawing.Font("Tahoma", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(162, Byte))
+        Me.LabelControl37.Appearance.Options.UseFont = True
+        Me.LabelControl37.Location = New System.Drawing.Point(3, 48)
+        Me.LabelControl37.Name = "LabelControl37"
+        Me.LabelControl37.Size = New System.Drawing.Size(49, 18)
+        Me.LabelControl37.TabIndex = 76
+        Me.LabelControl37.Text = "NAKIT"
+        '
+        'TextEdit33
+        '
+        Me.TextEdit33.Location = New System.Drawing.Point(72, 6)
+        Me.TextEdit33.Name = "TextEdit33"
+        Me.TextEdit33.Properties.Appearance.Font = New System.Drawing.Font("Tahoma", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(162, Byte))
+        Me.TextEdit33.Properties.Appearance.Options.UseFont = True
+        Me.TextEdit33.Size = New System.Drawing.Size(130, 24)
+        Me.TextEdit33.TabIndex = 75
+        '
+        'LabelControl36
+        '
+        Me.LabelControl36.Appearance.Font = New System.Drawing.Font("Tahoma", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(162, Byte))
+        Me.LabelControl36.Appearance.Options.UseFont = True
+        Me.LabelControl36.Location = New System.Drawing.Point(3, 9)
+        Me.LabelControl36.Name = "LabelControl36"
+        Me.LabelControl36.Size = New System.Drawing.Size(63, 18)
+        Me.LabelControl36.TabIndex = 35
+        Me.LabelControl36.Text = "TOPLAM"
         '
         'SimpleButton2
         '
@@ -1291,7 +1291,7 @@ Partial Class Form1
         Me.SimpleButton7.TabIndex = 99
         Me.SimpleButton7.Text = "Vazgeç"
         '
-        'Form1
+        'perakende_satis
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
@@ -1309,7 +1309,7 @@ Partial Class Form1
         Me.Controls.Add(Me.GroupControl1)
         Me.Controls.Add(Me.GroupControl3)
         Me.Controls.Add(Me.GroupControl5)
-        Me.Name = "Form1"
+        Me.Name = "perakende_satis"
         Me.Text = "Perakende Satış Fişi"
         CType(Me.DataGridView1, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.TextEdit22.Properties, System.ComponentModel.ISupportInitialize).EndInit()
@@ -1340,10 +1340,27 @@ Partial Class Form1
         CType(Me.PanelControl1, System.ComponentModel.ISupportInitialize).EndInit()
         Me.PanelControl1.ResumeLayout(False)
         Me.PanelControl1.PerformLayout()
+        CType(Me.GroupControl4, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.GroupControl4.ResumeLayout(False)
+        Me.GroupControl4.PerformLayout()
+        CType(Me.GroupControl2, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.GroupControl2.ResumeLayout(False)
+        Me.GroupControl2.PerformLayout()
+        CType(Me.DateEdit2.Properties.CalendarTimeProperties, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.DateEdit2.Properties, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.ComboBoxEdit3.Properties, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.TextEdit1.Properties, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.GroupControl1, System.ComponentModel.ISupportInitialize).EndInit()
         Me.GroupControl1.ResumeLayout(False)
         Me.GroupControl1.PerformLayout()
+        CType(Me.TextEdit10.Properties, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.TextEdit11.Properties, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.TextEdit13.Properties, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.TextEdit29.Properties, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.TextEdit3.Properties, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.TextEdit7.Properties, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.TextEdit8.Properties, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.TextEdit9.Properties, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.TextEdit27.Properties, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.GroupControl3, System.ComponentModel.ISupportInitialize).EndInit()
         Me.GroupControl3.ResumeLayout(False)
@@ -1351,23 +1368,6 @@ Partial Class Form1
         CType(Me.GroupControl5, System.ComponentModel.ISupportInitialize).EndInit()
         Me.GroupControl5.ResumeLayout(False)
         Me.GroupControl5.PerformLayout()
-        CType(Me.ComboBoxEdit3.Properties, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.DateEdit2.Properties.CalendarTimeProperties, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.DateEdit2.Properties, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.GroupControl2, System.ComponentModel.ISupportInitialize).EndInit()
-        Me.GroupControl2.ResumeLayout(False)
-        Me.GroupControl2.PerformLayout()
-        CType(Me.GroupControl4, System.ComponentModel.ISupportInitialize).EndInit()
-        Me.GroupControl4.ResumeLayout(False)
-        Me.GroupControl4.PerformLayout()
-        CType(Me.TextEdit3.Properties, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.TextEdit7.Properties, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.TextEdit8.Properties, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.TextEdit9.Properties, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.TextEdit10.Properties, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.TextEdit11.Properties, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.TextEdit13.Properties, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.TextEdit29.Properties, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.GroupControl6, System.ComponentModel.ISupportInitialize).EndInit()
         Me.GroupControl6.ResumeLayout(False)
         Me.GroupControl6.PerformLayout()
@@ -1377,10 +1377,10 @@ Partial Class Form1
         CType(Me.TextEdit32.Properties, System.ComponentModel.ISupportInitialize).EndInit()
         Me.Panel1.ResumeLayout(False)
         Me.Panel1.PerformLayout()
-        CType(Me.TextEdit33.Properties, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.TextEdit34.Properties, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.TextEdit35.Properties, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.TextEdit36.Properties, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.TextEdit35.Properties, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.TextEdit34.Properties, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.TextEdit33.Properties, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
 
     End Sub

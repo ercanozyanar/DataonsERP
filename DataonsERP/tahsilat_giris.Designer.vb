@@ -1,5 +1,5 @@
 ﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
-Partial Class Form2
+Partial Class tahsilat_giris
     Inherits DevExpress.XtraEditors.XtraForm
 
     'Form, bileşen listesini temizlemeyi bırakmayı geçersiz kılar.
@@ -519,7 +519,7 @@ Partial Class Form2
         Me.SimpleButton2.TabIndex = 0
         Me.SimpleButton2.Text = "Tahsilat Onay"
         '
-        'Form2
+        'tahsilat_giris
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
@@ -527,7 +527,7 @@ Partial Class Form2
         Me.Controls.Add(Me.PanelControl1)
         Me.Controls.Add(Me.GridControl1)
         Me.Controls.Add(Me.TabPane1)
-        Me.Name = "Form2"
+        Me.Name = "tahsilat_giris"
         Me.Text = "Tahsilat Girişi"
         CType(Me.TabPane1, System.ComponentModel.ISupportInitialize).EndInit()
         Me.TabPane1.ResumeLayout(False)

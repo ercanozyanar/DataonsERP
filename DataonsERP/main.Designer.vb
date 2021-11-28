@@ -23,6 +23,9 @@ Partial Class main
     <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
         Me.components = New System.ComponentModel.Container()
+        Dim SuperToolTip1 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
+        Dim ToolTipItem1 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
+        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(main))
         Me.FormAssistant1 = New DevExpress.XtraBars.FormAssistant()
         Me.AccordionControlElement53 = New DevExpress.XtraBars.Navigation.AccordionControlElement()
         Me.BarAndDockingController1 = New DevExpress.XtraBars.BarAndDockingController(Me.components)
@@ -52,28 +55,17 @@ Partial Class main
         Me.barButtonItem16 = New DevExpress.XtraBars.BarButtonItem()
         Me.barButtonItem17 = New DevExpress.XtraBars.BarButtonItem()
         Me.NavBarControl2 = New DevExpress.XtraNavBar.NavBarControl()
-        Me.NavBarGroup11 = New DevExpress.XtraNavBar.NavBarGroup()
-        Me.NavBarItem26 = New DevExpress.XtraNavBar.NavBarItem()
-        Me.NavBarGroup5 = New DevExpress.XtraNavBar.NavBarGroup()
-        Me.NavBarItem17 = New DevExpress.XtraNavBar.NavBarItem()
-        Me.NavBarItem18 = New DevExpress.XtraNavBar.NavBarItem()
-        Me.NavBarGroup4 = New DevExpress.XtraNavBar.NavBarGroup()
-        Me.NavBarItem1 = New DevExpress.XtraNavBar.NavBarItem()
-        Me.NavBarItem2 = New DevExpress.XtraNavBar.NavBarItem()
-        Me.NavBarItem3 = New DevExpress.XtraNavBar.NavBarItem()
-        Me.NavBarItem4 = New DevExpress.XtraNavBar.NavBarItem()
-        Me.NavBarItem5 = New DevExpress.XtraNavBar.NavBarItem()
-        Me.NavBarGroup6 = New DevExpress.XtraNavBar.NavBarGroup()
-        Me.NavBarItem28 = New DevExpress.XtraNavBar.NavBarItem()
-        Me.NavBarItem29 = New DevExpress.XtraNavBar.NavBarItem()
-        Me.NavBarItem30 = New DevExpress.XtraNavBar.NavBarItem()
-        Me.NavBarItem39 = New DevExpress.XtraNavBar.NavBarItem()
-        Me.NavBarItem31 = New DevExpress.XtraNavBar.NavBarItem()
-        Me.NavBarItem32 = New DevExpress.XtraNavBar.NavBarItem()
         Me.NavBarGroup7 = New DevExpress.XtraNavBar.NavBarGroup()
+        Me.NavBarGroupControlContainer4 = New DevExpress.XtraNavBar.NavBarGroupControlContainer()
         Me.NavBarItem6 = New DevExpress.XtraNavBar.NavBarItem()
         Me.NavBarItem7 = New DevExpress.XtraNavBar.NavBarItem()
         Me.NavBarItem8 = New DevExpress.XtraNavBar.NavBarItem()
+        Me.TreeListColumn3 = New DevExpress.XtraTreeList.Columns.TreeListColumn()
+        Me.NavBarGroupControlContainer3 = New DevExpress.XtraNavBar.NavBarGroupControlContainer()
+        Me.NavBarGroupControlContainer5 = New DevExpress.XtraNavBar.NavBarGroupControlContainer()
+        Me.NavBarGroup5 = New DevExpress.XtraNavBar.NavBarGroup()
+        Me.NavBarGroup4 = New DevExpress.XtraNavBar.NavBarGroup()
+        Me.NavBarGroup6 = New DevExpress.XtraNavBar.NavBarGroup()
         Me.NavBarGroup8 = New DevExpress.XtraNavBar.NavBarGroup()
         Me.NavBarItem9 = New DevExpress.XtraNavBar.NavBarItem()
         Me.NavBarItem10 = New DevExpress.XtraNavBar.NavBarItem()
@@ -95,16 +87,26 @@ Partial Class main
         Me.NavBarItem23 = New DevExpress.XtraNavBar.NavBarItem()
         Me.NavBarItem24 = New DevExpress.XtraNavBar.NavBarItem()
         Me.NavBarItem25 = New DevExpress.XtraNavBar.NavBarItem()
+        Me.NavBarGroup11 = New DevExpress.XtraNavBar.NavBarGroup()
+        Me.NavBarItem26 = New DevExpress.XtraNavBar.NavBarItem()
+        Me.TreeListColumn1 = New DevExpress.XtraTreeList.Columns.TreeListColumn()
         Me.AccordionControlElement2 = New DevExpress.XtraBars.Navigation.AccordionControlElement()
         Me.Timer1 = New System.Windows.Forms.Timer(Me.components)
         Me.BackgroundWorker1 = New System.ComponentModel.BackgroundWorker()
         Me.XtraTabbedMdiManager1 = New DevExpress.XtraTabbedMdi.XtraTabbedMdiManager(Me.components)
         Me.SplitterControl1 = New DevExpress.XtraEditors.SplitterControl()
+        Me.TreeListBand1 = New DevExpress.XtraTreeList.Columns.TreeListBand()
+        Me.BehaviorManager1 = New DevExpress.Utils.Behaviors.BehaviorManager(Me.components)
+        Me.TreeListBand2 = New DevExpress.XtraTreeList.Columns.TreeListBand()
+        Me.TreeListBand3 = New DevExpress.XtraTreeList.Columns.TreeListBand()
+        Me.ımageList1 = New System.Windows.Forms.ImageList(Me.components)
         CType(Me.BarAndDockingController1, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.DefaultBarAndDockingController1.Controller, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.BarManager1, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.NavBarControl2, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.NavBarControl2.SuspendLayout()
         CType(Me.XtraTabbedMdiManager1, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.BehaviorManager1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'AccordionControlElement53
@@ -310,118 +312,39 @@ Partial Class main
         '
         'NavBarControl2
         '
-        Me.NavBarControl2.ActiveGroup = Me.NavBarGroup4
+        Me.NavBarControl2.ActiveGroup = Me.NavBarGroup7
+        Me.NavBarControl2.Controls.Add(Me.NavBarGroupControlContainer4)
+        Me.NavBarControl2.Controls.Add(Me.NavBarGroupControlContainer3)
+        Me.NavBarControl2.Controls.Add(Me.NavBarGroupControlContainer5)
         Me.NavBarControl2.Dock = System.Windows.Forms.DockStyle.Left
         Me.NavBarControl2.Groups.AddRange(New DevExpress.XtraNavBar.NavBarGroup() {Me.NavBarGroup5, Me.NavBarGroup4, Me.NavBarGroup6, Me.NavBarGroup7, Me.NavBarGroup8, Me.NavBarGroup1, Me.NavBarGroup2, Me.NavBarGroup3, Me.NavBarGroup9, Me.NavBarGroup10, Me.NavBarGroup11})
-        Me.NavBarControl2.Items.AddRange(New DevExpress.XtraNavBar.NavBarItem() {Me.NavBarItem1, Me.NavBarItem2, Me.NavBarItem3, Me.NavBarItem4, Me.NavBarItem5, Me.NavBarItem17, Me.NavBarItem18, Me.NavBarItem28, Me.NavBarItem29, Me.NavBarItem30, Me.NavBarItem31, Me.NavBarItem32, Me.NavBarItem39, Me.NavBarItem6, Me.NavBarItem7, Me.NavBarItem8, Me.NavBarItem9, Me.NavBarItem10, Me.NavBarItem11, Me.NavBarItem12, Me.NavBarItem13, Me.NavBarItem14, Me.NavBarItem15, Me.NavBarItem16, Me.NavBarItem19, Me.NavBarItem20, Me.NavBarItem21, Me.NavBarItem22, Me.NavBarItem23, Me.NavBarItem24, Me.NavBarItem25, Me.NavBarItem26})
+        Me.NavBarControl2.Items.AddRange(New DevExpress.XtraNavBar.NavBarItem() {Me.NavBarItem6, Me.NavBarItem7, Me.NavBarItem8, Me.NavBarItem9, Me.NavBarItem10, Me.NavBarItem11, Me.NavBarItem12, Me.NavBarItem13, Me.NavBarItem14, Me.NavBarItem15, Me.NavBarItem16, Me.NavBarItem19, Me.NavBarItem20, Me.NavBarItem21, Me.NavBarItem22, Me.NavBarItem23, Me.NavBarItem24, Me.NavBarItem25, Me.NavBarItem26})
         Me.NavBarControl2.Location = New System.Drawing.Point(0, 25)
         Me.NavBarControl2.Name = "NavBarControl2"
         Me.NavBarControl2.OptionsNavPane.ExpandedWidth = 249
         Me.NavBarControl2.PaintStyleKind = DevExpress.XtraNavBar.NavBarViewKind.NavigationPane
         Me.NavBarControl2.Size = New System.Drawing.Size(249, 652)
+        Me.NavBarControl2.StoreDefaultPaintStyleName = True
         Me.NavBarControl2.TabIndex = 53
         Me.NavBarControl2.Text = "NavBarControl2"
-        '
-        'NavBarGroup11
-        '
-        Me.NavBarGroup11.Caption = "Barkod Etiket"
-        Me.NavBarGroup11.ItemLinks.AddRange(New DevExpress.XtraNavBar.NavBarItemLink() {New DevExpress.XtraNavBar.NavBarItemLink(Me.NavBarItem26)})
-        Me.NavBarGroup11.Name = "NavBarGroup11"
-        '
-        'NavBarItem26
-        '
-        Me.NavBarItem26.Caption = "Barkod Etiket Yazdır"
-        Me.NavBarItem26.Name = "NavBarItem26"
-        '
-        'NavBarGroup5
-        '
-        Me.NavBarGroup5.Caption = "Tanımlar"
-        Me.NavBarGroup5.ItemLinks.AddRange(New DevExpress.XtraNavBar.NavBarItemLink() {New DevExpress.XtraNavBar.NavBarItemLink(Me.NavBarItem17), New DevExpress.XtraNavBar.NavBarItemLink(Me.NavBarItem18)})
-        Me.NavBarGroup5.Name = "NavBarGroup5"
-        '
-        'NavBarItem17
-        '
-        Me.NavBarItem17.Caption = "Döviz Türü Tanımlama"
-        Me.NavBarItem17.Name = "NavBarItem17"
-        '
-        'NavBarItem18
-        '
-        Me.NavBarItem18.Caption = "Döviz Kur Girişi"
-        Me.NavBarItem18.Name = "NavBarItem18"
-        '
-        'NavBarGroup4
-        '
-        Me.NavBarGroup4.Caption = "Stok Yönetimi"
-        Me.NavBarGroup4.Expanded = True
-        Me.NavBarGroup4.ItemLinks.AddRange(New DevExpress.XtraNavBar.NavBarItemLink() {New DevExpress.XtraNavBar.NavBarItemLink(Me.NavBarItem2), New DevExpress.XtraNavBar.NavBarItemLink(Me.NavBarItem1), New DevExpress.XtraNavBar.NavBarItemLink(Me.NavBarItem3), New DevExpress.XtraNavBar.NavBarItemLink(Me.NavBarItem4), New DevExpress.XtraNavBar.NavBarItemLink(Me.NavBarItem5)})
-        Me.NavBarGroup4.Name = "NavBarGroup4"
-        '
-        'NavBarItem1
-        '
-        Me.NavBarItem1.Caption = "Stok Tanımları"
-        Me.NavBarItem1.Name = "NavBarItem1"
-        '
-        'NavBarItem2
-        '
-        Me.NavBarItem2.Caption = "Stok İşlemleri"
-        Me.NavBarItem2.Name = "NavBarItem2"
-        '
-        'NavBarItem3
-        '
-        Me.NavBarItem3.Caption = "Stok Raporları"
-        Me.NavBarItem3.Name = "NavBarItem3"
-        '
-        'NavBarItem4
-        '
-        Me.NavBarItem4.Caption = "Genel Stok Durumu"
-        Me.NavBarItem4.Name = "NavBarItem4"
-        '
-        'NavBarItem5
-        '
-        Me.NavBarItem5.Caption = "Kullanıcı Stok Durumu"
-        Me.NavBarItem5.Name = "NavBarItem5"
-        '
-        'NavBarGroup6
-        '
-        Me.NavBarGroup6.Caption = "Cari Hesap"
-        Me.NavBarGroup6.ItemLinks.AddRange(New DevExpress.XtraNavBar.NavBarItemLink() {New DevExpress.XtraNavBar.NavBarItemLink(Me.NavBarItem28), New DevExpress.XtraNavBar.NavBarItemLink(Me.NavBarItem29), New DevExpress.XtraNavBar.NavBarItemLink(Me.NavBarItem30), New DevExpress.XtraNavBar.NavBarItemLink(Me.NavBarItem39), New DevExpress.XtraNavBar.NavBarItemLink(Me.NavBarItem31), New DevExpress.XtraNavBar.NavBarItemLink(Me.NavBarItem32)})
-        Me.NavBarGroup6.Name = "NavBarGroup6"
-        '
-        'NavBarItem28
-        '
-        Me.NavBarItem28.Caption = "Cari Hesap Kartları"
-        Me.NavBarItem28.Name = "NavBarItem28"
-        '
-        'NavBarItem29
-        '
-        Me.NavBarItem29.Caption = "Cari Hesap Kartı Tanımı"
-        Me.NavBarItem29.Name = "NavBarItem29"
-        '
-        'NavBarItem30
-        '
-        Me.NavBarItem30.Caption = "Cari Hesap Parametre Tanımı"
-        Me.NavBarItem30.Name = "NavBarItem30"
-        '
-        'NavBarItem39
-        '
-        Me.NavBarItem39.Caption = "Cari Hesap İşlemleri"
-        Me.NavBarItem39.Name = "NavBarItem39"
-        '
-        'NavBarItem31
-        '
-        Me.NavBarItem31.Caption = "Cari Hesap Raporları"
-        Me.NavBarItem31.Name = "NavBarItem31"
-        '
-        'NavBarItem32
-        '
-        Me.NavBarItem32.Caption = "Analiz Raporları"
-        Me.NavBarItem32.Name = "NavBarItem32"
         '
         'NavBarGroup7
         '
         Me.NavBarGroup7.Caption = "Banka İşlemleri"
+        Me.NavBarGroup7.ControlContainer = Me.NavBarGroupControlContainer4
+        Me.NavBarGroup7.Expanded = True
+        Me.NavBarGroup7.GroupClientHeight = 80
+        Me.NavBarGroup7.GroupStyle = DevExpress.XtraNavBar.NavBarGroupStyle.ControlContainer
         Me.NavBarGroup7.ItemLinks.AddRange(New DevExpress.XtraNavBar.NavBarItemLink() {New DevExpress.XtraNavBar.NavBarItemLink(Me.NavBarItem6), New DevExpress.XtraNavBar.NavBarItemLink(Me.NavBarItem7), New DevExpress.XtraNavBar.NavBarItemLink(Me.NavBarItem8)})
         Me.NavBarGroup7.Name = "NavBarGroup7"
+        '
+        'NavBarGroupControlContainer4
+        '
+        Me.NavBarGroupControlContainer4.Appearance.BackColor = System.Drawing.SystemColors.Control
+        Me.NavBarGroupControlContainer4.Appearance.Options.UseBackColor = True
+        Me.NavBarGroupControlContainer4.Name = "NavBarGroupControlContainer4"
+        Me.NavBarGroupControlContainer4.Size = New System.Drawing.Size(247, 289)
+        Me.NavBarGroupControlContainer4.TabIndex = 3
         '
         'NavBarItem6
         '
@@ -438,9 +361,55 @@ Partial Class main
         Me.NavBarItem8.Caption = "Banka Raporları"
         Me.NavBarItem8.Name = "NavBarItem8"
         '
+        'TreeListColumn3
+        '
+        Me.TreeListColumn3.Name = "TreeListColumn3"
+        Me.TreeListColumn3.Visible = True
+        Me.TreeListColumn3.VisibleIndex = 0
+        '
+        'NavBarGroupControlContainer3
+        '
+        Me.NavBarGroupControlContainer3.Appearance.BackColor = System.Drawing.SystemColors.Control
+        Me.NavBarGroupControlContainer3.Appearance.Options.UseBackColor = True
+        Me.NavBarGroupControlContainer3.Name = "NavBarGroupControlContainer3"
+        Me.NavBarGroupControlContainer3.Size = New System.Drawing.Size(247, 289)
+        Me.NavBarGroupControlContainer3.TabIndex = 2
+        '
+        'NavBarGroupControlContainer5
+        '
+        Me.NavBarGroupControlContainer5.Appearance.BackColor = System.Drawing.SystemColors.Control
+        Me.NavBarGroupControlContainer5.Appearance.Options.UseBackColor = True
+        Me.NavBarGroupControlContainer5.Name = "NavBarGroupControlContainer5"
+        Me.NavBarGroupControlContainer5.Size = New System.Drawing.Size(247, 289)
+        Me.NavBarGroupControlContainer5.TabIndex = 4
+        '
+        'NavBarGroup5
+        '
+        Me.NavBarGroup5.Caption = "Tanımlar"
+        Me.NavBarGroup5.Name = "NavBarGroup5"
+        '
+        'NavBarGroup4
+        '
+        Me.NavBarGroup4.Caption = "Stok Yönetimi"
+        Me.NavBarGroup4.Name = "NavBarGroup4"
+        '
+        'NavBarGroup6
+        '
+        Me.NavBarGroup6.Caption = "Cari Hesap"
+        Me.NavBarGroup6.ControlContainer = Me.NavBarGroupControlContainer3
+        Me.NavBarGroup6.GroupClientHeight = 80
+        Me.NavBarGroup6.GroupStyle = DevExpress.XtraNavBar.NavBarGroupStyle.ControlContainer
+        Me.NavBarGroup6.Name = "NavBarGroup6"
+        ToolTipItem1.Text = "Deneme"
+        SuperToolTip1.Items.Add(ToolTipItem1)
+        Me.NavBarGroup6.SuperTip = SuperToolTip1
+        '
         'NavBarGroup8
         '
         Me.NavBarGroup8.Caption = "Kasa"
+        Me.NavBarGroup8.ControlContainer = Me.NavBarGroupControlContainer5
+        Me.NavBarGroup8.GroupClientHeight = 80
+        Me.NavBarGroup8.GroupStyle = DevExpress.XtraNavBar.NavBarGroupStyle.ControlContainer
         Me.NavBarGroup8.ItemLinks.AddRange(New DevExpress.XtraNavBar.NavBarItemLink() {New DevExpress.XtraNavBar.NavBarItemLink(Me.NavBarItem9), New DevExpress.XtraNavBar.NavBarItemLink(Me.NavBarItem10), New DevExpress.XtraNavBar.NavBarItemLink(Me.NavBarItem11)})
         Me.NavBarGroup8.Name = "NavBarGroup8"
         '
@@ -549,6 +518,25 @@ Partial Class main
         Me.NavBarItem25.Caption = "Silinen Kayıtlar"
         Me.NavBarItem25.Name = "NavBarItem25"
         '
+        'NavBarGroup11
+        '
+        Me.NavBarGroup11.Caption = "Barkod Etiket"
+        Me.NavBarGroup11.ItemLinks.AddRange(New DevExpress.XtraNavBar.NavBarItemLink() {New DevExpress.XtraNavBar.NavBarItemLink(Me.NavBarItem26)})
+        Me.NavBarGroup11.Name = "NavBarGroup11"
+        '
+        'NavBarItem26
+        '
+        Me.NavBarItem26.Caption = "Barkod Etiket Yazdır"
+        Me.NavBarItem26.Name = "NavBarItem26"
+        '
+        'TreeListColumn1
+        '
+        Me.TreeListColumn1.Caption = "Tanımlar"
+        Me.TreeListColumn1.FieldName = "Tanımlar"
+        Me.TreeListColumn1.Name = "TreeListColumn1"
+        Me.TreeListColumn1.Visible = True
+        Me.TreeListColumn1.VisibleIndex = 0
+        '
         'AccordionControlElement2
         '
         Me.AccordionControlElement2.Expanded = True
@@ -574,6 +562,27 @@ Partial Class main
         Me.SplitterControl1.TabIndex = 55
         Me.SplitterControl1.TabStop = False
         '
+        'TreeListBand1
+        '
+        Me.TreeListBand1.Caption = "TreeListBand1"
+        Me.TreeListBand1.Name = "TreeListBand1"
+        '
+        'TreeListBand2
+        '
+        Me.TreeListBand2.Caption = "TreeListBand2"
+        Me.TreeListBand2.Name = "TreeListBand2"
+        '
+        'TreeListBand3
+        '
+        Me.TreeListBand3.Caption = "TreeListBand3"
+        Me.TreeListBand3.Name = "TreeListBand3"
+        '
+        'ımageList1
+        '
+        Me.ımageList1.ImageStream = CType(resources.GetObject("ımageList1.ImageStream"), System.Windows.Forms.ImageListStreamer)
+        Me.ımageList1.TransparentColor = System.Drawing.Color.Transparent
+        Me.ımageList1.Images.SetKeyName(0, "Logo.jpg")
+        '
         'main
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
@@ -594,7 +603,9 @@ Partial Class main
         CType(Me.DefaultBarAndDockingController1.Controller, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.BarManager1, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.NavBarControl2, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.NavBarControl2.ResumeLayout(False)
         CType(Me.XtraTabbedMdiManager1, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.BehaviorManager1, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
@@ -637,21 +648,8 @@ Partial Class main
     Friend WithEvents BackgroundWorker1 As System.ComponentModel.BackgroundWorker
     Friend WithEvents NavBarControl2 As DevExpress.XtraNavBar.NavBarControl
     Friend WithEvents NavBarGroup4 As DevExpress.XtraNavBar.NavBarGroup
-    Friend WithEvents NavBarItem1 As DevExpress.XtraNavBar.NavBarItem
-    Friend WithEvents NavBarItem2 As DevExpress.XtraNavBar.NavBarItem
-    Friend WithEvents NavBarItem3 As DevExpress.XtraNavBar.NavBarItem
-    Friend WithEvents NavBarItem4 As DevExpress.XtraNavBar.NavBarItem
-    Friend WithEvents NavBarItem5 As DevExpress.XtraNavBar.NavBarItem
     Friend WithEvents NavBarGroup5 As DevExpress.XtraNavBar.NavBarGroup
-    Friend WithEvents NavBarItem17 As DevExpress.XtraNavBar.NavBarItem
-    Friend WithEvents NavBarItem18 As DevExpress.XtraNavBar.NavBarItem
     Friend WithEvents NavBarGroup6 As DevExpress.XtraNavBar.NavBarGroup
-    Friend WithEvents NavBarItem28 As DevExpress.XtraNavBar.NavBarItem
-    Friend WithEvents NavBarItem29 As DevExpress.XtraNavBar.NavBarItem
-    Friend WithEvents NavBarItem30 As DevExpress.XtraNavBar.NavBarItem
-    Friend WithEvents NavBarItem39 As DevExpress.XtraNavBar.NavBarItem
-    Friend WithEvents NavBarItem31 As DevExpress.XtraNavBar.NavBarItem
-    Friend WithEvents NavBarItem32 As DevExpress.XtraNavBar.NavBarItem
     Friend WithEvents NavBarGroup7 As DevExpress.XtraNavBar.NavBarGroup
     Friend WithEvents NavBarGroup8 As DevExpress.XtraNavBar.NavBarGroup
     Friend WithEvents XtraTabbedMdiManager1 As DevExpress.XtraTabbedMdi.XtraTabbedMdiManager
@@ -681,4 +679,14 @@ Partial Class main
     Friend WithEvents NavBarItem23 As DevExpress.XtraNavBar.NavBarItem
     Friend WithEvents NavBarItem24 As DevExpress.XtraNavBar.NavBarItem
     Friend WithEvents NavBarItem25 As DevExpress.XtraNavBar.NavBarItem
+    Friend WithEvents TreeListColumn1 As DevExpress.XtraTreeList.Columns.TreeListColumn
+    Friend WithEvents NavBarGroupControlContainer3 As DevExpress.XtraNavBar.NavBarGroupControlContainer
+    Friend WithEvents NavBarGroupControlContainer4 As DevExpress.XtraNavBar.NavBarGroupControlContainer
+    Friend WithEvents NavBarGroupControlContainer5 As DevExpress.XtraNavBar.NavBarGroupControlContainer
+    Friend WithEvents TreeListColumn3 As DevExpress.XtraTreeList.Columns.TreeListColumn
+    Friend WithEvents TreeListBand1 As DevExpress.XtraTreeList.Columns.TreeListBand
+    Friend WithEvents BehaviorManager1 As DevExpress.Utils.Behaviors.BehaviorManager
+    Friend WithEvents TreeListBand2 As DevExpress.XtraTreeList.Columns.TreeListBand
+    Friend WithEvents TreeListBand3 As DevExpress.XtraTreeList.Columns.TreeListBand
+    Friend WithEvents ımageList1 As ImageList
 End Class

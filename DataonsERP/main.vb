@@ -59,8 +59,16 @@ Public Class main
 
     End Sub
 
-    Private Sub NavBarItem17_LinkClicked(sender As Object, e As NavBarLinkEventArgs) Handles NavBarItem17.LinkClicked
+    Private Sub NavBarItem17_LinkClicked(sender As Object, e As NavBarLinkEventArgs)
         stok_tanimlama.MdiParent = Me
         stok_tanimlama.Show()
     End Sub
+
+    'Private Sub TreeView1_NodeMouseClick(sender As Object, e As TreeNodeMouseClickEventArgs) Handles TreeView1.NodeMouseClick
+    '    If (e.Node.Name = "Rapor1") Then
+    '        Dim frm As Form2
+    '        frm = New Form2()
+    '        frm.Show()
+    '    End If
+    'End Sub
 End Class

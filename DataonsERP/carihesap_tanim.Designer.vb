@@ -24,16 +24,16 @@ Partial Class carihesap_tanimi
     Private Sub InitializeComponent()
         Me.FormAssistant1 = New DevExpress.XtraBars.FormAssistant()
         Me.PanelControl2 = New DevExpress.XtraEditors.PanelControl()
-        Me.DataGridView1 = New System.Windows.Forms.DataGridView()
-        Me.PanelControl1 = New DevExpress.XtraEditors.PanelControl()
-        Me.LabelControl2 = New DevExpress.XtraEditors.LabelControl()
-        Me.LabelControl1 = New DevExpress.XtraEditors.LabelControl()
         Me.SimpleButton4 = New DevExpress.XtraEditors.SimpleButton()
         Me.SimpleButton3 = New DevExpress.XtraEditors.SimpleButton()
         Me.SimpleButton2 = New DevExpress.XtraEditors.SimpleButton()
         Me.SimpleButton1 = New DevExpress.XtraEditors.SimpleButton()
+        Me.DataGridView1 = New System.Windows.Forms.DataGridView()
+        Me.PanelControl1 = New DevExpress.XtraEditors.PanelControl()
         Me.TextEdit1 = New DevExpress.XtraEditors.TextEdit()
+        Me.LabelControl2 = New DevExpress.XtraEditors.LabelControl()
         Me.stokkodu = New DevExpress.XtraEditors.TextEdit()
+        Me.LabelControl1 = New DevExpress.XtraEditors.LabelControl()
         CType(Me.PanelControl2, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.PanelControl2.SuspendLayout()
         CType(Me.DataGridView1, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -53,45 +53,6 @@ Partial Class carihesap_tanimi
         Me.PanelControl2.Name = "PanelControl2"
         Me.PanelControl2.Size = New System.Drawing.Size(441, 57)
         Me.PanelControl2.TabIndex = 5
-        '
-        'DataGridView1
-        '
-        Me.DataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
-        Me.DataGridView1.Location = New System.Drawing.Point(12, 87)
-        Me.DataGridView1.Name = "DataGridView1"
-        Me.DataGridView1.Size = New System.Drawing.Size(441, 351)
-        Me.DataGridView1.TabIndex = 4
-        '
-        'PanelControl1
-        '
-        Me.PanelControl1.Controls.Add(Me.TextEdit1)
-        Me.PanelControl1.Controls.Add(Me.LabelControl2)
-        Me.PanelControl1.Controls.Add(Me.stokkodu)
-        Me.PanelControl1.Controls.Add(Me.LabelControl1)
-        Me.PanelControl1.Location = New System.Drawing.Point(12, 12)
-        Me.PanelControl1.Name = "PanelControl1"
-        Me.PanelControl1.Size = New System.Drawing.Size(441, 57)
-        Me.PanelControl1.TabIndex = 3
-        '
-        'LabelControl2
-        '
-        Me.LabelControl2.Appearance.Font = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(162, Byte))
-        Me.LabelControl2.Appearance.Options.UseFont = True
-        Me.LabelControl2.Location = New System.Drawing.Point(91, 5)
-        Me.LabelControl2.Name = "LabelControl2"
-        Me.LabelControl2.Size = New System.Drawing.Size(17, 14)
-        Me.LabelControl2.TabIndex = 4
-        Me.LabelControl2.Text = "Adı"
-        '
-        'LabelControl1
-        '
-        Me.LabelControl1.Appearance.Font = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(162, Byte))
-        Me.LabelControl1.Appearance.Options.UseFont = True
-        Me.LabelControl1.Location = New System.Drawing.Point(9, 6)
-        Me.LabelControl1.Name = "LabelControl1"
-        Me.LabelControl1.Size = New System.Drawing.Size(28, 14)
-        Me.LabelControl1.TabIndex = 2
-        Me.LabelControl1.Text = "Kodu"
         '
         'SimpleButton4
         '
@@ -129,6 +90,25 @@ Partial Class carihesap_tanimi
         Me.SimpleButton1.TabIndex = 0
         Me.SimpleButton1.Text = "Kaydet"
         '
+        'DataGridView1
+        '
+        Me.DataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
+        Me.DataGridView1.Location = New System.Drawing.Point(12, 87)
+        Me.DataGridView1.Name = "DataGridView1"
+        Me.DataGridView1.Size = New System.Drawing.Size(441, 351)
+        Me.DataGridView1.TabIndex = 4
+        '
+        'PanelControl1
+        '
+        Me.PanelControl1.Controls.Add(Me.TextEdit1)
+        Me.PanelControl1.Controls.Add(Me.LabelControl2)
+        Me.PanelControl1.Controls.Add(Me.stokkodu)
+        Me.PanelControl1.Controls.Add(Me.LabelControl1)
+        Me.PanelControl1.Location = New System.Drawing.Point(12, 12)
+        Me.PanelControl1.Name = "PanelControl1"
+        Me.PanelControl1.Size = New System.Drawing.Size(441, 57)
+        Me.PanelControl1.TabIndex = 3
+        '
         'TextEdit1
         '
         Me.TextEdit1.Location = New System.Drawing.Point(91, 23)
@@ -138,6 +118,16 @@ Partial Class carihesap_tanimi
         Me.TextEdit1.Size = New System.Drawing.Size(345, 20)
         Me.TextEdit1.TabIndex = 5
         '
+        'LabelControl2
+        '
+        Me.LabelControl2.Appearance.Font = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(162, Byte))
+        Me.LabelControl2.Appearance.Options.UseFont = True
+        Me.LabelControl2.Location = New System.Drawing.Point(91, 5)
+        Me.LabelControl2.Name = "LabelControl2"
+        Me.LabelControl2.Size = New System.Drawing.Size(17, 14)
+        Me.LabelControl2.TabIndex = 4
+        Me.LabelControl2.Text = "Adı"
+        '
         'stokkodu
         '
         Me.stokkodu.Location = New System.Drawing.Point(9, 23)
@@ -146,6 +136,16 @@ Partial Class carihesap_tanimi
         Me.stokkodu.Properties.Appearance.Options.UseFont = True
         Me.stokkodu.Size = New System.Drawing.Size(76, 20)
         Me.stokkodu.TabIndex = 3
+        '
+        'LabelControl1
+        '
+        Me.LabelControl1.Appearance.Font = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(162, Byte))
+        Me.LabelControl1.Appearance.Options.UseFont = True
+        Me.LabelControl1.Location = New System.Drawing.Point(9, 6)
+        Me.LabelControl1.Name = "LabelControl1"
+        Me.LabelControl1.Size = New System.Drawing.Size(28, 14)
+        Me.LabelControl1.TabIndex = 2
+        Me.LabelControl1.Text = "Kodu"
         '
         'carihesap_tanimi
         '
