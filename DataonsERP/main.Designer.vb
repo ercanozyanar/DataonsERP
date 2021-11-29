@@ -23,8 +23,8 @@ Partial Class main
     <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
         Me.components = New System.ComponentModel.Container()
-        Dim SuperToolTip1 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
-        Dim ToolTipItem1 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
+        Dim SuperToolTip2 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
+        Dim ToolTipItem2 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(main))
         Me.FormAssistant1 = New DevExpress.XtraBars.FormAssistant()
         Me.AccordionControlElement53 = New DevExpress.XtraBars.Navigation.AccordionControlElement()
@@ -400,9 +400,9 @@ Partial Class main
         Me.NavBarGroup6.GroupClientHeight = 80
         Me.NavBarGroup6.GroupStyle = DevExpress.XtraNavBar.NavBarGroupStyle.ControlContainer
         Me.NavBarGroup6.Name = "NavBarGroup6"
-        ToolTipItem1.Text = "Deneme"
-        SuperToolTip1.Items.Add(ToolTipItem1)
-        Me.NavBarGroup6.SuperTip = SuperToolTip1
+        ToolTipItem2.Text = "Deneme"
+        SuperToolTip2.Items.Add(ToolTipItem2)
+        Me.NavBarGroup6.SuperTip = SuperToolTip2
         '
         'NavBarGroup8
         '

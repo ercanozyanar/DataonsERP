@@ -219,6 +219,24 @@
     <Compile Include="kasa_tanim.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="kasa_virman_fisi.Designer.vb">
+      <DependentUpon>kasa_virman_fisi.vb</DependentUpon>
+    </Compile>
+    <Compile Include="kasa_virman_fisi.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="kkartli_odeme.Designer.vb">
+      <DependentUpon>kkartli_odeme.vb</DependentUpon>
+    </Compile>
+    <Compile Include="kkartli_odeme.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="kkartli_tahsil.Designer.vb">
+      <DependentUpon>kkartli_tahsil.vb</DependentUpon>
+    </Compile>
+    <Compile Include="kkartli_tahsil.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="perakende_alis.Designer.vb">
       <DependentUpon>perakende_alis.vb</DependentUpon>
     </Compile>
@@ -229,6 +247,18 @@
       <DependentUpon>perakende_satis.vb</DependentUpon>
     </Compile>
     <Compile Include="perakende_satis.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="tahsilat_fisi.Designer.vb">
+      <DependentUpon>tahsilat_fisi.vb</DependentUpon>
+    </Compile>
+    <Compile Include="tahsilat_fisi.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="tediye_fisi.Designer.vb">
+      <DependentUpon>tediye_fisi.vb</DependentUpon>
+    </Compile>
+    <Compile Include="tediye_fisi.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="toptan_alis_islemler.Designer.vb">
@@ -379,11 +409,26 @@
     <EmbeddedResource Include="kasa_tanim.resx">
       <DependentUpon>kasa_tanim.vb</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="kasa_virman_fisi.resx">
+      <DependentUpon>kasa_virman_fisi.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="kkartli_odeme.resx">
+      <DependentUpon>kkartli_odeme.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="kkartli_tahsil.resx">
+      <DependentUpon>kkartli_tahsil.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="perakende_alis.resx">
       <DependentUpon>perakende_alis.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="perakende_satis.resx">
       <DependentUpon>perakende_satis.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="tahsilat_fisi.resx">
+      <DependentUpon>tahsilat_fisi.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="tediye_fisi.resx">
+      <DependentUpon>tediye_fisi.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="toptan_alis_islemler.resx">
       <DependentUpon>toptan_alis_islemler.vb</DependentUpon>

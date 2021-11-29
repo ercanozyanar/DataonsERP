@@ -19,8 +19,16 @@ Partial Class stok_tanim
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
-        components = New System.ComponentModel.Container
+        Me.SuspendLayout()
+        '
+        'stok_tanim
+        '
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
+        Me.ClientSize = New System.Drawing.Size(516, 391)
+        Me.Name = "stok_tanim"
         Me.Text = "stok_tanim"
+        Me.ResumeLayout(False)
+
     End Sub
 End Class
