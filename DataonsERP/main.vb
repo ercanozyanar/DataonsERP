@@ -64,6 +64,11 @@ Public Class main
         stok_tanimlama.Show()
     End Sub
 
+    Private Sub TreeView1_AfterSelect(ByVal sender As System.Object, ByVal e As System.Windows.Forms.TreeViewEventArgs) Handles TreeView1.AfterSelect
+        ' Determine by checking the Node property of the TreeViewEventArgs.  
+        MessageBox.Show(e.Node.Text)
+    End Sub
+
     'Private Sub TreeView1_NodeMouseClick(sender As Object, e As TreeNodeMouseClickEventArgs) Handles TreeView1.NodeMouseClick
     '    If (e.Node.Name = "Rapor1") Then
     '        Dim frm As Form2

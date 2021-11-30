@@ -119,6 +119,12 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="alinan_emanet.Designer.vb">
+      <DependentUpon>alinan_emanet.vb</DependentUpon>
+    </Compile>
+    <Compile Include="alinan_emanet.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="alis_satis_rapor.Designer.vb">
       <DependentUpon>alis_satis_rapor.vb</DependentUpon>
     </Compile>
@@ -195,6 +201,12 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>dataonsDataSet1.xsd</DependentUpon>
     </Compile>
+    <Compile Include="emanet_liste.Designer.vb">
+      <DependentUpon>emanet_liste.vb</DependentUpon>
+    </Compile>
+    <Compile Include="emanet_liste.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="gelen_havale.Designer.vb">
       <DependentUpon>gelen_havale.vb</DependentUpon>
     </Compile>
@@ -207,10 +219,28 @@
     <Compile Include="giden_havale.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="kasa_bakiye_liste.Designer.vb">
+      <DependentUpon>kasa_bakiye_liste.vb</DependentUpon>
+    </Compile>
+    <Compile Include="kasa_bakiye_liste.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="kasa_giriscikis.Designer.vb">
       <DependentUpon>kasa_giriscikis.vb</DependentUpon>
     </Compile>
     <Compile Include="kasa_giriscikis.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="kasa_hareket.Designer.vb">
+      <DependentUpon>kasa_hareket.vb</DependentUpon>
+    </Compile>
+    <Compile Include="kasa_hareket.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="kasa_hesap_ekstre.Designer.vb">
+      <DependentUpon>kasa_hesap_ekstre.vb</DependentUpon>
+    </Compile>
+    <Compile Include="kasa_hesap_ekstre.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="kasa_tanim.Designer.vb">
@@ -235,6 +265,12 @@
       <DependentUpon>kkartli_tahsil.vb</DependentUpon>
     </Compile>
     <Compile Include="kkartli_tahsil.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="kkart_islem_rapor.Designer.vb">
+      <DependentUpon>kkart_islem_rapor.vb</DependentUpon>
+    </Compile>
+    <Compile Include="kkart_islem_rapor.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="perakende_alis.Designer.vb">
@@ -283,6 +319,12 @@
       <DependentUpon>stok_birim.vb</DependentUpon>
     </Compile>
     <Compile Include="stok_birim.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="verilen_emanet.Designer.vb">
+      <DependentUpon>verilen_emanet.vb</DependentUpon>
+    </Compile>
+    <Compile Include="verilen_emanet.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="vezne_tanim.Designer.vb">
@@ -364,6 +406,9 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="alinan_emanet.resx">
+      <DependentUpon>alinan_emanet.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="alis_satis_rapor.resx">
       <DependentUpon>alis_satis_rapor.vb</DependentUpon>
     </EmbeddedResource>
@@ -397,14 +442,26 @@
     <EmbeddedResource Include="carihesap_islem.resx">
       <DependentUpon>carihesap_islem.vb</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="emanet_liste.resx">
+      <DependentUpon>emanet_liste.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="gelen_havale.resx">
       <DependentUpon>gelen_havale.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="giden_havale.resx">
       <DependentUpon>giden_havale.vb</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="kasa_bakiye_liste.resx">
+      <DependentUpon>kasa_bakiye_liste.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="kasa_giriscikis.resx">
       <DependentUpon>kasa_giriscikis.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="kasa_hareket.resx">
+      <DependentUpon>kasa_hareket.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="kasa_hesap_ekstre.resx">
+      <DependentUpon>kasa_hesap_ekstre.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="kasa_tanim.resx">
       <DependentUpon>kasa_tanim.vb</DependentUpon>
@@ -417,6 +474,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="kkartli_tahsil.resx">
       <DependentUpon>kkartli_tahsil.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="kkart_islem_rapor.resx">
+      <DependentUpon>kkart_islem_rapor.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="perakende_alis.resx">
       <DependentUpon>perakende_alis.vb</DependentUpon>
@@ -441,6 +501,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="stok_birim.resx">
       <DependentUpon>stok_birim.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="verilen_emanet.resx">
+      <DependentUpon>verilen_emanet.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="vezne_tanim.resx">
       <DependentUpon>vezne_tanim.vb</DependentUpon>

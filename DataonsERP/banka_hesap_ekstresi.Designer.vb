@@ -32,22 +32,22 @@ Partial Class banka_hesap_ekstresi
         Me.LabelControl1 = New DevExpress.XtraEditors.LabelControl()
         Me.GroupBox6 = New System.Windows.Forms.GroupBox()
         Me.SimpleButton3 = New DevExpress.XtraEditors.SimpleButton()
-        Me.SimpleButton2 = New DevExpress.XtraEditors.SimpleButton()
         Me.SimpleButton1 = New DevExpress.XtraEditors.SimpleButton()
+        Me.SimpleButton2 = New DevExpress.XtraEditors.SimpleButton()
         Me.GridControl1 = New DevExpress.XtraGrid.GridControl()
         Me.GridView1 = New DevExpress.XtraGrid.Views.Grid.GridView()
         Me.GroupBox2 = New System.Windows.Forms.GroupBox()
-        Me.LabelControl3 = New DevExpress.XtraEditors.LabelControl()
-        Me.TextEdit2 = New DevExpress.XtraEditors.TextEdit()
-        Me.LabelControl5 = New DevExpress.XtraEditors.LabelControl()
-        Me.TextEdit3 = New DevExpress.XtraEditors.TextEdit()
-        Me.LabelControl6 = New DevExpress.XtraEditors.LabelControl()
-        Me.LabelControl7 = New DevExpress.XtraEditors.LabelControl()
-        Me.TextEdit5 = New DevExpress.XtraEditors.TextEdit()
-        Me.TextEdit6 = New DevExpress.XtraEditors.TextEdit()
         Me.LabelControl8 = New DevExpress.XtraEditors.LabelControl()
         Me.TextEdit7 = New DevExpress.XtraEditors.TextEdit()
         Me.TextEdit8 = New DevExpress.XtraEditors.TextEdit()
+        Me.LabelControl7 = New DevExpress.XtraEditors.LabelControl()
+        Me.TextEdit5 = New DevExpress.XtraEditors.TextEdit()
+        Me.TextEdit6 = New DevExpress.XtraEditors.TextEdit()
+        Me.LabelControl6 = New DevExpress.XtraEditors.LabelControl()
+        Me.LabelControl5 = New DevExpress.XtraEditors.LabelControl()
+        Me.TextEdit3 = New DevExpress.XtraEditors.TextEdit()
+        Me.LabelControl3 = New DevExpress.XtraEditors.LabelControl()
+        Me.TextEdit2 = New DevExpress.XtraEditors.TextEdit()
         CType(Me.TextEdit4.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.TextEdit1.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.DateEdit1.Properties.CalendarTimeProperties, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -57,12 +57,12 @@ Partial Class banka_hesap_ekstresi
         CType(Me.GridControl1, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.GridView1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.GroupBox2.SuspendLayout()
-        CType(Me.TextEdit2.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.TextEdit3.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.TextEdit5.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.TextEdit6.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.TextEdit7.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.TextEdit8.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.TextEdit5.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.TextEdit6.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.TextEdit3.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.TextEdit2.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'TextEdit4
@@ -147,14 +147,6 @@ Partial Class banka_hesap_ekstresi
         Me.SimpleButton3.TabIndex = 2
         Me.SimpleButton3.Text = "Excel"
         '
-        'SimpleButton2
-        '
-        Me.SimpleButton2.Location = New System.Drawing.Point(83, 8)
-        Me.SimpleButton2.Name = "SimpleButton2"
-        Me.SimpleButton2.Size = New System.Drawing.Size(61, 87)
-        Me.SimpleButton2.TabIndex = 1
-        Me.SimpleButton2.Text = "Yazdır"
-        '
         'SimpleButton1
         '
         Me.SimpleButton1.Location = New System.Drawing.Point(6, 8)
@@ -162,6 +154,14 @@ Partial Class banka_hesap_ekstresi
         Me.SimpleButton1.Size = New System.Drawing.Size(61, 87)
         Me.SimpleButton1.TabIndex = 0
         Me.SimpleButton1.Text = "Listele"
+        '
+        'SimpleButton2
+        '
+        Me.SimpleButton2.Location = New System.Drawing.Point(83, 8)
+        Me.SimpleButton2.Name = "SimpleButton2"
+        Me.SimpleButton2.Size = New System.Drawing.Size(61, 87)
+        Me.SimpleButton2.TabIndex = 1
+        Me.SimpleButton2.Text = "Yazdır"
         '
         'GridControl1
         '
@@ -196,43 +196,27 @@ Partial Class banka_hesap_ekstresi
         Me.GroupBox2.TabIndex = 10
         Me.GroupBox2.TabStop = False
         '
-        'LabelControl3
+        'LabelControl8
         '
-        Me.LabelControl3.Location = New System.Drawing.Point(5, 35)
-        Me.LabelControl3.Name = "LabelControl3"
-        Me.LabelControl3.Size = New System.Drawing.Size(34, 13)
-        Me.LabelControl3.TabIndex = 3
-        Me.LabelControl3.Text = "Toplam"
+        Me.LabelControl8.Location = New System.Drawing.Point(377, 13)
+        Me.LabelControl8.Name = "LabelControl8"
+        Me.LabelControl8.Size = New System.Drawing.Size(31, 13)
+        Me.LabelControl8.TabIndex = 13
+        Me.LabelControl8.Text = "Bakiye"
         '
-        'TextEdit2
+        'TextEdit7
         '
-        Me.TextEdit2.Location = New System.Drawing.Point(77, 32)
-        Me.TextEdit2.Name = "TextEdit2"
-        Me.TextEdit2.Size = New System.Drawing.Size(143, 20)
-        Me.TextEdit2.TabIndex = 4
+        Me.TextEdit7.Location = New System.Drawing.Point(375, 66)
+        Me.TextEdit7.Name = "TextEdit7"
+        Me.TextEdit7.Size = New System.Drawing.Size(143, 20)
+        Me.TextEdit7.TabIndex = 12
         '
-        'LabelControl5
+        'TextEdit8
         '
-        Me.LabelControl5.Location = New System.Drawing.Point(5, 69)
-        Me.LabelControl5.Name = "LabelControl5"
-        Me.LabelControl5.Size = New System.Drawing.Size(60, 13)
-        Me.LabelControl5.TabIndex = 5
-        Me.LabelControl5.Text = "Döv. Toplam"
-        '
-        'TextEdit3
-        '
-        Me.TextEdit3.Location = New System.Drawing.Point(77, 66)
-        Me.TextEdit3.Name = "TextEdit3"
-        Me.TextEdit3.Size = New System.Drawing.Size(143, 20)
-        Me.TextEdit3.TabIndex = 6
-        '
-        'LabelControl6
-        '
-        Me.LabelControl6.Location = New System.Drawing.Point(77, 13)
-        Me.LabelControl6.Name = "LabelControl6"
-        Me.LabelControl6.Size = New System.Drawing.Size(73, 13)
-        Me.LabelControl6.TabIndex = 7
-        Me.LabelControl6.Text = "Girişleri Toplamı"
+        Me.TextEdit8.Location = New System.Drawing.Point(375, 32)
+        Me.TextEdit8.Name = "TextEdit8"
+        Me.TextEdit8.Size = New System.Drawing.Size(143, 20)
+        Me.TextEdit8.TabIndex = 11
         '
         'LabelControl7
         '
@@ -256,27 +240,43 @@ Partial Class banka_hesap_ekstresi
         Me.TextEdit6.Size = New System.Drawing.Size(143, 20)
         Me.TextEdit6.TabIndex = 8
         '
-        'LabelControl8
+        'LabelControl6
         '
-        Me.LabelControl8.Location = New System.Drawing.Point(377, 13)
-        Me.LabelControl8.Name = "LabelControl8"
-        Me.LabelControl8.Size = New System.Drawing.Size(31, 13)
-        Me.LabelControl8.TabIndex = 13
-        Me.LabelControl8.Text = "Bakiye"
+        Me.LabelControl6.Location = New System.Drawing.Point(77, 13)
+        Me.LabelControl6.Name = "LabelControl6"
+        Me.LabelControl6.Size = New System.Drawing.Size(73, 13)
+        Me.LabelControl6.TabIndex = 7
+        Me.LabelControl6.Text = "Girişleri Toplamı"
         '
-        'TextEdit7
+        'LabelControl5
         '
-        Me.TextEdit7.Location = New System.Drawing.Point(375, 66)
-        Me.TextEdit7.Name = "TextEdit7"
-        Me.TextEdit7.Size = New System.Drawing.Size(143, 20)
-        Me.TextEdit7.TabIndex = 12
+        Me.LabelControl5.Location = New System.Drawing.Point(5, 69)
+        Me.LabelControl5.Name = "LabelControl5"
+        Me.LabelControl5.Size = New System.Drawing.Size(60, 13)
+        Me.LabelControl5.TabIndex = 5
+        Me.LabelControl5.Text = "Döv. Toplam"
         '
-        'TextEdit8
+        'TextEdit3
         '
-        Me.TextEdit8.Location = New System.Drawing.Point(375, 32)
-        Me.TextEdit8.Name = "TextEdit8"
-        Me.TextEdit8.Size = New System.Drawing.Size(143, 20)
-        Me.TextEdit8.TabIndex = 11
+        Me.TextEdit3.Location = New System.Drawing.Point(77, 66)
+        Me.TextEdit3.Name = "TextEdit3"
+        Me.TextEdit3.Size = New System.Drawing.Size(143, 20)
+        Me.TextEdit3.TabIndex = 6
+        '
+        'LabelControl3
+        '
+        Me.LabelControl3.Location = New System.Drawing.Point(5, 35)
+        Me.LabelControl3.Name = "LabelControl3"
+        Me.LabelControl3.Size = New System.Drawing.Size(34, 13)
+        Me.LabelControl3.TabIndex = 3
+        Me.LabelControl3.Text = "Toplam"
+        '
+        'TextEdit2
+        '
+        Me.TextEdit2.Location = New System.Drawing.Point(77, 32)
+        Me.TextEdit2.Name = "TextEdit2"
+        Me.TextEdit2.Size = New System.Drawing.Size(143, 20)
+        Me.TextEdit2.TabIndex = 4
         '
         'banka_hesap_ekstresi
         '
@@ -300,12 +300,12 @@ Partial Class banka_hesap_ekstresi
         CType(Me.GridView1, System.ComponentModel.ISupportInitialize).EndInit()
         Me.GroupBox2.ResumeLayout(False)
         Me.GroupBox2.PerformLayout()
-        CType(Me.TextEdit2.Properties, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.TextEdit3.Properties, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.TextEdit5.Properties, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.TextEdit6.Properties, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.TextEdit7.Properties, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.TextEdit8.Properties, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.TextEdit5.Properties, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.TextEdit6.Properties, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.TextEdit3.Properties, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.TextEdit2.Properties, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
 
     End Sub
