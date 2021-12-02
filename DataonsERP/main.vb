@@ -58,22 +58,59 @@ Public Class main
 
 
     End Sub
-
     Private Sub NavBarItem17_LinkClicked(sender As Object, e As NavBarLinkEventArgs)
         stok_tanimlama.MdiParent = Me
         stok_tanimlama.Show()
     End Sub
-
-    Private Sub TreeView1_AfterSelect(ByVal sender As System.Object, ByVal e As System.Windows.Forms.TreeViewEventArgs) Handles TreeView1.AfterSelect
-        ' Determine by checking the Node property of the TreeViewEventArgs.  
-        MessageBox.Show(e.Node.Text)
+    Private Sub TreeView1_NodeMouseClick(sender As Object, e As TreeNodeMouseClickEventArgs) Handles TreeView1.NodeMouseClick
+        If (e.Node.Name = "Düğüm1") Then
+            Dim frm As doviz_tanim
+            frm = New doviz_tanim()
+            frm.Show()
+        End If
+        If (e.Node.Name = "Düğüm2") Then
+            Dim NewMDIChild As New dovizkur_girisi()
+            'Set the Parent Form of the Child window.
+            NewMDIChild.MdiParent = Me
+            'Display the new form.
+            NewMDIChild.Show()
+        End If
     End Sub
 
-    'Private Sub TreeView1_NodeMouseClick(sender As Object, e As TreeNodeMouseClickEventArgs) Handles TreeView1.NodeMouseClick
-    '    If (e.Node.Name = "Rapor1") Then
-    '        Dim frm As Form2
-    '        frm = New Form2()
-    '        frm.Show()
-    '    End If
-    'End Sub
+    Private Sub TreeView2_NodeMouseClick(sender As Object, e As TreeNodeMouseClickEventArgs) Handles TreeView2.NodeMouseClick
+        If (e.Node.Name = "Düğüm4") Then
+            Dim NewMDIChild As New stok_tanimlama()
+            'Set the Parent Form of the Child window.
+            NewMDIChild.MdiParent = Me
+            'Display the new form.
+            NewMDIChild.Show()
+        End If
+        If (e.Node.Name = "Düğüm3") Then
+            Dim NewMDIChild As New stok_tanim()
+            'Set the Parent Form of the Child window.
+            NewMDIChild.MdiParent = Me
+            'Display the new form.
+            NewMDIChild.Show()
+        End If
+        If (e.Node.Name = "Düğüm5") Then
+            Dim frm As stok_birim
+            frm = New stok_birim()
+            frm.Show()
+        End If
+        If (e.Node.Name = "Düğüm6") Then
+            Dim frm As vezne_tanim
+            frm = New vezne_tanim()
+            frm.Show()
+        End If
+        If (e.Node.Name = "Düğüm7") Then
+            Dim frm As stokgrup_tanim
+            frm = New stokgrup_tanim()
+            frm.Show()
+        End If
+        If (e.Node.Name = "Düğüm8") Then
+            Dim frm As stoktur_tanim
+            frm = New stoktur_tanim()
+            frm.Show()
+        End If
+    End Sub
 End Class

@@ -201,6 +201,18 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>dataonsDataSet1.xsd</DependentUpon>
     </Compile>
+    <Compile Include="dovizkur_girisi.Designer.vb">
+      <DependentUpon>dovizkur_girisi.vb</DependentUpon>
+    </Compile>
+    <Compile Include="dovizkur_girisi.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="doviz_tanim.Designer.vb">
+      <DependentUpon>doviz_tanim.vb</DependentUpon>
+    </Compile>
+    <Compile Include="doviz_tanim.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="emanet_liste.Designer.vb">
       <DependentUpon>emanet_liste.vb</DependentUpon>
     </Compile>
@@ -441,6 +453,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="carihesap_islem.resx">
       <DependentUpon>carihesap_islem.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="dovizkur_girisi.resx">
+      <DependentUpon>dovizkur_girisi.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="doviz_tanim.resx">
+      <DependentUpon>doviz_tanim.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="emanet_liste.resx">
       <DependentUpon>emanet_liste.vb</DependentUpon>

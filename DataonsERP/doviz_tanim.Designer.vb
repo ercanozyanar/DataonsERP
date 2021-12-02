@@ -1,5 +1,5 @@
 ﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
-Partial Class vezne_tanim
+Partial Class doviz_tanim
     Inherits DevExpress.XtraEditors.XtraForm
 
     'Form, bileşen listesini temizlemeyi bırakmayı geçersiz kılar.
@@ -24,6 +24,7 @@ Partial Class vezne_tanim
     Private Sub InitializeComponent()
         Me.FormAssistant1 = New DevExpress.XtraBars.FormAssistant()
         Me.DataGridView1 = New System.Windows.Forms.DataGridView()
+        Me.FormAssistant2 = New DevExpress.XtraBars.FormAssistant()
         Me.PanelControl1 = New DevExpress.XtraEditors.PanelControl()
         Me.TextEdit1 = New DevExpress.XtraEditors.TextEdit()
         Me.LabelControl2 = New DevExpress.XtraEditors.LabelControl()
@@ -46,10 +47,10 @@ Partial Class vezne_tanim
         'DataGridView1
         '
         Me.DataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
-        Me.DataGridView1.Location = New System.Drawing.Point(12, 87)
+        Me.DataGridView1.Location = New System.Drawing.Point(2, 78)
         Me.DataGridView1.Name = "DataGridView1"
         Me.DataGridView1.Size = New System.Drawing.Size(441, 351)
-        Me.DataGridView1.TabIndex = 4
+        Me.DataGridView1.TabIndex = 10
         '
         'PanelControl1
         '
@@ -57,10 +58,10 @@ Partial Class vezne_tanim
         Me.PanelControl1.Controls.Add(Me.LabelControl2)
         Me.PanelControl1.Controls.Add(Me.stokkodu)
         Me.PanelControl1.Controls.Add(Me.LabelControl1)
-        Me.PanelControl1.Location = New System.Drawing.Point(12, 12)
+        Me.PanelControl1.Location = New System.Drawing.Point(2, 3)
         Me.PanelControl1.Name = "PanelControl1"
         Me.PanelControl1.Size = New System.Drawing.Size(441, 57)
-        Me.PanelControl1.TabIndex = 3
+        Me.PanelControl1.TabIndex = 9
         '
         'TextEdit1
         '
@@ -79,7 +80,7 @@ Partial Class vezne_tanim
         Me.LabelControl2.Name = "LabelControl2"
         Me.LabelControl2.Size = New System.Drawing.Size(55, 14)
         Me.LabelControl2.TabIndex = 4
-        Me.LabelControl2.Text = "Vezne Adı"
+        Me.LabelControl2.Text = "Döviz Cinsi"
         '
         'stokkodu
         '
@@ -106,10 +107,10 @@ Partial Class vezne_tanim
         Me.PanelControl2.Controls.Add(Me.SimpleButton3)
         Me.PanelControl2.Controls.Add(Me.SimpleButton2)
         Me.PanelControl2.Controls.Add(Me.SimpleButton1)
-        Me.PanelControl2.Location = New System.Drawing.Point(12, 448)
+        Me.PanelControl2.Location = New System.Drawing.Point(2, 439)
         Me.PanelControl2.Name = "PanelControl2"
         Me.PanelControl2.Size = New System.Drawing.Size(441, 57)
-        Me.PanelControl2.TabIndex = 5
+        Me.PanelControl2.TabIndex = 11
         '
         'SimpleButton4
         '
@@ -147,17 +148,17 @@ Partial Class vezne_tanim
         Me.SimpleButton1.TabIndex = 0
         Me.SimpleButton1.Text = "Kaydet"
         '
-        'vezne_tanim
+        'doviz_tanim
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(464, 510)
+        Me.ClientSize = New System.Drawing.Size(448, 499)
         Me.Controls.Add(Me.DataGridView1)
         Me.Controls.Add(Me.PanelControl1)
         Me.Controls.Add(Me.PanelControl2)
-        Me.Name = "vezne_tanim"
+        Me.Name = "doviz_tanim"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
-        Me.Text = "Vezne Tanımlama"
+        Me.Text = "Döviz Türü Tanımlama"
         CType(Me.DataGridView1, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.PanelControl1, System.ComponentModel.ISupportInitialize).EndInit()
         Me.PanelControl1.ResumeLayout(False)
@@ -172,6 +173,7 @@ Partial Class vezne_tanim
 
     Friend WithEvents FormAssistant1 As DevExpress.XtraBars.FormAssistant
     Friend WithEvents DataGridView1 As DataGridView
+    Friend WithEvents FormAssistant2 As DevExpress.XtraBars.FormAssistant
     Friend WithEvents PanelControl1 As DevExpress.XtraEditors.PanelControl
     Friend WithEvents TextEdit1 As DevExpress.XtraEditors.TextEdit
     Friend WithEvents LabelControl2 As DevExpress.XtraEditors.LabelControl
