@@ -38,9 +38,9 @@ Partial Class kasa_giriscikis
         Me.ComboBoxEdit3 = New DevExpress.XtraEditors.ComboBoxEdit()
         Me.TextEdit2 = New DevExpress.XtraEditors.TextEdit()
         Me.GroupBox1 = New System.Windows.Forms.GroupBox()
-        Me.SimpleButton1 = New DevExpress.XtraEditors.SimpleButton()
-        Me.SimpleButton2 = New DevExpress.XtraEditors.SimpleButton()
         Me.SimpleButton3 = New DevExpress.XtraEditors.SimpleButton()
+        Me.SimpleButton2 = New DevExpress.XtraEditors.SimpleButton()
+        Me.SimpleButton1 = New DevExpress.XtraEditors.SimpleButton()
         CType(Me.ComboBoxEdit1.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.DateEdit1.Properties.CalendarTimeProperties, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.DateEdit1.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -197,13 +197,13 @@ Partial Class kasa_giriscikis
         Me.GroupBox1.TabIndex = 126
         Me.GroupBox1.TabStop = False
         '
-        'SimpleButton1
+        'SimpleButton3
         '
-        Me.SimpleButton1.Location = New System.Drawing.Point(6, 11)
-        Me.SimpleButton1.Name = "SimpleButton1"
-        Me.SimpleButton1.Size = New System.Drawing.Size(104, 32)
-        Me.SimpleButton1.TabIndex = 0
-        Me.SimpleButton1.Text = "Kaydet"
+        Me.SimpleButton3.Location = New System.Drawing.Point(320, 11)
+        Me.SimpleButton3.Name = "SimpleButton3"
+        Me.SimpleButton3.Size = New System.Drawing.Size(104, 32)
+        Me.SimpleButton3.TabIndex = 2
+        Me.SimpleButton3.Text = "İşlem Listesi"
         '
         'SimpleButton2
         '
@@ -213,13 +213,13 @@ Partial Class kasa_giriscikis
         Me.SimpleButton2.TabIndex = 1
         Me.SimpleButton2.Text = "Sil"
         '
-        'SimpleButton3
+        'SimpleButton1
         '
-        Me.SimpleButton3.Location = New System.Drawing.Point(320, 11)
-        Me.SimpleButton3.Name = "SimpleButton3"
-        Me.SimpleButton3.Size = New System.Drawing.Size(104, 32)
-        Me.SimpleButton3.TabIndex = 2
-        Me.SimpleButton3.Text = "İşlem Listesi"
+        Me.SimpleButton1.Location = New System.Drawing.Point(6, 11)
+        Me.SimpleButton1.Name = "SimpleButton1"
+        Me.SimpleButton1.Size = New System.Drawing.Size(104, 32)
+        Me.SimpleButton1.TabIndex = 0
+        Me.SimpleButton1.Text = "Kaydet"
         '
         'kasa_giriscikis
         '
@@ -241,7 +241,10 @@ Partial Class kasa_giriscikis
         Me.Controls.Add(Me.LabelControl2)
         Me.Controls.Add(Me.ComboBoxEdit1)
         Me.Controls.Add(Me.LabelControl1)
+        Me.MaximizeBox = False
+        Me.MinimizeBox = False
         Me.Name = "kasa_giriscikis"
+        Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "Kasa Giriş Çıkış İşlemi"
         CType(Me.ComboBoxEdit1.Properties, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.DateEdit1.Properties.CalendarTimeProperties, System.ComponentModel.ISupportInitialize).EndInit()

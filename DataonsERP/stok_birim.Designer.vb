@@ -155,6 +155,8 @@ Partial Class stok_birim
         Me.Controls.Add(Me.PanelControl2)
         Me.Controls.Add(Me.DataGridView1)
         Me.Controls.Add(Me.PanelControl1)
+        Me.MaximizeBox = False
+        Me.MinimizeBox = False
         Me.Name = "stok_birim"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "Stok Birim Tanımı"

@@ -297,6 +297,66 @@
     <Compile Include="perakende_satis.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="stok_carihareketrapor.Designer.vb">
+      <DependentUpon>stok_carihareketrapor.vb</DependentUpon>
+    </Compile>
+    <Compile Include="stok_carihareketrapor.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="stok_cikisfis.Designer.vb">
+      <DependentUpon>stok_cikisfis.vb</DependentUpon>
+    </Compile>
+    <Compile Include="stok_cikisfis.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="stok_degerrapor.Designer.vb">
+      <DependentUpon>stok_degerrapor.vb</DependentUpon>
+    </Compile>
+    <Compile Include="stok_degerrapor.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="stok_fiyatlist.Designer.vb">
+      <DependentUpon>stok_fiyatlist.vb</DependentUpon>
+    </Compile>
+    <Compile Include="stok_fiyatlist.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="stok_giriscikisrapor.Designer.vb">
+      <DependentUpon>stok_giriscikisrapor.vb</DependentUpon>
+    </Compile>
+    <Compile Include="stok_giriscikisrapor.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="stok_girisfis.Designer.vb">
+      <DependentUpon>stok_girisfis.vb</DependentUpon>
+    </Compile>
+    <Compile Include="stok_girisfis.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="stok_hareketlist.Designer.vb">
+      <DependentUpon>stok_hareketlist.vb</DependentUpon>
+    </Compile>
+    <Compile Include="stok_hareketlist.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="stok_hareketrapor.Designer.vb">
+      <DependentUpon>stok_hareketrapor.vb</DependentUpon>
+    </Compile>
+    <Compile Include="stok_hareketrapor.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="stok_kayitlist.Designer.vb">
+      <DependentUpon>stok_kayitlist.vb</DependentUpon>
+    </Compile>
+    <Compile Include="stok_kayitlist.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="stok_transferfisi.Designer.vb">
+      <DependentUpon>stok_transferfisi.vb</DependentUpon>
+    </Compile>
+    <Compile Include="stok_transferfisi.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="tahsilat_fisi.Designer.vb">
       <DependentUpon>tahsilat_fisi.vb</DependentUpon>
     </Compile>
@@ -501,6 +561,36 @@
     </EmbeddedResource>
     <EmbeddedResource Include="perakende_satis.resx">
       <DependentUpon>perakende_satis.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="stok_carihareketrapor.resx">
+      <DependentUpon>stok_carihareketrapor.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="stok_cikisfis.resx">
+      <DependentUpon>stok_cikisfis.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="stok_degerrapor.resx">
+      <DependentUpon>stok_degerrapor.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="stok_fiyatlist.resx">
+      <DependentUpon>stok_fiyatlist.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="stok_giriscikisrapor.resx">
+      <DependentUpon>stok_giriscikisrapor.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="stok_girisfis.resx">
+      <DependentUpon>stok_girisfis.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="stok_hareketlist.resx">
+      <DependentUpon>stok_hareketlist.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="stok_hareketrapor.resx">
+      <DependentUpon>stok_hareketrapor.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="stok_kayitlist.resx">
+      <DependentUpon>stok_kayitlist.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="stok_transferfisi.resx">
+      <DependentUpon>stok_transferfisi.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="tahsilat_fisi.resx">
       <DependentUpon>tahsilat_fisi.vb</DependentUpon>
