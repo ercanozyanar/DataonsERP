@@ -123,6 +123,106 @@ Namespace My.Resources
         '''<summary>
         '''  System.Drawing.Bitmap türünde yerelleştirilmiş bir kaynak arar.
         '''</summary>
+        Friend ReadOnly Property bodepartment_16x16() As System.Drawing.Bitmap
+            Get
+                Dim obj As Object = ResourceManager.GetObject("bodepartment_16x16", resourceCulture)
+                Return CType(obj,System.Drawing.Bitmap)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  System.Drawing.Bitmap türünde yerelleştirilmiş bir kaynak arar.
+        '''</summary>
+        Friend ReadOnly Property bodepartment_32x32() As System.Drawing.Bitmap
+            Get
+                Dim obj As Object = ResourceManager.GetObject("bodepartment_32x32", resourceCulture)
+                Return CType(obj,System.Drawing.Bitmap)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  System.Drawing.Bitmap türünde yerelleştirilmiş bir kaynak arar.
+        '''</summary>
+        Friend ReadOnly Property boorderitem_16x16() As System.Drawing.Bitmap
+            Get
+                Dim obj As Object = ResourceManager.GetObject("boorderitem_16x16", resourceCulture)
+                Return CType(obj,System.Drawing.Bitmap)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  System.Drawing.Bitmap türünde yerelleştirilmiş bir kaynak arar.
+        '''</summary>
+        Friend ReadOnly Property boorderitem_32x32() As System.Drawing.Bitmap
+            Get
+                Dim obj As Object = ResourceManager.GetObject("boorderitem_32x32", resourceCulture)
+                Return CType(obj,System.Drawing.Bitmap)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  System.Drawing.Bitmap türünde yerelleştirilmiş bir kaynak arar.
+        '''</summary>
+        Friend ReadOnly Property boposition2_16x16() As System.Drawing.Bitmap
+            Get
+                Dim obj As Object = ResourceManager.GetObject("boposition2_16x16", resourceCulture)
+                Return CType(obj,System.Drawing.Bitmap)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  System.Drawing.Bitmap türünde yerelleştirilmiş bir kaynak arar.
+        '''</summary>
+        Friend ReadOnly Property boposition2_32x32() As System.Drawing.Bitmap
+            Get
+                Dim obj As Object = ResourceManager.GetObject("boposition2_32x32", resourceCulture)
+                Return CType(obj,System.Drawing.Bitmap)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  System.Drawing.Bitmap türünde yerelleştirilmiş bir kaynak arar.
+        '''</summary>
+        Friend ReadOnly Property boproductgroup_16x16() As System.Drawing.Bitmap
+            Get
+                Dim obj As Object = ResourceManager.GetObject("boproductgroup_16x16", resourceCulture)
+                Return CType(obj,System.Drawing.Bitmap)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  System.Drawing.Bitmap türünde yerelleştirilmiş bir kaynak arar.
+        '''</summary>
+        Friend ReadOnly Property boproductgroup_32x32() As System.Drawing.Bitmap
+            Get
+                Dim obj As Object = ResourceManager.GetObject("boproductgroup_32x32", resourceCulture)
+                Return CType(obj,System.Drawing.Bitmap)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  System.Drawing.Bitmap türünde yerelleştirilmiş bir kaynak arar.
+        '''</summary>
+        Friend ReadOnly Property bosaleitem_16x16() As System.Drawing.Bitmap
+            Get
+                Dim obj As Object = ResourceManager.GetObject("bosaleitem_16x16", resourceCulture)
+                Return CType(obj,System.Drawing.Bitmap)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  System.Drawing.Bitmap türünde yerelleştirilmiş bir kaynak arar.
+        '''</summary>
+        Friend ReadOnly Property bosaleitem_32x32() As System.Drawing.Bitmap
+            Get
+                Dim obj As Object = ResourceManager.GetObject("bosaleitem_32x32", resourceCulture)
+                Return CType(obj,System.Drawing.Bitmap)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  System.Drawing.Bitmap türünde yerelleştirilmiş bir kaynak arar.
+        '''</summary>
         Friend ReadOnly Property calculatenow_16x16() As System.Drawing.Bitmap
             Get
                 Dim obj As Object = ResourceManager.GetObject("calculatenow_16x16", resourceCulture)
@@ -226,6 +326,26 @@ Namespace My.Resources
         Friend ReadOnly Property quickfilter_16x16() As System.Drawing.Bitmap
             Get
                 Dim obj As Object = ResourceManager.GetObject("quickfilter_16x16", resourceCulture)
+                Return CType(obj,System.Drawing.Bitmap)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  System.Drawing.Bitmap türünde yerelleştirilmiş bir kaynak arar.
+        '''</summary>
+        Friend ReadOnly Property reviewers_16x16() As System.Drawing.Bitmap
+            Get
+                Dim obj As Object = ResourceManager.GetObject("reviewers_16x16", resourceCulture)
+                Return CType(obj,System.Drawing.Bitmap)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  System.Drawing.Bitmap türünde yerelleştirilmiş bir kaynak arar.
+        '''</summary>
+        Friend ReadOnly Property reviewers_32x32() As System.Drawing.Bitmap
+            Get
+                Dim obj As Object = ResourceManager.GetObject("reviewers_32x32", resourceCulture)
                 Return CType(obj,System.Drawing.Bitmap)
             End Get
         End Property

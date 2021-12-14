@@ -23,105 +23,102 @@ Partial Class main
     <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
         Me.components = New System.ComponentModel.Container()
+        Dim TreeNode1 As System.Windows.Forms.TreeNode = New System.Windows.Forms.TreeNode("Stoklar")
+        Dim TreeNode2 As System.Windows.Forms.TreeNode = New System.Windows.Forms.TreeNode("Stok Tanımı")
+        Dim TreeNode3 As System.Windows.Forms.TreeNode = New System.Windows.Forms.TreeNode("Stok Birim Tanımı")
+        Dim TreeNode4 As System.Windows.Forms.TreeNode = New System.Windows.Forms.TreeNode("Depo/Ambar Tanımı")
+        Dim TreeNode5 As System.Windows.Forms.TreeNode = New System.Windows.Forms.TreeNode("Stok Grupları Tanımı")
+        Dim TreeNode6 As System.Windows.Forms.TreeNode = New System.Windows.Forms.TreeNode("Stok Tür Tanımı")
+        Dim TreeNode7 As System.Windows.Forms.TreeNode = New System.Windows.Forms.TreeNode("Stok Tanımları                                           ", New System.Windows.Forms.TreeNode() {TreeNode1, TreeNode2, TreeNode3, TreeNode4, TreeNode5, TreeNode6})
+        Dim TreeNode8 As System.Windows.Forms.TreeNode = New System.Windows.Forms.TreeNode("Stok Hareket Fişleri")
+        Dim TreeNode9 As System.Windows.Forms.TreeNode = New System.Windows.Forms.TreeNode("Stok Çıkış Fişi")
+        Dim TreeNode10 As System.Windows.Forms.TreeNode = New System.Windows.Forms.TreeNode("Stok Giriş Fişi")
+        Dim TreeNode11 As System.Windows.Forms.TreeNode = New System.Windows.Forms.TreeNode("Stok Transfer Fişi")
+        Dim TreeNode12 As System.Windows.Forms.TreeNode = New System.Windows.Forms.TreeNode("Stok İşlemleri                                   ", New System.Windows.Forms.TreeNode() {TreeNode8, TreeNode9, TreeNode10, TreeNode11})
+        Dim TreeNode13 As System.Windows.Forms.TreeNode = New System.Windows.Forms.TreeNode("Stok Fiyat Listesi")
+        Dim TreeNode14 As System.Windows.Forms.TreeNode = New System.Windows.Forms.TreeNode("Kayıtlı Stok Listesi")
+        Dim TreeNode15 As System.Windows.Forms.TreeNode = New System.Windows.Forms.TreeNode("Stok Hareket Analizi")
+        Dim TreeNode16 As System.Windows.Forms.TreeNode = New System.Windows.Forms.TreeNode("Stok Ekstresi")
+        Dim TreeNode17 As System.Windows.Forms.TreeNode = New System.Windows.Forms.TreeNode("Stok Giriş-Çıkış Raporu")
+        Dim TreeNode18 As System.Windows.Forms.TreeNode = New System.Windows.Forms.TreeNode("Stok Bazında Cari Hareketler")
+        Dim TreeNode19 As System.Windows.Forms.TreeNode = New System.Windows.Forms.TreeNode("Stok Hareketleri")
+        Dim TreeNode20 As System.Windows.Forms.TreeNode = New System.Windows.Forms.TreeNode("Stok Değer Raporu")
+        Dim TreeNode21 As System.Windows.Forms.TreeNode = New System.Windows.Forms.TreeNode("Stok Raporları                                    ", New System.Windows.Forms.TreeNode() {TreeNode13, TreeNode14, TreeNode15, TreeNode16, TreeNode17, TreeNode18, TreeNode19, TreeNode20})
+        Dim TreeNode22 As System.Windows.Forms.TreeNode = New System.Windows.Forms.TreeNode("Genel Stok Durumu                                   ")
+        Dim TreeNode23 As System.Windows.Forms.TreeNode = New System.Windows.Forms.TreeNode("Kullanıcı Stok Durumu                                 ")
+        Dim TreeNode24 As System.Windows.Forms.TreeNode = New System.Windows.Forms.TreeNode("Cari Hesap                                      ")
+        Dim TreeNode25 As System.Windows.Forms.TreeNode = New System.Windows.Forms.TreeNode("Cari Hesap Kartı Tanımı                              ")
+        Dim TreeNode26 As System.Windows.Forms.TreeNode = New System.Windows.Forms.TreeNode("Müşteri Temsilcileri / Satış Elemanı Tanımlama")
+        Dim TreeNode27 As System.Windows.Forms.TreeNode = New System.Windows.Forms.TreeNode("Cari Hesap Türü Tanımı")
+        Dim TreeNode28 As System.Windows.Forms.TreeNode = New System.Windows.Forms.TreeNode("Cari Hesap Gruları Tanımı")
+        Dim TreeNode29 As System.Windows.Forms.TreeNode = New System.Windows.Forms.TreeNode("Cari Hesap Parametre Tanımları                              ", New System.Windows.Forms.TreeNode() {TreeNode26, TreeNode27, TreeNode28})
+        Dim TreeNode30 As System.Windows.Forms.TreeNode = New System.Windows.Forms.TreeNode("Cari Hesap İşlem Fişi")
+        Dim TreeNode31 As System.Windows.Forms.TreeNode = New System.Windows.Forms.TreeNode("Cari Hesap İşlemleri                                ", New System.Windows.Forms.TreeNode() {TreeNode30})
+        Dim TreeNode32 As System.Windows.Forms.TreeNode = New System.Windows.Forms.TreeNode("Kayıtlı Cari Hesap Listesi")
+        Dim TreeNode33 As System.Windows.Forms.TreeNode = New System.Windows.Forms.TreeNode("Cari Hesap Ekstresi")
+        Dim TreeNode34 As System.Windows.Forms.TreeNode = New System.Windows.Forms.TreeNode("Cari Hesap İşlem Listesi")
+        Dim TreeNode35 As System.Windows.Forms.TreeNode = New System.Windows.Forms.TreeNode("Cari Hesap Borç / Alacak Listesi")
+        Dim TreeNode36 As System.Windows.Forms.TreeNode = New System.Windows.Forms.TreeNode("Cari Hesap Borç Yaşlandırma Listesi")
+        Dim TreeNode37 As System.Windows.Forms.TreeNode = New System.Windows.Forms.TreeNode("Cari Hesap Alacak Yaşlandırma Listesi")
+        Dim TreeNode38 As System.Windows.Forms.TreeNode = New System.Windows.Forms.TreeNode("Cari Hesap Raporları                               ", New System.Windows.Forms.TreeNode() {TreeNode32, TreeNode33, TreeNode34, TreeNode35, TreeNode36, TreeNode37})
+        Dim TreeNode39 As System.Windows.Forms.TreeNode = New System.Windows.Forms.TreeNode("Döviz Türü Tanımlama     ")
+        Dim TreeNode40 As System.Windows.Forms.TreeNode = New System.Windows.Forms.TreeNode("Döviz Kur Girişi      ")
+        Dim TreeNode41 As System.Windows.Forms.TreeNode = New System.Windows.Forms.TreeNode("Döviz     ", New System.Windows.Forms.TreeNode() {TreeNode39, TreeNode40})
+        Dim TreeNode42 As System.Windows.Forms.TreeNode = New System.Windows.Forms.TreeNode("Banka Tanımı    ")
+        Dim TreeNode43 As System.Windows.Forms.TreeNode = New System.Windows.Forms.TreeNode("Banka Açılış İşlemleri")
+        Dim TreeNode44 As System.Windows.Forms.TreeNode = New System.Windows.Forms.TreeNode("Banka Virman Fişi")
+        Dim TreeNode45 As System.Windows.Forms.TreeNode = New System.Windows.Forms.TreeNode("Gelen Havale")
+        Dim TreeNode46 As System.Windows.Forms.TreeNode = New System.Windows.Forms.TreeNode("Gönderilen Havale")
+        Dim TreeNode47 As System.Windows.Forms.TreeNode = New System.Windows.Forms.TreeNode("Bankaya Yatırılan")
+        Dim TreeNode48 As System.Windows.Forms.TreeNode = New System.Windows.Forms.TreeNode("Bankadan Çekilen")
+        Dim TreeNode49 As System.Windows.Forms.TreeNode = New System.Windows.Forms.TreeNode("Banka İşlemleri     ", New System.Windows.Forms.TreeNode() {TreeNode43, TreeNode44, TreeNode45, TreeNode46, TreeNode47, TreeNode48})
+        Dim TreeNode50 As System.Windows.Forms.TreeNode = New System.Windows.Forms.TreeNode("Banka Havale Listesi")
+        Dim TreeNode51 As System.Windows.Forms.TreeNode = New System.Windows.Forms.TreeNode("Banka Nakit Giriş Çıkış")
+        Dim TreeNode52 As System.Windows.Forms.TreeNode = New System.Windows.Forms.TreeNode("Banka Hesap Ekstresi")
+        Dim TreeNode53 As System.Windows.Forms.TreeNode = New System.Windows.Forms.TreeNode("Banka Bakiye Listesi")
+        Dim TreeNode54 As System.Windows.Forms.TreeNode = New System.Windows.Forms.TreeNode("Banka Raporları", New System.Windows.Forms.TreeNode() {TreeNode50, TreeNode51, TreeNode52, TreeNode53})
+        Dim TreeNode55 As System.Windows.Forms.TreeNode = New System.Windows.Forms.TreeNode("Banka   ", New System.Windows.Forms.TreeNode() {TreeNode42, TreeNode49, TreeNode54})
+        Dim TreeNode56 As System.Windows.Forms.TreeNode = New System.Windows.Forms.TreeNode("Kasa Tanımı")
+        Dim TreeNode57 As System.Windows.Forms.TreeNode = New System.Windows.Forms.TreeNode("Kasa İşlemleri")
+        Dim TreeNode58 As System.Windows.Forms.TreeNode = New System.Windows.Forms.TreeNode("Kasa Raporları")
+        Dim TreeNode59 As System.Windows.Forms.TreeNode = New System.Windows.Forms.TreeNode("Kasa   ", New System.Windows.Forms.TreeNode() {TreeNode56, TreeNode57, TreeNode58})
+        Dim TreeNode60 As System.Windows.Forms.TreeNode = New System.Windows.Forms.TreeNode("Alınan Emanet Girişi")
+        Dim TreeNode61 As System.Windows.Forms.TreeNode = New System.Windows.Forms.TreeNode("Verilen Emanet Çıkışı")
+        Dim TreeNode62 As System.Windows.Forms.TreeNode = New System.Windows.Forms.TreeNode("Emanet Listesi")
+        Dim TreeNode63 As System.Windows.Forms.TreeNode = New System.Windows.Forms.TreeNode("Emanet Hesapları    ", New System.Windows.Forms.TreeNode() {TreeNode60, TreeNode61, TreeNode62})
+        Dim TreeNode64 As System.Windows.Forms.TreeNode = New System.Windows.Forms.TreeNode("Masraf Grup Tanımı")
+        Dim TreeNode65 As System.Windows.Forms.TreeNode = New System.Windows.Forms.TreeNode("Masraf Kartı Tanımı")
+        Dim TreeNode66 As System.Windows.Forms.TreeNode = New System.Windows.Forms.TreeNode("Tanımlar", New System.Windows.Forms.TreeNode() {TreeNode64, TreeNode65})
+        Dim TreeNode67 As System.Windows.Forms.TreeNode = New System.Windows.Forms.TreeNode("Masraf Girişi")
+        Dim TreeNode68 As System.Windows.Forms.TreeNode = New System.Windows.Forms.TreeNode("Masraf Grup Ekstresi")
+        Dim TreeNode69 As System.Windows.Forms.TreeNode = New System.Windows.Forms.TreeNode("Masraf Grup Bakiye Listesi")
+        Dim TreeNode70 As System.Windows.Forms.TreeNode = New System.Windows.Forms.TreeNode("Masraf Ekstresi")
+        Dim TreeNode71 As System.Windows.Forms.TreeNode = New System.Windows.Forms.TreeNode("Masraf Bakiye Listesi")
+        Dim TreeNode72 As System.Windows.Forms.TreeNode = New System.Windows.Forms.TreeNode("Masraf Raporları", New System.Windows.Forms.TreeNode() {TreeNode68, TreeNode69, TreeNode70, TreeNode71})
+        Dim TreeNode73 As System.Windows.Forms.TreeNode = New System.Windows.Forms.TreeNode("Masraf İşlemleri     ", New System.Windows.Forms.TreeNode() {TreeNode66, TreeNode67, TreeNode72})
+        Dim TreeNode74 As System.Windows.Forms.TreeNode = New System.Windows.Forms.TreeNode("Toptan Alış İşlemleri                    ")
+        Dim TreeNode75 As System.Windows.Forms.TreeNode = New System.Windows.Forms.TreeNode("Toptan Alış                                   ")
+        Dim TreeNode76 As System.Windows.Forms.TreeNode = New System.Windows.Forms.TreeNode("Toptan Satış İşlemleri                                   ")
+        Dim TreeNode77 As System.Windows.Forms.TreeNode = New System.Windows.Forms.TreeNode("Toptan Satış                             ")
+        Dim TreeNode78 As System.Windows.Forms.TreeNode = New System.Windows.Forms.TreeNode("Alış Satış Raporu                    ")
+        Dim TreeNode79 As System.Windows.Forms.TreeNode = New System.Windows.Forms.TreeNode("Satış ve Alış Raporu     ")
+        Dim TreeNode80 As System.Windows.Forms.TreeNode = New System.Windows.Forms.TreeNode("Genel Analiz Raporları      ")
+        Dim TreeNode81 As System.Windows.Forms.TreeNode = New System.Windows.Forms.TreeNode("Perakende Satış Fişi                                   ")
+        Dim TreeNode82 As System.Windows.Forms.TreeNode = New System.Windows.Forms.TreeNode("Perakende Alış Fişi                                    ")
+        Dim TreeNode83 As System.Windows.Forms.TreeNode = New System.Windows.Forms.TreeNode("Perakende Satış Özeti   ")
+        Dim TreeNode84 As System.Windows.Forms.TreeNode = New System.Windows.Forms.TreeNode("Gün Sonu Raporu  ")
+        Dim TreeNode85 As System.Windows.Forms.TreeNode = New System.Windows.Forms.TreeNode("Tamirat Girişi     ")
+        Dim TreeNode86 As System.Windows.Forms.TreeNode = New System.Windows.Forms.TreeNode("Tamirat Listesi    ")
+        Dim TreeNode87 As System.Windows.Forms.TreeNode = New System.Windows.Forms.TreeNode("Tamirat Raporları          ", New System.Windows.Forms.TreeNode() {TreeNode86})
+        Dim TreeNode88 As System.Windows.Forms.TreeNode = New System.Windows.Forms.TreeNode("Tamirat İşlemleri                              ", New System.Windows.Forms.TreeNode() {TreeNode85, TreeNode87})
+        Dim TreeNode89 As System.Windows.Forms.TreeNode = New System.Windows.Forms.TreeNode("Garanti Sertifika Girişi             ")
+        Dim TreeNode90 As System.Windows.Forms.TreeNode = New System.Windows.Forms.TreeNode("Garanti Sertifika İşlemleri        ", New System.Windows.Forms.TreeNode() {TreeNode89})
+        Dim TreeNode91 As System.Windows.Forms.TreeNode = New System.Windows.Forms.TreeNode("Stok Servis Kontrol                     ")
+        Dim TreeNode92 As System.Windows.Forms.TreeNode = New System.Windows.Forms.TreeNode("Cari Servis Kontrol           ")
+        Dim TreeNode93 As System.Windows.Forms.TreeNode = New System.Windows.Forms.TreeNode("Silinen Kayıtlar         ")
+        Dim TreeNode94 As System.Windows.Forms.TreeNode = New System.Windows.Forms.TreeNode("Servis İşlemleri        ", New System.Windows.Forms.TreeNode() {TreeNode91, TreeNode92, TreeNode93})
         Dim SuperToolTip1 As DevExpress.Utils.SuperToolTip = New DevExpress.Utils.SuperToolTip()
         Dim ToolTipItem1 As DevExpress.Utils.ToolTipItem = New DevExpress.Utils.ToolTipItem()
-        Dim TreeNode1 As System.Windows.Forms.TreeNode = New System.Windows.Forms.TreeNode("Cari Hesap                                      ")
-        Dim TreeNode2 As System.Windows.Forms.TreeNode = New System.Windows.Forms.TreeNode("Cari Hesap Kartı Tanımı                              ")
-        Dim TreeNode3 As System.Windows.Forms.TreeNode = New System.Windows.Forms.TreeNode("Müşteri Temsilcileri / Satış Elemanı Tanımlama")
-        Dim TreeNode4 As System.Windows.Forms.TreeNode = New System.Windows.Forms.TreeNode("Cari Hesap Türü Tanımı")
-        Dim TreeNode5 As System.Windows.Forms.TreeNode = New System.Windows.Forms.TreeNode("Cari Hesap Gruları Tanımı")
-        Dim TreeNode6 As System.Windows.Forms.TreeNode = New System.Windows.Forms.TreeNode("Cari Hesap Parametre Tanımları                              ", New System.Windows.Forms.TreeNode() {TreeNode3, TreeNode4, TreeNode5})
-        Dim TreeNode7 As System.Windows.Forms.TreeNode = New System.Windows.Forms.TreeNode("Cari Hesap İşlem Fişi")
-        Dim TreeNode8 As System.Windows.Forms.TreeNode = New System.Windows.Forms.TreeNode("Cari Hesap İşlemleri                                ", New System.Windows.Forms.TreeNode() {TreeNode7})
-        Dim TreeNode9 As System.Windows.Forms.TreeNode = New System.Windows.Forms.TreeNode("Kayıtlı Cari Hesap Listesi")
-        Dim TreeNode10 As System.Windows.Forms.TreeNode = New System.Windows.Forms.TreeNode("Cari Hesap Ekstresi")
-        Dim TreeNode11 As System.Windows.Forms.TreeNode = New System.Windows.Forms.TreeNode("Cari Hesap İşlem Listesi")
-        Dim TreeNode12 As System.Windows.Forms.TreeNode = New System.Windows.Forms.TreeNode("Cari Hesap Borç / Alacak Listesi")
-        Dim TreeNode13 As System.Windows.Forms.TreeNode = New System.Windows.Forms.TreeNode("Cari Hesap Borç Yaşlandırma Listesi")
-        Dim TreeNode14 As System.Windows.Forms.TreeNode = New System.Windows.Forms.TreeNode("Cari Hesap Alacak Yaşlandırma Listesi")
-        Dim TreeNode15 As System.Windows.Forms.TreeNode = New System.Windows.Forms.TreeNode("Cari Hesap Raporları                               ", New System.Windows.Forms.TreeNode() {TreeNode9, TreeNode10, TreeNode11, TreeNode12, TreeNode13, TreeNode14})
-        Dim TreeNode16 As System.Windows.Forms.TreeNode = New System.Windows.Forms.TreeNode("Gün Sonu Raporu")
-        Dim TreeNode17 As System.Windows.Forms.TreeNode = New System.Windows.Forms.TreeNode("Perakende Satış Özeti")
-        Dim TreeNode18 As System.Windows.Forms.TreeNode = New System.Windows.Forms.TreeNode("Satış ve Alış Raporu")
-        Dim TreeNode19 As System.Windows.Forms.TreeNode = New System.Windows.Forms.TreeNode("Genel Analiz Raporları")
-        Dim TreeNode20 As System.Windows.Forms.TreeNode = New System.Windows.Forms.TreeNode("Analiz Raporları                                      ", New System.Windows.Forms.TreeNode() {TreeNode16, TreeNode17, TreeNode18, TreeNode19})
-        Dim TreeNode21 As System.Windows.Forms.TreeNode = New System.Windows.Forms.TreeNode("Banka Tanımı                                   ")
-        Dim TreeNode22 As System.Windows.Forms.TreeNode = New System.Windows.Forms.TreeNode("Banka Açılış İşlemleri")
-        Dim TreeNode23 As System.Windows.Forms.TreeNode = New System.Windows.Forms.TreeNode("Banka Virman Fişi")
-        Dim TreeNode24 As System.Windows.Forms.TreeNode = New System.Windows.Forms.TreeNode("Gelen Havale")
-        Dim TreeNode25 As System.Windows.Forms.TreeNode = New System.Windows.Forms.TreeNode("Gönderilen Havale")
-        Dim TreeNode26 As System.Windows.Forms.TreeNode = New System.Windows.Forms.TreeNode("Bankaya Yatırılan")
-        Dim TreeNode27 As System.Windows.Forms.TreeNode = New System.Windows.Forms.TreeNode("Bankadan Çekilen")
-        Dim TreeNode28 As System.Windows.Forms.TreeNode = New System.Windows.Forms.TreeNode("Banka İşlemleri                            ", New System.Windows.Forms.TreeNode() {TreeNode22, TreeNode23, TreeNode24, TreeNode25, TreeNode26, TreeNode27})
-        Dim TreeNode29 As System.Windows.Forms.TreeNode = New System.Windows.Forms.TreeNode("Banka Havale Listesi")
-        Dim TreeNode30 As System.Windows.Forms.TreeNode = New System.Windows.Forms.TreeNode("Banka Nakit Giriş Çıkış")
-        Dim TreeNode31 As System.Windows.Forms.TreeNode = New System.Windows.Forms.TreeNode("Banka Hesap Ekstresi")
-        Dim TreeNode32 As System.Windows.Forms.TreeNode = New System.Windows.Forms.TreeNode("Banka Bakiye Listesi")
-        Dim TreeNode33 As System.Windows.Forms.TreeNode = New System.Windows.Forms.TreeNode("Banka Raporları                                         ", New System.Windows.Forms.TreeNode() {TreeNode29, TreeNode30, TreeNode31, TreeNode32})
-        Dim TreeNode34 As System.Windows.Forms.TreeNode = New System.Windows.Forms.TreeNode("Kasa Tanımı                                         ")
-        Dim TreeNode35 As System.Windows.Forms.TreeNode = New System.Windows.Forms.TreeNode("Kasa İşlem Fişi")
-        Dim TreeNode36 As System.Windows.Forms.TreeNode = New System.Windows.Forms.TreeNode("Kasa Virman Fişi")
-        Dim TreeNode37 As System.Windows.Forms.TreeNode = New System.Windows.Forms.TreeNode("Tahsilat Fişi")
-        Dim TreeNode38 As System.Windows.Forms.TreeNode = New System.Windows.Forms.TreeNode("Tediye Fişi")
-        Dim TreeNode39 As System.Windows.Forms.TreeNode = New System.Windows.Forms.TreeNode("Kredi Kartlı Tahsilat Girişi")
-        Dim TreeNode40 As System.Windows.Forms.TreeNode = New System.Windows.Forms.TreeNode("Kredi Kartlı Ödeme Çıkışı")
-        Dim TreeNode41 As System.Windows.Forms.TreeNode = New System.Windows.Forms.TreeNode("Kasa İşlemleri                                      ", New System.Windows.Forms.TreeNode() {TreeNode35, TreeNode36, TreeNode37, TreeNode38, TreeNode39, TreeNode40})
-        Dim TreeNode42 As System.Windows.Forms.TreeNode = New System.Windows.Forms.TreeNode("Kasa Hareketleri")
-        Dim TreeNode43 As System.Windows.Forms.TreeNode = New System.Windows.Forms.TreeNode("Kredi Kartlı İşlemler Listesi")
-        Dim TreeNode44 As System.Windows.Forms.TreeNode = New System.Windows.Forms.TreeNode("Kasa Hesap Ekstresi")
-        Dim TreeNode45 As System.Windows.Forms.TreeNode = New System.Windows.Forms.TreeNode("Kasa Bakiye Listesi")
-        Dim TreeNode46 As System.Windows.Forms.TreeNode = New System.Windows.Forms.TreeNode("Kasa Raporları                                   ", New System.Windows.Forms.TreeNode() {TreeNode42, TreeNode43, TreeNode44, TreeNode45})
-        Dim TreeNode47 As System.Windows.Forms.TreeNode = New System.Windows.Forms.TreeNode("Döviz Türü Tanımlama                                 ")
-        Dim TreeNode48 As System.Windows.Forms.TreeNode = New System.Windows.Forms.TreeNode("Döviz Kur Girişi                                               ")
-        Dim TreeNode49 As System.Windows.Forms.TreeNode = New System.Windows.Forms.TreeNode("Stoklar")
-        Dim TreeNode50 As System.Windows.Forms.TreeNode = New System.Windows.Forms.TreeNode("Stok Tanımı")
-        Dim TreeNode51 As System.Windows.Forms.TreeNode = New System.Windows.Forms.TreeNode("Stok Birim Tanımı")
-        Dim TreeNode52 As System.Windows.Forms.TreeNode = New System.Windows.Forms.TreeNode("Depo/Ambar Tanımı")
-        Dim TreeNode53 As System.Windows.Forms.TreeNode = New System.Windows.Forms.TreeNode("Stok Grupları Tanımı")
-        Dim TreeNode54 As System.Windows.Forms.TreeNode = New System.Windows.Forms.TreeNode("Stok Tür Tanımı")
-        Dim TreeNode55 As System.Windows.Forms.TreeNode = New System.Windows.Forms.TreeNode("Stok Tanımları                                           ", New System.Windows.Forms.TreeNode() {TreeNode49, TreeNode50, TreeNode51, TreeNode52, TreeNode53, TreeNode54})
-        Dim TreeNode56 As System.Windows.Forms.TreeNode = New System.Windows.Forms.TreeNode("Stok Hareket Fişleri")
-        Dim TreeNode57 As System.Windows.Forms.TreeNode = New System.Windows.Forms.TreeNode("Stok Çıkış Fişi")
-        Dim TreeNode58 As System.Windows.Forms.TreeNode = New System.Windows.Forms.TreeNode("Stok Giriş Fişi")
-        Dim TreeNode59 As System.Windows.Forms.TreeNode = New System.Windows.Forms.TreeNode("Stok Transfer Fişi")
-        Dim TreeNode60 As System.Windows.Forms.TreeNode = New System.Windows.Forms.TreeNode("Stok İşlemleri                                   ", New System.Windows.Forms.TreeNode() {TreeNode56, TreeNode57, TreeNode58, TreeNode59})
-        Dim TreeNode61 As System.Windows.Forms.TreeNode = New System.Windows.Forms.TreeNode("Stok Fiyat Listesi")
-        Dim TreeNode62 As System.Windows.Forms.TreeNode = New System.Windows.Forms.TreeNode("Kayıtlı Stok Listesi")
-        Dim TreeNode63 As System.Windows.Forms.TreeNode = New System.Windows.Forms.TreeNode("Stok Hareket Analizi")
-        Dim TreeNode64 As System.Windows.Forms.TreeNode = New System.Windows.Forms.TreeNode("Stok Ekstresi")
-        Dim TreeNode65 As System.Windows.Forms.TreeNode = New System.Windows.Forms.TreeNode("Stok Giriş-Çıkış Raporu")
-        Dim TreeNode66 As System.Windows.Forms.TreeNode = New System.Windows.Forms.TreeNode("Stok Bazında Cari Hareketler")
-        Dim TreeNode67 As System.Windows.Forms.TreeNode = New System.Windows.Forms.TreeNode("Stok Hareketleri")
-        Dim TreeNode68 As System.Windows.Forms.TreeNode = New System.Windows.Forms.TreeNode("Stok Değer Raporu")
-        Dim TreeNode69 As System.Windows.Forms.TreeNode = New System.Windows.Forms.TreeNode("Stok Raporları                                    ", New System.Windows.Forms.TreeNode() {TreeNode61, TreeNode62, TreeNode63, TreeNode64, TreeNode65, TreeNode66, TreeNode67, TreeNode68})
-        Dim TreeNode70 As System.Windows.Forms.TreeNode = New System.Windows.Forms.TreeNode("Genel Stok Durumu                                   ")
-        Dim TreeNode71 As System.Windows.Forms.TreeNode = New System.Windows.Forms.TreeNode("Kullanıcı Stok Durumu                                 ")
-        Dim TreeNode72 As System.Windows.Forms.TreeNode = New System.Windows.Forms.TreeNode("Toptan Satış İşlemleri                                        ")
-        Dim TreeNode73 As System.Windows.Forms.TreeNode = New System.Windows.Forms.TreeNode("Toptan Satış                                       ")
-        Dim TreeNode74 As System.Windows.Forms.TreeNode = New System.Windows.Forms.TreeNode("Perakende Satış Fişi                                   ")
-        Dim TreeNode75 As System.Windows.Forms.TreeNode = New System.Windows.Forms.TreeNode("Toptan Alış İşlemleri                                     ")
-        Dim TreeNode76 As System.Windows.Forms.TreeNode = New System.Windows.Forms.TreeNode("Toptan Alış                                         ")
-        Dim TreeNode77 As System.Windows.Forms.TreeNode = New System.Windows.Forms.TreeNode("Perakende Alış Fişi                                    ")
-        Dim TreeNode78 As System.Windows.Forms.TreeNode = New System.Windows.Forms.TreeNode("Alış-Satış Raporu                                     ")
-        Dim TreeNode79 As System.Windows.Forms.TreeNode = New System.Windows.Forms.TreeNode("Alınan Emanet Girişi                                   ")
-        Dim TreeNode80 As System.Windows.Forms.TreeNode = New System.Windows.Forms.TreeNode("Verilen Emanet Çıkışı                                           ")
-        Dim TreeNode81 As System.Windows.Forms.TreeNode = New System.Windows.Forms.TreeNode("Emanet Listesi        ")
-        Dim TreeNode82 As System.Windows.Forms.TreeNode = New System.Windows.Forms.TreeNode("Tamirat Girişi                                   ")
-        Dim TreeNode83 As System.Windows.Forms.TreeNode = New System.Windows.Forms.TreeNode("Tamirat Listesi")
-        Dim TreeNode84 As System.Windows.Forms.TreeNode = New System.Windows.Forms.TreeNode("Tamirat Raporları                         ", New System.Windows.Forms.TreeNode() {TreeNode83})
-        Dim TreeNode85 As System.Windows.Forms.TreeNode = New System.Windows.Forms.TreeNode("Masraf Grup Tanımı")
-        Dim TreeNode86 As System.Windows.Forms.TreeNode = New System.Windows.Forms.TreeNode("Masraf Kartı Tanımı")
-        Dim TreeNode87 As System.Windows.Forms.TreeNode = New System.Windows.Forms.TreeNode("Tanımlar                                  ", New System.Windows.Forms.TreeNode() {TreeNode85, TreeNode86})
-        Dim TreeNode88 As System.Windows.Forms.TreeNode = New System.Windows.Forms.TreeNode("Masraf Girişi                                   ")
-        Dim TreeNode89 As System.Windows.Forms.TreeNode = New System.Windows.Forms.TreeNode("Masraf Grup Ekstresi")
-        Dim TreeNode90 As System.Windows.Forms.TreeNode = New System.Windows.Forms.TreeNode("Masraf Grup Bakiye Listesi")
-        Dim TreeNode91 As System.Windows.Forms.TreeNode = New System.Windows.Forms.TreeNode("Masraf Ekstresi")
-        Dim TreeNode92 As System.Windows.Forms.TreeNode = New System.Windows.Forms.TreeNode("Masraf Bakiye Listesi")
-        Dim TreeNode93 As System.Windows.Forms.TreeNode = New System.Windows.Forms.TreeNode("Masraf Raporları                                   ", New System.Windows.Forms.TreeNode() {TreeNode89, TreeNode90, TreeNode91, TreeNode92})
-        Dim TreeNode94 As System.Windows.Forms.TreeNode = New System.Windows.Forms.TreeNode("Garanti Sertifika Girişi                              ")
-        Dim TreeNode95 As System.Windows.Forms.TreeNode = New System.Windows.Forms.TreeNode("Stok Servis Kontrol                             ")
-        Dim TreeNode96 As System.Windows.Forms.TreeNode = New System.Windows.Forms.TreeNode("Cari Servis Kontrol                             ")
-        Dim TreeNode97 As System.Windows.Forms.TreeNode = New System.Windows.Forms.TreeNode("Silinen Kayıtlar                                   ")
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(main))
         Me.FormAssistant1 = New DevExpress.XtraBars.FormAssistant()
         Me.AccordionControlElement53 = New DevExpress.XtraBars.Navigation.AccordionControlElement()
@@ -152,39 +149,24 @@ Partial Class main
         Me.barButtonItem16 = New DevExpress.XtraBars.BarButtonItem()
         Me.barButtonItem17 = New DevExpress.XtraBars.BarButtonItem()
         Me.NavBarControl2 = New DevExpress.XtraNavBar.NavBarControl()
-        Me.NavBarGroup6 = New DevExpress.XtraNavBar.NavBarGroup()
+        Me.NavBarGroup4 = New DevExpress.XtraNavBar.NavBarGroup()
+        Me.NavBarGroupControlContainer2 = New DevExpress.XtraNavBar.NavBarGroupControlContainer()
+        Me.TreeView2 = New System.Windows.Forms.TreeView()
         Me.NavBarGroupControlContainer3 = New DevExpress.XtraNavBar.NavBarGroupControlContainer()
         Me.TreeView3 = New System.Windows.Forms.TreeView()
         Me.NavBarGroupControlContainer4 = New DevExpress.XtraNavBar.NavBarGroupControlContainer()
         Me.TreeView5 = New System.Windows.Forms.TreeView()
         Me.NavBarGroupControlContainer5 = New DevExpress.XtraNavBar.NavBarGroupControlContainer()
         Me.TreeView6 = New System.Windows.Forms.TreeView()
-        Me.NavBarGroupControlContainer1 = New DevExpress.XtraNavBar.NavBarGroupControlContainer()
-        Me.TreeView1 = New System.Windows.Forms.TreeView()
-        Me.NavBarGroupControlContainer2 = New DevExpress.XtraNavBar.NavBarGroupControlContainer()
-        Me.TreeView2 = New System.Windows.Forms.TreeView()
         Me.NavBarGroupControlContainer6 = New DevExpress.XtraNavBar.NavBarGroupControlContainer()
         Me.TreeView4 = New System.Windows.Forms.TreeView()
         Me.NavBarGroupControlContainer7 = New DevExpress.XtraNavBar.NavBarGroupControlContainer()
         Me.TreeView7 = New System.Windows.Forms.TreeView()
-        Me.NavBarGroupControlContainer8 = New DevExpress.XtraNavBar.NavBarGroupControlContainer()
-        Me.TreeView8 = New System.Windows.Forms.TreeView()
-        Me.NavBarGroupControlContainer9 = New DevExpress.XtraNavBar.NavBarGroupControlContainer()
-        Me.TreeView9 = New System.Windows.Forms.TreeView()
-        Me.NavBarGroupControlContainer10 = New DevExpress.XtraNavBar.NavBarGroupControlContainer()
-        Me.TreeView10 = New System.Windows.Forms.TreeView()
-        Me.NavBarGroupControlContainer11 = New DevExpress.XtraNavBar.NavBarGroupControlContainer()
-        Me.TreeView11 = New System.Windows.Forms.TreeView()
-        Me.NavBarGroup5 = New DevExpress.XtraNavBar.NavBarGroup()
-        Me.NavBarGroup4 = New DevExpress.XtraNavBar.NavBarGroup()
+        Me.NavBarGroup6 = New DevExpress.XtraNavBar.NavBarGroup()
         Me.NavBarGroup12 = New DevExpress.XtraNavBar.NavBarGroup()
         Me.NavBarGroup7 = New DevExpress.XtraNavBar.NavBarGroup()
         Me.NavBarGroup8 = New DevExpress.XtraNavBar.NavBarGroup()
         Me.NavBarGroup1 = New DevExpress.XtraNavBar.NavBarGroup()
-        Me.NavBarGroup2 = New DevExpress.XtraNavBar.NavBarGroup()
-        Me.NavBarGroup3 = New DevExpress.XtraNavBar.NavBarGroup()
-        Me.NavBarGroup9 = New DevExpress.XtraNavBar.NavBarGroup()
-        Me.NavBarGroup10 = New DevExpress.XtraNavBar.NavBarGroup()
         Me.TreeListColumn3 = New DevExpress.XtraTreeList.Columns.TreeListColumn()
         Me.TreeListColumn1 = New DevExpress.XtraTreeList.Columns.TreeListColumn()
         Me.AccordionControlElement2 = New DevExpress.XtraBars.Navigation.AccordionControlElement()
@@ -202,17 +184,12 @@ Partial Class main
         CType(Me.BarManager1, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.NavBarControl2, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.NavBarControl2.SuspendLayout()
+        Me.NavBarGroupControlContainer2.SuspendLayout()
         Me.NavBarGroupControlContainer3.SuspendLayout()
         Me.NavBarGroupControlContainer4.SuspendLayout()
         Me.NavBarGroupControlContainer5.SuspendLayout()
-        Me.NavBarGroupControlContainer1.SuspendLayout()
-        Me.NavBarGroupControlContainer2.SuspendLayout()
         Me.NavBarGroupControlContainer6.SuspendLayout()
         Me.NavBarGroupControlContainer7.SuspendLayout()
-        Me.NavBarGroupControlContainer8.SuspendLayout()
-        Me.NavBarGroupControlContainer9.SuspendLayout()
-        Me.NavBarGroupControlContainer10.SuspendLayout()
-        Me.NavBarGroupControlContainer11.SuspendLayout()
         CType(Me.XtraTabbedMdiManager1, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.BehaviorManager1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
@@ -420,20 +397,16 @@ Partial Class main
         '
         'NavBarControl2
         '
-        Me.NavBarControl2.ActiveGroup = Me.NavBarGroup6
+        Me.NavBarControl2.ActiveGroup = Me.NavBarGroup4
         Me.NavBarControl2.Controls.Add(Me.NavBarGroupControlContainer3)
         Me.NavBarControl2.Controls.Add(Me.NavBarGroupControlContainer4)
         Me.NavBarControl2.Controls.Add(Me.NavBarGroupControlContainer5)
-        Me.NavBarControl2.Controls.Add(Me.NavBarGroupControlContainer1)
         Me.NavBarControl2.Controls.Add(Me.NavBarGroupControlContainer2)
         Me.NavBarControl2.Controls.Add(Me.NavBarGroupControlContainer6)
         Me.NavBarControl2.Controls.Add(Me.NavBarGroupControlContainer7)
-        Me.NavBarControl2.Controls.Add(Me.NavBarGroupControlContainer8)
-        Me.NavBarControl2.Controls.Add(Me.NavBarGroupControlContainer9)
-        Me.NavBarControl2.Controls.Add(Me.NavBarGroupControlContainer10)
-        Me.NavBarControl2.Controls.Add(Me.NavBarGroupControlContainer11)
         Me.NavBarControl2.Dock = System.Windows.Forms.DockStyle.Left
-        Me.NavBarControl2.Groups.AddRange(New DevExpress.XtraNavBar.NavBarGroup() {Me.NavBarGroup5, Me.NavBarGroup4, Me.NavBarGroup6, Me.NavBarGroup12, Me.NavBarGroup7, Me.NavBarGroup8, Me.NavBarGroup1, Me.NavBarGroup2, Me.NavBarGroup3, Me.NavBarGroup9, Me.NavBarGroup10})
+        Me.NavBarControl2.Groups.AddRange(New DevExpress.XtraNavBar.NavBarGroup() {Me.NavBarGroup4, Me.NavBarGroup6, Me.NavBarGroup12, Me.NavBarGroup7, Me.NavBarGroup8, Me.NavBarGroup1})
+        Me.NavBarControl2.LargeImages = Me.ımageList1
         Me.NavBarControl2.Location = New System.Drawing.Point(0, 25)
         Me.NavBarControl2.Name = "NavBarControl2"
         Me.NavBarControl2.OptionsNavPane.ExpandedWidth = 249
@@ -443,17 +416,107 @@ Partial Class main
         Me.NavBarControl2.TabIndex = 53
         Me.NavBarControl2.Text = "NavBarControl2"
         '
-        'NavBarGroup6
+        'NavBarGroup4
         '
-        Me.NavBarGroup6.Caption = "Cari Hesap"
-        Me.NavBarGroup6.ControlContainer = Me.NavBarGroupControlContainer3
-        Me.NavBarGroup6.Expanded = True
-        Me.NavBarGroup6.GroupClientHeight = 289
-        Me.NavBarGroup6.GroupStyle = DevExpress.XtraNavBar.NavBarGroupStyle.ControlContainer
-        Me.NavBarGroup6.Name = "NavBarGroup6"
-        ToolTipItem1.Text = "Deneme"
-        SuperToolTip1.Items.Add(ToolTipItem1)
-        Me.NavBarGroup6.SuperTip = SuperToolTip1
+        Me.NavBarGroup4.Caption = "Ürün Yönetimi"
+        Me.NavBarGroup4.ControlContainer = Me.NavBarGroupControlContainer2
+        Me.NavBarGroup4.Expanded = True
+        Me.NavBarGroup4.GroupClientHeight = 289
+        Me.NavBarGroup4.GroupStyle = DevExpress.XtraNavBar.NavBarGroupStyle.ControlContainer
+        Me.NavBarGroup4.ImageOptions.LargeImage = Global.DataonsERP.My.Resources.Resources.boproductgroup_32x32
+        Me.NavBarGroup4.ImageOptions.SmallImage = Global.DataonsERP.My.Resources.Resources.boproductgroup_16x16
+        Me.NavBarGroup4.Name = "NavBarGroup4"
+        '
+        'NavBarGroupControlContainer2
+        '
+        Me.NavBarGroupControlContainer2.Appearance.BackColor = System.Drawing.SystemColors.Control
+        Me.NavBarGroupControlContainer2.Appearance.Options.UseBackColor = True
+        Me.NavBarGroupControlContainer2.Controls.Add(Me.TreeView2)
+        Me.NavBarGroupControlContainer2.Name = "NavBarGroupControlContainer2"
+        Me.NavBarGroupControlContainer2.Size = New System.Drawing.Size(247, 412)
+        Me.NavBarGroupControlContainer2.TabIndex = 6
+        '
+        'TreeView2
+        '
+        Me.TreeView2.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.TreeView2.Dock = System.Windows.Forms.DockStyle.Fill
+        Me.TreeView2.ForeColor = System.Drawing.Color.Navy
+        Me.TreeView2.FullRowSelect = True
+        Me.TreeView2.ItemHeight = 16
+        Me.TreeView2.Location = New System.Drawing.Point(0, 0)
+        Me.TreeView2.Name = "TreeView2"
+        TreeNode1.Name = "Düğüm3"
+        TreeNode1.NodeFont = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Bold)
+        TreeNode1.Text = "Stoklar"
+        TreeNode2.Name = "Düğüm4"
+        TreeNode2.NodeFont = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Bold)
+        TreeNode2.Text = "Stok Tanımı"
+        TreeNode3.Name = "Düğüm5"
+        TreeNode3.NodeFont = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Bold)
+        TreeNode3.Text = "Stok Birim Tanımı"
+        TreeNode4.Name = "Düğüm6"
+        TreeNode4.NodeFont = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Bold)
+        TreeNode4.Text = "Depo/Ambar Tanımı"
+        TreeNode5.Name = "Düğüm7"
+        TreeNode5.NodeFont = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Bold)
+        TreeNode5.Text = "Stok Grupları Tanımı"
+        TreeNode6.Name = "Düğüm8"
+        TreeNode6.NodeFont = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Bold)
+        TreeNode6.Text = "Stok Tür Tanımı"
+        TreeNode7.Name = "Düğüm1"
+        TreeNode7.NodeFont = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(162, Byte))
+        TreeNode7.Text = "Stok Tanımları                                           "
+        TreeNode8.Name = "Düğüm9"
+        TreeNode8.NodeFont = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Bold)
+        TreeNode8.Text = "Stok Hareket Fişleri"
+        TreeNode9.Name = "Düğüm10"
+        TreeNode9.NodeFont = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Bold)
+        TreeNode9.Text = "Stok Çıkış Fişi"
+        TreeNode10.Name = "Düğüm11"
+        TreeNode10.NodeFont = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Bold)
+        TreeNode10.Text = "Stok Giriş Fişi"
+        TreeNode11.Name = "Düğüm12"
+        TreeNode11.NodeFont = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Bold)
+        TreeNode11.Text = "Stok Transfer Fişi"
+        TreeNode12.Name = "Düğüm2"
+        TreeNode12.NodeFont = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Bold)
+        TreeNode12.Text = "Stok İşlemleri                                   "
+        TreeNode13.Name = "Düğüm13"
+        TreeNode13.NodeFont = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Bold)
+        TreeNode13.Text = "Stok Fiyat Listesi"
+        TreeNode14.Name = "Düğüm14"
+        TreeNode14.NodeFont = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Bold)
+        TreeNode14.Text = "Kayıtlı Stok Listesi"
+        TreeNode15.Name = "Düğüm15"
+        TreeNode15.NodeFont = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Bold)
+        TreeNode15.Text = "Stok Hareket Analizi"
+        TreeNode16.Name = "Düğüm16"
+        TreeNode16.NodeFont = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Bold)
+        TreeNode16.Text = "Stok Ekstresi"
+        TreeNode17.Name = "Düğüm17"
+        TreeNode17.NodeFont = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Bold)
+        TreeNode17.Text = "Stok Giriş-Çıkış Raporu"
+        TreeNode18.Name = "Düğüm18"
+        TreeNode18.NodeFont = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Bold)
+        TreeNode18.Text = "Stok Bazında Cari Hareketler"
+        TreeNode19.Name = "Düğüm19"
+        TreeNode19.NodeFont = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Bold)
+        TreeNode19.Text = "Stok Hareketleri"
+        TreeNode20.Name = "Düğüm20"
+        TreeNode20.NodeFont = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Bold)
+        TreeNode20.Text = "Stok Değer Raporu"
+        TreeNode21.Name = "Düğüm0"
+        TreeNode21.NodeFont = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Bold)
+        TreeNode21.Text = "Stok Raporları                                    "
+        TreeNode22.Name = "Düğüm1"
+        TreeNode22.NodeFont = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Bold)
+        TreeNode22.Text = "Genel Stok Durumu                                   "
+        TreeNode23.Name = "Düğüm2"
+        TreeNode23.NodeFont = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Bold)
+        TreeNode23.Text = "Kullanıcı Stok Durumu                                 "
+        Me.TreeView2.Nodes.AddRange(New System.Windows.Forms.TreeNode() {TreeNode7, TreeNode12, TreeNode21, TreeNode22, TreeNode23})
+        Me.TreeView2.Size = New System.Drawing.Size(247, 412)
+        Me.TreeView2.TabIndex = 65
         '
         'NavBarGroupControlContainer3
         '
@@ -474,83 +537,207 @@ Partial Class main
         Me.TreeView3.ItemHeight = 16
         Me.TreeView3.Location = New System.Drawing.Point(0, 0)
         Me.TreeView3.Name = "TreeView3"
-        TreeNode1.ForeColor = System.Drawing.Color.Navy
-        TreeNode1.Name = "Düğüm1"
-        TreeNode1.NodeFont = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Bold)
-        TreeNode1.Text = "Cari Hesap                                      "
-        TreeNode2.ForeColor = System.Drawing.Color.Navy
-        TreeNode2.Name = "Düğüm0"
-        TreeNode2.NodeFont = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Bold)
-        TreeNode2.Text = "Cari Hesap Kartı Tanımı                              "
-        TreeNode3.ForeColor = System.Drawing.Color.Navy
-        TreeNode3.Name = "Düğüm3"
-        TreeNode3.NodeFont = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Bold)
-        TreeNode3.Text = "Müşteri Temsilcileri / Satış Elemanı Tanımlama"
-        TreeNode4.ForeColor = System.Drawing.Color.Navy
-        TreeNode4.Name = "Düğüm4"
-        TreeNode4.NodeFont = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Bold)
-        TreeNode4.Text = "Cari Hesap Türü Tanımı"
-        TreeNode5.ForeColor = System.Drawing.Color.Navy
-        TreeNode5.Name = "Düğüm5"
-        TreeNode5.NodeFont = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Bold)
-        TreeNode5.Text = "Cari Hesap Gruları Tanımı"
-        TreeNode6.ForeColor = System.Drawing.Color.Navy
-        TreeNode6.Name = "Düğüm1"
-        TreeNode6.NodeFont = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(162, Byte))
-        TreeNode6.Text = "Cari Hesap Parametre Tanımları                              "
-        TreeNode7.ForeColor = System.Drawing.Color.Navy
-        TreeNode7.Name = "Düğüm1"
-        TreeNode7.NodeFont = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Bold)
-        TreeNode7.Text = "Cari Hesap İşlem Fişi"
-        TreeNode8.ForeColor = System.Drawing.Color.Navy
-        TreeNode8.Name = "Düğüm2"
-        TreeNode8.NodeFont = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Bold)
-        TreeNode8.Text = "Cari Hesap İşlemleri                                "
-        TreeNode9.ForeColor = System.Drawing.Color.Navy
-        TreeNode9.Name = "Düğüm13"
-        TreeNode9.NodeFont = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Bold)
-        TreeNode9.Text = "Kayıtlı Cari Hesap Listesi"
-        TreeNode10.ForeColor = System.Drawing.Color.Navy
-        TreeNode10.Name = "Düğüm14"
-        TreeNode10.NodeFont = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Bold)
-        TreeNode10.Text = "Cari Hesap Ekstresi"
-        TreeNode11.ForeColor = System.Drawing.Color.Navy
-        TreeNode11.Name = "Düğüm15"
-        TreeNode11.NodeFont = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Bold)
-        TreeNode11.Text = "Cari Hesap İşlem Listesi"
-        TreeNode12.ForeColor = System.Drawing.Color.Navy
-        TreeNode12.Name = "Düğüm16"
-        TreeNode12.NodeFont = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Bold)
-        TreeNode12.Text = "Cari Hesap Borç / Alacak Listesi"
-        TreeNode13.ForeColor = System.Drawing.Color.Navy
-        TreeNode13.Name = "Düğüm17"
-        TreeNode13.NodeFont = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Bold)
-        TreeNode13.Text = "Cari Hesap Borç Yaşlandırma Listesi"
-        TreeNode14.ForeColor = System.Drawing.Color.Navy
-        TreeNode14.Name = "Düğüm18"
-        TreeNode14.NodeFont = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Bold)
-        TreeNode14.Text = "Cari Hesap Alacak Yaşlandırma Listesi"
-        TreeNode15.ForeColor = System.Drawing.Color.Navy
-        TreeNode15.Name = "Düğüm0"
-        TreeNode15.NodeFont = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Bold)
-        TreeNode15.Text = "Cari Hesap Raporları                               "
-        TreeNode16.Name = "Düğüm2"
-        TreeNode16.NodeFont = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Bold)
-        TreeNode16.Text = "Gün Sonu Raporu"
-        TreeNode17.Name = "Düğüm3"
-        TreeNode17.NodeFont = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Bold)
-        TreeNode17.Text = "Perakende Satış Özeti"
-        TreeNode18.Name = "Düğüm4"
-        TreeNode18.NodeFont = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Bold)
-        TreeNode18.Text = "Satış ve Alış Raporu"
-        TreeNode19.Name = "Düğüm5"
-        TreeNode19.NodeFont = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Bold)
-        TreeNode19.Text = "Genel Analiz Raporları"
-        TreeNode20.ForeColor = System.Drawing.Color.Navy
-        TreeNode20.Name = "Düğüm2"
-        TreeNode20.NodeFont = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Bold)
-        TreeNode20.Text = "Analiz Raporları                                      "
-        Me.TreeView3.Nodes.AddRange(New System.Windows.Forms.TreeNode() {TreeNode1, TreeNode2, TreeNode6, TreeNode8, TreeNode15, TreeNode20})
+        TreeNode24.ForeColor = System.Drawing.Color.Navy
+        TreeNode24.Name = "Düğüm1"
+        TreeNode24.NodeFont = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Bold)
+        TreeNode24.Text = "Cari Hesap                                      "
+        TreeNode25.ForeColor = System.Drawing.Color.Navy
+        TreeNode25.Name = "Düğüm0"
+        TreeNode25.NodeFont = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Bold)
+        TreeNode25.Text = "Cari Hesap Kartı Tanımı                              "
+        TreeNode26.ForeColor = System.Drawing.Color.Navy
+        TreeNode26.Name = "Düğüm3"
+        TreeNode26.NodeFont = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Bold)
+        TreeNode26.Text = "Müşteri Temsilcileri / Satış Elemanı Tanımlama"
+        TreeNode27.ForeColor = System.Drawing.Color.Navy
+        TreeNode27.Name = "Düğüm4"
+        TreeNode27.NodeFont = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Bold)
+        TreeNode27.Text = "Cari Hesap Türü Tanımı"
+        TreeNode28.ForeColor = System.Drawing.Color.Navy
+        TreeNode28.Name = "Düğüm5"
+        TreeNode28.NodeFont = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Bold)
+        TreeNode28.Text = "Cari Hesap Gruları Tanımı"
+        TreeNode29.ForeColor = System.Drawing.Color.Navy
+        TreeNode29.Name = "Düğüm1"
+        TreeNode29.NodeFont = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(162, Byte))
+        TreeNode29.Text = "Cari Hesap Parametre Tanımları                              "
+        TreeNode30.ForeColor = System.Drawing.Color.Navy
+        TreeNode30.Name = "Düğüm1"
+        TreeNode30.NodeFont = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Bold)
+        TreeNode30.Text = "Cari Hesap İşlem Fişi"
+        TreeNode31.ForeColor = System.Drawing.Color.Navy
+        TreeNode31.Name = "Düğüm2"
+        TreeNode31.NodeFont = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Bold)
+        TreeNode31.Text = "Cari Hesap İşlemleri                                "
+        TreeNode32.ForeColor = System.Drawing.Color.Navy
+        TreeNode32.Name = "Düğüm13"
+        TreeNode32.NodeFont = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Bold)
+        TreeNode32.Text = "Kayıtlı Cari Hesap Listesi"
+        TreeNode33.ForeColor = System.Drawing.Color.Navy
+        TreeNode33.Name = "Düğüm14"
+        TreeNode33.NodeFont = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Bold)
+        TreeNode33.Text = "Cari Hesap Ekstresi"
+        TreeNode34.ForeColor = System.Drawing.Color.Navy
+        TreeNode34.Name = "Düğüm15"
+        TreeNode34.NodeFont = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Bold)
+        TreeNode34.Text = "Cari Hesap İşlem Listesi"
+        TreeNode35.ForeColor = System.Drawing.Color.Navy
+        TreeNode35.Name = "Düğüm16"
+        TreeNode35.NodeFont = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Bold)
+        TreeNode35.Text = "Cari Hesap Borç / Alacak Listesi"
+        TreeNode36.ForeColor = System.Drawing.Color.Navy
+        TreeNode36.Name = "Düğüm17"
+        TreeNode36.NodeFont = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Bold)
+        TreeNode36.Text = "Cari Hesap Borç Yaşlandırma Listesi"
+        TreeNode37.ForeColor = System.Drawing.Color.Navy
+        TreeNode37.Name = "Düğüm18"
+        TreeNode37.NodeFont = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Bold)
+        TreeNode37.Text = "Cari Hesap Alacak Yaşlandırma Listesi"
+        TreeNode38.ForeColor = System.Drawing.Color.Navy
+        TreeNode38.Name = "Düğüm0"
+        TreeNode38.NodeFont = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Bold)
+        TreeNode38.Text = "Cari Hesap Raporları                               "
+        TreeNode39.ForeColor = System.Drawing.Color.Navy
+        TreeNode39.Name = "Düğüm20"
+        TreeNode39.NodeFont = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Bold)
+        TreeNode39.Text = "Döviz Türü Tanımlama     "
+        TreeNode40.ForeColor = System.Drawing.Color.Navy
+        TreeNode40.Name = "Düğüm21"
+        TreeNode40.NodeFont = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Bold)
+        TreeNode40.Text = "Döviz Kur Girişi      "
+        TreeNode41.ForeColor = System.Drawing.Color.Navy
+        TreeNode41.Name = "Düğüm18"
+        TreeNode41.NodeFont = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Bold)
+        TreeNode41.Text = "Döviz     "
+        TreeNode42.ForeColor = System.Drawing.Color.Navy
+        TreeNode42.Name = "Düğüm23"
+        TreeNode42.NodeFont = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Bold)
+        TreeNode42.Text = "Banka Tanımı    "
+        TreeNode43.ForeColor = System.Drawing.Color.Navy
+        TreeNode43.Name = "Düğüm25"
+        TreeNode43.NodeFont = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Bold)
+        TreeNode43.Text = "Banka Açılış İşlemleri"
+        TreeNode44.ForeColor = System.Drawing.Color.Navy
+        TreeNode44.Name = "Düğüm26"
+        TreeNode44.NodeFont = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Bold)
+        TreeNode44.Text = "Banka Virman Fişi"
+        TreeNode45.ForeColor = System.Drawing.Color.Navy
+        TreeNode45.Name = "Düğüm27"
+        TreeNode45.NodeFont = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Bold)
+        TreeNode45.Text = "Gelen Havale"
+        TreeNode46.ForeColor = System.Drawing.Color.Navy
+        TreeNode46.Name = "Düğüm28"
+        TreeNode46.NodeFont = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Bold)
+        TreeNode46.Text = "Gönderilen Havale"
+        TreeNode47.ForeColor = System.Drawing.Color.Navy
+        TreeNode47.Name = "Düğüm29"
+        TreeNode47.NodeFont = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Bold)
+        TreeNode47.Text = "Bankaya Yatırılan"
+        TreeNode48.ForeColor = System.Drawing.Color.Navy
+        TreeNode48.Name = "Düğüm30"
+        TreeNode48.NodeFont = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Bold)
+        TreeNode48.Text = "Bankadan Çekilen"
+        TreeNode49.ForeColor = System.Drawing.Color.Navy
+        TreeNode49.Name = "Düğüm24"
+        TreeNode49.NodeFont = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Bold)
+        TreeNode49.Text = "Banka İşlemleri     "
+        TreeNode50.ForeColor = System.Drawing.Color.Navy
+        TreeNode50.Name = "Düğüm32"
+        TreeNode50.NodeFont = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Bold)
+        TreeNode50.Text = "Banka Havale Listesi"
+        TreeNode51.ForeColor = System.Drawing.Color.Navy
+        TreeNode51.Name = "Düğüm33"
+        TreeNode51.NodeFont = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Bold)
+        TreeNode51.Text = "Banka Nakit Giriş Çıkış"
+        TreeNode52.ForeColor = System.Drawing.Color.Navy
+        TreeNode52.Name = "Düğüm34"
+        TreeNode52.NodeFont = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Bold)
+        TreeNode52.Text = "Banka Hesap Ekstresi"
+        TreeNode53.ForeColor = System.Drawing.Color.Navy
+        TreeNode53.Name = "Düğüm35"
+        TreeNode53.NodeFont = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Bold)
+        TreeNode53.Text = "Banka Bakiye Listesi"
+        TreeNode54.ForeColor = System.Drawing.Color.Navy
+        TreeNode54.Name = "Düğüm31"
+        TreeNode54.NodeFont = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Bold)
+        TreeNode54.Text = "Banka Raporları"
+        TreeNode55.ForeColor = System.Drawing.Color.Navy
+        TreeNode55.Name = "Düğüm22"
+        TreeNode55.NodeFont = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Bold)
+        TreeNode55.Text = "Banka   "
+        TreeNode56.ForeColor = System.Drawing.Color.Navy
+        TreeNode56.Name = "Düğüm37"
+        TreeNode56.NodeFont = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Bold)
+        TreeNode56.Text = "Kasa Tanımı"
+        TreeNode57.ForeColor = System.Drawing.Color.Navy
+        TreeNode57.Name = "Düğüm38"
+        TreeNode57.NodeFont = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Bold)
+        TreeNode57.Text = "Kasa İşlemleri"
+        TreeNode58.ForeColor = System.Drawing.Color.Navy
+        TreeNode58.Name = "Düğüm39"
+        TreeNode58.NodeFont = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Bold)
+        TreeNode58.Text = "Kasa Raporları"
+        TreeNode59.ForeColor = System.Drawing.Color.Navy
+        TreeNode59.Name = "Düğüm36"
+        TreeNode59.NodeFont = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Bold)
+        TreeNode59.Text = "Kasa   "
+        TreeNode60.ForeColor = System.Drawing.Color.Navy
+        TreeNode60.Name = "Düğüm41"
+        TreeNode60.NodeFont = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Bold)
+        TreeNode60.Text = "Alınan Emanet Girişi"
+        TreeNode61.ForeColor = System.Drawing.Color.Navy
+        TreeNode61.Name = "Düğüm42"
+        TreeNode61.NodeFont = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Bold)
+        TreeNode61.Text = "Verilen Emanet Çıkışı"
+        TreeNode62.ForeColor = System.Drawing.Color.Navy
+        TreeNode62.Name = "Düğüm43"
+        TreeNode62.NodeFont = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Bold)
+        TreeNode62.Text = "Emanet Listesi"
+        TreeNode63.ForeColor = System.Drawing.Color.Navy
+        TreeNode63.Name = "Düğüm40"
+        TreeNode63.NodeFont = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Bold)
+        TreeNode63.Text = "Emanet Hesapları    "
+        TreeNode64.ForeColor = System.Drawing.Color.Navy
+        TreeNode64.Name = "Düğüm49"
+        TreeNode64.NodeFont = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Bold)
+        TreeNode64.Text = "Masraf Grup Tanımı"
+        TreeNode65.ForeColor = System.Drawing.Color.Navy
+        TreeNode65.Name = "Düğüm51"
+        TreeNode65.NodeFont = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Bold)
+        TreeNode65.Text = "Masraf Kartı Tanımı"
+        TreeNode66.ForeColor = System.Drawing.Color.Navy
+        TreeNode66.Name = "Düğüm46"
+        TreeNode66.NodeFont = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Bold)
+        TreeNode66.Text = "Tanımlar"
+        TreeNode67.ForeColor = System.Drawing.Color.Navy
+        TreeNode67.Name = "Düğüm52"
+        TreeNode67.NodeFont = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Bold)
+        TreeNode67.Text = "Masraf Girişi"
+        TreeNode68.ForeColor = System.Drawing.Color.Navy
+        TreeNode68.Name = "Düğüm55"
+        TreeNode68.NodeFont = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Bold)
+        TreeNode68.Text = "Masraf Grup Ekstresi"
+        TreeNode69.ForeColor = System.Drawing.Color.Navy
+        TreeNode69.Name = "Düğüm56"
+        TreeNode69.NodeFont = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Bold)
+        TreeNode69.Text = "Masraf Grup Bakiye Listesi"
+        TreeNode70.ForeColor = System.Drawing.Color.Navy
+        TreeNode70.Name = "Düğüm57"
+        TreeNode70.NodeFont = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Bold)
+        TreeNode70.Text = "Masraf Ekstresi"
+        TreeNode71.ForeColor = System.Drawing.Color.Navy
+        TreeNode71.Name = "Düğüm58"
+        TreeNode71.NodeFont = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Bold)
+        TreeNode71.Text = "Masraf Bakiye Listesi"
+        TreeNode72.ForeColor = System.Drawing.Color.Navy
+        TreeNode72.Name = "Düğüm54"
+        TreeNode72.NodeFont = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Bold)
+        TreeNode72.Text = "Masraf Raporları"
+        TreeNode73.ForeColor = System.Drawing.Color.Navy
+        TreeNode73.Name = "Düğüm44"
+        TreeNode73.NodeFont = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Bold)
+        TreeNode73.Text = "Masraf İşlemleri     "
+        Me.TreeView3.Nodes.AddRange(New System.Windows.Forms.TreeNode() {TreeNode24, TreeNode25, TreeNode29, TreeNode31, TreeNode38, TreeNode41, TreeNode55, TreeNode59, TreeNode63, TreeNode73})
         Me.TreeView3.Size = New System.Drawing.Size(247, 289)
         Me.TreeView3.TabIndex = 66
         '
@@ -572,46 +759,15 @@ Partial Class main
         Me.TreeView5.ItemHeight = 16
         Me.TreeView5.Location = New System.Drawing.Point(0, 0)
         Me.TreeView5.Name = "TreeView5"
-        TreeNode21.Name = "Düğüm1"
-        TreeNode21.NodeFont = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Bold)
-        TreeNode21.Text = "Banka Tanımı                                   "
-        TreeNode22.Name = "Düğüm0"
-        TreeNode22.NodeFont = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Bold)
-        TreeNode22.Text = "Banka Açılış İşlemleri"
-        TreeNode23.Name = "Düğüm1"
-        TreeNode23.NodeFont = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Bold)
-        TreeNode23.Text = "Banka Virman Fişi"
-        TreeNode24.Name = "Düğüm2"
-        TreeNode24.NodeFont = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Bold)
-        TreeNode24.Text = "Gelen Havale"
-        TreeNode25.Name = "Düğüm3"
-        TreeNode25.NodeFont = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Bold)
-        TreeNode25.Text = "Gönderilen Havale"
-        TreeNode26.Name = "Düğüm4"
-        TreeNode26.NodeFont = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Bold)
-        TreeNode26.Text = "Bankaya Yatırılan"
-        TreeNode27.Name = "Düğüm5"
-        TreeNode27.NodeFont = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Bold)
-        TreeNode27.Text = "Bankadan Çekilen"
-        TreeNode28.Name = "Düğüm0"
-        TreeNode28.NodeFont = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Bold)
-        TreeNode28.Text = "Banka İşlemleri                            "
-        TreeNode29.Name = "Düğüm6"
-        TreeNode29.NodeFont = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Bold)
-        TreeNode29.Text = "Banka Havale Listesi"
-        TreeNode30.Name = "Düğüm7"
-        TreeNode30.NodeFont = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Bold)
-        TreeNode30.Text = "Banka Nakit Giriş Çıkış"
-        TreeNode31.Name = "Düğüm8"
-        TreeNode31.NodeFont = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Bold)
-        TreeNode31.Text = "Banka Hesap Ekstresi"
-        TreeNode32.Name = "Düğüm9"
-        TreeNode32.NodeFont = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Bold)
-        TreeNode32.Text = "Banka Bakiye Listesi"
-        TreeNode33.Name = "Düğüm1"
-        TreeNode33.NodeFont = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(162, Byte))
-        TreeNode33.Text = "Banka Raporları                                         "
-        Me.TreeView5.Nodes.AddRange(New System.Windows.Forms.TreeNode() {TreeNode21, TreeNode28, TreeNode33})
+        TreeNode74.ForeColor = System.Drawing.Color.Navy
+        TreeNode74.Name = "Düğüm0"
+        TreeNode74.NodeFont = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Bold)
+        TreeNode74.Text = "Toptan Alış İşlemleri                    "
+        TreeNode75.ForeColor = System.Drawing.Color.Navy
+        TreeNode75.Name = "Düğüm1"
+        TreeNode75.NodeFont = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(162, Byte))
+        TreeNode75.Text = "Toptan Alış                                   "
+        Me.TreeView5.Nodes.AddRange(New System.Windows.Forms.TreeNode() {TreeNode74, TreeNode75})
         Me.TreeView5.Size = New System.Drawing.Size(247, 289)
         Me.TreeView5.TabIndex = 68
         '
@@ -633,169 +789,30 @@ Partial Class main
         Me.TreeView6.ItemHeight = 16
         Me.TreeView6.Location = New System.Drawing.Point(0, 0)
         Me.TreeView6.Name = "TreeView6"
-        TreeNode34.Name = "Düğüm1"
-        TreeNode34.NodeFont = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Bold)
-        TreeNode34.Text = "Kasa Tanımı                                         "
-        TreeNode35.Name = "Düğüm1"
-        TreeNode35.NodeFont = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Bold)
-        TreeNode35.Text = "Kasa İşlem Fişi"
-        TreeNode36.Name = "Düğüm1"
-        TreeNode36.NodeFont = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Bold)
-        TreeNode36.Text = "Kasa Virman Fişi"
-        TreeNode37.Name = "Düğüm2"
-        TreeNode37.NodeFont = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Bold)
-        TreeNode37.Text = "Tahsilat Fişi"
-        TreeNode38.Name = "Düğüm3"
-        TreeNode38.NodeFont = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Bold)
-        TreeNode38.Text = "Tediye Fişi"
-        TreeNode39.Name = "Düğüm4"
-        TreeNode39.NodeFont = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Bold)
-        TreeNode39.Text = "Kredi Kartlı Tahsilat Girişi"
-        TreeNode40.Name = "Düğüm5"
-        TreeNode40.NodeFont = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Bold)
-        TreeNode40.Text = "Kredi Kartlı Ödeme Çıkışı"
-        TreeNode41.Name = "Düğüm0"
-        TreeNode41.NodeFont = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Bold)
-        TreeNode41.Text = "Kasa İşlemleri                                      "
-        TreeNode42.Name = "Düğüm6"
-        TreeNode42.NodeFont = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Bold)
-        TreeNode42.Text = "Kasa Hareketleri"
-        TreeNode43.Name = "Düğüm7"
-        TreeNode43.NodeFont = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Bold)
-        TreeNode43.Text = "Kredi Kartlı İşlemler Listesi"
-        TreeNode44.Name = "Düğüm8"
-        TreeNode44.NodeFont = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Bold)
-        TreeNode44.Text = "Kasa Hesap Ekstresi"
-        TreeNode45.Name = "Düğüm9"
-        TreeNode45.NodeFont = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Bold)
-        TreeNode45.Text = "Kasa Bakiye Listesi"
-        TreeNode46.Name = "Düğüm1"
-        TreeNode46.NodeFont = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(162, Byte))
-        TreeNode46.Text = "Kasa Raporları                                   "
-        Me.TreeView6.Nodes.AddRange(New System.Windows.Forms.TreeNode() {TreeNode34, TreeNode41, TreeNode46})
+        TreeNode76.ForeColor = System.Drawing.Color.Navy
+        TreeNode76.Name = "Düğüm1"
+        TreeNode76.NodeFont = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Bold)
+        TreeNode76.Text = "Toptan Satış İşlemleri                                   "
+        TreeNode77.ForeColor = System.Drawing.Color.Navy
+        TreeNode77.Name = "Düğüm0"
+        TreeNode77.NodeFont = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Bold)
+        TreeNode77.Text = "Toptan Satış                             "
+        TreeNode78.ForeColor = System.Drawing.Color.Navy
+        TreeNode78.Name = "Düğüm1"
+        TreeNode78.NodeFont = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(162, Byte))
+        TreeNode78.Text = "Alış Satış Raporu                    "
+        TreeNode79.ForeColor = System.Drawing.Color.Navy
+        TreeNode79.Name = "Düğüm0"
+        TreeNode79.NodeFont = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Bold)
+        TreeNode79.Text = "Satış ve Alış Raporu     "
+        TreeNode80.ForeColor = System.Drawing.Color.Navy
+        TreeNode80.Name = "Düğüm1"
+        TreeNode80.NodeFont = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Bold)
+        TreeNode80.Text = "Genel Analiz Raporları      "
+        Me.TreeView6.Nodes.AddRange(New System.Windows.Forms.TreeNode() {TreeNode76, TreeNode77, TreeNode78, TreeNode79, TreeNode80})
         Me.TreeView6.ShowPlusMinus = False
         Me.TreeView6.Size = New System.Drawing.Size(247, 289)
         Me.TreeView6.TabIndex = 69
-        '
-        'NavBarGroupControlContainer1
-        '
-        Me.NavBarGroupControlContainer1.Appearance.BackColor = System.Drawing.SystemColors.Control
-        Me.NavBarGroupControlContainer1.Appearance.Options.UseBackColor = True
-        Me.NavBarGroupControlContainer1.Controls.Add(Me.TreeView1)
-        Me.NavBarGroupControlContainer1.Name = "NavBarGroupControlContainer1"
-        Me.NavBarGroupControlContainer1.Size = New System.Drawing.Size(247, 289)
-        Me.NavBarGroupControlContainer1.TabIndex = 5
-        '
-        'TreeView1
-        '
-        Me.TreeView1.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.TreeView1.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.TreeView1.ForeColor = System.Drawing.Color.Navy
-        Me.TreeView1.FullRowSelect = True
-        Me.TreeView1.Indent = 19
-        Me.TreeView1.ItemHeight = 16
-        Me.TreeView1.Location = New System.Drawing.Point(0, 0)
-        Me.TreeView1.Name = "TreeView1"
-        TreeNode47.Name = "Düğüm1"
-        TreeNode47.NodeFont = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(162, Byte))
-        TreeNode47.Text = "Döviz Türü Tanımlama                                 "
-        TreeNode48.Name = "Düğüm2"
-        TreeNode48.NodeFont = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Bold)
-        TreeNode48.Text = "Döviz Kur Girişi                                               "
-        Me.TreeView1.Nodes.AddRange(New System.Windows.Forms.TreeNode() {TreeNode47, TreeNode48})
-        Me.TreeView1.Size = New System.Drawing.Size(247, 289)
-        Me.TreeView1.TabIndex = 60
-        '
-        'NavBarGroupControlContainer2
-        '
-        Me.NavBarGroupControlContainer2.Appearance.BackColor = System.Drawing.SystemColors.Control
-        Me.NavBarGroupControlContainer2.Appearance.Options.UseBackColor = True
-        Me.NavBarGroupControlContainer2.Controls.Add(Me.TreeView2)
-        Me.NavBarGroupControlContainer2.Name = "NavBarGroupControlContainer2"
-        Me.NavBarGroupControlContainer2.Size = New System.Drawing.Size(247, 289)
-        Me.NavBarGroupControlContainer2.TabIndex = 6
-        '
-        'TreeView2
-        '
-        Me.TreeView2.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.TreeView2.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.TreeView2.ForeColor = System.Drawing.Color.Navy
-        Me.TreeView2.FullRowSelect = True
-        Me.TreeView2.ItemHeight = 16
-        Me.TreeView2.Location = New System.Drawing.Point(0, 0)
-        Me.TreeView2.Name = "TreeView2"
-        TreeNode49.Name = "Düğüm3"
-        TreeNode49.NodeFont = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Bold)
-        TreeNode49.Text = "Stoklar"
-        TreeNode50.Name = "Düğüm4"
-        TreeNode50.NodeFont = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Bold)
-        TreeNode50.Text = "Stok Tanımı"
-        TreeNode51.Name = "Düğüm5"
-        TreeNode51.NodeFont = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Bold)
-        TreeNode51.Text = "Stok Birim Tanımı"
-        TreeNode52.Name = "Düğüm6"
-        TreeNode52.NodeFont = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Bold)
-        TreeNode52.Text = "Depo/Ambar Tanımı"
-        TreeNode53.Name = "Düğüm7"
-        TreeNode53.NodeFont = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Bold)
-        TreeNode53.Text = "Stok Grupları Tanımı"
-        TreeNode54.Name = "Düğüm8"
-        TreeNode54.NodeFont = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Bold)
-        TreeNode54.Text = "Stok Tür Tanımı"
-        TreeNode55.Name = "Düğüm1"
-        TreeNode55.NodeFont = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(162, Byte))
-        TreeNode55.Text = "Stok Tanımları                                           "
-        TreeNode56.Name = "Düğüm9"
-        TreeNode56.NodeFont = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Bold)
-        TreeNode56.Text = "Stok Hareket Fişleri"
-        TreeNode57.Name = "Düğüm10"
-        TreeNode57.NodeFont = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Bold)
-        TreeNode57.Text = "Stok Çıkış Fişi"
-        TreeNode58.Name = "Düğüm11"
-        TreeNode58.NodeFont = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Bold)
-        TreeNode58.Text = "Stok Giriş Fişi"
-        TreeNode59.Name = "Düğüm12"
-        TreeNode59.NodeFont = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Bold)
-        TreeNode59.Text = "Stok Transfer Fişi"
-        TreeNode60.Name = "Düğüm2"
-        TreeNode60.NodeFont = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Bold)
-        TreeNode60.Text = "Stok İşlemleri                                   "
-        TreeNode61.Name = "Düğüm13"
-        TreeNode61.NodeFont = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Bold)
-        TreeNode61.Text = "Stok Fiyat Listesi"
-        TreeNode62.Name = "Düğüm14"
-        TreeNode62.NodeFont = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Bold)
-        TreeNode62.Text = "Kayıtlı Stok Listesi"
-        TreeNode63.Name = "Düğüm15"
-        TreeNode63.NodeFont = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Bold)
-        TreeNode63.Text = "Stok Hareket Analizi"
-        TreeNode64.Name = "Düğüm16"
-        TreeNode64.NodeFont = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Bold)
-        TreeNode64.Text = "Stok Ekstresi"
-        TreeNode65.Name = "Düğüm17"
-        TreeNode65.NodeFont = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Bold)
-        TreeNode65.Text = "Stok Giriş-Çıkış Raporu"
-        TreeNode66.Name = "Düğüm18"
-        TreeNode66.NodeFont = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Bold)
-        TreeNode66.Text = "Stok Bazında Cari Hareketler"
-        TreeNode67.Name = "Düğüm19"
-        TreeNode67.NodeFont = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Bold)
-        TreeNode67.Text = "Stok Hareketleri"
-        TreeNode68.Name = "Düğüm20"
-        TreeNode68.NodeFont = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Bold)
-        TreeNode68.Text = "Stok Değer Raporu"
-        TreeNode69.Name = "Düğüm0"
-        TreeNode69.NodeFont = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Bold)
-        TreeNode69.Text = "Stok Raporları                                    "
-        TreeNode70.Name = "Düğüm1"
-        TreeNode70.NodeFont = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Bold)
-        TreeNode70.Text = "Genel Stok Durumu                                   "
-        TreeNode71.Name = "Düğüm2"
-        TreeNode71.NodeFont = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Bold)
-        TreeNode71.Text = "Kullanıcı Stok Durumu                                 "
-        Me.TreeView2.Nodes.AddRange(New System.Windows.Forms.TreeNode() {TreeNode55, TreeNode60, TreeNode69, TreeNode70, TreeNode71})
-        Me.TreeView2.Size = New System.Drawing.Size(247, 289)
-        Me.TreeView2.TabIndex = 65
         '
         'NavBarGroupControlContainer6
         '
@@ -816,28 +833,23 @@ Partial Class main
         Me.TreeView4.ItemHeight = 16
         Me.TreeView4.Location = New System.Drawing.Point(0, 0)
         Me.TreeView4.Name = "TreeView4"
-        TreeNode72.Name = "Düğüm1"
-        TreeNode72.NodeFont = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Bold)
-        TreeNode72.Text = "Toptan Satış İşlemleri                                        "
-        TreeNode73.Name = "Düğüm0"
-        TreeNode73.NodeFont = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Bold)
-        TreeNode73.Text = "Toptan Satış                                       "
-        TreeNode74.Name = "Düğüm1"
-        TreeNode74.NodeFont = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(162, Byte))
-        TreeNode74.Text = "Perakende Satış Fişi                                   "
-        TreeNode75.Name = "Düğüm2"
-        TreeNode75.NodeFont = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Bold)
-        TreeNode75.Text = "Toptan Alış İşlemleri                                     "
-        TreeNode76.Name = "Düğüm0"
-        TreeNode76.NodeFont = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Bold)
-        TreeNode76.Text = "Toptan Alış                                         "
-        TreeNode77.Name = "Düğüm2"
-        TreeNode77.NodeFont = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Bold)
-        TreeNode77.Text = "Perakende Alış Fişi                                    "
-        TreeNode78.Name = "Düğüm0"
-        TreeNode78.NodeFont = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Bold)
-        TreeNode78.Text = "Alış-Satış Raporu                                     "
-        Me.TreeView4.Nodes.AddRange(New System.Windows.Forms.TreeNode() {TreeNode72, TreeNode73, TreeNode74, TreeNode75, TreeNode76, TreeNode77, TreeNode78})
+        TreeNode81.ForeColor = System.Drawing.Color.Navy
+        TreeNode81.Name = "Düğüm1"
+        TreeNode81.NodeFont = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(162, Byte))
+        TreeNode81.Text = "Perakende Satış Fişi                                   "
+        TreeNode82.ForeColor = System.Drawing.Color.Navy
+        TreeNode82.Name = "Düğüm2"
+        TreeNode82.NodeFont = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Bold)
+        TreeNode82.Text = "Perakende Alış Fişi                                    "
+        TreeNode83.ForeColor = System.Drawing.Color.Navy
+        TreeNode83.Name = "Düğüm0"
+        TreeNode83.NodeFont = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Bold)
+        TreeNode83.Text = "Perakende Satış Özeti   "
+        TreeNode84.ForeColor = System.Drawing.Color.Navy
+        TreeNode84.Name = "Düğüm1"
+        TreeNode84.NodeFont = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Bold)
+        TreeNode84.Text = "Gün Sonu Raporu  "
+        Me.TreeView4.Nodes.AddRange(New System.Windows.Forms.TreeNode() {TreeNode81, TreeNode82, TreeNode83, TreeNode84})
         Me.TreeView4.Size = New System.Drawing.Size(247, 289)
         Me.TreeView4.TabIndex = 67
         '
@@ -847,7 +859,7 @@ Partial Class main
         Me.NavBarGroupControlContainer7.Appearance.Options.UseBackColor = True
         Me.NavBarGroupControlContainer7.Controls.Add(Me.TreeView7)
         Me.NavBarGroupControlContainer7.Name = "NavBarGroupControlContainer7"
-        Me.NavBarGroupControlContainer7.Size = New System.Drawing.Size(247, 289)
+        Me.NavBarGroupControlContainer7.Size = New System.Drawing.Size(247, 397)
         Me.NavBarGroupControlContainer7.TabIndex = 8
         '
         'TreeView7
@@ -859,234 +871,102 @@ Partial Class main
         Me.TreeView7.ItemHeight = 16
         Me.TreeView7.Location = New System.Drawing.Point(0, 0)
         Me.TreeView7.Name = "TreeView7"
-        TreeNode79.Name = "Düğüm1"
-        TreeNode79.NodeFont = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Bold)
-        TreeNode79.Text = "Alınan Emanet Girişi                                   "
-        TreeNode80.Name = "Düğüm0"
-        TreeNode80.NodeFont = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Bold)
-        TreeNode80.Text = "Verilen Emanet Çıkışı                                           "
-        TreeNode81.Name = "Düğüm1"
-        TreeNode81.NodeFont = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(162, Byte))
-        TreeNode81.Text = "Emanet Listesi        "
-        Me.TreeView7.Nodes.AddRange(New System.Windows.Forms.TreeNode() {TreeNode79, TreeNode80, TreeNode81})
-        Me.TreeView7.Size = New System.Drawing.Size(247, 289)
+        TreeNode85.ForeColor = System.Drawing.Color.Navy
+        TreeNode85.Name = "Düğüm0"
+        TreeNode85.NodeFont = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Bold)
+        TreeNode85.Text = "Tamirat Girişi     "
+        TreeNode86.ForeColor = System.Drawing.Color.Navy
+        TreeNode86.Name = "Düğüm3"
+        TreeNode86.NodeFont = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Bold)
+        TreeNode86.Text = "Tamirat Listesi    "
+        TreeNode87.ForeColor = System.Drawing.Color.Navy
+        TreeNode87.Name = "Düğüm2"
+        TreeNode87.NodeFont = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Bold)
+        TreeNode87.Text = "Tamirat Raporları          "
+        TreeNode88.ForeColor = System.Drawing.Color.Navy
+        TreeNode88.Name = "Düğüm1"
+        TreeNode88.NodeFont = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Bold)
+        TreeNode88.Text = "Tamirat İşlemleri                              "
+        TreeNode89.ForeColor = System.Drawing.Color.Navy
+        TreeNode89.Name = "Düğüm5"
+        TreeNode89.NodeFont = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Bold)
+        TreeNode89.Text = "Garanti Sertifika Girişi             "
+        TreeNode90.ForeColor = System.Drawing.Color.Navy
+        TreeNode90.Name = "Düğüm4"
+        TreeNode90.NodeFont = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Bold)
+        TreeNode90.Text = "Garanti Sertifika İşlemleri        "
+        TreeNode91.ForeColor = System.Drawing.Color.Navy
+        TreeNode91.Name = "Düğüm7"
+        TreeNode91.NodeFont = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Bold)
+        TreeNode91.Text = "Stok Servis Kontrol                     "
+        TreeNode92.ForeColor = System.Drawing.Color.Navy
+        TreeNode92.Name = "Düğüm8"
+        TreeNode92.NodeFont = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Bold)
+        TreeNode92.Text = "Cari Servis Kontrol           "
+        TreeNode93.ForeColor = System.Drawing.Color.Navy
+        TreeNode93.Name = "Düğüm9"
+        TreeNode93.NodeFont = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Bold)
+        TreeNode93.Text = "Silinen Kayıtlar         "
+        TreeNode94.ForeColor = System.Drawing.Color.Navy
+        TreeNode94.Name = "Düğüm6"
+        TreeNode94.NodeFont = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Bold)
+        TreeNode94.Text = "Servis İşlemleri        "
+        Me.TreeView7.Nodes.AddRange(New System.Windows.Forms.TreeNode() {TreeNode88, TreeNode90, TreeNode94})
+        Me.TreeView7.Size = New System.Drawing.Size(247, 397)
         Me.TreeView7.TabIndex = 70
         '
-        'NavBarGroupControlContainer8
+        'NavBarGroup6
         '
-        Me.NavBarGroupControlContainer8.Appearance.BackColor = System.Drawing.SystemColors.Control
-        Me.NavBarGroupControlContainer8.Appearance.Options.UseBackColor = True
-        Me.NavBarGroupControlContainer8.Controls.Add(Me.TreeView8)
-        Me.NavBarGroupControlContainer8.Name = "NavBarGroupControlContainer8"
-        Me.NavBarGroupControlContainer8.Size = New System.Drawing.Size(247, 289)
-        Me.NavBarGroupControlContainer8.TabIndex = 9
-        '
-        'TreeView8
-        '
-        Me.TreeView8.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.TreeView8.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.TreeView8.ForeColor = System.Drawing.Color.Navy
-        Me.TreeView8.HideSelection = False
-        Me.TreeView8.ItemHeight = 16
-        Me.TreeView8.Location = New System.Drawing.Point(0, 0)
-        Me.TreeView8.Name = "TreeView8"
-        TreeNode82.Name = "Düğüm1"
-        TreeNode82.NodeFont = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Bold)
-        TreeNode82.Text = "Tamirat Girişi                                   "
-        TreeNode83.Name = "Düğüm1"
-        TreeNode83.NodeFont = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Bold)
-        TreeNode83.Text = "Tamirat Listesi"
-        TreeNode84.Name = "Düğüm0"
-        TreeNode84.NodeFont = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Bold)
-        TreeNode84.Text = "Tamirat Raporları                         "
-        Me.TreeView8.Nodes.AddRange(New System.Windows.Forms.TreeNode() {TreeNode82, TreeNode84})
-        Me.TreeView8.Size = New System.Drawing.Size(247, 289)
-        Me.TreeView8.TabIndex = 71
-        '
-        'NavBarGroupControlContainer9
-        '
-        Me.NavBarGroupControlContainer9.Appearance.BackColor = System.Drawing.SystemColors.Control
-        Me.NavBarGroupControlContainer9.Appearance.Options.UseBackColor = True
-        Me.NavBarGroupControlContainer9.Controls.Add(Me.TreeView9)
-        Me.NavBarGroupControlContainer9.Name = "NavBarGroupControlContainer9"
-        Me.NavBarGroupControlContainer9.Size = New System.Drawing.Size(247, 289)
-        Me.NavBarGroupControlContainer9.TabIndex = 10
-        '
-        'TreeView9
-        '
-        Me.TreeView9.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.TreeView9.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.TreeView9.ForeColor = System.Drawing.Color.Navy
-        Me.TreeView9.HideSelection = False
-        Me.TreeView9.ItemHeight = 16
-        Me.TreeView9.Location = New System.Drawing.Point(0, 0)
-        Me.TreeView9.Name = "TreeView9"
-        TreeNode85.Name = "Düğüm1"
-        TreeNode85.NodeFont = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Bold)
-        TreeNode85.Text = "Masraf Grup Tanımı"
-        TreeNode86.Name = "Düğüm1"
-        TreeNode86.NodeFont = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Bold)
-        TreeNode86.Text = "Masraf Kartı Tanımı"
-        TreeNode87.Name = "Düğüm0"
-        TreeNode87.NodeFont = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Bold)
-        TreeNode87.Text = "Tanımlar                                  "
-        TreeNode88.Name = "Düğüm0"
-        TreeNode88.NodeFont = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Bold)
-        TreeNode88.Text = "Masraf Girişi                                   "
-        TreeNode89.Name = "Düğüm6"
-        TreeNode89.NodeFont = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Bold)
-        TreeNode89.Text = "Masraf Grup Ekstresi"
-        TreeNode90.Name = "Düğüm7"
-        TreeNode90.NodeFont = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Bold)
-        TreeNode90.Text = "Masraf Grup Bakiye Listesi"
-        TreeNode91.Name = "Düğüm8"
-        TreeNode91.NodeFont = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Bold)
-        TreeNode91.Text = "Masraf Ekstresi"
-        TreeNode92.Name = "Düğüm9"
-        TreeNode92.NodeFont = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Bold)
-        TreeNode92.Text = "Masraf Bakiye Listesi"
-        TreeNode93.Name = "Düğüm1"
-        TreeNode93.NodeFont = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(162, Byte))
-        TreeNode93.Text = "Masraf Raporları                                   "
-        Me.TreeView9.Nodes.AddRange(New System.Windows.Forms.TreeNode() {TreeNode87, TreeNode88, TreeNode93})
-        Me.TreeView9.Size = New System.Drawing.Size(247, 289)
-        Me.TreeView9.TabIndex = 72
-        '
-        'NavBarGroupControlContainer10
-        '
-        Me.NavBarGroupControlContainer10.Appearance.BackColor = System.Drawing.SystemColors.Control
-        Me.NavBarGroupControlContainer10.Appearance.Options.UseBackColor = True
-        Me.NavBarGroupControlContainer10.Controls.Add(Me.TreeView10)
-        Me.NavBarGroupControlContainer10.Name = "NavBarGroupControlContainer10"
-        Me.NavBarGroupControlContainer10.Size = New System.Drawing.Size(247, 289)
-        Me.NavBarGroupControlContainer10.TabIndex = 11
-        '
-        'TreeView10
-        '
-        Me.TreeView10.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.TreeView10.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.TreeView10.ForeColor = System.Drawing.Color.Navy
-        Me.TreeView10.HideSelection = False
-        Me.TreeView10.ItemHeight = 16
-        Me.TreeView10.Location = New System.Drawing.Point(0, 0)
-        Me.TreeView10.Name = "TreeView10"
-        TreeNode94.Name = "Düğüm1"
-        TreeNode94.NodeFont = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Bold)
-        TreeNode94.Text = "Garanti Sertifika Girişi                              "
-        Me.TreeView10.Nodes.AddRange(New System.Windows.Forms.TreeNode() {TreeNode94})
-        Me.TreeView10.Size = New System.Drawing.Size(247, 289)
-        Me.TreeView10.TabIndex = 73
-        '
-        'NavBarGroupControlContainer11
-        '
-        Me.NavBarGroupControlContainer11.Appearance.BackColor = System.Drawing.SystemColors.Control
-        Me.NavBarGroupControlContainer11.Appearance.Options.UseBackColor = True
-        Me.NavBarGroupControlContainer11.Controls.Add(Me.TreeView11)
-        Me.NavBarGroupControlContainer11.Name = "NavBarGroupControlContainer11"
-        Me.NavBarGroupControlContainer11.Size = New System.Drawing.Size(247, 289)
-        Me.NavBarGroupControlContainer11.TabIndex = 12
-        '
-        'TreeView11
-        '
-        Me.TreeView11.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.TreeView11.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.TreeView11.ForeColor = System.Drawing.Color.Navy
-        Me.TreeView11.HideSelection = False
-        Me.TreeView11.ItemHeight = 16
-        Me.TreeView11.Location = New System.Drawing.Point(0, 0)
-        Me.TreeView11.Name = "TreeView11"
-        TreeNode95.Name = "Düğüm1"
-        TreeNode95.NodeFont = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Bold)
-        TreeNode95.Text = "Stok Servis Kontrol                             "
-        TreeNode96.Name = "Düğüm0"
-        TreeNode96.NodeFont = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Bold)
-        TreeNode96.Text = "Cari Servis Kontrol                             "
-        TreeNode97.Name = "Düğüm0"
-        TreeNode97.NodeFont = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Bold)
-        TreeNode97.Text = "Silinen Kayıtlar                                   "
-        Me.TreeView11.Nodes.AddRange(New System.Windows.Forms.TreeNode() {TreeNode95, TreeNode96, TreeNode97})
-        Me.TreeView11.Size = New System.Drawing.Size(247, 289)
-        Me.TreeView11.TabIndex = 74
-        '
-        'NavBarGroup5
-        '
-        Me.NavBarGroup5.Caption = "Tanımlar"
-        Me.NavBarGroup5.ControlContainer = Me.NavBarGroupControlContainer1
-        Me.NavBarGroup5.GroupClientHeight = 289
-        Me.NavBarGroup5.GroupStyle = DevExpress.XtraNavBar.NavBarGroupStyle.ControlContainer
-        Me.NavBarGroup5.Name = "NavBarGroup5"
-        '
-        'NavBarGroup4
-        '
-        Me.NavBarGroup4.Caption = "Stok Yönetimi"
-        Me.NavBarGroup4.ControlContainer = Me.NavBarGroupControlContainer2
-        Me.NavBarGroup4.GroupClientHeight = 289
-        Me.NavBarGroup4.GroupStyle = DevExpress.XtraNavBar.NavBarGroupStyle.ControlContainer
-        Me.NavBarGroup4.Name = "NavBarGroup4"
+        Me.NavBarGroup6.Caption = "Finansman Yönetimi"
+        Me.NavBarGroup6.ControlContainer = Me.NavBarGroupControlContainer3
+        Me.NavBarGroup6.GroupClientHeight = 289
+        Me.NavBarGroup6.GroupStyle = DevExpress.XtraNavBar.NavBarGroupStyle.ControlContainer
+        Me.NavBarGroup6.ImageOptions.LargeImage = Global.DataonsERP.My.Resources.Resources.reviewers_32x32
+        Me.NavBarGroup6.ImageOptions.SmallImage = Global.DataonsERP.My.Resources.Resources.reviewers_16x16
+        Me.NavBarGroup6.Name = "NavBarGroup6"
+        ToolTipItem1.Text = "Deneme"
+        SuperToolTip1.Items.Add(ToolTipItem1)
+        Me.NavBarGroup6.SuperTip = SuperToolTip1
         '
         'NavBarGroup12
         '
-        Me.NavBarGroup12.Caption = "Alış-Satış İşlemleri"
+        Me.NavBarGroup12.Caption = "Perakende Satış"
         Me.NavBarGroup12.ControlContainer = Me.NavBarGroupControlContainer6
         Me.NavBarGroup12.GroupClientHeight = 262
         Me.NavBarGroup12.GroupStyle = DevExpress.XtraNavBar.NavBarGroupStyle.ControlContainer
+        Me.NavBarGroup12.ImageOptions.LargeImage = Global.DataonsERP.My.Resources.Resources.boorderitem_32x32
+        Me.NavBarGroup12.ImageOptions.SmallImage = Global.DataonsERP.My.Resources.Resources.boorderitem_16x16
         Me.NavBarGroup12.Name = "NavBarGroup12"
         '
         'NavBarGroup7
         '
-        Me.NavBarGroup7.Caption = "Banka İşlemleri"
+        Me.NavBarGroup7.Caption = "Satın Alma"
         Me.NavBarGroup7.ControlContainer = Me.NavBarGroupControlContainer4
         Me.NavBarGroup7.GroupClientHeight = 262
         Me.NavBarGroup7.GroupStyle = DevExpress.XtraNavBar.NavBarGroupStyle.ControlContainer
+        Me.NavBarGroup7.ImageOptions.LargeImage = Global.DataonsERP.My.Resources.Resources.boposition2_32x32
+        Me.NavBarGroup7.ImageOptions.SmallImage = Global.DataonsERP.My.Resources.Resources.boposition2_16x16
         Me.NavBarGroup7.Name = "NavBarGroup7"
         '
         'NavBarGroup8
         '
-        Me.NavBarGroup8.Caption = "Kasa"
+        Me.NavBarGroup8.Caption = "Satış Pazarlama"
         Me.NavBarGroup8.ControlContainer = Me.NavBarGroupControlContainer5
         Me.NavBarGroup8.GroupClientHeight = 262
         Me.NavBarGroup8.GroupStyle = DevExpress.XtraNavBar.NavBarGroupStyle.ControlContainer
+        Me.NavBarGroup8.ImageOptions.LargeImage = Global.DataonsERP.My.Resources.Resources.bosaleitem_32x32
+        Me.NavBarGroup8.ImageOptions.SmallImage = Global.DataonsERP.My.Resources.Resources.bosaleitem_16x16
         Me.NavBarGroup8.Name = "NavBarGroup8"
         '
         'NavBarGroup1
         '
-        Me.NavBarGroup1.Caption = "Emanet Hesapları"
+        Me.NavBarGroup1.Caption = "Servis Destek"
         Me.NavBarGroup1.ControlContainer = Me.NavBarGroupControlContainer7
         Me.NavBarGroup1.GroupClientHeight = 262
         Me.NavBarGroup1.GroupStyle = DevExpress.XtraNavBar.NavBarGroupStyle.ControlContainer
+        Me.NavBarGroup1.ImageOptions.LargeImage = Global.DataonsERP.My.Resources.Resources.bodepartment_32x32
+        Me.NavBarGroup1.ImageOptions.SmallImage = Global.DataonsERP.My.Resources.Resources.bodepartment_16x16
         Me.NavBarGroup1.Name = "NavBarGroup1"
-        '
-        'NavBarGroup2
-        '
-        Me.NavBarGroup2.Caption = "Tamirat İşlemleri"
-        Me.NavBarGroup2.ControlContainer = Me.NavBarGroupControlContainer8
-        Me.NavBarGroup2.GroupClientHeight = 262
-        Me.NavBarGroup2.GroupStyle = DevExpress.XtraNavBar.NavBarGroupStyle.ControlContainer
-        Me.NavBarGroup2.Name = "NavBarGroup2"
-        '
-        'NavBarGroup3
-        '
-        Me.NavBarGroup3.Caption = "Masraf İşlemleri"
-        Me.NavBarGroup3.ControlContainer = Me.NavBarGroupControlContainer9
-        Me.NavBarGroup3.GroupClientHeight = 262
-        Me.NavBarGroup3.GroupStyle = DevExpress.XtraNavBar.NavBarGroupStyle.ControlContainer
-        Me.NavBarGroup3.Name = "NavBarGroup3"
-        '
-        'NavBarGroup9
-        '
-        Me.NavBarGroup9.Caption = "Garanti Sertifika İşlemleri"
-        Me.NavBarGroup9.ControlContainer = Me.NavBarGroupControlContainer10
-        Me.NavBarGroup9.GroupClientHeight = 262
-        Me.NavBarGroup9.GroupStyle = DevExpress.XtraNavBar.NavBarGroupStyle.ControlContainer
-        Me.NavBarGroup9.Name = "NavBarGroup9"
-        '
-        'NavBarGroup10
-        '
-        Me.NavBarGroup10.Caption = "Servis İşlemleri"
-        Me.NavBarGroup10.ControlContainer = Me.NavBarGroupControlContainer11
-        Me.NavBarGroup10.GroupClientHeight = 262
-        Me.NavBarGroup10.GroupStyle = DevExpress.XtraNavBar.NavBarGroupStyle.ControlContainer
-        Me.NavBarGroup10.Name = "NavBarGroup10"
         '
         'TreeListColumn3
         '
@@ -1169,17 +1049,12 @@ Partial Class main
         CType(Me.BarManager1, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.NavBarControl2, System.ComponentModel.ISupportInitialize).EndInit()
         Me.NavBarControl2.ResumeLayout(False)
+        Me.NavBarGroupControlContainer2.ResumeLayout(False)
         Me.NavBarGroupControlContainer3.ResumeLayout(False)
         Me.NavBarGroupControlContainer4.ResumeLayout(False)
         Me.NavBarGroupControlContainer5.ResumeLayout(False)
-        Me.NavBarGroupControlContainer1.ResumeLayout(False)
-        Me.NavBarGroupControlContainer2.ResumeLayout(False)
         Me.NavBarGroupControlContainer6.ResumeLayout(False)
         Me.NavBarGroupControlContainer7.ResumeLayout(False)
-        Me.NavBarGroupControlContainer8.ResumeLayout(False)
-        Me.NavBarGroupControlContainer9.ResumeLayout(False)
-        Me.NavBarGroupControlContainer10.ResumeLayout(False)
-        Me.NavBarGroupControlContainer11.ResumeLayout(False)
         CType(Me.XtraTabbedMdiManager1, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.BehaviorManager1, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
@@ -1224,17 +1099,12 @@ Partial Class main
     Friend WithEvents BackgroundWorker1 As System.ComponentModel.BackgroundWorker
     Friend WithEvents NavBarControl2 As DevExpress.XtraNavBar.NavBarControl
     Friend WithEvents NavBarGroup4 As DevExpress.XtraNavBar.NavBarGroup
-    Friend WithEvents NavBarGroup5 As DevExpress.XtraNavBar.NavBarGroup
     Friend WithEvents NavBarGroup6 As DevExpress.XtraNavBar.NavBarGroup
     Friend WithEvents NavBarGroup7 As DevExpress.XtraNavBar.NavBarGroup
     Friend WithEvents NavBarGroup8 As DevExpress.XtraNavBar.NavBarGroup
     Friend WithEvents XtraTabbedMdiManager1 As DevExpress.XtraTabbedMdi.XtraTabbedMdiManager
     Friend WithEvents SplitterControl1 As DevExpress.XtraEditors.SplitterControl
     Friend WithEvents NavBarGroup1 As DevExpress.XtraNavBar.NavBarGroup
-    Friend WithEvents NavBarGroup2 As DevExpress.XtraNavBar.NavBarGroup
-    Friend WithEvents NavBarGroup3 As DevExpress.XtraNavBar.NavBarGroup
-    Friend WithEvents NavBarGroup9 As DevExpress.XtraNavBar.NavBarGroup
-    Friend WithEvents NavBarGroup10 As DevExpress.XtraNavBar.NavBarGroup
     Friend WithEvents TreeListColumn1 As DevExpress.XtraTreeList.Columns.TreeListColumn
     Friend WithEvents NavBarGroupControlContainer3 As DevExpress.XtraNavBar.NavBarGroupControlContainer
     Friend WithEvents NavBarGroupControlContainer4 As DevExpress.XtraNavBar.NavBarGroupControlContainer
@@ -1247,10 +1117,6 @@ Partial Class main
     Friend WithEvents ımageList1 As ImageList
     Friend WithEvents NavBarGroupControlContainer2 As DevExpress.XtraNavBar.NavBarGroupControlContainer
     Friend WithEvents TreeView2 As TreeView
-    Friend WithEvents NavBarGroupControlContainer1 As DevExpress.XtraNavBar.NavBarGroupControlContainer
-    Friend WithEvents TreeView1 As TreeView
-    Friend WithEvents NavBarGroupControlContainer11 As DevExpress.XtraNavBar.NavBarGroupControlContainer
-    Friend WithEvents TreeView11 As TreeView
     Friend WithEvents TreeView3 As TreeView
     Friend WithEvents TreeView5 As TreeView
     Friend WithEvents TreeView6 As TreeView
@@ -1258,11 +1124,5 @@ Partial Class main
     Friend WithEvents TreeView4 As TreeView
     Friend WithEvents NavBarGroupControlContainer7 As DevExpress.XtraNavBar.NavBarGroupControlContainer
     Friend WithEvents TreeView7 As TreeView
-    Friend WithEvents NavBarGroupControlContainer8 As DevExpress.XtraNavBar.NavBarGroupControlContainer
-    Friend WithEvents TreeView8 As TreeView
-    Friend WithEvents NavBarGroupControlContainer9 As DevExpress.XtraNavBar.NavBarGroupControlContainer
-    Friend WithEvents TreeView9 As TreeView
-    Friend WithEvents NavBarGroupControlContainer10 As DevExpress.XtraNavBar.NavBarGroupControlContainer
-    Friend WithEvents TreeView10 As TreeView
     Friend WithEvents NavBarGroup12 As DevExpress.XtraNavBar.NavBarGroup
 End Class

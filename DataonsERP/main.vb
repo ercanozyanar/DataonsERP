@@ -62,7 +62,7 @@ Public Class main
         stok_tanimlama.MdiParent = Me
         stok_tanimlama.Show()
     End Sub
-    Private Sub TreeView1_NodeMouseClick(sender As Object, e As TreeNodeMouseClickEventArgs) Handles TreeView1.NodeMouseClick
+    Private Sub TreeView1_NodeMouseClick(sender As Object, e As TreeNodeMouseClickEventArgs)
         If (e.Node.Name = "Düğüm1") Then
             Dim frm As doviz_tanim
             frm = New doviz_tanim()
