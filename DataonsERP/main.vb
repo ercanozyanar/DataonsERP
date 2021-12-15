@@ -11,8 +11,6 @@ Imports System.Threading.Tasks
 Imports System.Windows.Forms
 Imports System.Xml
 Imports System.Threading
-
-
 Public Class main
     Inherits DevExpress.XtraEditors.XtraForm
     Public Sub New()
@@ -23,7 +21,6 @@ Public Class main
     End Sub
     Private Sub Form1_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         BarManager1.RestoreLayoutFromXml("c:\XtraBars_SaveToXML.xml")
-
     End Sub
 
     Private Sub Form1_FormClosed(sender As Object, e As FormClosedEventArgs) Handles MyBase.FormClosed
@@ -78,15 +75,15 @@ Public Class main
     End Sub
 
     Private Sub TreeView2_NodeMouseClick(sender As Object, e As TreeNodeMouseClickEventArgs) Handles TreeView2.NodeMouseClick
-        If (e.Node.Name = "Düğüm4") Then
-            Dim NewMDIChild As New stok_tanimlama()
+        If (e.Node.Name = "Düğüm3") Then
+            Dim NewMDIChild As New stok_tanim()
             'Set the Parent Form of the Child window.
             NewMDIChild.MdiParent = Me
             'Display the new form.
             NewMDIChild.Show()
         End If
-        If (e.Node.Name = "Düğüm3") Then
-            Dim NewMDIChild As New stok_tanim()
+        If (e.Node.Name = "Düğüm4") Then
+            Dim NewMDIChild As New stok_tanimlama()
             'Set the Parent Form of the Child window.
             NewMDIChild.MdiParent = Me
             'Display the new form.
@@ -112,6 +109,7 @@ Public Class main
             frm = New stoktur_tanim()
             frm.Show()
         End If
+        '===================================================
         If (e.Node.Name = "Düğüm9") Then
             Dim NewMDIChild As New stok_hareketlist()
             'Set the Parent Form of the Child window.
@@ -140,8 +138,9 @@ Public Class main
             'Display the new form.
             NewMDIChild.Show()
         End If
+        '===================================================
         If (e.Node.Name = "Düğüm13") Then
-            Dim NewMDIChild As New stok_hareketlist()
+            Dim NewMDIChild As New stok_fiyatlist()
             'Set the Parent Form of the Child window.
             NewMDIChild.MdiParent = Me
             'Display the new form.
@@ -214,5 +213,193 @@ Public Class main
             'Display the new form.
             NewMDIChild.Show()
         End If
+        If (e.Node.Name = "Düğüm20") Then
+            Dim frm As doviz_tanim
+            frm = New doviz_tanim()
+            frm.Show()
+        End If
+        If (e.Node.Name = "Düğüm21") Then
+            Dim NewMDIChild As New dovizkur_girisi()
+            'Set the Parent Form of the Child window.
+            NewMDIChild.MdiParent = Me
+            'Display the new form.
+            NewMDIChild.Show()
+        End If
+        If (e.Node.Name = "Düğüm23") Then
+            Dim NewMDIChild As New banka_tanim()
+            'Set the Parent Form of the Child window.
+            NewMDIChild.MdiParent = Me
+            'Display the new form.
+            NewMDIChild.Show()
+        End If
+        If (e.Node.Name = "Düğüm25") Then
+            Dim NewMDIChild As New banka_acilis_islem()
+            'Set the Parent Form of the Child window.
+            NewMDIChild.MdiParent = Me
+            'Display the new form.
+            NewMDIChild.Show()
+        End If
+        If (e.Node.Name = "Düğüm26") Then
+            Dim NewMDIChild As New banka_virman_fisi()
+            'Set the Parent Form of the Child window.
+            NewMDIChild.MdiParent = Me
+            'Display the new form.
+            NewMDIChild.Show()
+        End If
+        If (e.Node.Name = "Düğüm27") Then
+            Dim NewMDIChild As New gelen_havale()
+            'Set the Parent Form of the Child window.
+            NewMDIChild.MdiParent = Me
+            'Display the new form.
+            NewMDIChild.Show()
+        End If
+        If (e.Node.Name = "Düğüm28") Then
+            Dim NewMDIChild As New giden_havale()
+            'Set the Parent Form of the Child window.
+            NewMDIChild.MdiParent = Me
+            'Display the new form.
+            NewMDIChild.Show()
+        End If
+        If (e.Node.Name = "Düğüm29") Then
+            Dim NewMDIChild As New banka_yatirilan()
+            'Set the Parent Form of the Child window.
+            NewMDIChild.MdiParent = Me
+            'Display the new form.
+            NewMDIChild.Show()
+        End If
+        If (e.Node.Name = "Düğüm30") Then
+            Dim NewMDIChild As New bankadan_cekilen()
+            'Set the Parent Form of the Child window.
+            NewMDIChild.MdiParent = Me
+            'Display the new form.
+            NewMDIChild.Show()
+        End If
+        If (e.Node.Name = "Düğüm32") Then
+            Dim NewMDIChild As New banka_havale_list()
+            'Set the Parent Form of the Child window.
+            NewMDIChild.MdiParent = Me
+            'Display the new form.
+            NewMDIChild.Show()
+        End If
+        If (e.Node.Name = "Düğüm33") Then
+            Dim NewMDIChild As New banka_nakit()
+            'Set the Parent Form of the Child window.
+            NewMDIChild.MdiParent = Me
+            'Display the new form.
+            NewMDIChild.Show()
+        End If
+        If (e.Node.Name = "Düğüm34") Then
+            Dim NewMDIChild As New banka_hesap_ekstresi()
+            'Set the Parent Form of the Child window.
+            NewMDIChild.MdiParent = Me
+            'Display the new form.
+            NewMDIChild.Show()
+        End If
+        If (e.Node.Name = "Düğüm35") Then
+            Dim NewMDIChild As New banka_bakiye_liste()
+            'Set the Parent Form of the Child window.
+            NewMDIChild.MdiParent = Me
+            'Display the new form.
+            NewMDIChild.Show()
+        End If
+        If (e.Node.Name = "Düğüm37") Then
+            Dim frm As kasa_tanim
+            frm = New kasa_tanim()
+            frm.Show()
+        End If
+        If (e.Node.Name = "Düğüm41") Then
+            Dim NewMDIChild As New alinan_emanet()
+            'Set the Parent Form of the Child window.
+            NewMDIChild.MdiParent = Me
+            'Display the new form.
+            NewMDIChild.Show()
+        End If
+        If (e.Node.Name = "Düğüm42") Then
+            Dim NewMDIChild As New verilen_emanet()
+            'Set the Parent Form of the Child window.
+            NewMDIChild.MdiParent = Me
+            'Display the new form.
+            NewMDIChild.Show()
+        End If
+        If (e.Node.Name = "Düğüm43") Then
+            Dim NewMDIChild As New emanet_liste()
+            'Set the Parent Form of the Child window.
+            NewMDIChild.MdiParent = Me
+            'Display the new form.
+            NewMDIChild.Show()
+        End If
+    End Sub
+
+    Private Sub TreeView4_NodeMouseClick(sender As Object, e As TreeNodeMouseClickEventArgs) Handles TreeView4.NodeMouseClick
+        If (e.Node.Name = "Düğüm0") Then
+            Dim NewMDIChild As New perakende_satis()
+            'Set the Parent Form of the Child window.
+            NewMDIChild.MdiParent = Me
+            'Display the new form.
+            NewMDIChild.Show()
+        End If
+        If (e.Node.Name = "Düğüm1") Then
+            Dim NewMDIChild As New perakende_alis()
+
+            NewMDIChild.MdiParent = Me
+
+            NewMDIChild.Show()
+        End If
+        'If (e.Node.Name = "Düğüm2") Then
+        '    Dim NewMDIChild As New emanet_liste()
+        '      NewMDIChild.MdiParent = Me
+        '    NewMDIChild.Show()
+        'End If
+        'If (e.Node.Name = "Düğüm3") Then
+        '    Dim NewMDIChild As New eee()
+        '    
+        '    NewMDIChild.MdiParent = Me
+        '   
+        '    NewMDIChild.Show()
+        'End If
+    End Sub
+
+    Private Sub TreeView5_AfterSelect(sender As Object, e As TreeViewEventArgs) Handles TreeView5.AfterSelect
+
+    End Sub
+
+    Private Sub TreeView5_NodeMouseClick(sender As Object, e As TreeNodeMouseClickEventArgs) Handles TreeView5.NodeMouseClick
+        If (e.Node.Name = "Düğüm0") Then
+            Dim NewMDIChild As New toptan_alis_islemler()
+            NewMDIChild.MdiParent = Me
+            NewMDIChild.Show()
+        End If
+        'If (e.Node.Name = "Düğüm1") Then
+        '    Dim NewMDIChild As New top()
+        '    NewMDIChild.MdiParent = Me
+        '    NewMDIChild.Show()
+        'End If
+    End Sub
+    Private Sub TreeView6_NodeMouseClick(sender As Object, e As TreeNodeMouseClickEventArgs) Handles TreeView6.NodeMouseClick
+        'If (e.Node.Name = "Düğüm0") Then
+        '    Dim NewMDIChild As New top()
+        '    NewMDIChild.MdiParent = Me
+        '    NewMDIChild.Show()
+        'End If
+        If (e.Node.Name = "Düğüm1") Then
+            Dim NewMDIChild As New toptan_satis()
+            NewMDIChild.MdiParent = Me
+            NewMDIChild.Show()
+        End If
+        If (e.Node.Name = "Düğüm2") Then
+            Dim NewMDIChild As New alis_satis_rapor()
+            NewMDIChild.MdiParent = Me
+            NewMDIChild.Show()
+        End If
+        'If (e.Node.Name = "Düğüm3") Then
+        '    Dim NewMDIChild As New toptan_alis_islemler()
+        '    NewMDIChild.MdiParent = Me
+        '    NewMDIChild.Show()
+        'End If
+        'If (e.Node.Name = "Düğüm4") Then
+        '    Dim NewMDIChild As New toptan_alis_islemler()
+        '    NewMDIChild.MdiParent = Me
+        '    NewMDIChild.Show()
+        'End If
     End Sub
 End Class

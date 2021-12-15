@@ -32,6 +32,7 @@ Partial Class kkart_islem_rapor
         Me.TextEdit4 = New DevExpress.XtraEditors.TextEdit()
         Me.LabelControl12 = New DevExpress.XtraEditors.LabelControl()
         Me.GroupBox4 = New System.Windows.Forms.GroupBox()
+        Me.LabelControl7 = New DevExpress.XtraEditors.LabelControl()
         Me.LabelControl6 = New DevExpress.XtraEditors.LabelControl()
         Me.LabelControl5 = New DevExpress.XtraEditors.LabelControl()
         Me.LabelControl4 = New DevExpress.XtraEditors.LabelControl()
@@ -42,6 +43,8 @@ Partial Class kkart_islem_rapor
         Me.TextEdit10 = New DevExpress.XtraEditors.TextEdit()
         Me.LabelControl1 = New DevExpress.XtraEditors.LabelControl()
         Me.GroupBox3 = New System.Windows.Forms.GroupBox()
+        Me.TextEdit11 = New DevExpress.XtraEditors.TextEdit()
+        Me.TextEdit12 = New DevExpress.XtraEditors.TextEdit()
         Me.TextEdit15 = New DevExpress.XtraEditors.TextEdit()
         Me.TextEdit16 = New DevExpress.XtraEditors.TextEdit()
         Me.TextEdit17 = New DevExpress.XtraEditors.TextEdit()
@@ -60,9 +63,6 @@ Partial Class kkart_islem_rapor
         Me.RadioButton2 = New System.Windows.Forms.RadioButton()
         Me.RadioButton1 = New System.Windows.Forms.RadioButton()
         Me.GroupBox5 = New System.Windows.Forms.GroupBox()
-        Me.LabelControl7 = New DevExpress.XtraEditors.LabelControl()
-        Me.TextEdit11 = New DevExpress.XtraEditors.TextEdit()
-        Me.TextEdit12 = New DevExpress.XtraEditors.TextEdit()
         CType(Me.GridView1, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.GridControl1, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.TextEdit5.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -75,6 +75,8 @@ Partial Class kkart_islem_rapor
         CType(Me.TextEdit9.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.TextEdit10.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.GroupBox3.SuspendLayout()
+        CType(Me.TextEdit11.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.TextEdit12.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.TextEdit15.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.TextEdit16.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.TextEdit17.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -89,8 +91,6 @@ Partial Class kkart_islem_rapor
         Me.GroupBox2.SuspendLayout()
         Me.GroupBox6.SuspendLayout()
         Me.GroupBox5.SuspendLayout()
-        CType(Me.TextEdit11.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.TextEdit12.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'GridView1
@@ -162,6 +162,14 @@ Partial Class kkart_islem_rapor
         Me.GroupBox4.TabIndex = 17
         Me.GroupBox4.TabStop = False
         Me.GroupBox4.Text = "Filtre"
+        '
+        'LabelControl7
+        '
+        Me.LabelControl7.Location = New System.Drawing.Point(6, 73)
+        Me.LabelControl7.Name = "LabelControl7"
+        Me.LabelControl7.Size = New System.Drawing.Size(56, 13)
+        Me.LabelControl7.TabIndex = 2
+        Me.LabelControl7.Text = "Banka Kodu"
         '
         'LabelControl6
         '
@@ -245,6 +253,20 @@ Partial Class kkart_islem_rapor
         Me.GroupBox3.TabIndex = 18
         Me.GroupBox3.TabStop = False
         Me.GroupBox3.Text = "Koşul"
+        '
+        'TextEdit11
+        '
+        Me.TextEdit11.Location = New System.Drawing.Point(174, 70)
+        Me.TextEdit11.Name = "TextEdit11"
+        Me.TextEdit11.Size = New System.Drawing.Size(160, 20)
+        Me.TextEdit11.TabIndex = 9
+        '
+        'TextEdit12
+        '
+        Me.TextEdit12.Location = New System.Drawing.Point(6, 70)
+        Me.TextEdit12.Name = "TextEdit12"
+        Me.TextEdit12.Size = New System.Drawing.Size(160, 20)
+        Me.TextEdit12.TabIndex = 8
         '
         'TextEdit15
         '
@@ -420,28 +442,6 @@ Partial Class kkart_islem_rapor
         Me.GroupBox5.TabStop = False
         Me.GroupBox5.Text = "Rapor Kriteri"
         '
-        'LabelControl7
-        '
-        Me.LabelControl7.Location = New System.Drawing.Point(6, 73)
-        Me.LabelControl7.Name = "LabelControl7"
-        Me.LabelControl7.Size = New System.Drawing.Size(56, 13)
-        Me.LabelControl7.TabIndex = 2
-        Me.LabelControl7.Text = "Banka Kodu"
-        '
-        'TextEdit11
-        '
-        Me.TextEdit11.Location = New System.Drawing.Point(174, 70)
-        Me.TextEdit11.Name = "TextEdit11"
-        Me.TextEdit11.Size = New System.Drawing.Size(160, 20)
-        Me.TextEdit11.TabIndex = 9
-        '
-        'TextEdit12
-        '
-        Me.TextEdit12.Location = New System.Drawing.Point(6, 70)
-        Me.TextEdit12.Name = "TextEdit12"
-        Me.TextEdit12.Size = New System.Drawing.Size(160, 20)
-        Me.TextEdit12.TabIndex = 8
-        '
         'kkart_islem_rapor
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
@@ -469,6 +469,8 @@ Partial Class kkart_islem_rapor
         CType(Me.TextEdit9.Properties, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.TextEdit10.Properties, System.ComponentModel.ISupportInitialize).EndInit()
         Me.GroupBox3.ResumeLayout(False)
+        CType(Me.TextEdit11.Properties, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.TextEdit12.Properties, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.TextEdit15.Properties, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.TextEdit16.Properties, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.TextEdit17.Properties, System.ComponentModel.ISupportInitialize).EndInit()
@@ -485,8 +487,6 @@ Partial Class kkart_islem_rapor
         Me.GroupBox6.ResumeLayout(False)
         Me.GroupBox5.ResumeLayout(False)
         Me.GroupBox5.PerformLayout()
-        CType(Me.TextEdit11.Properties, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.TextEdit12.Properties, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
 
     End Sub
