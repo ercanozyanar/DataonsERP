@@ -39,7 +39,7 @@ Partial Class stok_degerrapor
         Me.GridControl1.Location = New System.Drawing.Point(2, 64)
         Me.GridControl1.MainView = Me.GridView1
         Me.GridControl1.Name = "GridControl1"
-        Me.GridControl1.Size = New System.Drawing.Size(1075, 551)
+        Me.GridControl1.Size = New System.Drawing.Size(1075, 558)
         Me.GridControl1.TabIndex = 1
         Me.GridControl1.ViewCollection.AddRange(New DevExpress.XtraGrid.Views.Base.BaseView() {Me.GridView1})
         '
@@ -87,7 +87,7 @@ Partial Class stok_degerrapor
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(1079, 616)
+        Me.ClientSize = New System.Drawing.Size(1079, 628)
         Me.Controls.Add(Me.GroupBox3)
         Me.Controls.Add(Me.GridControl1)
         Me.Name = "stok_degerrapor"

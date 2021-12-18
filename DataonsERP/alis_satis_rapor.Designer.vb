@@ -438,7 +438,7 @@ Partial Class alis_satis_rapor
         Me.GridControl1.Location = New System.Drawing.Point(3, 191)
         Me.GridControl1.MainView = Me.GridView1
         Me.GridControl1.Name = "GridControl1"
-        Me.GridControl1.Size = New System.Drawing.Size(1074, 422)
+        Me.GridControl1.Size = New System.Drawing.Size(1074, 432)
         Me.GridControl1.TabIndex = 6
         Me.GridControl1.ViewCollection.AddRange(New DevExpress.XtraGrid.Views.Base.BaseView() {Me.GridView1})
         '
@@ -451,7 +451,7 @@ Partial Class alis_satis_rapor
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(1079, 616)
+        Me.ClientSize = New System.Drawing.Size(1079, 628)
         Me.Controls.Add(Me.SimpleButton2)
         Me.Controls.Add(Me.GridControl1)
         Me.Controls.Add(Me.SimpleButton1)

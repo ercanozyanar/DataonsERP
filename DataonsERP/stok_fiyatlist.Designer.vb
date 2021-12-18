@@ -24,21 +24,21 @@ Partial Class stok_fiyatlist
     Private Sub InitializeComponent()
         Me.FormAssistant1 = New DevExpress.XtraBars.FormAssistant()
         Me.GroupBox1 = New System.Windows.Forms.GroupBox()
+        Me.LabelControl6 = New DevExpress.XtraEditors.LabelControl()
+        Me.LabelControl3 = New DevExpress.XtraEditors.LabelControl()
+        Me.LabelControl4 = New DevExpress.XtraEditors.LabelControl()
+        Me.LabelControl1 = New DevExpress.XtraEditors.LabelControl()
         Me.LabelControl2 = New DevExpress.XtraEditors.LabelControl()
         Me.TextEdit2 = New DevExpress.XtraEditors.TextEdit()
-        Me.LabelControl1 = New DevExpress.XtraEditors.LabelControl()
         Me.TextEdit1 = New DevExpress.XtraEditors.TextEdit()
-        Me.LabelControl3 = New DevExpress.XtraEditors.LabelControl()
         Me.TextEdit3 = New DevExpress.XtraEditors.TextEdit()
-        Me.LabelControl4 = New DevExpress.XtraEditors.LabelControl()
         Me.TextEdit4 = New DevExpress.XtraEditors.TextEdit()
-        Me.LabelControl6 = New DevExpress.XtraEditors.LabelControl()
         Me.TextEdit6 = New DevExpress.XtraEditors.TextEdit()
         Me.GroupBox2 = New System.Windows.Forms.GroupBox()
         Me.GroupBox3 = New System.Windows.Forms.GroupBox()
+        Me.SimpleButton3 = New DevExpress.XtraEditors.SimpleButton()
         Me.SimpleButton1 = New DevExpress.XtraEditors.SimpleButton()
         Me.SimpleButton2 = New DevExpress.XtraEditors.SimpleButton()
-        Me.SimpleButton3 = New DevExpress.XtraEditors.SimpleButton()
         Me.GridControl1 = New DevExpress.XtraGrid.GridControl()
         Me.GridView1 = New DevExpress.XtraGrid.Views.Grid.GridView()
         Me.GroupBox1.SuspendLayout()
@@ -67,6 +67,46 @@ Partial Class stok_fiyatlist
         Me.GroupBox1.TabStop = False
         Me.GroupBox1.Text = "Filtre"
         '
+        'LabelControl6
+        '
+        Me.LabelControl6.Appearance.Font = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(162, Byte))
+        Me.LabelControl6.Appearance.Options.UseFont = True
+        Me.LabelControl6.Location = New System.Drawing.Point(6, 124)
+        Me.LabelControl6.Name = "LabelControl6"
+        Me.LabelControl6.Size = New System.Drawing.Size(80, 14)
+        Me.LabelControl6.TabIndex = 131
+        Me.LabelControl6.Text = "Tedarikçi Firma"
+        '
+        'LabelControl3
+        '
+        Me.LabelControl3.Appearance.Font = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(162, Byte))
+        Me.LabelControl3.Appearance.Options.UseFont = True
+        Me.LabelControl3.Location = New System.Drawing.Point(6, 98)
+        Me.LabelControl3.Name = "LabelControl3"
+        Me.LabelControl3.Size = New System.Drawing.Size(98, 14)
+        Me.LabelControl3.TabIndex = 129
+        Me.LabelControl3.Text = "Stok Grup Kodu 3"
+        '
+        'LabelControl4
+        '
+        Me.LabelControl4.Appearance.Font = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(162, Byte))
+        Me.LabelControl4.Appearance.Options.UseFont = True
+        Me.LabelControl4.Location = New System.Drawing.Point(6, 72)
+        Me.LabelControl4.Name = "LabelControl4"
+        Me.LabelControl4.Size = New System.Drawing.Size(98, 14)
+        Me.LabelControl4.TabIndex = 127
+        Me.LabelControl4.Text = "Stok Grup Kodu 2"
+        '
+        'LabelControl1
+        '
+        Me.LabelControl1.Appearance.Font = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(162, Byte))
+        Me.LabelControl1.Appearance.Options.UseFont = True
+        Me.LabelControl1.Location = New System.Drawing.Point(6, 46)
+        Me.LabelControl1.Name = "LabelControl1"
+        Me.LabelControl1.Size = New System.Drawing.Size(98, 14)
+        Me.LabelControl1.TabIndex = 125
+        Me.LabelControl1.Text = "Stok Grup Kodu 1"
+        '
         'LabelControl2
         '
         Me.LabelControl2.Appearance.Font = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(162, Byte))
@@ -86,16 +126,6 @@ Partial Class stok_fiyatlist
         Me.TextEdit2.Size = New System.Drawing.Size(138, 20)
         Me.TextEdit2.TabIndex = 122
         '
-        'LabelControl1
-        '
-        Me.LabelControl1.Appearance.Font = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(162, Byte))
-        Me.LabelControl1.Appearance.Options.UseFont = True
-        Me.LabelControl1.Location = New System.Drawing.Point(6, 46)
-        Me.LabelControl1.Name = "LabelControl1"
-        Me.LabelControl1.Size = New System.Drawing.Size(98, 14)
-        Me.LabelControl1.TabIndex = 125
-        Me.LabelControl1.Text = "Stok Grup Kodu 1"
-        '
         'TextEdit1
         '
         Me.TextEdit1.Location = New System.Drawing.Point(6, 43)
@@ -104,16 +134,6 @@ Partial Class stok_fiyatlist
         Me.TextEdit1.Properties.Appearance.Options.UseFont = True
         Me.TextEdit1.Size = New System.Drawing.Size(138, 20)
         Me.TextEdit1.TabIndex = 124
-        '
-        'LabelControl3
-        '
-        Me.LabelControl3.Appearance.Font = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(162, Byte))
-        Me.LabelControl3.Appearance.Options.UseFont = True
-        Me.LabelControl3.Location = New System.Drawing.Point(6, 98)
-        Me.LabelControl3.Name = "LabelControl3"
-        Me.LabelControl3.Size = New System.Drawing.Size(98, 14)
-        Me.LabelControl3.TabIndex = 129
-        Me.LabelControl3.Text = "Stok Grup Kodu 3"
         '
         'TextEdit3
         '
@@ -124,16 +144,6 @@ Partial Class stok_fiyatlist
         Me.TextEdit3.Size = New System.Drawing.Size(138, 20)
         Me.TextEdit3.TabIndex = 128
         '
-        'LabelControl4
-        '
-        Me.LabelControl4.Appearance.Font = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(162, Byte))
-        Me.LabelControl4.Appearance.Options.UseFont = True
-        Me.LabelControl4.Location = New System.Drawing.Point(6, 72)
-        Me.LabelControl4.Name = "LabelControl4"
-        Me.LabelControl4.Size = New System.Drawing.Size(98, 14)
-        Me.LabelControl4.TabIndex = 127
-        Me.LabelControl4.Text = "Stok Grup Kodu 2"
-        '
         'TextEdit4
         '
         Me.TextEdit4.Location = New System.Drawing.Point(6, 69)
@@ -142,16 +152,6 @@ Partial Class stok_fiyatlist
         Me.TextEdit4.Properties.Appearance.Options.UseFont = True
         Me.TextEdit4.Size = New System.Drawing.Size(138, 20)
         Me.TextEdit4.TabIndex = 126
-        '
-        'LabelControl6
-        '
-        Me.LabelControl6.Appearance.Font = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(162, Byte))
-        Me.LabelControl6.Appearance.Options.UseFont = True
-        Me.LabelControl6.Location = New System.Drawing.Point(6, 124)
-        Me.LabelControl6.Name = "LabelControl6"
-        Me.LabelControl6.Size = New System.Drawing.Size(80, 14)
-        Me.LabelControl6.TabIndex = 131
-        Me.LabelControl6.Text = "Tedarikçi Firma"
         '
         'TextEdit6
         '
@@ -187,6 +187,14 @@ Partial Class stok_fiyatlist
         Me.GroupBox3.TabIndex = 132
         Me.GroupBox3.TabStop = False
         '
+        'SimpleButton3
+        '
+        Me.SimpleButton3.Location = New System.Drawing.Point(6, 109)
+        Me.SimpleButton3.Name = "SimpleButton3"
+        Me.SimpleButton3.Size = New System.Drawing.Size(140, 34)
+        Me.SimpleButton3.TabIndex = 135
+        Me.SimpleButton3.Text = "Excel"
+        '
         'SimpleButton1
         '
         Me.SimpleButton1.Location = New System.Drawing.Point(6, 11)
@@ -203,20 +211,12 @@ Partial Class stok_fiyatlist
         Me.SimpleButton2.TabIndex = 134
         Me.SimpleButton2.Text = "Yazdır"
         '
-        'SimpleButton3
-        '
-        Me.SimpleButton3.Location = New System.Drawing.Point(6, 109)
-        Me.SimpleButton3.Name = "SimpleButton3"
-        Me.SimpleButton3.Size = New System.Drawing.Size(140, 34)
-        Me.SimpleButton3.TabIndex = 135
-        Me.SimpleButton3.Text = "Excel"
-        '
         'GridControl1
         '
         Me.GridControl1.Location = New System.Drawing.Point(2, 156)
         Me.GridControl1.MainView = Me.GridView1
         Me.GridControl1.Name = "GridControl1"
-        Me.GridControl1.Size = New System.Drawing.Size(1074, 455)
+        Me.GridControl1.Size = New System.Drawing.Size(1074, 467)
         Me.GridControl1.TabIndex = 133
         Me.GridControl1.ViewCollection.AddRange(New DevExpress.XtraGrid.Views.Base.BaseView() {Me.GridView1})
         '
@@ -229,7 +229,7 @@ Partial Class stok_fiyatlist
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(1079, 616)
+        Me.ClientSize = New System.Drawing.Size(1079, 628)
         Me.Controls.Add(Me.GridControl1)
         Me.Controls.Add(Me.GroupBox3)
         Me.Controls.Add(Me.GroupBox2)

@@ -30,7 +30,7 @@ Partial Class stok_tanim
         Me.GridControl1.Location = New System.Drawing.Point(1, 3)
         Me.GridControl1.MainView = Me.GridView1
         Me.GridControl1.Name = "GridControl1"
-        Me.GridControl1.Size = New System.Drawing.Size(1076, 614)
+        Me.GridControl1.Size = New System.Drawing.Size(1076, 622)
         Me.GridControl1.TabIndex = 0
         Me.GridControl1.ViewCollection.AddRange(New DevExpress.XtraGrid.Views.Base.BaseView() {Me.GridView1})
         '
@@ -43,7 +43,7 @@ Partial Class stok_tanim
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(1079, 616)
+        Me.ClientSize = New System.Drawing.Size(1079, 628)
         Me.Controls.Add(Me.GridControl1)
         Me.Name = "stok_tanim"
         Me.Text = "Stok Kartları"

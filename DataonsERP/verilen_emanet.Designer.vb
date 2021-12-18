@@ -917,6 +917,8 @@ Partial Class verilen_emanet
         Me.Controls.Add(Me.SimpleButton3)
         Me.Controls.Add(Me.PanelControl2)
         Me.Controls.Add(Me.PanelControl1)
+        Me.MaximizeBox = False
+        Me.MinimizeBox = False
         Me.Name = "verilen_emanet"
         Me.Text = "Verilen Emanet Girişi"
         CType(Me.PanelControl2, System.ComponentModel.ISupportInitialize).EndInit()

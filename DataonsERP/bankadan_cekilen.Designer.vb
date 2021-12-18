@@ -118,7 +118,7 @@ Partial Class bankadan_cekilen
         Me.DataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
         Me.DataGridView1.Location = New System.Drawing.Point(1, 97)
         Me.DataGridView1.Name = "DataGridView1"
-        Me.DataGridView1.Size = New System.Drawing.Size(1076, 409)
+        Me.DataGridView1.Size = New System.Drawing.Size(1076, 432)
         Me.DataGridView1.TabIndex = 25
         '
         'GroupBox2
@@ -127,7 +127,7 @@ Partial Class bankadan_cekilen
         Me.GroupBox2.Controls.Add(Me.TextEdit4)
         Me.GroupBox2.Controls.Add(Me.LabelControl5)
         Me.GroupBox2.Controls.Add(Me.TextEdit3)
-        Me.GroupBox2.Location = New System.Drawing.Point(1, 512)
+        Me.GroupBox2.Location = New System.Drawing.Point(1, 535)
         Me.GroupBox2.Name = "GroupBox2"
         Me.GroupBox2.Size = New System.Drawing.Size(1076, 47)
         Me.GroupBox2.TabIndex = 26
@@ -185,7 +185,7 @@ Partial Class bankadan_cekilen
         Me.GroupBox4.Controls.Add(Me.SimpleButton3)
         Me.GroupBox4.Controls.Add(Me.SimpleButton2)
         Me.GroupBox4.Controls.Add(Me.SimpleButton1)
-        Me.GroupBox4.Location = New System.Drawing.Point(1, 565)
+        Me.GroupBox4.Location = New System.Drawing.Point(1, 578)
         Me.GroupBox4.Name = "GroupBox4"
         Me.GroupBox4.Size = New System.Drawing.Size(1076, 50)
         Me.GroupBox4.TabIndex = 27
@@ -392,7 +392,7 @@ Partial Class bankadan_cekilen
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(1079, 616)
+        Me.ClientSize = New System.Drawing.Size(1079, 628)
         Me.Controls.Add(Me.DataGridView1)
         Me.Controls.Add(Me.GroupBox2)
         Me.Controls.Add(Me.GroupBox4)

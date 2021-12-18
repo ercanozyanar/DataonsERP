@@ -168,7 +168,7 @@ Partial Class banka_hesap_ekstresi
         Me.GridControl1.Location = New System.Drawing.Point(1, 101)
         Me.GridControl1.MainView = Me.GridView1
         Me.GridControl1.Name = "GridControl1"
-        Me.GridControl1.Size = New System.Drawing.Size(1076, 513)
+        Me.GridControl1.Size = New System.Drawing.Size(1076, 525)
         Me.GridControl1.TabIndex = 9
         Me.GridControl1.ViewCollection.AddRange(New DevExpress.XtraGrid.Views.Base.BaseView() {Me.GridView1})
         '
@@ -282,7 +282,7 @@ Partial Class banka_hesap_ekstresi
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(1079, 616)
+        Me.ClientSize = New System.Drawing.Size(1079, 628)
         Me.Controls.Add(Me.GroupBox2)
         Me.Controls.Add(Me.GridControl1)
         Me.Controls.Add(Me.GroupBox6)

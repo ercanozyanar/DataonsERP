@@ -180,7 +180,7 @@ Partial Class carihesap_islem
         Me.PanelControl1.Controls.Add(Me.ComboBoxEdit1)
         Me.PanelControl1.Location = New System.Drawing.Point(8, 9)
         Me.PanelControl1.Name = "PanelControl1"
-        Me.PanelControl1.Size = New System.Drawing.Size(572, 537)
+        Me.PanelControl1.Size = New System.Drawing.Size(772, 537)
         Me.PanelControl1.TabIndex = 33
         '
         'GroupControl2
@@ -195,24 +195,24 @@ Partial Class carihesap_islem
         Me.GroupControl2.Controls.Add(Me.LabelControl16)
         Me.GroupControl2.Location = New System.Drawing.Point(14, 438)
         Me.GroupControl2.Name = "GroupControl2"
-        Me.GroupControl2.Size = New System.Drawing.Size(544, 87)
+        Me.GroupControl2.Size = New System.Drawing.Size(743, 87)
         Me.GroupControl2.TabIndex = 81
         Me.GroupControl2.Text = "Döviz Karşılığı"
         '
         'TextEdit13
         '
-        Me.TextEdit13.Location = New System.Drawing.Point(390, 45)
+        Me.TextEdit13.Location = New System.Drawing.Point(560, 45)
         Me.TextEdit13.Name = "TextEdit13"
         Me.TextEdit13.Properties.Appearance.Font = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(162, Byte))
         Me.TextEdit13.Properties.Appearance.Options.UseFont = True
-        Me.TextEdit13.Size = New System.Drawing.Size(110, 20)
+        Me.TextEdit13.Size = New System.Drawing.Size(147, 20)
         Me.TextEdit13.TabIndex = 80
         '
         'LabelControl19
         '
         Me.LabelControl19.Appearance.Font = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(162, Byte))
         Me.LabelControl19.Appearance.Options.UseFont = True
-        Me.LabelControl19.Location = New System.Drawing.Point(390, 25)
+        Me.LabelControl19.Location = New System.Drawing.Point(560, 25)
         Me.LabelControl19.Name = "LabelControl19"
         Me.LabelControl19.Size = New System.Drawing.Size(65, 14)
         Me.LabelControl19.TabIndex = 79
@@ -220,18 +220,18 @@ Partial Class carihesap_islem
         '
         'TextEdit12
         '
-        Me.TextEdit12.Location = New System.Drawing.Point(262, 45)
+        Me.TextEdit12.Location = New System.Drawing.Point(384, 45)
         Me.TextEdit12.Name = "TextEdit12"
         Me.TextEdit12.Properties.Appearance.Font = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(162, Byte))
         Me.TextEdit12.Properties.Appearance.Options.UseFont = True
-        Me.TextEdit12.Size = New System.Drawing.Size(110, 20)
+        Me.TextEdit12.Size = New System.Drawing.Size(147, 20)
         Me.TextEdit12.TabIndex = 78
         '
         'LabelControl18
         '
         Me.LabelControl18.Appearance.Font = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(162, Byte))
         Me.LabelControl18.Appearance.Options.UseFont = True
-        Me.LabelControl18.Location = New System.Drawing.Point(262, 25)
+        Me.LabelControl18.Location = New System.Drawing.Point(384, 25)
         Me.LabelControl18.Name = "LabelControl18"
         Me.LabelControl18.Size = New System.Drawing.Size(57, 14)
         Me.LabelControl18.TabIndex = 77
@@ -239,18 +239,18 @@ Partial Class carihesap_islem
         '
         'TextEdit11
         '
-        Me.TextEdit11.Location = New System.Drawing.Point(135, 45)
+        Me.TextEdit11.Location = New System.Drawing.Point(202, 45)
         Me.TextEdit11.Name = "TextEdit11"
         Me.TextEdit11.Properties.Appearance.Font = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(162, Byte))
         Me.TextEdit11.Properties.Appearance.Options.UseFont = True
-        Me.TextEdit11.Size = New System.Drawing.Size(110, 20)
+        Me.TextEdit11.Size = New System.Drawing.Size(147, 20)
         Me.TextEdit11.TabIndex = 76
         '
         'LabelControl15
         '
         Me.LabelControl15.Appearance.Font = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(162, Byte))
         Me.LabelControl15.Appearance.Options.UseFont = True
-        Me.LabelControl15.Location = New System.Drawing.Point(135, 25)
+        Me.LabelControl15.Location = New System.Drawing.Point(202, 25)
         Me.LabelControl15.Name = "LabelControl15"
         Me.LabelControl15.Size = New System.Drawing.Size(57, 14)
         Me.LabelControl15.TabIndex = 75
@@ -262,7 +262,7 @@ Partial Class carihesap_islem
         Me.TextEdit10.Name = "TextEdit10"
         Me.TextEdit10.Properties.Appearance.Font = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(162, Byte))
         Me.TextEdit10.Properties.Appearance.Options.UseFont = True
-        Me.TextEdit10.Size = New System.Drawing.Size(110, 20)
+        Me.TextEdit10.Size = New System.Drawing.Size(147, 20)
         Me.TextEdit10.TabIndex = 74
         '
         'LabelControl16
@@ -289,7 +289,7 @@ Partial Class carihesap_islem
         Me.GroupControl1.Controls.Add(Me.LabelControl12)
         Me.GroupControl1.Location = New System.Drawing.Point(14, 317)
         Me.GroupControl1.Name = "GroupControl1"
-        Me.GroupControl1.Size = New System.Drawing.Size(544, 115)
+        Me.GroupControl1.Size = New System.Drawing.Size(743, 115)
         Me.GroupControl1.TabIndex = 80
         Me.GroupControl1.Text = "Mal Karşılığı"
         '
@@ -367,7 +367,7 @@ Partial Class carihesap_islem
         Me.TextEdit5.Properties.Appearance.Font = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(162, Byte))
         Me.TextEdit5.Properties.Appearance.Options.UseBackColor = True
         Me.TextEdit5.Properties.Appearance.Options.UseFont = True
-        Me.TextEdit5.Size = New System.Drawing.Size(467, 20)
+        Me.TextEdit5.Size = New System.Drawing.Size(635, 20)
         Me.TextEdit5.TabIndex = 78
         '
         'LabelControl10
@@ -398,7 +398,7 @@ Partial Class carihesap_islem
         Me.GroupControl4.Controls.Add(Me.LabelControl17)
         Me.GroupControl4.Location = New System.Drawing.Point(14, 224)
         Me.GroupControl4.Name = "GroupControl4"
-        Me.GroupControl4.Size = New System.Drawing.Size(544, 87)
+        Me.GroupControl4.Size = New System.Drawing.Size(743, 87)
         Me.GroupControl4.TabIndex = 79
         Me.GroupControl4.Text = "Nakit Karşılığı"
         '
@@ -474,11 +474,11 @@ Partial Class carihesap_islem
         '
         'TextEdit4
         '
-        Me.TextEdit4.Location = New System.Drawing.Point(78, 172)
+        Me.TextEdit4.Location = New System.Drawing.Point(78, 169)
         Me.TextEdit4.Name = "TextEdit4"
         Me.TextEdit4.Properties.Appearance.Font = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(162, Byte))
         Me.TextEdit4.Properties.Appearance.Options.UseFont = True
-        Me.TextEdit4.Size = New System.Drawing.Size(480, 20)
+        Me.TextEdit4.Size = New System.Drawing.Size(643, 20)
         Me.TextEdit4.TabIndex = 75
         '
         'SimpleButton1
@@ -501,13 +501,13 @@ Partial Class carihesap_islem
         '
         'TextEdit3
         '
-        Me.TextEdit3.Location = New System.Drawing.Point(78, 146)
+        Me.TextEdit3.Location = New System.Drawing.Point(78, 143)
         Me.TextEdit3.Name = "TextEdit3"
         Me.TextEdit3.Properties.Appearance.BackColor = System.Drawing.Color.FromArgb(CType(CType(227, Byte), Integer), CType(CType(239, Byte), Integer), CType(CType(255, Byte), Integer))
         Me.TextEdit3.Properties.Appearance.Font = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(162, Byte))
         Me.TextEdit3.Properties.Appearance.Options.UseBackColor = True
         Me.TextEdit3.Properties.Appearance.Options.UseFont = True
-        Me.TextEdit3.Size = New System.Drawing.Size(480, 20)
+        Me.TextEdit3.Size = New System.Drawing.Size(643, 20)
         Me.TextEdit3.TabIndex = 72
         '
         'LabelControl6
@@ -625,7 +625,7 @@ Partial Class carihesap_islem
         '
         Me.PanelControl2.Controls.Add(Me.GroupControl5)
         Me.PanelControl2.Controls.Add(Me.GroupControl3)
-        Me.PanelControl2.Location = New System.Drawing.Point(586, 9)
+        Me.PanelControl2.Location = New System.Drawing.Point(795, 9)
         Me.PanelControl2.Name = "PanelControl2"
         Me.PanelControl2.Size = New System.Drawing.Size(272, 537)
         Me.PanelControl2.TabIndex = 34
@@ -899,7 +899,7 @@ Partial Class carihesap_islem
         '
         'SimpleButton7
         '
-        Me.SimpleButton7.Location = New System.Drawing.Point(752, 561)
+        Me.SimpleButton7.Location = New System.Drawing.Point(961, 552)
         Me.SimpleButton7.Name = "SimpleButton7"
         Me.SimpleButton7.Size = New System.Drawing.Size(106, 34)
         Me.SimpleButton7.TabIndex = 39
@@ -909,7 +909,7 @@ Partial Class carihesap_islem
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(867, 601)
+        Me.ClientSize = New System.Drawing.Size(1079, 628)
         Me.Controls.Add(Me.SimpleButton7)
         Me.Controls.Add(Me.SimpleButton6)
         Me.Controls.Add(Me.SimpleButton5)

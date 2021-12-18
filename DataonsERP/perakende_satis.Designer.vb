@@ -1295,7 +1295,7 @@ Partial Class perakende_satis
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(1079, 616)
+        Me.ClientSize = New System.Drawing.Size(1079, 628)
         Me.Controls.Add(Me.SimpleButton7)
         Me.Controls.Add(Me.SimpleButton6)
         Me.Controls.Add(Me.SimpleButton5)

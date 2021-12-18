@@ -260,7 +260,7 @@ Partial Class cari_tanim
         Me.PanelControl1.Controls.Add(Me.LabelControl1)
         Me.PanelControl1.Location = New System.Drawing.Point(1, 12)
         Me.PanelControl1.Name = "PanelControl1"
-        Me.PanelControl1.Size = New System.Drawing.Size(968, 103)
+        Me.PanelControl1.Size = New System.Drawing.Size(1068, 134)
         Me.PanelControl1.TabIndex = 10
         '
         'ComboBoxEdit3
@@ -398,10 +398,10 @@ Partial Class cari_tanim
         '
         'XtraTabControl1
         '
-        Me.XtraTabControl1.Location = New System.Drawing.Point(1, 121)
+        Me.XtraTabControl1.Location = New System.Drawing.Point(1, 152)
         Me.XtraTabControl1.Name = "XtraTabControl1"
         Me.XtraTabControl1.SelectedTabPage = Me.XtraTabPage1
-        Me.XtraTabControl1.Size = New System.Drawing.Size(968, 307)
+        Me.XtraTabControl1.Size = New System.Drawing.Size(1072, 307)
         Me.XtraTabControl1.TabIndex = 11
         Me.XtraTabControl1.TabPages.AddRange(New DevExpress.XtraTab.XtraTabPage() {Me.XtraTabPage1, Me.XtraTabPage2, Me.XtraTabPage3, Me.XtraTabPage4, Me.XtraTabPage5})
         '
@@ -429,7 +429,7 @@ Partial Class cari_tanim
         Me.XtraTabPage1.Controls.Add(Me.LabelControl8)
         Me.XtraTabPage1.Controls.Add(Me.TextEdit2)
         Me.XtraTabPage1.Name = "XtraTabPage1"
-        Me.XtraTabPage1.Size = New System.Drawing.Size(963, 281)
+        Me.XtraTabPage1.Size = New System.Drawing.Size(1067, 281)
         Me.XtraTabPage1.Text = "İletişim Bilgileri"
         '
         'GroupControl8
@@ -444,7 +444,7 @@ Partial Class cari_tanim
         Me.GroupControl8.Controls.Add(Me.LabelControl18)
         Me.GroupControl8.Controls.Add(Me.LabelControl19)
         Me.GroupControl8.Controls.Add(Me.LabelControl69)
-        Me.GroupControl8.Location = New System.Drawing.Point(431, 178)
+        Me.GroupControl8.Location = New System.Drawing.Point(536, 19)
         Me.GroupControl8.Name = "GroupControl8"
         Me.GroupControl8.Size = New System.Drawing.Size(528, 92)
         Me.GroupControl8.TabIndex = 77
@@ -721,7 +721,7 @@ Partial Class cari_tanim
         Me.TextEdit2.Name = "TextEdit2"
         Me.TextEdit2.Properties.Appearance.Font = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(162, Byte))
         Me.TextEdit2.Properties.Appearance.Options.UseFont = True
-        Me.TextEdit2.Size = New System.Drawing.Size(552, 20)
+        Me.TextEdit2.Size = New System.Drawing.Size(419, 20)
         Me.TextEdit2.TabIndex = 8
         '
         'XtraTabPage2
@@ -729,7 +729,7 @@ Partial Class cari_tanim
         Me.XtraTabPage2.Controls.Add(Me.GroupControl1)
         Me.XtraTabPage2.Controls.Add(Me.PanelControl2)
         Me.XtraTabPage2.Name = "XtraTabPage2"
-        Me.XtraTabPage2.Size = New System.Drawing.Size(963, 281)
+        Me.XtraTabPage2.Size = New System.Drawing.Size(1067, 281)
         Me.XtraTabPage2.Text = "Ticari Bilgiler"
         '
         'GroupControl1
@@ -754,7 +754,7 @@ Partial Class cari_tanim
         Me.GroupControl1.Controls.Add(Me.LabelControl27)
         Me.GroupControl1.Controls.Add(Me.LabelControl28)
         Me.GroupControl1.Controls.Add(Me.LabelControl29)
-        Me.GroupControl1.Location = New System.Drawing.Point(345, 10)
+        Me.GroupControl1.Location = New System.Drawing.Point(435, 10)
         Me.GroupControl1.Name = "GroupControl1"
         Me.GroupControl1.Size = New System.Drawing.Size(614, 261)
         Me.GroupControl1.TabIndex = 78
@@ -1071,7 +1071,7 @@ Partial Class cari_tanim
         '
         Me.XtraTabPage3.Controls.Add(Me.PanelControl3)
         Me.XtraTabPage3.Name = "XtraTabPage3"
-        Me.XtraTabPage3.Size = New System.Drawing.Size(963, 281)
+        Me.XtraTabPage3.Size = New System.Drawing.Size(1067, 281)
         Me.XtraTabPage3.Text = "Parametre"
         '
         'PanelControl3
@@ -1100,7 +1100,7 @@ Partial Class cari_tanim
         Me.PanelControl3.Controls.Add(Me.LabelControl26)
         Me.PanelControl3.Location = New System.Drawing.Point(3, 5)
         Me.PanelControl3.Name = "PanelControl3"
-        Me.PanelControl3.Size = New System.Drawing.Size(956, 273)
+        Me.PanelControl3.Size = New System.Drawing.Size(1061, 273)
         Me.PanelControl3.TabIndex = 0
         '
         'ComboBoxEdit14
@@ -1351,14 +1351,14 @@ Partial Class cari_tanim
         Me.XtraTabPage4.Controls.Add(Me.LabelControl44)
         Me.XtraTabPage4.Controls.Add(Me.TextEdit39)
         Me.XtraTabPage4.Name = "XtraTabPage4"
-        Me.XtraTabPage4.Size = New System.Drawing.Size(963, 281)
+        Me.XtraTabPage4.Size = New System.Drawing.Size(1067, 281)
         Me.XtraTabPage4.Text = "Risk Teminat Bilgileri"
         '
         'LabelControl46
         '
         Me.LabelControl46.Appearance.Font = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(162, Byte))
         Me.LabelControl46.Appearance.Options.UseFont = True
-        Me.LabelControl46.Location = New System.Drawing.Point(10, 63)
+        Me.LabelControl46.Location = New System.Drawing.Point(9, 72)
         Me.LabelControl46.Name = "LabelControl46"
         Me.LabelControl46.Size = New System.Drawing.Size(103, 14)
         Me.LabelControl46.TabIndex = 35
@@ -1367,7 +1367,7 @@ Partial Class cari_tanim
         'DateEdit3
         '
         Me.DateEdit3.EditValue = Nothing
-        Me.DateEdit3.Location = New System.Drawing.Point(146, 61)
+        Me.DateEdit3.Location = New System.Drawing.Point(145, 70)
         Me.DateEdit3.Name = "DateEdit3"
         Me.DateEdit3.Properties.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)})
         Me.DateEdit3.Properties.CalendarTimeProperties.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)})
@@ -1378,7 +1378,7 @@ Partial Class cari_tanim
         '
         Me.LabelControl45.Appearance.Font = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(162, Byte))
         Me.LabelControl45.Appearance.Options.UseFont = True
-        Me.LabelControl45.Location = New System.Drawing.Point(10, 37)
+        Me.LabelControl45.Location = New System.Drawing.Point(9, 46)
         Me.LabelControl45.Name = "LabelControl45"
         Me.LabelControl45.Size = New System.Drawing.Size(130, 14)
         Me.LabelControl45.TabIndex = 33
@@ -1387,7 +1387,7 @@ Partial Class cari_tanim
         'DateEdit2
         '
         Me.DateEdit2.EditValue = Nothing
-        Me.DateEdit2.Location = New System.Drawing.Point(146, 35)
+        Me.DateEdit2.Location = New System.Drawing.Point(145, 44)
         Me.DateEdit2.Name = "DateEdit2"
         Me.DateEdit2.Properties.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)})
         Me.DateEdit2.Properties.CalendarTimeProperties.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)})
@@ -1398,7 +1398,7 @@ Partial Class cari_tanim
         '
         Me.LabelControl40.Appearance.Font = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(162, Byte))
         Me.LabelControl40.Appearance.Options.UseFont = True
-        Me.LabelControl40.Location = New System.Drawing.Point(10, 169)
+        Me.LabelControl40.Location = New System.Drawing.Point(9, 178)
         Me.LabelControl40.Name = "LabelControl40"
         Me.LabelControl40.Size = New System.Drawing.Size(54, 14)
         Me.LabelControl40.TabIndex = 31
@@ -1406,7 +1406,7 @@ Partial Class cari_tanim
         '
         'TextEdit35
         '
-        Me.TextEdit35.Location = New System.Drawing.Point(146, 166)
+        Me.TextEdit35.Location = New System.Drawing.Point(145, 175)
         Me.TextEdit35.Name = "TextEdit35"
         Me.TextEdit35.Properties.Appearance.Font = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(162, Byte))
         Me.TextEdit35.Properties.Appearance.Options.UseFont = True
@@ -1417,7 +1417,7 @@ Partial Class cari_tanim
         '
         Me.LabelControl41.Appearance.Font = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(162, Byte))
         Me.LabelControl41.Appearance.Options.UseFont = True
-        Me.LabelControl41.Location = New System.Drawing.Point(10, 143)
+        Me.LabelControl41.Location = New System.Drawing.Point(9, 152)
         Me.LabelControl41.Name = "LabelControl41"
         Me.LabelControl41.Size = New System.Drawing.Size(51, 14)
         Me.LabelControl41.TabIndex = 29
@@ -1425,7 +1425,7 @@ Partial Class cari_tanim
         '
         'TextEdit36
         '
-        Me.TextEdit36.Location = New System.Drawing.Point(146, 140)
+        Me.TextEdit36.Location = New System.Drawing.Point(145, 149)
         Me.TextEdit36.Name = "TextEdit36"
         Me.TextEdit36.Properties.Appearance.Font = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(162, Byte))
         Me.TextEdit36.Properties.Appearance.Options.UseFont = True
@@ -1436,7 +1436,7 @@ Partial Class cari_tanim
         '
         Me.LabelControl42.Appearance.Font = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(162, Byte))
         Me.LabelControl42.Appearance.Options.UseFont = True
-        Me.LabelControl42.Location = New System.Drawing.Point(10, 117)
+        Me.LabelControl42.Location = New System.Drawing.Point(9, 126)
         Me.LabelControl42.Name = "LabelControl42"
         Me.LabelControl42.Size = New System.Drawing.Size(115, 14)
         Me.LabelControl42.TabIndex = 27
@@ -1444,7 +1444,7 @@ Partial Class cari_tanim
         '
         'TextEdit37
         '
-        Me.TextEdit37.Location = New System.Drawing.Point(146, 114)
+        Me.TextEdit37.Location = New System.Drawing.Point(145, 123)
         Me.TextEdit37.Name = "TextEdit37"
         Me.TextEdit37.Properties.Appearance.Font = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(162, Byte))
         Me.TextEdit37.Properties.Appearance.Options.UseFont = True
@@ -1455,7 +1455,7 @@ Partial Class cari_tanim
         '
         Me.LabelControl43.Appearance.Font = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(162, Byte))
         Me.LabelControl43.Appearance.Options.UseFont = True
-        Me.LabelControl43.Location = New System.Drawing.Point(8, 91)
+        Me.LabelControl43.Location = New System.Drawing.Point(7, 100)
         Me.LabelControl43.Name = "LabelControl43"
         Me.LabelControl43.Size = New System.Drawing.Size(83, 14)
         Me.LabelControl43.TabIndex = 25
@@ -1463,7 +1463,7 @@ Partial Class cari_tanim
         '
         'TextEdit38
         '
-        Me.TextEdit38.Location = New System.Drawing.Point(146, 88)
+        Me.TextEdit38.Location = New System.Drawing.Point(145, 97)
         Me.TextEdit38.Name = "TextEdit38"
         Me.TextEdit38.Properties.Appearance.Font = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(162, Byte))
         Me.TextEdit38.Properties.Appearance.Options.UseFont = True
@@ -1474,7 +1474,7 @@ Partial Class cari_tanim
         '
         Me.LabelControl44.Appearance.Font = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(162, Byte))
         Me.LabelControl44.Appearance.Options.UseFont = True
-        Me.LabelControl44.Location = New System.Drawing.Point(10, 12)
+        Me.LabelControl44.Location = New System.Drawing.Point(9, 21)
         Me.LabelControl44.Name = "LabelControl44"
         Me.LabelControl44.Size = New System.Drawing.Size(120, 14)
         Me.LabelControl44.TabIndex = 23
@@ -1482,7 +1482,7 @@ Partial Class cari_tanim
         '
         'TextEdit39
         '
-        Me.TextEdit39.Location = New System.Drawing.Point(146, 9)
+        Me.TextEdit39.Location = New System.Drawing.Point(145, 18)
         Me.TextEdit39.Name = "TextEdit39"
         Me.TextEdit39.Properties.Appearance.Font = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(162, Byte))
         Me.TextEdit39.Properties.Appearance.Options.UseFont = True
@@ -1502,7 +1502,7 @@ Partial Class cari_tanim
         Me.XtraTabPage5.Controls.Add(Me.LabelControl50)
         Me.XtraTabPage5.Controls.Add(Me.TextEdit43)
         Me.XtraTabPage5.Name = "XtraTabPage5"
-        Me.XtraTabPage5.Size = New System.Drawing.Size(963, 281)
+        Me.XtraTabPage5.Size = New System.Drawing.Size(1067, 281)
         Me.XtraTabPage5.Text = "Referans Bilgileri"
         '
         'LabelControl51
@@ -1608,14 +1608,14 @@ Partial Class cari_tanim
         Me.PanelControl4.Controls.Add(Me.SimpleButton3)
         Me.PanelControl4.Controls.Add(Me.SimpleButton2)
         Me.PanelControl4.Controls.Add(Me.SimpleButton1)
-        Me.PanelControl4.Location = New System.Drawing.Point(3, 438)
+        Me.PanelControl4.Location = New System.Drawing.Point(4, 555)
         Me.PanelControl4.Name = "PanelControl4"
-        Me.PanelControl4.Size = New System.Drawing.Size(960, 61)
+        Me.PanelControl4.Size = New System.Drawing.Size(1063, 61)
         Me.PanelControl4.TabIndex = 12
         '
         'SimpleButton6
         '
-        Me.SimpleButton6.Location = New System.Drawing.Point(850, 5)
+        Me.SimpleButton6.Location = New System.Drawing.Point(942, 5)
         Me.SimpleButton6.Name = "SimpleButton6"
         Me.SimpleButton6.Size = New System.Drawing.Size(105, 48)
         Me.SimpleButton6.TabIndex = 5
@@ -1665,7 +1665,7 @@ Partial Class cari_tanim
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(973, 503)
+        Me.ClientSize = New System.Drawing.Size(1079, 628)
         Me.Controls.Add(Me.PanelControl4)
         Me.Controls.Add(Me.XtraTabControl1)
         Me.Controls.Add(Me.PanelControl1)

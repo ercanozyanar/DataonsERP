@@ -696,6 +696,8 @@
     <None Include="Resources\apply_32x32.png" />
     <None Include="Resources\add_16x16.png" />
     <None Include="Resources\apply_32x321.png" />
+    <None Include="Resources\accounting_32x32.png" />
+    <None Include="Resources\accounting_16x16.png" />
     <Content Include="Resources\barcode2_16x16.png" />
     <Content Include="Resources\barcode2_32x32.png" />
     <None Include="Resources\barcode_16x161.png" />
@@ -713,6 +715,8 @@
     <Content Include="Resources\boorderitem_32x32.png" />
     <Content Include="Resources\boorderitem_32x321.png" />
     <None Include="Resources\boorderitem_32x322.png" />
+    <None Include="Resources\bopivotchart_32x32.png" />
+    <None Include="Resources\bopivotchart_16x16.png" />
     <Content Include="Resources\boposition2_16x16.png" />
     <None Include="Resources\boposition2_16x161.png" />
     <Content Include="Resources\boposition2_32x32.png" />
@@ -769,10 +773,12 @@
     <Content Include="Resources\currency_16x16.png" />
     <Content Include="Resources\currency_16x161.png" />
     <Content Include="Resources\currency_16x162.png" />
+    <None Include="Resources\currency_16x163.png" />
     <Content Include="Resources\currency_32x32.png" />
     <Content Include="Resources\currency_32x321.png" />
     <Content Include="Resources\currency_32x322.png" />
     <Content Include="Resources\currency_32x323.png" />
+    <None Include="Resources\currency_32x324.png" />
     <Content Include="Resources\drilldownonarguments_chart_16x16.png" />
     <Content Include="Resources\drilldownonarguments_chart_32x32.png" />
     <Content Include="Resources\editcontact_32x32.png" />
@@ -825,6 +831,8 @@
     <Content Include="Resources\unlike_16x16.png" />
     <Content Include="Resources\unlike_32x32.png" />
     <Content Include="Resources\up2_32x32.png" />
+    <None Include="Resources\usergroup_32x32.png" />
+    <None Include="Resources\usergroup_16x16.png" />
     <Content Include="Resources\verticalaxisbillions_16x16.png" />
     <Content Include="Resources\verticalaxisbillions_32x32.png" />
     <Content Include="Resources\wifi_16x16.png" />

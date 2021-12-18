@@ -212,7 +212,7 @@ Partial Class banka_tanim
         Me.GridControl1.Location = New System.Drawing.Point(5, 237)
         Me.GridControl1.MainView = Me.GridView1
         Me.GridControl1.Name = "GridControl1"
-        Me.GridControl1.Size = New System.Drawing.Size(1070, 376)
+        Me.GridControl1.Size = New System.Drawing.Size(1070, 388)
         Me.GridControl1.TabIndex = 108
         Me.GridControl1.ViewCollection.AddRange(New DevExpress.XtraGrid.Views.Base.BaseView() {Me.GridView1})
         '
@@ -225,7 +225,7 @@ Partial Class banka_tanim
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(1079, 616)
+        Me.ClientSize = New System.Drawing.Size(1079, 628)
         Me.Controls.Add(Me.GridControl1)
         Me.Controls.Add(Me.LabelControl7)
         Me.Controls.Add(Me.TextEdit7)

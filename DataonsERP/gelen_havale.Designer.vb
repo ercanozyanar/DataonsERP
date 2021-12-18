@@ -362,7 +362,7 @@ Partial Class gelen_havale
         Me.GroupBox4.Controls.Add(Me.SimpleButton3)
         Me.GroupBox4.Controls.Add(Me.SimpleButton2)
         Me.GroupBox4.Controls.Add(Me.SimpleButton1)
-        Me.GroupBox4.Location = New System.Drawing.Point(2, 566)
+        Me.GroupBox4.Location = New System.Drawing.Point(2, 577)
         Me.GroupBox4.Name = "GroupBox4"
         Me.GroupBox4.Size = New System.Drawing.Size(1076, 50)
         Me.GroupBox4.TabIndex = 15
@@ -412,7 +412,7 @@ Partial Class gelen_havale
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(1079, 616)
+        Me.ClientSize = New System.Drawing.Size(1079, 628)
         Me.Controls.Add(Me.DataGridView1)
         Me.Controls.Add(Me.GroupBox1)
         Me.Controls.Add(Me.GroupBox2)

@@ -39,7 +39,7 @@ Partial Class kasa_bakiye_liste
         Me.GroupBox6.Controls.Add(Me.SimpleButton1)
         Me.GroupBox6.Location = New System.Drawing.Point(3, 2)
         Me.GroupBox6.Name = "GroupBox6"
-        Me.GroupBox6.Size = New System.Drawing.Size(795, 40)
+        Me.GroupBox6.Size = New System.Drawing.Size(924, 40)
         Me.GroupBox6.TabIndex = 22
         Me.GroupBox6.TabStop = False
         '
@@ -64,7 +64,7 @@ Partial Class kasa_bakiye_liste
         Me.GridControl1.Location = New System.Drawing.Point(3, 48)
         Me.GridControl1.MainView = Me.GridView1
         Me.GridControl1.Name = "GridControl1"
-        Me.GridControl1.Size = New System.Drawing.Size(795, 567)
+        Me.GridControl1.Size = New System.Drawing.Size(924, 577)
         Me.GridControl1.TabIndex = 23
         Me.GridControl1.ViewCollection.AddRange(New DevExpress.XtraGrid.Views.Base.BaseView() {Me.GridView1})
         '
@@ -77,7 +77,7 @@ Partial Class kasa_bakiye_liste
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(800, 616)
+        Me.ClientSize = New System.Drawing.Size(1079, 628)
         Me.Controls.Add(Me.GridControl1)
         Me.Controls.Add(Me.GroupBox6)
         Me.Name = "kasa_bakiye_liste"

@@ -527,6 +527,8 @@ Partial Class tahsilat_giris
         Me.Controls.Add(Me.PanelControl1)
         Me.Controls.Add(Me.GridControl1)
         Me.Controls.Add(Me.TabPane1)
+        Me.MaximizeBox = False
+        Me.MinimizeBox = False
         Me.Name = "tahsilat_giris"
         Me.Text = "Tahsilat Girişi"
         CType(Me.TabPane1, System.ComponentModel.ISupportInitialize).EndInit()

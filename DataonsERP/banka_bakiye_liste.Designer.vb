@@ -32,14 +32,14 @@ Partial Class banka_bakiye_liste
         Me.PivotGridControl1.Location = New System.Drawing.Point(3, 3)
         Me.PivotGridControl1.Name = "PivotGridControl1"
         Me.PivotGridControl1.OptionsData.DataProcessingEngine = DevExpress.XtraPivotGrid.PivotDataProcessingEngine.Optimized
-        Me.PivotGridControl1.Size = New System.Drawing.Size(1076, 611)
+        Me.PivotGridControl1.Size = New System.Drawing.Size(1076, 619)
         Me.PivotGridControl1.TabIndex = 0
         '
         'banka_bakiye_liste
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(1079, 616)
+        Me.ClientSize = New System.Drawing.Size(1079, 628)
         Me.Controls.Add(Me.PivotGridControl1)
         Me.Name = "banka_bakiye_liste"
         Me.Text = "Banka Bakiye Listesi"

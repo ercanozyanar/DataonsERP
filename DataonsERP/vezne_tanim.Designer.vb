@@ -25,11 +25,11 @@ Partial Class vezne_tanim
         Me.FormAssistant1 = New DevExpress.XtraBars.FormAssistant()
         Me.DataGridView1 = New System.Windows.Forms.DataGridView()
         Me.PanelControl1 = New DevExpress.XtraEditors.PanelControl()
-        Me.TextEdit1 = New DevExpress.XtraEditors.TextEdit()
         Me.LabelControl2 = New DevExpress.XtraEditors.LabelControl()
-        Me.stokkodu = New DevExpress.XtraEditors.TextEdit()
         Me.LabelControl1 = New DevExpress.XtraEditors.LabelControl()
         Me.PanelControl2 = New DevExpress.XtraEditors.PanelControl()
+        Me.TextEdit1 = New DevExpress.XtraEditors.TextEdit()
+        Me.stokkodu = New DevExpress.XtraEditors.TextEdit()
         Me.SimpleButton4 = New DevExpress.XtraEditors.SimpleButton()
         Me.SimpleButton3 = New DevExpress.XtraEditors.SimpleButton()
         Me.SimpleButton2 = New DevExpress.XtraEditors.SimpleButton()
@@ -37,10 +37,10 @@ Partial Class vezne_tanim
         CType(Me.DataGridView1, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PanelControl1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.PanelControl1.SuspendLayout()
-        CType(Me.TextEdit1.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.stokkodu.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PanelControl2, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.PanelControl2.SuspendLayout()
+        CType(Me.TextEdit1.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.stokkodu.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'DataGridView1
@@ -62,15 +62,6 @@ Partial Class vezne_tanim
         Me.PanelControl1.Size = New System.Drawing.Size(441, 57)
         Me.PanelControl1.TabIndex = 3
         '
-        'TextEdit1
-        '
-        Me.TextEdit1.Location = New System.Drawing.Point(91, 23)
-        Me.TextEdit1.Name = "TextEdit1"
-        Me.TextEdit1.Properties.Appearance.Font = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(162, Byte))
-        Me.TextEdit1.Properties.Appearance.Options.UseFont = True
-        Me.TextEdit1.Size = New System.Drawing.Size(345, 20)
-        Me.TextEdit1.TabIndex = 5
-        '
         'LabelControl2
         '
         Me.LabelControl2.Appearance.Font = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(162, Byte))
@@ -80,15 +71,6 @@ Partial Class vezne_tanim
         Me.LabelControl2.Size = New System.Drawing.Size(55, 14)
         Me.LabelControl2.TabIndex = 4
         Me.LabelControl2.Text = "Vezne Adı"
-        '
-        'stokkodu
-        '
-        Me.stokkodu.Location = New System.Drawing.Point(9, 23)
-        Me.stokkodu.Name = "stokkodu"
-        Me.stokkodu.Properties.Appearance.Font = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(162, Byte))
-        Me.stokkodu.Properties.Appearance.Options.UseFont = True
-        Me.stokkodu.Size = New System.Drawing.Size(76, 20)
-        Me.stokkodu.TabIndex = 3
         '
         'LabelControl1
         '
@@ -110,6 +92,24 @@ Partial Class vezne_tanim
         Me.PanelControl2.Name = "PanelControl2"
         Me.PanelControl2.Size = New System.Drawing.Size(441, 57)
         Me.PanelControl2.TabIndex = 5
+        '
+        'TextEdit1
+        '
+        Me.TextEdit1.Location = New System.Drawing.Point(91, 23)
+        Me.TextEdit1.Name = "TextEdit1"
+        Me.TextEdit1.Properties.Appearance.Font = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(162, Byte))
+        Me.TextEdit1.Properties.Appearance.Options.UseFont = True
+        Me.TextEdit1.Size = New System.Drawing.Size(345, 20)
+        Me.TextEdit1.TabIndex = 5
+        '
+        'stokkodu
+        '
+        Me.stokkodu.Location = New System.Drawing.Point(9, 23)
+        Me.stokkodu.Name = "stokkodu"
+        Me.stokkodu.Properties.Appearance.Font = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(162, Byte))
+        Me.stokkodu.Properties.Appearance.Options.UseFont = True
+        Me.stokkodu.Size = New System.Drawing.Size(76, 20)
+        Me.stokkodu.TabIndex = 3
         '
         'SimpleButton4
         '
@@ -164,10 +164,10 @@ Partial Class vezne_tanim
         CType(Me.PanelControl1, System.ComponentModel.ISupportInitialize).EndInit()
         Me.PanelControl1.ResumeLayout(False)
         Me.PanelControl1.PerformLayout()
-        CType(Me.TextEdit1.Properties, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.stokkodu.Properties, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.PanelControl2, System.ComponentModel.ISupportInitialize).EndInit()
         Me.PanelControl2.ResumeLayout(False)
+        CType(Me.TextEdit1.Properties, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.stokkodu.Properties, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
 
     End Sub
