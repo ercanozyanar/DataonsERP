@@ -191,6 +191,36 @@
     <Compile Include="carihesap_islem.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="cari_borc_alacak.Designer.vb">
+      <DependentUpon>cari_borc_alacak.vb</DependentUpon>
+    </Compile>
+    <Compile Include="cari_borc_alacak.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="cari_hesap_alacak.Designer.vb">
+      <DependentUpon>cari_hesap_alacak.vb</DependentUpon>
+    </Compile>
+    <Compile Include="cari_hesap_alacak.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="cari_hesap_borc.Designer.vb">
+      <DependentUpon>cari_hesap_borc.vb</DependentUpon>
+    </Compile>
+    <Compile Include="cari_hesap_borc.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="cari_hesap_ekstre.Designer.vb">
+      <DependentUpon>cari_hesap_ekstre.vb</DependentUpon>
+    </Compile>
+    <Compile Include="cari_hesap_ekstre.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="cari_hesap_islem.Designer.vb">
+      <DependentUpon>cari_hesap_islem.vb</DependentUpon>
+    </Compile>
+    <Compile Include="cari_hesap_islem.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="dataonsDataSet.Designer.vb">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
@@ -267,6 +297,12 @@
     <Compile Include="kasa_virman_fisi.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="kayitli_cari_liste.Designer.vb">
+      <DependentUpon>kayitli_cari_liste.vb</DependentUpon>
+    </Compile>
+    <Compile Include="kayitli_cari_liste.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="kkartli_odeme.Designer.vb">
       <DependentUpon>kkartli_odeme.vb</DependentUpon>
     </Compile>
@@ -283,6 +319,54 @@
       <DependentUpon>kkart_islem_rapor.vb</DependentUpon>
     </Compile>
     <Compile Include="kkart_islem_rapor.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="masraf_bakiye_list.Designer.vb">
+      <DependentUpon>masraf_bakiye_list.vb</DependentUpon>
+    </Compile>
+    <Compile Include="masraf_bakiye_list.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="masraf_fis_ekle.Designer.vb">
+      <DependentUpon>masraf_fis_ekle.vb</DependentUpon>
+    </Compile>
+    <Compile Include="masraf_fis_ekle.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="masraf_girisi.Designer.vb">
+      <DependentUpon>masraf_girisi.vb</DependentUpon>
+    </Compile>
+    <Compile Include="masraf_girisi.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="masraf_grupkart_ekstre.Designer.vb">
+      <DependentUpon>masraf_grupkart_ekstre.vb</DependentUpon>
+    </Compile>
+    <Compile Include="masraf_grupkart_ekstre.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="masraf_grupkart_liste.Designer.vb">
+      <DependentUpon>masraf_grupkart_liste.vb</DependentUpon>
+    </Compile>
+    <Compile Include="masraf_grupkart_liste.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="masraf_grup_ekstresi.Designer.vb">
+      <DependentUpon>masraf_grup_ekstresi.vb</DependentUpon>
+    </Compile>
+    <Compile Include="masraf_grup_ekstresi.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="masraf_grup_tanim.Designer.vb">
+      <DependentUpon>masraf_grup_tanim.vb</DependentUpon>
+    </Compile>
+    <Compile Include="masraf_grup_tanim.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="masraf_kart_tanim.Designer.vb">
+      <DependentUpon>masraf_kart_tanim.vb</DependentUpon>
+    </Compile>
+    <Compile Include="masraf_kart_tanim.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="perakende_alis.Designer.vb">
@@ -313,6 +397,12 @@
       <DependentUpon>stok_degerrapor.vb</DependentUpon>
     </Compile>
     <Compile Include="stok_degerrapor.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="stok_ekstresi.Designer.vb">
+      <DependentUpon>stok_ekstresi.vb</DependentUpon>
+    </Compile>
+    <Compile Include="stok_ekstresi.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="stok_fiyatlist.Designer.vb">
@@ -514,6 +604,21 @@
     <EmbeddedResource Include="carihesap_islem.resx">
       <DependentUpon>carihesap_islem.vb</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="cari_borc_alacak.resx">
+      <DependentUpon>cari_borc_alacak.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="cari_hesap_alacak.resx">
+      <DependentUpon>cari_hesap_alacak.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="cari_hesap_borc.resx">
+      <DependentUpon>cari_hesap_borc.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="cari_hesap_ekstre.resx">
+      <DependentUpon>cari_hesap_ekstre.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="cari_hesap_islem.resx">
+      <DependentUpon>cari_hesap_islem.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="dovizkur_girisi.resx">
       <DependentUpon>dovizkur_girisi.vb</DependentUpon>
     </EmbeddedResource>
@@ -547,6 +652,9 @@
     <EmbeddedResource Include="kasa_virman_fisi.resx">
       <DependentUpon>kasa_virman_fisi.vb</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="kayitli_cari_liste.resx">
+      <DependentUpon>kayitli_cari_liste.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="kkartli_odeme.resx">
       <DependentUpon>kkartli_odeme.vb</DependentUpon>
     </EmbeddedResource>
@@ -555,6 +663,30 @@
     </EmbeddedResource>
     <EmbeddedResource Include="kkart_islem_rapor.resx">
       <DependentUpon>kkart_islem_rapor.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="masraf_bakiye_list.resx">
+      <DependentUpon>masraf_bakiye_list.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="masraf_fis_ekle.resx">
+      <DependentUpon>masraf_fis_ekle.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="masraf_girisi.resx">
+      <DependentUpon>masraf_girisi.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="masraf_grupkart_ekstre.resx">
+      <DependentUpon>masraf_grupkart_ekstre.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="masraf_grupkart_liste.resx">
+      <DependentUpon>masraf_grupkart_liste.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="masraf_grup_ekstresi.resx">
+      <DependentUpon>masraf_grup_ekstresi.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="masraf_grup_tanim.resx">
+      <DependentUpon>masraf_grup_tanim.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="masraf_kart_tanim.resx">
+      <DependentUpon>masraf_kart_tanim.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="perakende_alis.resx">
       <DependentUpon>perakende_alis.vb</DependentUpon>
@@ -570,6 +702,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="stok_degerrapor.resx">
       <DependentUpon>stok_degerrapor.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="stok_ekstresi.resx">
+      <DependentUpon>stok_ekstresi.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="stok_fiyatlist.resx">
       <DependentUpon>stok_fiyatlist.vb</DependentUpon>

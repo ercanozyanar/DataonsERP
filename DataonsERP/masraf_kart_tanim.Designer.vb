@@ -1,5 +1,5 @@
 ﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
-Partial Class doviz_tanim
+Partial Class masraf_kart_tanim
     Inherits DevExpress.XtraEditors.XtraForm
 
     'Form, bileşen listesini temizlemeyi bırakmayı geçersiz kılar.
@@ -24,7 +24,6 @@ Partial Class doviz_tanim
     Private Sub InitializeComponent()
         Me.FormAssistant1 = New DevExpress.XtraBars.FormAssistant()
         Me.DataGridView1 = New System.Windows.Forms.DataGridView()
-        Me.FormAssistant2 = New DevExpress.XtraBars.FormAssistant()
         Me.PanelControl1 = New DevExpress.XtraEditors.PanelControl()
         Me.LabelControl2 = New DevExpress.XtraEditors.LabelControl()
         Me.LabelControl1 = New DevExpress.XtraEditors.LabelControl()
@@ -35,6 +34,8 @@ Partial Class doviz_tanim
         Me.SimpleButton3 = New DevExpress.XtraEditors.SimpleButton()
         Me.SimpleButton2 = New DevExpress.XtraEditors.SimpleButton()
         Me.SimpleButton1 = New DevExpress.XtraEditors.SimpleButton()
+        Me.ComboBoxEdit1 = New DevExpress.XtraEditors.ComboBoxEdit()
+        Me.LabelControl3 = New DevExpress.XtraEditors.LabelControl()
         CType(Me.DataGridView1, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PanelControl1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.PanelControl1.SuspendLayout()
@@ -42,15 +43,16 @@ Partial Class doviz_tanim
         Me.PanelControl2.SuspendLayout()
         CType(Me.TextEdit1.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.stokkodu.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.ComboBoxEdit1.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'DataGridView1
         '
         Me.DataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
-        Me.DataGridView1.Location = New System.Drawing.Point(2, 78)
+        Me.DataGridView1.Location = New System.Drawing.Point(12, 101)
         Me.DataGridView1.Name = "DataGridView1"
-        Me.DataGridView1.Size = New System.Drawing.Size(441, 351)
-        Me.DataGridView1.TabIndex = 10
+        Me.DataGridView1.Size = New System.Drawing.Size(441, 334)
+        Me.DataGridView1.TabIndex = 13
         '
         'PanelControl1
         '
@@ -58,10 +60,10 @@ Partial Class doviz_tanim
         Me.PanelControl1.Controls.Add(Me.LabelControl2)
         Me.PanelControl1.Controls.Add(Me.stokkodu)
         Me.PanelControl1.Controls.Add(Me.LabelControl1)
-        Me.PanelControl1.Location = New System.Drawing.Point(2, 3)
+        Me.PanelControl1.Location = New System.Drawing.Point(12, 38)
         Me.PanelControl1.Name = "PanelControl1"
         Me.PanelControl1.Size = New System.Drawing.Size(441, 57)
-        Me.PanelControl1.TabIndex = 9
+        Me.PanelControl1.TabIndex = 12
         '
         'LabelControl2
         '
@@ -71,7 +73,7 @@ Partial Class doviz_tanim
         Me.LabelControl2.Name = "LabelControl2"
         Me.LabelControl2.Size = New System.Drawing.Size(55, 14)
         Me.LabelControl2.TabIndex = 4
-        Me.LabelControl2.Text = "Döviz Cinsi"
+        Me.LabelControl2.Text = "Masraf Adı"
         '
         'LabelControl1
         '
@@ -89,10 +91,10 @@ Partial Class doviz_tanim
         Me.PanelControl2.Controls.Add(Me.SimpleButton3)
         Me.PanelControl2.Controls.Add(Me.SimpleButton2)
         Me.PanelControl2.Controls.Add(Me.SimpleButton1)
-        Me.PanelControl2.Location = New System.Drawing.Point(2, 439)
+        Me.PanelControl2.Location = New System.Drawing.Point(12, 445)
         Me.PanelControl2.Name = "PanelControl2"
         Me.PanelControl2.Size = New System.Drawing.Size(441, 57)
-        Me.PanelControl2.TabIndex = 11
+        Me.PanelControl2.TabIndex = 14
         '
         'TextEdit1
         '
@@ -148,19 +150,39 @@ Partial Class doviz_tanim
         Me.SimpleButton1.TabIndex = 0
         Me.SimpleButton1.Text = "Kaydet"
         '
-        'doviz_tanim
+        'ComboBoxEdit1
+        '
+        Me.ComboBoxEdit1.Location = New System.Drawing.Point(103, 12)
+        Me.ComboBoxEdit1.Name = "ComboBoxEdit1"
+        Me.ComboBoxEdit1.Properties.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)})
+        Me.ComboBoxEdit1.Size = New System.Drawing.Size(345, 20)
+        Me.ComboBoxEdit1.TabIndex = 15
+        '
+        'LabelControl3
+        '
+        Me.LabelControl3.Appearance.Font = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(162, Byte))
+        Me.LabelControl3.Appearance.Options.UseFont = True
+        Me.LabelControl3.Location = New System.Drawing.Point(21, 15)
+        Me.LabelControl3.Name = "LabelControl3"
+        Me.LabelControl3.Size = New System.Drawing.Size(47, 14)
+        Me.LabelControl3.TabIndex = 16
+        Me.LabelControl3.Text = "Grup Adı"
+        '
+        'masraf_kart_tanim
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(448, 499)
+        Me.ClientSize = New System.Drawing.Size(464, 510)
+        Me.Controls.Add(Me.LabelControl3)
+        Me.Controls.Add(Me.ComboBoxEdit1)
         Me.Controls.Add(Me.DataGridView1)
         Me.Controls.Add(Me.PanelControl1)
         Me.Controls.Add(Me.PanelControl2)
         Me.MaximizeBox = False
         Me.MinimizeBox = False
-        Me.Name = "doviz_tanim"
+        Me.Name = "masraf_kart_tanim"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
-        Me.Text = "Döviz Türü Tanımlama"
+        Me.Text = "Masraf Kartı Tanımı"
         CType(Me.DataGridView1, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.PanelControl1, System.ComponentModel.ISupportInitialize).EndInit()
         Me.PanelControl1.ResumeLayout(False)
@@ -169,13 +191,14 @@ Partial Class doviz_tanim
         Me.PanelControl2.ResumeLayout(False)
         CType(Me.TextEdit1.Properties, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.stokkodu.Properties, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.ComboBoxEdit1.Properties, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
+        Me.PerformLayout()
 
     End Sub
 
     Friend WithEvents FormAssistant1 As DevExpress.XtraBars.FormAssistant
     Friend WithEvents DataGridView1 As DataGridView
-    Friend WithEvents FormAssistant2 As DevExpress.XtraBars.FormAssistant
     Friend WithEvents PanelControl1 As DevExpress.XtraEditors.PanelControl
     Friend WithEvents TextEdit1 As DevExpress.XtraEditors.TextEdit
     Friend WithEvents LabelControl2 As DevExpress.XtraEditors.LabelControl
@@ -186,4 +209,6 @@ Partial Class doviz_tanim
     Friend WithEvents SimpleButton3 As DevExpress.XtraEditors.SimpleButton
     Friend WithEvents SimpleButton2 As DevExpress.XtraEditors.SimpleButton
     Friend WithEvents SimpleButton1 As DevExpress.XtraEditors.SimpleButton
+    Friend WithEvents ComboBoxEdit1 As DevExpress.XtraEditors.ComboBoxEdit
+    Friend WithEvents LabelControl3 As DevExpress.XtraEditors.LabelControl
 End Class

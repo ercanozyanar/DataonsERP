@@ -153,6 +153,13 @@ Public Class main
             'Display the new form.
             NewMDIChild.Show()
         End If
+        If (e.Node.Name = "Düğüm16") Then
+            Dim NewMDIChild As New stok_ekstresi()
+            'Set the Parent Form of the Child window.
+            NewMDIChild.MdiParent = Me
+            'Display the new form.
+            NewMDIChild.Show()
+        End If
         If (e.Node.Name = "Düğüm17") Then
             Dim NewMDIChild As New stok_giriscikisrapor()
             'Set the Parent Form of the Child window.
@@ -218,6 +225,57 @@ Public Class main
             frm = New doviz_tanim()
             frm.Show()
         End If
+
+
+
+        If (e.Node.Name = "Düğüm13") Then
+            Dim NewMDIChild As New kayitli_cari_liste()
+            'Set the Parent Form of the Child window.
+            NewMDIChild.MdiParent = Me
+            'Display the new form.
+            NewMDIChild.Show()
+        End If
+        If (e.Node.Name = "Düğüm14") Then
+            Dim NewMDIChild As New cari_hesap_ekstre()
+            'Set the Parent Form of the Child window.
+            NewMDIChild.MdiParent = Me
+            'Display the new form.
+            NewMDIChild.Show()
+        End If
+        If (e.Node.Name = "Düğüm15") Then
+            Dim NewMDIChild As New cari_hesap_islem()
+            'Set the Parent Form of the Child window.
+            NewMDIChild.MdiParent = Me
+            'Display the new form.
+            NewMDIChild.Show()
+        End If
+        If (e.Node.Name = "Düğüm16") Then
+            Dim NewMDIChild As New cari_borc_alacak()
+            'Set the Parent Form of the Child window.
+            NewMDIChild.MdiParent = Me
+            'Display the new form.
+            NewMDIChild.Show()
+        End If
+        If (e.Node.Name = "Düğüm17") Then
+            Dim NewMDIChild As New cari_hesap_borc()
+            'Set the Parent Form of the Child window.
+            NewMDIChild.MdiParent = Me
+            'Display the new form.
+            NewMDIChild.Show()
+        End If
+        If (e.Node.Name = "Düğüm18") Then
+            Dim NewMDIChild As New cari_hesap_alacak()
+            'Set the Parent Form of the Child window.
+            NewMDIChild.MdiParent = Me
+            'Display the new form.
+            NewMDIChild.Show()
+        End If
+
+
+
+
+
+
         If (e.Node.Name = "Düğüm21") Then
             Dim NewMDIChild As New dovizkur_girisi()
             'Set the Parent Form of the Child window.
@@ -302,11 +360,83 @@ Public Class main
             'Display the new form.
             NewMDIChild.Show()
         End If
+
         If (e.Node.Name = "Düğüm37") Then
             Dim frm As kasa_tanim
             frm = New kasa_tanim()
             frm.Show()
         End If
+        If (e.Node.Name = "Düğümk0") Then
+            Dim frm As kasa_giriscikis
+            frm = New kasa_giriscikis()
+            frm.Show()
+        End If
+        If (e.Node.Name = "Düğümk3") Then
+            Dim NewMDIChild As New kasa_virman_fisi()
+            'Set the Parent Form of the Child window.
+            NewMDIChild.MdiParent = Me
+            'Display the new form.
+            NewMDIChild.Show()
+        End If
+        If (e.Node.Name = "Düğümk4") Then
+            Dim frm As tahsilat_fisi
+            frm = New tahsilat_fisi()
+            frm.Show()
+        End If
+        If (e.Node.Name = "Düğümk5") Then
+            Dim frm As tediye_fisi
+            frm = New tediye_fisi()
+            frm.Show()
+        End If
+        If (e.Node.Name = "Düğümk6") Then
+            Dim NewMDIChild As New kkartli_tahsil()
+            'Set the Parent Form of the Child window.
+            NewMDIChild.MdiParent = Me
+            'Display the new form.
+            NewMDIChild.Show()
+        End If
+        If (e.Node.Name = "Düğümk7") Then
+            Dim NewMDIChild As New kkartli_odeme()
+            'Set the Parent Form of the Child window.
+            NewMDIChild.MdiParent = Me
+            'Display the new form.
+            NewMDIChild.Show()
+        End If
+        If (e.Node.Name = "Düğüm0k") Then
+            Dim NewMDIChild As New kasa_hareket()
+            'Set the Parent Form of the Child window.
+            NewMDIChild.MdiParent = Me
+            'Display the new form.
+            NewMDIChild.Show()
+        End If
+        If (e.Node.Name = "Düğüm1k") Then
+            Dim NewMDIChild As New kkart_islem_rapor()
+            'Set the Parent Form of the Child window.
+            NewMDIChild.MdiParent = Me
+            'Display the new form.
+            NewMDIChild.Show()
+        End If
+        If (e.Node.Name = "Düğüm2k") Then
+            Dim NewMDIChild As New kasa_hesap_ekstre()
+            'Set the Parent Form of the Child window.
+            NewMDIChild.MdiParent = Me
+            'Display the new form.
+            NewMDIChild.Show()
+        End If
+        If (e.Node.Name = "Düğüm3k") Then
+            Dim NewMDIChild As New kasa_bakiye_liste()
+            'Set the Parent Form of the Child window.
+            NewMDIChild.MdiParent = Me
+            'Display the new form.
+            NewMDIChild.Show()
+        End If
+
+
+
+
+
+
+
         If (e.Node.Name = "Düğüm41") Then
             Dim NewMDIChild As New alinan_emanet()
             'Set the Parent Form of the Child window.
@@ -323,6 +453,24 @@ Public Class main
         End If
         If (e.Node.Name = "Düğüm43") Then
             Dim NewMDIChild As New emanet_liste()
+            'Set the Parent Form of the Child window.
+            NewMDIChild.MdiParent = Me
+            'Display the new form.
+            NewMDIChild.Show()
+        End If
+
+        If (e.Node.Name = "Düğüm49") Then
+            Dim frm As masraf_grup_tanim
+            frm = New masraf_grup_tanim()
+            frm.Show()
+        End If
+        If (e.Node.Name = "Düğüm51") Then
+            Dim frm As masraf_kart_tanim
+            frm = New masraf_kart_tanim()
+            frm.Show()
+        End If
+        If (e.Node.Name = "Düğüm52") Then
+            Dim NewMDIChild As New masraf_girisi()
             'Set the Parent Form of the Child window.
             NewMDIChild.MdiParent = Me
             'Display the new form.

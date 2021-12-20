@@ -116,7 +116,7 @@ Partial Class stok_carihareketrapor
         Me.GroupBox2.Controls.Add(Me.RadioButton1)
         Me.GroupBox2.Location = New System.Drawing.Point(432, 4)
         Me.GroupBox2.Name = "GroupBox2"
-        Me.GroupBox2.Size = New System.Drawing.Size(364, 97)
+        Me.GroupBox2.Size = New System.Drawing.Size(364, 132)
         Me.GroupBox2.TabIndex = 143
         Me.GroupBox2.TabStop = False
         Me.GroupBox2.Text = "Faturalar"
@@ -124,7 +124,7 @@ Partial Class stok_carihareketrapor
         'RadioButton6
         '
         Me.RadioButton6.AutoSize = True
-        Me.RadioButton6.Location = New System.Drawing.Point(250, 50)
+        Me.RadioButton6.Location = New System.Drawing.Point(250, 91)
         Me.RadioButton6.Name = "RadioButton6"
         Me.RadioButton6.Size = New System.Drawing.Size(95, 17)
         Me.RadioButton6.TabIndex = 5
@@ -146,7 +146,7 @@ Partial Class stok_carihareketrapor
         'RadioButton4
         '
         Me.RadioButton4.AutoSize = True
-        Me.RadioButton4.Location = New System.Drawing.Point(117, 50)
+        Me.RadioButton4.Location = New System.Drawing.Point(117, 91)
         Me.RadioButton4.Name = "RadioButton4"
         Me.RadioButton4.Size = New System.Drawing.Size(103, 17)
         Me.RadioButton4.TabIndex = 3
@@ -168,7 +168,7 @@ Partial Class stok_carihareketrapor
         'RadioButton2
         '
         Me.RadioButton2.AutoSize = True
-        Me.RadioButton2.Location = New System.Drawing.Point(7, 50)
+        Me.RadioButton2.Location = New System.Drawing.Point(7, 91)
         Me.RadioButton2.Name = "RadioButton2"
         Me.RadioButton2.Size = New System.Drawing.Size(78, 17)
         Me.RadioButton2.TabIndex = 1
