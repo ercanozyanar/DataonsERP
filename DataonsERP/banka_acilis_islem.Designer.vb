@@ -37,13 +37,13 @@ Partial Class banka_acilis_islem
         Me.GroupBox3 = New System.Windows.Forms.GroupBox()
         Me.LabelControl8 = New DevExpress.XtraEditors.LabelControl()
         Me.LabelControl9 = New DevExpress.XtraEditors.LabelControl()
-        Me.SimpleButton1 = New DevExpress.XtraEditors.SimpleButton()
         Me.GroupBox4 = New System.Windows.Forms.GroupBox()
         Me.SimpleButton6 = New DevExpress.XtraEditors.SimpleButton()
         Me.SimpleButton5 = New DevExpress.XtraEditors.SimpleButton()
         Me.SimpleButton4 = New DevExpress.XtraEditors.SimpleButton()
         Me.SimpleButton3 = New DevExpress.XtraEditors.SimpleButton()
         Me.SimpleButton2 = New DevExpress.XtraEditors.SimpleButton()
+        Me.SimpleButton1 = New DevExpress.XtraEditors.SimpleButton()
         Me.TextEdit5 = New DevExpress.XtraEditors.TextEdit()
         Me.TextEdit7 = New DevExpress.XtraEditors.TextEdit()
         Me.TextEdit4 = New DevExpress.XtraEditors.TextEdit()
@@ -226,14 +226,6 @@ Partial Class banka_acilis_islem
         Me.LabelControl9.TabIndex = 109
         Me.LabelControl9.Text = "Tutar"
         '
-        'SimpleButton1
-        '
-        Me.SimpleButton1.Location = New System.Drawing.Point(6, 10)
-        Me.SimpleButton1.Name = "SimpleButton1"
-        Me.SimpleButton1.Size = New System.Drawing.Size(98, 35)
-        Me.SimpleButton1.TabIndex = 4
-        Me.SimpleButton1.Text = "Kaydet"
-        '
         'GroupBox4
         '
         Me.GroupBox4.Controls.Add(Me.SimpleButton6)
@@ -250,7 +242,10 @@ Partial Class banka_acilis_islem
         '
         'SimpleButton6
         '
-        Me.SimpleButton6.Location = New System.Drawing.Point(526, 9)
+        Me.SimpleButton6.Appearance.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(162, Byte))
+        Me.SimpleButton6.Appearance.Options.UseFont = True
+        Me.SimpleButton6.ImageOptions.Image = Global.DataonsERP.My.Resources.Resources.exporttoxls_32x32
+        Me.SimpleButton6.Location = New System.Drawing.Point(549, 10)
         Me.SimpleButton6.Name = "SimpleButton6"
         Me.SimpleButton6.Size = New System.Drawing.Size(98, 35)
         Me.SimpleButton6.TabIndex = 9
@@ -258,7 +253,10 @@ Partial Class banka_acilis_islem
         '
         'SimpleButton5
         '
-        Me.SimpleButton5.Location = New System.Drawing.Point(422, 9)
+        Me.SimpleButton5.Appearance.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(162, Byte))
+        Me.SimpleButton5.Appearance.Options.UseFont = True
+        Me.SimpleButton5.ImageOptions.Image = Global.DataonsERP.My.Resources.Resources.print_32x32
+        Me.SimpleButton5.Location = New System.Drawing.Point(445, 10)
         Me.SimpleButton5.Name = "SimpleButton5"
         Me.SimpleButton5.Size = New System.Drawing.Size(98, 35)
         Me.SimpleButton5.TabIndex = 8
@@ -266,15 +264,21 @@ Partial Class banka_acilis_islem
         '
         'SimpleButton4
         '
-        Me.SimpleButton4.Location = New System.Drawing.Point(318, 9)
+        Me.SimpleButton4.Appearance.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(162, Byte))
+        Me.SimpleButton4.Appearance.Options.UseFont = True
+        Me.SimpleButton4.ImageOptions.Image = Global.DataonsERP.My.Resources.Resources.right_32x32
+        Me.SimpleButton4.Location = New System.Drawing.Point(318, 10)
         Me.SimpleButton4.Name = "SimpleButton4"
-        Me.SimpleButton4.Size = New System.Drawing.Size(98, 35)
+        Me.SimpleButton4.Size = New System.Drawing.Size(121, 35)
         Me.SimpleButton4.TabIndex = 7
         Me.SimpleButton4.Text = "Bordro Listesi"
         '
         'SimpleButton3
         '
-        Me.SimpleButton3.Location = New System.Drawing.Point(214, 9)
+        Me.SimpleButton3.Appearance.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(162, Byte))
+        Me.SimpleButton3.Appearance.Options.UseFont = True
+        Me.SimpleButton3.ImageOptions.Image = Global.DataonsERP.My.Resources.Resources.deletesheetrows_32x32
+        Me.SimpleButton3.Location = New System.Drawing.Point(214, 10)
         Me.SimpleButton3.Name = "SimpleButton3"
         Me.SimpleButton3.Size = New System.Drawing.Size(98, 35)
         Me.SimpleButton3.TabIndex = 6
@@ -282,11 +286,25 @@ Partial Class banka_acilis_islem
         '
         'SimpleButton2
         '
-        Me.SimpleButton2.Location = New System.Drawing.Point(110, 9)
+        Me.SimpleButton2.Appearance.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(162, Byte))
+        Me.SimpleButton2.Appearance.Options.UseFont = True
+        Me.SimpleButton2.ImageOptions.Image = Global.DataonsERP.My.Resources.Resources.cancel_32x323
+        Me.SimpleButton2.Location = New System.Drawing.Point(110, 10)
         Me.SimpleButton2.Name = "SimpleButton2"
         Me.SimpleButton2.Size = New System.Drawing.Size(98, 35)
         Me.SimpleButton2.TabIndex = 5
         Me.SimpleButton2.Text = "Sil"
+        '
+        'SimpleButton1
+        '
+        Me.SimpleButton1.Appearance.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(162, Byte))
+        Me.SimpleButton1.Appearance.Options.UseFont = True
+        Me.SimpleButton1.ImageOptions.Image = Global.DataonsERP.My.Resources.Resources.apply_32x323
+        Me.SimpleButton1.Location = New System.Drawing.Point(6, 10)
+        Me.SimpleButton1.Name = "SimpleButton1"
+        Me.SimpleButton1.Size = New System.Drawing.Size(98, 35)
+        Me.SimpleButton1.TabIndex = 4
+        Me.SimpleButton1.Text = "Kaydet"
         '
         'TextEdit5
         '

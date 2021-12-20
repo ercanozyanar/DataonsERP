@@ -82,7 +82,10 @@ Partial Class cari_borc_alacak
         '
         'SimpleButton3
         '
-        Me.SimpleButton3.Location = New System.Drawing.Point(6, 109)
+        Me.SimpleButton3.Appearance.Font = New System.Drawing.Font("Tahoma", 8.25!, System.Drawing.FontStyle.Bold)
+        Me.SimpleButton3.Appearance.Options.UseFont = True
+        Me.SimpleButton3.ImageOptions.Image = Global.DataonsERP.My.Resources.Resources.exporttoxls_32x324
+        Me.SimpleButton3.Location = New System.Drawing.Point(6, 130)
         Me.SimpleButton3.Name = "SimpleButton3"
         Me.SimpleButton3.Size = New System.Drawing.Size(140, 34)
         Me.SimpleButton3.TabIndex = 135
@@ -90,6 +93,9 @@ Partial Class cari_borc_alacak
         '
         'SimpleButton1
         '
+        Me.SimpleButton1.Appearance.Font = New System.Drawing.Font("Tahoma", 8.25!, System.Drawing.FontStyle.Bold)
+        Me.SimpleButton1.Appearance.Options.UseFont = True
+        Me.SimpleButton1.ImageOptions.Image = Global.DataonsERP.My.Resources.Resources.listnumbers_32x324
         Me.SimpleButton1.Location = New System.Drawing.Point(6, 11)
         Me.SimpleButton1.Name = "SimpleButton1"
         Me.SimpleButton1.Size = New System.Drawing.Size(140, 34)
@@ -98,7 +104,10 @@ Partial Class cari_borc_alacak
         '
         'SimpleButton2
         '
-        Me.SimpleButton2.Location = New System.Drawing.Point(6, 63)
+        Me.SimpleButton2.Appearance.Font = New System.Drawing.Font("Tahoma", 8.25!, System.Drawing.FontStyle.Bold)
+        Me.SimpleButton2.Appearance.Options.UseFont = True
+        Me.SimpleButton2.ImageOptions.Image = Global.DataonsERP.My.Resources.Resources.printer_32x325
+        Me.SimpleButton2.Location = New System.Drawing.Point(6, 72)
         Me.SimpleButton2.Name = "SimpleButton2"
         Me.SimpleButton2.Size = New System.Drawing.Size(140, 34)
         Me.SimpleButton2.TabIndex = 134
@@ -269,7 +278,7 @@ Partial Class cari_borc_alacak
         Me.GroupBox4.Controls.Add(Me.RadioButton1)
         Me.GroupBox4.Location = New System.Drawing.Point(323, 4)
         Me.GroupBox4.Name = "GroupBox4"
-        Me.GroupBox4.Size = New System.Drawing.Size(124, 176)
+        Me.GroupBox4.Size = New System.Drawing.Size(124, 143)
         Me.GroupBox4.TabIndex = 146
         Me.GroupBox4.TabStop = False
         Me.GroupBox4.Text = "Rapor Bakiye Filtre"
@@ -277,7 +286,7 @@ Partial Class cari_borc_alacak
         'RadioButton3
         '
         Me.RadioButton3.AutoSize = True
-        Me.RadioButton3.Location = New System.Drawing.Point(7, 147)
+        Me.RadioButton3.Location = New System.Drawing.Point(6, 98)
         Me.RadioButton3.Name = "RadioButton3"
         Me.RadioButton3.Size = New System.Drawing.Size(56, 17)
         Me.RadioButton3.TabIndex = 2
@@ -288,7 +297,7 @@ Partial Class cari_borc_alacak
         'RadioButton2
         '
         Me.RadioButton2.AutoSize = True
-        Me.RadioButton2.Location = New System.Drawing.Point(7, 80)
+        Me.RadioButton2.Location = New System.Drawing.Point(7, 63)
         Me.RadioButton2.Name = "RadioButton2"
         Me.RadioButton2.Size = New System.Drawing.Size(46, 17)
         Me.RadioButton2.TabIndex = 1
@@ -314,7 +323,7 @@ Partial Class cari_borc_alacak
         Me.GroupBox5.Controls.Add(Me.RadioButton6)
         Me.GroupBox5.Location = New System.Drawing.Point(453, 4)
         Me.GroupBox5.Name = "GroupBox5"
-        Me.GroupBox5.Size = New System.Drawing.Size(138, 176)
+        Me.GroupBox5.Size = New System.Drawing.Size(138, 143)
         Me.GroupBox5.TabIndex = 147
         Me.GroupBox5.TabStop = False
         Me.GroupBox5.Text = "Bakiye Kriteri"
@@ -322,7 +331,7 @@ Partial Class cari_borc_alacak
         'RadioButton5
         '
         Me.RadioButton5.AutoSize = True
-        Me.RadioButton5.Location = New System.Drawing.Point(7, 80)
+        Me.RadioButton5.Location = New System.Drawing.Point(7, 63)
         Me.RadioButton5.Name = "RadioButton5"
         Me.RadioButton5.Size = New System.Drawing.Size(104, 17)
         Me.RadioButton5.TabIndex = 1
@@ -346,7 +355,7 @@ Partial Class cari_borc_alacak
         '
         Me.LabelControl2.Appearance.Font = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(162, Byte))
         Me.LabelControl2.Appearance.Options.UseFont = True
-        Me.LabelControl2.Location = New System.Drawing.Point(597, 12)
+        Me.LabelControl2.Location = New System.Drawing.Point(330, 154)
         Me.LabelControl2.Name = "LabelControl2"
         Me.LabelControl2.Size = New System.Drawing.Size(27, 14)
         Me.LabelControl2.TabIndex = 148
@@ -355,11 +364,11 @@ Partial Class cari_borc_alacak
         'DateEdit1
         '
         Me.DateEdit1.EditValue = Nothing
-        Me.DateEdit1.Location = New System.Drawing.Point(597, 29)
+        Me.DateEdit1.Location = New System.Drawing.Point(373, 151)
         Me.DateEdit1.Name = "DateEdit1"
         Me.DateEdit1.Properties.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)})
         Me.DateEdit1.Properties.CalendarTimeProperties.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)})
-        Me.DateEdit1.Size = New System.Drawing.Size(168, 20)
+        Me.DateEdit1.Size = New System.Drawing.Size(218, 20)
         Me.DateEdit1.TabIndex = 149
         '
         'cari_borc_alacak

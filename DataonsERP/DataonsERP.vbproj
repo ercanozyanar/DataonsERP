@@ -381,6 +381,12 @@
     <Compile Include="perakende_satis.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="satis_alis_rapor.Designer.vb">
+      <DependentUpon>satis_alis_rapor.vb</DependentUpon>
+    </Compile>
+    <Compile Include="satis_alis_rapor.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="stok_carihareketrapor.Designer.vb">
       <DependentUpon>stok_carihareketrapor.vb</DependentUpon>
     </Compile>
@@ -481,6 +487,12 @@
       <DependentUpon>stok_birim.vb</DependentUpon>
     </Compile>
     <Compile Include="stok_birim.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="toptan_satis_islemler.Designer.vb">
+      <DependentUpon>toptan_satis_islemler.vb</DependentUpon>
+    </Compile>
+    <Compile Include="toptan_satis_islemler.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="verilen_emanet.Designer.vb">
@@ -694,6 +706,9 @@
     <EmbeddedResource Include="perakende_satis.resx">
       <DependentUpon>perakende_satis.vb</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="satis_alis_rapor.resx">
+      <DependentUpon>satis_alis_rapor.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="stok_carihareketrapor.resx">
       <DependentUpon>stok_carihareketrapor.vb</DependentUpon>
     </EmbeddedResource>
@@ -744,6 +759,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="stok_birim.resx">
       <DependentUpon>stok_birim.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="toptan_satis_islemler.resx">
+      <DependentUpon>toptan_satis_islemler.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="verilen_emanet.resx">
       <DependentUpon>verilen_emanet.vb</DependentUpon>
@@ -833,6 +851,11 @@
     <None Include="Resources\apply_32x321.png" />
     <None Include="Resources\accounting_32x32.png" />
     <None Include="Resources\accounting_16x16.png" />
+    <None Include="Resources\apply_32x322.png" />
+    <None Include="Resources\apply_32x323.png" />
+    <None Include="Resources\apply_32x324.png" />
+    <None Include="Resources\add_32x32.png" />
+    <None Include="Resources\apply_32x325.png" />
     <Content Include="Resources\barcode2_16x16.png" />
     <Content Include="Resources\barcode2_32x32.png" />
     <None Include="Resources\barcode_16x161.png" />
@@ -884,6 +907,9 @@
     <None Include="Resources\calculatenow_16x16.png" />
     <None Include="Resources\cancel_32x32.png" />
     <None Include="Resources\cancel_32x321.png" />
+    <None Include="Resources\cancel_32x322.png" />
+    <None Include="Resources\cancel_32x323.png" />
+    <None Include="Resources\cancel_32x324.png" />
     <Content Include="Resources\chartsrotate_16x16.png" />
     <Content Include="Resources\chartsrotate_16x161.png" />
     <Content Include="Resources\chartsrotate_32x32.png" />
@@ -894,6 +920,7 @@
     <Content Include="Resources\clear_16x16.png" />
     <Content Include="Resources\clear_32x32.png" />
     <None Include="Resources\close_32x32.png" />
+    <None Include="Resources\contentarrangeincolums_32x32.png" />
     <Content Include="Resources\converttorange_16x16.png" />
     <Content Include="Resources\converttorange_32x32.png" />
     <Content Include="Resources\convert_16x16.png" />
@@ -914,11 +941,17 @@
     <Content Include="Resources\currency_32x322.png" />
     <Content Include="Resources\currency_32x323.png" />
     <None Include="Resources\currency_32x324.png" />
+    <None Include="Resources\deletesheetrows_32x32.png" />
     <Content Include="Resources\drilldownonarguments_chart_16x16.png" />
     <Content Include="Resources\drilldownonarguments_chart_32x32.png" />
     <Content Include="Resources\editcontact_32x32.png" />
     <Content Include="Resources\errorbarsstandarddeviation_16x16.png" />
     <Content Include="Resources\errorbarsstandarddeviation_32x32.png" />
+    <None Include="Resources\exporttoxls_32x32.png" />
+    <None Include="Resources\exporttoxls_32x321.png" />
+    <None Include="Resources\exporttoxls_32x322.png" />
+    <None Include="Resources\exporttoxls_32x323.png" />
+    <None Include="Resources\exporttoxls_32x324.png" />
     <Content Include="Resources\filterbyargument_chart_16x16.png" />
     <Content Include="Resources\filterbyargument_chart_32x32.png" />
     <None Include="Resources\find_16x161.png" />
@@ -934,6 +967,13 @@
     <Content Include="Resources\importimage_32x32.png" />
     <Content Include="Resources\inbox_16x16.png" />
     <Content Include="Resources\inbox_32x32.png" />
+    <None Include="Resources\listbullets_32x32.png" />
+    <None Include="Resources\listnumbers_32x32.png" />
+    <None Include="Resources\listnumbers_32x321.png" />
+    <None Include="Resources\listnumbers_32x322.png" />
+    <None Include="Resources\listnumbers_32x323.png" />
+    <None Include="Resources\listnumbers_32x324.png" />
+    <None Include="Resources\listbullets_32x321.png" />
     <Content Include="Resources\low_16x16.png" />
     <Content Include="Resources\low_32x32.png" />
     <Content Include="Resources\managedatasource_16x16.png" />
@@ -943,16 +983,24 @@
     <Content Include="Resources\newsales_16x16.png" />
     <Content Include="Resources\newsales_32x32.png" />
     <None Include="Resources\next_32x32.png" />
+    <None Include="Resources\printer_32x32.png" />
+    <None Include="Resources\printer_32x321.png" />
+    <None Include="Resources\printer_32x322.png" />
+    <None Include="Resources\printer_32x323.png" />
+    <None Include="Resources\printer_32x324.png" />
+    <None Include="Resources\printer_32x325.png" />
     <Content Include="Resources\printincludeevaluations_32x32.png" />
     <Content Include="Resources\printlayoutview_16x16.png" />
     <Content Include="Resources\printlayoutview_32x32.png" />
     <Content Include="Resources\printlayoutview_32x321.png" />
+    <None Include="Resources\print_32x32.png" />
     <Content Include="Resources\replace_16x16.png" />
     <Content Include="Resources\replace_32x32.png" />
     <None Include="Resources\reviewers_32x32.png" />
     <None Include="Resources\reviewers_16x16.png" />
     <Content Include="Resources\right_16x16.png" />
     <Content Include="Resources\right_32x32.png" />
+    <None Include="Resources\right_32x321.png" />
     <Content Include="Resources\showproduct_16x16.png" />
     <Content Include="Resources\showproduct_32x32.png" />
     <Content Include="Resources\sortbyorderdate_16x16.png" />
@@ -963,11 +1011,13 @@
     <Content Include="Resources\top10items_32x32.png" />
     <Content Include="Resources\top10items_32x321.png" />
     <None Include="Resources\undo_32x32.png" />
+    <None Include="Resources\undo_32x321.png" />
     <Content Include="Resources\unlike_16x16.png" />
     <Content Include="Resources\unlike_32x32.png" />
     <Content Include="Resources\up2_32x32.png" />
     <None Include="Resources\usergroup_32x32.png" />
     <None Include="Resources\usergroup_16x16.png" />
+    <None Include="Resources\up2_32x321.png" />
     <Content Include="Resources\verticalaxisbillions_16x16.png" />
     <Content Include="Resources\verticalaxisbillions_32x32.png" />
     <Content Include="Resources\wifi_16x16.png" />

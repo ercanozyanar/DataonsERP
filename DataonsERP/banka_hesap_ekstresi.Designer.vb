@@ -141,25 +141,37 @@ Partial Class banka_hesap_ekstresi
         '
         'SimpleButton3
         '
-        Me.SimpleButton3.Location = New System.Drawing.Point(160, 8)
+        Me.SimpleButton3.Appearance.Font = New System.Drawing.Font("Tahoma", 8.25!, System.Drawing.FontStyle.Bold)
+        Me.SimpleButton3.Appearance.Options.UseFont = True
+        Me.SimpleButton3.ImageOptions.Image = Global.DataonsERP.My.Resources.Resources.exporttoxls_32x322
+        Me.SimpleButton3.ImageOptions.Location = DevExpress.XtraEditors.ImageLocation.TopCenter
+        Me.SimpleButton3.Location = New System.Drawing.Point(162, 15)
         Me.SimpleButton3.Name = "SimpleButton3"
-        Me.SimpleButton3.Size = New System.Drawing.Size(61, 87)
+        Me.SimpleButton3.Size = New System.Drawing.Size(61, 75)
         Me.SimpleButton3.TabIndex = 2
         Me.SimpleButton3.Text = "Excel"
         '
         'SimpleButton1
         '
-        Me.SimpleButton1.Location = New System.Drawing.Point(6, 8)
+        Me.SimpleButton1.Appearance.Font = New System.Drawing.Font("Tahoma", 8.25!, System.Drawing.FontStyle.Bold)
+        Me.SimpleButton1.Appearance.Options.UseFont = True
+        Me.SimpleButton1.ImageOptions.Image = Global.DataonsERP.My.Resources.Resources.listnumbers_32x322
+        Me.SimpleButton1.ImageOptions.Location = DevExpress.XtraEditors.ImageLocation.TopCenter
+        Me.SimpleButton1.Location = New System.Drawing.Point(6, 14)
         Me.SimpleButton1.Name = "SimpleButton1"
-        Me.SimpleButton1.Size = New System.Drawing.Size(61, 87)
+        Me.SimpleButton1.Size = New System.Drawing.Size(61, 75)
         Me.SimpleButton1.TabIndex = 0
         Me.SimpleButton1.Text = "Listele"
         '
         'SimpleButton2
         '
-        Me.SimpleButton2.Location = New System.Drawing.Point(83, 8)
+        Me.SimpleButton2.Appearance.Font = New System.Drawing.Font("Tahoma", 8.25!, System.Drawing.FontStyle.Bold)
+        Me.SimpleButton2.Appearance.Options.UseFont = True
+        Me.SimpleButton2.ImageOptions.Image = Global.DataonsERP.My.Resources.Resources.printer_32x323
+        Me.SimpleButton2.ImageOptions.Location = DevExpress.XtraEditors.ImageLocation.TopCenter
+        Me.SimpleButton2.Location = New System.Drawing.Point(83, 14)
         Me.SimpleButton2.Name = "SimpleButton2"
-        Me.SimpleButton2.Size = New System.Drawing.Size(61, 87)
+        Me.SimpleButton2.Size = New System.Drawing.Size(61, 75)
         Me.SimpleButton2.TabIndex = 1
         Me.SimpleButton2.Text = "Yazdır"
         '

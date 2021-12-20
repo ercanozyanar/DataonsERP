@@ -23,11 +23,6 @@ Partial Class alinan_emanet
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
         Me.FormAssistant1 = New DevExpress.XtraBars.FormAssistant()
-        Me.SimpleButton7 = New DevExpress.XtraEditors.SimpleButton()
-        Me.SimpleButton6 = New DevExpress.XtraEditors.SimpleButton()
-        Me.SimpleButton5 = New DevExpress.XtraEditors.SimpleButton()
-        Me.SimpleButton4 = New DevExpress.XtraEditors.SimpleButton()
-        Me.SimpleButton3 = New DevExpress.XtraEditors.SimpleButton()
         Me.PanelControl2 = New DevExpress.XtraEditors.PanelControl()
         Me.GroupControl5 = New DevExpress.XtraEditors.GroupControl()
         Me.LabelControl28 = New DevExpress.XtraEditors.LabelControl()
@@ -50,7 +45,6 @@ Partial Class alinan_emanet
         Me.GroupControl1 = New DevExpress.XtraEditors.GroupControl()
         Me.LabelControl14 = New DevExpress.XtraEditors.LabelControl()
         Me.LabelControl13 = New DevExpress.XtraEditors.LabelControl()
-        Me.SimpleButton2 = New DevExpress.XtraEditors.SimpleButton()
         Me.LabelControl10 = New DevExpress.XtraEditors.LabelControl()
         Me.LabelControl12 = New DevExpress.XtraEditors.LabelControl()
         Me.GroupControl4 = New DevExpress.XtraEditors.GroupControl()
@@ -58,7 +52,6 @@ Partial Class alinan_emanet
         Me.LabelControl17 = New DevExpress.XtraEditors.LabelControl()
         Me.LabelControl9 = New DevExpress.XtraEditors.LabelControl()
         Me.LabelControl8 = New DevExpress.XtraEditors.LabelControl()
-        Me.SimpleButton1 = New DevExpress.XtraEditors.SimpleButton()
         Me.LabelControl7 = New DevExpress.XtraEditors.LabelControl()
         Me.LabelControl6 = New DevExpress.XtraEditors.LabelControl()
         Me.LabelControl5 = New DevExpress.XtraEditors.LabelControl()
@@ -66,6 +59,10 @@ Partial Class alinan_emanet
         Me.LabelControl3 = New DevExpress.XtraEditors.LabelControl()
         Me.LabelControl1 = New DevExpress.XtraEditors.LabelControl()
         Me.LabelControl2 = New DevExpress.XtraEditors.LabelControl()
+        Me.SimpleButton6 = New DevExpress.XtraEditors.SimpleButton()
+        Me.SimpleButton5 = New DevExpress.XtraEditors.SimpleButton()
+        Me.SimpleButton4 = New DevExpress.XtraEditors.SimpleButton()
+        Me.SimpleButton3 = New DevExpress.XtraEditors.SimpleButton()
         Me.TextEdit22 = New DevExpress.XtraEditors.TextEdit()
         Me.TextEdit23 = New DevExpress.XtraEditors.TextEdit()
         Me.TextEdit24 = New DevExpress.XtraEditors.TextEdit()
@@ -76,21 +73,21 @@ Partial Class alinan_emanet
         Me.TextEdit16 = New DevExpress.XtraEditors.TextEdit()
         Me.TextEdit15 = New DevExpress.XtraEditors.TextEdit()
         Me.TextEdit14 = New DevExpress.XtraEditors.TextEdit()
+        Me.ButtonEdit1 = New DevExpress.XtraEditors.ButtonEdit()
         Me.TextEdit13 = New DevExpress.XtraEditors.TextEdit()
         Me.TextEdit12 = New DevExpress.XtraEditors.TextEdit()
         Me.TextEdit11 = New DevExpress.XtraEditors.TextEdit()
         Me.TextEdit10 = New DevExpress.XtraEditors.TextEdit()
+        Me.ButtonEdit2 = New DevExpress.XtraEditors.ButtonEdit()
         Me.ComboBoxEdit5 = New DevExpress.XtraEditors.ComboBoxEdit()
         Me.TextEdit9 = New DevExpress.XtraEditors.TextEdit()
         Me.TextEdit8 = New DevExpress.XtraEditors.TextEdit()
-        Me.TextEdit7 = New DevExpress.XtraEditors.TextEdit()
         Me.TextEdit5 = New DevExpress.XtraEditors.TextEdit()
         Me.ComboBoxEdit4 = New DevExpress.XtraEditors.ComboBoxEdit()
         Me.TextEdit6 = New DevExpress.XtraEditors.TextEdit()
         Me.DateEdit2 = New DevExpress.XtraEditors.DateEdit()
         Me.TextEdit4 = New DevExpress.XtraEditors.TextEdit()
         Me.TextEdit3 = New DevExpress.XtraEditors.TextEdit()
-        Me.TextEdit1 = New DevExpress.XtraEditors.TextEdit()
         Me.ComboBoxEdit3 = New DevExpress.XtraEditors.ComboBoxEdit()
         Me.TextEdit2 = New DevExpress.XtraEditors.TextEdit()
         Me.DateEdit1 = New DevExpress.XtraEditors.DateEdit()
@@ -120,14 +117,15 @@ Partial Class alinan_emanet
         CType(Me.TextEdit16.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.TextEdit15.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.TextEdit14.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.ButtonEdit1.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.TextEdit13.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.TextEdit12.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.TextEdit11.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.TextEdit10.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.ButtonEdit2.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.ComboBoxEdit5.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.TextEdit9.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.TextEdit8.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.TextEdit7.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.TextEdit5.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.ComboBoxEdit4.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.TextEdit6.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -135,7 +133,6 @@ Partial Class alinan_emanet
         CType(Me.DateEdit2.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.TextEdit4.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.TextEdit3.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.TextEdit1.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.ComboBoxEdit3.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.TextEdit2.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.DateEdit1.Properties.CalendarTimeProperties, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -143,47 +140,6 @@ Partial Class alinan_emanet
         CType(Me.ComboBoxEdit2.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.ComboBoxEdit1.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
-        '
-        'SimpleButton7
-        '
-        Me.SimpleButton7.Location = New System.Drawing.Point(501, 572)
-        Me.SimpleButton7.Name = "SimpleButton7"
-        Me.SimpleButton7.Size = New System.Drawing.Size(106, 34)
-        Me.SimpleButton7.TabIndex = 46
-        Me.SimpleButton7.Text = "Çıkış"
-        '
-        'SimpleButton6
-        '
-        Me.SimpleButton6.Location = New System.Drawing.Point(250, 572)
-        Me.SimpleButton6.Name = "SimpleButton6"
-        Me.SimpleButton6.Size = New System.Drawing.Size(106, 34)
-        Me.SimpleButton6.TabIndex = 45
-        Me.SimpleButton6.Tag = ""
-        Me.SimpleButton6.Text = "Yazdır"
-        '
-        'SimpleButton5
-        '
-        Me.SimpleButton5.Location = New System.Drawing.Point(375, 572)
-        Me.SimpleButton5.Name = "SimpleButton5"
-        Me.SimpleButton5.Size = New System.Drawing.Size(106, 34)
-        Me.SimpleButton5.TabIndex = 44
-        Me.SimpleButton5.Text = "İşlem Listesi"
-        '
-        'SimpleButton4
-        '
-        Me.SimpleButton4.Location = New System.Drawing.Point(130, 572)
-        Me.SimpleButton4.Name = "SimpleButton4"
-        Me.SimpleButton4.Size = New System.Drawing.Size(106, 34)
-        Me.SimpleButton4.TabIndex = 43
-        Me.SimpleButton4.Text = "Sil"
-        '
-        'SimpleButton3
-        '
-        Me.SimpleButton3.Location = New System.Drawing.Point(8, 572)
-        Me.SimpleButton3.Name = "SimpleButton3"
-        Me.SimpleButton3.Size = New System.Drawing.Size(106, 34)
-        Me.SimpleButton3.TabIndex = 42
-        Me.SimpleButton3.Text = "Kaydet"
         '
         'PanelControl2
         '
@@ -332,6 +288,7 @@ Partial Class alinan_emanet
         '
         'PanelControl1
         '
+        Me.PanelControl1.Controls.Add(Me.ButtonEdit1)
         Me.PanelControl1.Controls.Add(Me.GroupControl2)
         Me.PanelControl1.Controls.Add(Me.GroupControl1)
         Me.PanelControl1.Controls.Add(Me.GroupControl4)
@@ -339,11 +296,9 @@ Partial Class alinan_emanet
         Me.PanelControl1.Controls.Add(Me.DateEdit2)
         Me.PanelControl1.Controls.Add(Me.LabelControl8)
         Me.PanelControl1.Controls.Add(Me.TextEdit4)
-        Me.PanelControl1.Controls.Add(Me.SimpleButton1)
         Me.PanelControl1.Controls.Add(Me.LabelControl7)
         Me.PanelControl1.Controls.Add(Me.TextEdit3)
         Me.PanelControl1.Controls.Add(Me.LabelControl6)
-        Me.PanelControl1.Controls.Add(Me.TextEdit1)
         Me.PanelControl1.Controls.Add(Me.LabelControl5)
         Me.PanelControl1.Controls.Add(Me.ComboBoxEdit3)
         Me.PanelControl1.Controls.Add(Me.LabelControl4)
@@ -417,13 +372,12 @@ Partial Class alinan_emanet
         '
         'GroupControl1
         '
+        Me.GroupControl1.Controls.Add(Me.ButtonEdit2)
         Me.GroupControl1.Controls.Add(Me.ComboBoxEdit5)
         Me.GroupControl1.Controls.Add(Me.LabelControl14)
         Me.GroupControl1.Controls.Add(Me.TextEdit9)
         Me.GroupControl1.Controls.Add(Me.LabelControl13)
         Me.GroupControl1.Controls.Add(Me.TextEdit8)
-        Me.GroupControl1.Controls.Add(Me.SimpleButton2)
-        Me.GroupControl1.Controls.Add(Me.TextEdit7)
         Me.GroupControl1.Controls.Add(Me.TextEdit5)
         Me.GroupControl1.Controls.Add(Me.LabelControl10)
         Me.GroupControl1.Controls.Add(Me.LabelControl12)
@@ -452,14 +406,6 @@ Partial Class alinan_emanet
         Me.LabelControl13.Size = New System.Drawing.Size(32, 14)
         Me.LabelControl13.TabIndex = 82
         Me.LabelControl13.Text = "Miktar"
-        '
-        'SimpleButton2
-        '
-        Me.SimpleButton2.Location = New System.Drawing.Point(228, 24)
-        Me.SimpleButton2.Name = "SimpleButton2"
-        Me.SimpleButton2.Size = New System.Drawing.Size(25, 23)
-        Me.SimpleButton2.TabIndex = 80
-        Me.SimpleButton2.Text = "*"
         '
         'LabelControl10
         '
@@ -533,14 +479,6 @@ Partial Class alinan_emanet
         Me.LabelControl8.TabIndex = 76
         Me.LabelControl8.Text = "Açıklama"
         '
-        'SimpleButton1
-        '
-        Me.SimpleButton1.Location = New System.Drawing.Point(234, 119)
-        Me.SimpleButton1.Name = "SimpleButton1"
-        Me.SimpleButton1.Size = New System.Drawing.Size(25, 23)
-        Me.SimpleButton1.TabIndex = 74
-        Me.SimpleButton1.Text = "*"
-        '
         'LabelControl7
         '
         Me.LabelControl7.Appearance.Font = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(162, Byte))
@@ -610,6 +548,51 @@ Partial Class alinan_emanet
         Me.LabelControl2.Size = New System.Drawing.Size(58, 14)
         Me.LabelControl2.TabIndex = 32
         Me.LabelControl2.Text = "İşlem Türü"
+        '
+        'SimpleButton6
+        '
+        Me.SimpleButton6.Appearance.Font = New System.Drawing.Font("Tahoma", 8.25!, System.Drawing.FontStyle.Bold)
+        Me.SimpleButton6.Appearance.Options.UseFont = True
+        Me.SimpleButton6.ImageOptions.Image = Global.DataonsERP.My.Resources.Resources.printer_32x32
+        Me.SimpleButton6.Location = New System.Drawing.Point(250, 572)
+        Me.SimpleButton6.Name = "SimpleButton6"
+        Me.SimpleButton6.Size = New System.Drawing.Size(106, 34)
+        Me.SimpleButton6.TabIndex = 45
+        Me.SimpleButton6.Tag = ""
+        Me.SimpleButton6.Text = "Yazdır"
+        '
+        'SimpleButton5
+        '
+        Me.SimpleButton5.Appearance.Font = New System.Drawing.Font("Tahoma", 8.25!, System.Drawing.FontStyle.Bold)
+        Me.SimpleButton5.Appearance.Options.UseFont = True
+        Me.SimpleButton5.ImageOptions.Image = Global.DataonsERP.My.Resources.Resources.listbullets_32x32
+        Me.SimpleButton5.Location = New System.Drawing.Point(375, 572)
+        Me.SimpleButton5.Name = "SimpleButton5"
+        Me.SimpleButton5.Size = New System.Drawing.Size(117, 34)
+        Me.SimpleButton5.TabIndex = 44
+        Me.SimpleButton5.Text = "İşlem Listesi"
+        '
+        'SimpleButton4
+        '
+        Me.SimpleButton4.Appearance.Font = New System.Drawing.Font("Tahoma", 8.25!, System.Drawing.FontStyle.Bold)
+        Me.SimpleButton4.Appearance.Options.UseFont = True
+        Me.SimpleButton4.ImageOptions.Image = Global.DataonsERP.My.Resources.Resources.cancel_32x322
+        Me.SimpleButton4.Location = New System.Drawing.Point(130, 572)
+        Me.SimpleButton4.Name = "SimpleButton4"
+        Me.SimpleButton4.Size = New System.Drawing.Size(106, 34)
+        Me.SimpleButton4.TabIndex = 43
+        Me.SimpleButton4.Text = "Sil"
+        '
+        'SimpleButton3
+        '
+        Me.SimpleButton3.Appearance.Font = New System.Drawing.Font("Tahoma", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(162, Byte))
+        Me.SimpleButton3.Appearance.Options.UseFont = True
+        Me.SimpleButton3.ImageOptions.Image = Global.DataonsERP.My.Resources.Resources.apply_32x322
+        Me.SimpleButton3.Location = New System.Drawing.Point(8, 572)
+        Me.SimpleButton3.Name = "SimpleButton3"
+        Me.SimpleButton3.Size = New System.Drawing.Size(106, 34)
+        Me.SimpleButton3.TabIndex = 42
+        Me.SimpleButton3.Text = "Kaydet"
         '
         'TextEdit22
         '
@@ -709,6 +692,14 @@ Partial Class alinan_emanet
         Me.TextEdit14.Size = New System.Drawing.Size(173, 20)
         Me.TextEdit14.TabIndex = 74
         '
+        'ButtonEdit1
+        '
+        Me.ButtonEdit1.Location = New System.Drawing.Point(78, 121)
+        Me.ButtonEdit1.Name = "ButtonEdit1"
+        Me.ButtonEdit1.Properties.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton()})
+        Me.ButtonEdit1.Size = New System.Drawing.Size(150, 20)
+        Me.ButtonEdit1.TabIndex = 82
+        '
         'TextEdit13
         '
         Me.TextEdit13.Location = New System.Drawing.Point(581, 45)
@@ -745,6 +736,14 @@ Partial Class alinan_emanet
         Me.TextEdit10.Size = New System.Drawing.Size(137, 20)
         Me.TextEdit10.TabIndex = 74
         '
+        'ButtonEdit2
+        '
+        Me.ButtonEdit2.Location = New System.Drawing.Point(72, 26)
+        Me.ButtonEdit2.Name = "ButtonEdit2"
+        Me.ButtonEdit2.Properties.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton()})
+        Me.ButtonEdit2.Size = New System.Drawing.Size(150, 20)
+        Me.ButtonEdit2.TabIndex = 86
+        '
         'ComboBoxEdit5
         '
         Me.ComboBoxEdit5.Location = New System.Drawing.Point(318, 77)
@@ -773,15 +772,6 @@ Partial Class alinan_emanet
         Me.TextEdit8.Properties.Appearance.Options.UseFont = True
         Me.TextEdit8.Size = New System.Drawing.Size(92, 20)
         Me.TextEdit8.TabIndex = 81
-        '
-        'TextEdit7
-        '
-        Me.TextEdit7.Location = New System.Drawing.Point(72, 25)
-        Me.TextEdit7.Name = "TextEdit7"
-        Me.TextEdit7.Properties.Appearance.Font = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(162, Byte))
-        Me.TextEdit7.Properties.Appearance.Options.UseFont = True
-        Me.TextEdit7.Size = New System.Drawing.Size(150, 20)
-        Me.TextEdit7.TabIndex = 79
         '
         'TextEdit5
         '
@@ -844,15 +834,6 @@ Partial Class alinan_emanet
         Me.TextEdit3.Size = New System.Drawing.Size(654, 20)
         Me.TextEdit3.TabIndex = 72
         '
-        'TextEdit1
-        '
-        Me.TextEdit1.Location = New System.Drawing.Point(78, 120)
-        Me.TextEdit1.Name = "TextEdit1"
-        Me.TextEdit1.Properties.Appearance.Font = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(162, Byte))
-        Me.TextEdit1.Properties.Appearance.Options.UseFont = True
-        Me.TextEdit1.Size = New System.Drawing.Size(150, 20)
-        Me.TextEdit1.TabIndex = 70
-        '
         'ComboBoxEdit3
         '
         Me.ComboBoxEdit3.Location = New System.Drawing.Point(78, 94)
@@ -910,7 +891,6 @@ Partial Class alinan_emanet
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(1079, 628)
-        Me.Controls.Add(Me.SimpleButton7)
         Me.Controls.Add(Me.SimpleButton6)
         Me.Controls.Add(Me.SimpleButton5)
         Me.Controls.Add(Me.SimpleButton4)
@@ -949,14 +929,15 @@ Partial Class alinan_emanet
         CType(Me.TextEdit16.Properties, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.TextEdit15.Properties, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.TextEdit14.Properties, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.ButtonEdit1.Properties, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.TextEdit13.Properties, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.TextEdit12.Properties, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.TextEdit11.Properties, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.TextEdit10.Properties, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.ButtonEdit2.Properties, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.ComboBoxEdit5.Properties, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.TextEdit9.Properties, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.TextEdit8.Properties, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.TextEdit7.Properties, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.TextEdit5.Properties, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.ComboBoxEdit4.Properties, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.TextEdit6.Properties, System.ComponentModel.ISupportInitialize).EndInit()
@@ -964,7 +945,6 @@ Partial Class alinan_emanet
         CType(Me.DateEdit2.Properties, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.TextEdit4.Properties, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.TextEdit3.Properties, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.TextEdit1.Properties, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.ComboBoxEdit3.Properties, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.TextEdit2.Properties, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.DateEdit1.Properties.CalendarTimeProperties, System.ComponentModel.ISupportInitialize).EndInit()
@@ -976,7 +956,6 @@ Partial Class alinan_emanet
     End Sub
 
     Friend WithEvents FormAssistant1 As DevExpress.XtraBars.FormAssistant
-    Friend WithEvents SimpleButton7 As DevExpress.XtraEditors.SimpleButton
     Friend WithEvents SimpleButton6 As DevExpress.XtraEditors.SimpleButton
     Friend WithEvents SimpleButton5 As DevExpress.XtraEditors.SimpleButton
     Friend WithEvents SimpleButton4 As DevExpress.XtraEditors.SimpleButton
@@ -1020,8 +999,6 @@ Partial Class alinan_emanet
     Friend WithEvents TextEdit9 As DevExpress.XtraEditors.TextEdit
     Friend WithEvents LabelControl13 As DevExpress.XtraEditors.LabelControl
     Friend WithEvents TextEdit8 As DevExpress.XtraEditors.TextEdit
-    Friend WithEvents SimpleButton2 As DevExpress.XtraEditors.SimpleButton
-    Friend WithEvents TextEdit7 As DevExpress.XtraEditors.TextEdit
     Friend WithEvents TextEdit5 As DevExpress.XtraEditors.TextEdit
     Friend WithEvents LabelControl10 As DevExpress.XtraEditors.LabelControl
     Friend WithEvents LabelControl12 As DevExpress.XtraEditors.LabelControl
@@ -1034,11 +1011,9 @@ Partial Class alinan_emanet
     Friend WithEvents DateEdit2 As DevExpress.XtraEditors.DateEdit
     Friend WithEvents LabelControl8 As DevExpress.XtraEditors.LabelControl
     Friend WithEvents TextEdit4 As DevExpress.XtraEditors.TextEdit
-    Friend WithEvents SimpleButton1 As DevExpress.XtraEditors.SimpleButton
     Friend WithEvents LabelControl7 As DevExpress.XtraEditors.LabelControl
     Friend WithEvents TextEdit3 As DevExpress.XtraEditors.TextEdit
     Friend WithEvents LabelControl6 As DevExpress.XtraEditors.LabelControl
-    Friend WithEvents TextEdit1 As DevExpress.XtraEditors.TextEdit
     Friend WithEvents LabelControl5 As DevExpress.XtraEditors.LabelControl
     Friend WithEvents ComboBoxEdit3 As DevExpress.XtraEditors.ComboBoxEdit
     Friend WithEvents LabelControl4 As DevExpress.XtraEditors.LabelControl
@@ -1049,4 +1024,6 @@ Partial Class alinan_emanet
     Friend WithEvents ComboBoxEdit2 As DevExpress.XtraEditors.ComboBoxEdit
     Friend WithEvents LabelControl2 As DevExpress.XtraEditors.LabelControl
     Friend WithEvents ComboBoxEdit1 As DevExpress.XtraEditors.ComboBoxEdit
+    Friend WithEvents ButtonEdit1 As DevExpress.XtraEditors.ButtonEdit
+    Friend WithEvents ButtonEdit2 As DevExpress.XtraEditors.ButtonEdit
 End Class

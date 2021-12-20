@@ -39,10 +39,10 @@ Partial Class cari_hesap_ekstre
         Me.LabelControl1 = New DevExpress.XtraEditors.LabelControl()
         Me.LabelControl2 = New DevExpress.XtraEditors.LabelControl()
         Me.GroupBox5 = New System.Windows.Forms.GroupBox()
-        Me.RadioButton11 = New System.Windows.Forms.RadioButton()
-        Me.RadioButton12 = New System.Windows.Forms.RadioButton()
         Me.LabelControl5 = New DevExpress.XtraEditors.LabelControl()
         Me.TextEdit5 = New DevExpress.XtraEditors.TextEdit()
+        Me.RadioButton11 = New System.Windows.Forms.RadioButton()
+        Me.RadioButton12 = New System.Windows.Forms.RadioButton()
         Me.GroupBox3 = New System.Windows.Forms.GroupBox()
         Me.SimpleButton3 = New DevExpress.XtraEditors.SimpleButton()
         Me.SimpleButton1 = New DevExpress.XtraEditors.SimpleButton()
@@ -86,7 +86,7 @@ Partial Class cari_hesap_ekstre
         Me.GroupBox2.Controls.Add(Me.TextEdit4)
         Me.GroupBox2.Controls.Add(Me.TextEdit1)
         Me.GroupBox2.Controls.Add(Me.TextEdit3)
-        Me.GroupBox2.Location = New System.Drawing.Point(161, 4)
+        Me.GroupBox2.Location = New System.Drawing.Point(85, 4)
         Me.GroupBox2.Name = "GroupBox2"
         Me.GroupBox2.Size = New System.Drawing.Size(219, 149)
         Me.GroupBox2.TabIndex = 140
@@ -158,7 +158,7 @@ Partial Class cari_hesap_ekstre
         Me.GroupBox1.Controls.Add(Me.LabelControl2)
         Me.GroupBox1.Location = New System.Drawing.Point(2, 4)
         Me.GroupBox1.Name = "GroupBox1"
-        Me.GroupBox1.Size = New System.Drawing.Size(153, 149)
+        Me.GroupBox1.Size = New System.Drawing.Size(77, 149)
         Me.GroupBox1.TabIndex = 139
         Me.GroupBox1.TabStop = False
         Me.GroupBox1.Text = "Filtre"
@@ -219,12 +219,31 @@ Partial Class cari_hesap_ekstre
         Me.GroupBox5.Controls.Add(Me.TextEdit5)
         Me.GroupBox5.Controls.Add(Me.RadioButton11)
         Me.GroupBox5.Controls.Add(Me.RadioButton12)
-        Me.GroupBox5.Location = New System.Drawing.Point(386, 4)
+        Me.GroupBox5.Location = New System.Drawing.Point(310, 4)
         Me.GroupBox5.Name = "GroupBox5"
         Me.GroupBox5.Size = New System.Drawing.Size(232, 149)
         Me.GroupBox5.TabIndex = 148
         Me.GroupBox5.TabStop = False
         Me.GroupBox5.Text = "Rapor Türü"
+        '
+        'LabelControl5
+        '
+        Me.LabelControl5.Appearance.Font = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(162, Byte))
+        Me.LabelControl5.Appearance.Options.UseFont = True
+        Me.LabelControl5.Location = New System.Drawing.Point(15, 83)
+        Me.LabelControl5.Name = "LabelControl5"
+        Me.LabelControl5.Size = New System.Drawing.Size(63, 14)
+        Me.LabelControl5.TabIndex = 129
+        Me.LabelControl5.Text = "Hesap Türü"
+        '
+        'TextEdit5
+        '
+        Me.TextEdit5.Location = New System.Drawing.Point(15, 103)
+        Me.TextEdit5.Name = "TextEdit5"
+        Me.TextEdit5.Properties.Appearance.Font = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(162, Byte))
+        Me.TextEdit5.Properties.Appearance.Options.UseFont = True
+        Me.TextEdit5.Size = New System.Drawing.Size(206, 20)
+        Me.TextEdit5.TabIndex = 128
         '
         'RadioButton11
         '
@@ -249,39 +268,23 @@ Partial Class cari_hesap_ekstre
         Me.RadioButton12.Text = "Detaylı"
         Me.RadioButton12.UseVisualStyleBackColor = True
         '
-        'LabelControl5
-        '
-        Me.LabelControl5.Appearance.Font = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(162, Byte))
-        Me.LabelControl5.Appearance.Options.UseFont = True
-        Me.LabelControl5.Location = New System.Drawing.Point(15, 83)
-        Me.LabelControl5.Name = "LabelControl5"
-        Me.LabelControl5.Size = New System.Drawing.Size(63, 14)
-        Me.LabelControl5.TabIndex = 129
-        Me.LabelControl5.Text = "Hesap Türü"
-        '
-        'TextEdit5
-        '
-        Me.TextEdit5.Location = New System.Drawing.Point(15, 103)
-        Me.TextEdit5.Name = "TextEdit5"
-        Me.TextEdit5.Properties.Appearance.Font = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(162, Byte))
-        Me.TextEdit5.Properties.Appearance.Options.UseFont = True
-        Me.TextEdit5.Size = New System.Drawing.Size(206, 20)
-        Me.TextEdit5.TabIndex = 128
-        '
         'GroupBox3
         '
         Me.GroupBox3.Controls.Add(Me.SimpleButton3)
         Me.GroupBox3.Controls.Add(Me.SimpleButton1)
         Me.GroupBox3.Controls.Add(Me.SimpleButton2)
-        Me.GroupBox3.Location = New System.Drawing.Point(925, 4)
+        Me.GroupBox3.Location = New System.Drawing.Point(925, 2)
         Me.GroupBox3.Name = "GroupBox3"
-        Me.GroupBox3.Size = New System.Drawing.Size(152, 149)
+        Me.GroupBox3.Size = New System.Drawing.Size(152, 151)
         Me.GroupBox3.TabIndex = 149
         Me.GroupBox3.TabStop = False
         '
         'SimpleButton3
         '
-        Me.SimpleButton3.Location = New System.Drawing.Point(6, 109)
+        Me.SimpleButton3.Appearance.Font = New System.Drawing.Font("Tahoma", 8.25!, System.Drawing.FontStyle.Bold)
+        Me.SimpleButton3.Appearance.Options.UseFont = True
+        Me.SimpleButton3.ImageOptions.Image = Global.DataonsERP.My.Resources.Resources.exporttoxls_32x324
+        Me.SimpleButton3.Location = New System.Drawing.Point(6, 105)
         Me.SimpleButton3.Name = "SimpleButton3"
         Me.SimpleButton3.Size = New System.Drawing.Size(140, 34)
         Me.SimpleButton3.TabIndex = 135
@@ -289,6 +292,9 @@ Partial Class cari_hesap_ekstre
         '
         'SimpleButton1
         '
+        Me.SimpleButton1.Appearance.Font = New System.Drawing.Font("Tahoma", 8.25!, System.Drawing.FontStyle.Bold)
+        Me.SimpleButton1.Appearance.Options.UseFont = True
+        Me.SimpleButton1.ImageOptions.Image = Global.DataonsERP.My.Resources.Resources.listnumbers_32x324
         Me.SimpleButton1.Location = New System.Drawing.Point(6, 11)
         Me.SimpleButton1.Name = "SimpleButton1"
         Me.SimpleButton1.Size = New System.Drawing.Size(140, 34)
@@ -297,7 +303,10 @@ Partial Class cari_hesap_ekstre
         '
         'SimpleButton2
         '
-        Me.SimpleButton2.Location = New System.Drawing.Point(6, 63)
+        Me.SimpleButton2.Appearance.Font = New System.Drawing.Font("Tahoma", 8.25!, System.Drawing.FontStyle.Bold)
+        Me.SimpleButton2.Appearance.Options.UseFont = True
+        Me.SimpleButton2.ImageOptions.Image = Global.DataonsERP.My.Resources.Resources.printer_32x325
+        Me.SimpleButton2.Location = New System.Drawing.Point(6, 57)
         Me.SimpleButton2.Name = "SimpleButton2"
         Me.SimpleButton2.Size = New System.Drawing.Size(140, 34)
         Me.SimpleButton2.TabIndex = 134

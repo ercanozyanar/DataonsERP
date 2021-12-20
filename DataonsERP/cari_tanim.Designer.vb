@@ -150,7 +150,6 @@ Partial Class cari_tanim
         Me.LabelControl50 = New DevExpress.XtraEditors.LabelControl()
         Me.TextEdit43 = New DevExpress.XtraEditors.TextEdit()
         Me.PanelControl4 = New DevExpress.XtraEditors.PanelControl()
-        Me.SimpleButton6 = New DevExpress.XtraEditors.SimpleButton()
         Me.SimpleButton5 = New DevExpress.XtraEditors.SimpleButton()
         Me.SimpleButton4 = New DevExpress.XtraEditors.SimpleButton()
         Me.SimpleButton3 = New DevExpress.XtraEditors.SimpleButton()
@@ -260,12 +259,12 @@ Partial Class cari_tanim
         Me.PanelControl1.Controls.Add(Me.LabelControl1)
         Me.PanelControl1.Location = New System.Drawing.Point(1, 12)
         Me.PanelControl1.Name = "PanelControl1"
-        Me.PanelControl1.Size = New System.Drawing.Size(1068, 134)
+        Me.PanelControl1.Size = New System.Drawing.Size(1068, 100)
         Me.PanelControl1.TabIndex = 10
         '
         'ComboBoxEdit3
         '
-        Me.ComboBoxEdit3.Location = New System.Drawing.Point(864, 37)
+        Me.ComboBoxEdit3.Location = New System.Drawing.Point(958, 5)
         Me.ComboBoxEdit3.Name = "ComboBoxEdit3"
         Me.ComboBoxEdit3.Properties.Appearance.Font = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(162, Byte))
         Me.ComboBoxEdit3.Properties.Appearance.Options.UseFont = True
@@ -278,7 +277,7 @@ Partial Class cari_tanim
         '
         Me.LabelControl7.Appearance.Font = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(162, Byte))
         Me.LabelControl7.Appearance.Options.UseFont = True
-        Me.LabelControl7.Location = New System.Drawing.Point(755, 40)
+        Me.LabelControl7.Location = New System.Drawing.Point(849, 8)
         Me.LabelControl7.Name = "LabelControl7"
         Me.LabelControl7.Size = New System.Drawing.Size(94, 14)
         Me.LabelControl7.TabIndex = 13
@@ -286,7 +285,7 @@ Partial Class cari_tanim
         '
         'ComboBoxEdit2
         '
-        Me.ComboBoxEdit2.Location = New System.Drawing.Point(864, 5)
+        Me.ComboBoxEdit2.Location = New System.Drawing.Point(668, 5)
         Me.ComboBoxEdit2.Name = "ComboBoxEdit2"
         Me.ComboBoxEdit2.Properties.Appearance.Font = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(162, Byte))
         Me.ComboBoxEdit2.Properties.Appearance.Options.UseFont = True
@@ -299,7 +298,7 @@ Partial Class cari_tanim
         '
         Me.LabelControl6.Appearance.Font = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(162, Byte))
         Me.LabelControl6.Appearance.Options.UseFont = True
-        Me.LabelControl6.Location = New System.Drawing.Point(806, 8)
+        Me.LabelControl6.Location = New System.Drawing.Point(610, 8)
         Me.LabelControl6.Name = "LabelControl6"
         Me.LabelControl6.Size = New System.Drawing.Size(43, 14)
         Me.LabelControl6.TabIndex = 11
@@ -362,7 +361,7 @@ Partial Class cari_tanim
         Me.TextEdit1.Name = "TextEdit1"
         Me.TextEdit1.Properties.Appearance.Font = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(162, Byte))
         Me.TextEdit1.Properties.Appearance.Options.UseFont = True
-        Me.TextEdit1.Size = New System.Drawing.Size(859, 20)
+        Me.TextEdit1.Size = New System.Drawing.Size(953, 20)
         Me.TextEdit1.TabIndex = 5
         '
         'LabelControl2
@@ -398,10 +397,10 @@ Partial Class cari_tanim
         '
         'XtraTabControl1
         '
-        Me.XtraTabControl1.Location = New System.Drawing.Point(1, 152)
+        Me.XtraTabControl1.Location = New System.Drawing.Point(1, 136)
         Me.XtraTabControl1.Name = "XtraTabControl1"
         Me.XtraTabControl1.SelectedTabPage = Me.XtraTabPage1
-        Me.XtraTabControl1.Size = New System.Drawing.Size(1072, 307)
+        Me.XtraTabControl1.Size = New System.Drawing.Size(1072, 360)
         Me.XtraTabControl1.TabIndex = 11
         Me.XtraTabControl1.TabPages.AddRange(New DevExpress.XtraTab.XtraTabPage() {Me.XtraTabPage1, Me.XtraTabPage2, Me.XtraTabPage3, Me.XtraTabPage4, Me.XtraTabPage5})
         '
@@ -429,7 +428,7 @@ Partial Class cari_tanim
         Me.XtraTabPage1.Controls.Add(Me.LabelControl8)
         Me.XtraTabPage1.Controls.Add(Me.TextEdit2)
         Me.XtraTabPage1.Name = "XtraTabPage1"
-        Me.XtraTabPage1.Size = New System.Drawing.Size(1067, 281)
+        Me.XtraTabPage1.Size = New System.Drawing.Size(1067, 334)
         Me.XtraTabPage1.Text = "İletişim Bilgileri"
         '
         'GroupControl8
@@ -729,7 +728,7 @@ Partial Class cari_tanim
         Me.XtraTabPage2.Controls.Add(Me.GroupControl1)
         Me.XtraTabPage2.Controls.Add(Me.PanelControl2)
         Me.XtraTabPage2.Name = "XtraTabPage2"
-        Me.XtraTabPage2.Size = New System.Drawing.Size(1067, 281)
+        Me.XtraTabPage2.Size = New System.Drawing.Size(1067, 334)
         Me.XtraTabPage2.Text = "Ticari Bilgiler"
         '
         'GroupControl1
@@ -1071,7 +1070,7 @@ Partial Class cari_tanim
         '
         Me.XtraTabPage3.Controls.Add(Me.PanelControl3)
         Me.XtraTabPage3.Name = "XtraTabPage3"
-        Me.XtraTabPage3.Size = New System.Drawing.Size(1067, 281)
+        Me.XtraTabPage3.Size = New System.Drawing.Size(1067, 334)
         Me.XtraTabPage3.Text = "Parametre"
         '
         'PanelControl3
@@ -1351,7 +1350,7 @@ Partial Class cari_tanim
         Me.XtraTabPage4.Controls.Add(Me.LabelControl44)
         Me.XtraTabPage4.Controls.Add(Me.TextEdit39)
         Me.XtraTabPage4.Name = "XtraTabPage4"
-        Me.XtraTabPage4.Size = New System.Drawing.Size(1067, 281)
+        Me.XtraTabPage4.Size = New System.Drawing.Size(1067, 334)
         Me.XtraTabPage4.Text = "Risk Teminat Bilgileri"
         '
         'LabelControl46
@@ -1502,7 +1501,7 @@ Partial Class cari_tanim
         Me.XtraTabPage5.Controls.Add(Me.LabelControl50)
         Me.XtraTabPage5.Controls.Add(Me.TextEdit43)
         Me.XtraTabPage5.Name = "XtraTabPage5"
-        Me.XtraTabPage5.Size = New System.Drawing.Size(1067, 281)
+        Me.XtraTabPage5.Size = New System.Drawing.Size(1067, 334)
         Me.XtraTabPage5.Text = "Referans Bilgileri"
         '
         'LabelControl51
@@ -1602,7 +1601,6 @@ Partial Class cari_tanim
         '
         'PanelControl4
         '
-        Me.PanelControl4.Controls.Add(Me.SimpleButton6)
         Me.PanelControl4.Controls.Add(Me.SimpleButton5)
         Me.PanelControl4.Controls.Add(Me.SimpleButton4)
         Me.PanelControl4.Controls.Add(Me.SimpleButton3)
@@ -1613,16 +1611,11 @@ Partial Class cari_tanim
         Me.PanelControl4.Size = New System.Drawing.Size(1063, 61)
         Me.PanelControl4.TabIndex = 12
         '
-        'SimpleButton6
-        '
-        Me.SimpleButton6.Location = New System.Drawing.Point(942, 5)
-        Me.SimpleButton6.Name = "SimpleButton6"
-        Me.SimpleButton6.Size = New System.Drawing.Size(105, 48)
-        Me.SimpleButton6.TabIndex = 5
-        Me.SimpleButton6.Text = "Çıkış"
-        '
         'SimpleButton5
         '
+        Me.SimpleButton5.Appearance.Font = New System.Drawing.Font("Tahoma", 8.25!, System.Drawing.FontStyle.Bold)
+        Me.SimpleButton5.Appearance.Options.UseFont = True
+        Me.SimpleButton5.ImageOptions.Image = Global.DataonsERP.My.Resources.Resources.undo_32x321
         Me.SimpleButton5.Location = New System.Drawing.Point(498, 8)
         Me.SimpleButton5.Name = "SimpleButton5"
         Me.SimpleButton5.Size = New System.Drawing.Size(105, 48)
@@ -1631,6 +1624,9 @@ Partial Class cari_tanim
         '
         'SimpleButton4
         '
+        Me.SimpleButton4.Appearance.Font = New System.Drawing.Font("Tahoma", 8.25!, System.Drawing.FontStyle.Bold)
+        Me.SimpleButton4.Appearance.Options.UseFont = True
+        Me.SimpleButton4.ImageOptions.Image = Global.DataonsERP.My.Resources.Resources.listbullets_32x321
         Me.SimpleButton4.Location = New System.Drawing.Point(377, 8)
         Me.SimpleButton4.Name = "SimpleButton4"
         Me.SimpleButton4.Size = New System.Drawing.Size(105, 48)
@@ -1639,6 +1635,9 @@ Partial Class cari_tanim
         '
         'SimpleButton3
         '
+        Me.SimpleButton3.Appearance.Font = New System.Drawing.Font("Tahoma", 8.25!, System.Drawing.FontStyle.Bold)
+        Me.SimpleButton3.Appearance.Options.UseFont = True
+        Me.SimpleButton3.ImageOptions.Image = Global.DataonsERP.My.Resources.Resources.contentarrangeincolums_32x32
         Me.SimpleButton3.Location = New System.Drawing.Point(256, 8)
         Me.SimpleButton3.Name = "SimpleButton3"
         Me.SimpleButton3.Size = New System.Drawing.Size(105, 48)
@@ -1647,6 +1646,9 @@ Partial Class cari_tanim
         '
         'SimpleButton2
         '
+        Me.SimpleButton2.Appearance.Font = New System.Drawing.Font("Tahoma", 8.25!, System.Drawing.FontStyle.Bold)
+        Me.SimpleButton2.Appearance.Options.UseFont = True
+        Me.SimpleButton2.ImageOptions.Image = Global.DataonsERP.My.Resources.Resources.cancel_32x324
         Me.SimpleButton2.Location = New System.Drawing.Point(133, 8)
         Me.SimpleButton2.Name = "SimpleButton2"
         Me.SimpleButton2.Size = New System.Drawing.Size(105, 48)
@@ -1655,6 +1657,9 @@ Partial Class cari_tanim
         '
         'SimpleButton1
         '
+        Me.SimpleButton1.Appearance.Font = New System.Drawing.Font("Tahoma", 8.25!, System.Drawing.FontStyle.Bold)
+        Me.SimpleButton1.Appearance.Options.UseFont = True
+        Me.SimpleButton1.ImageOptions.Image = Global.DataonsERP.My.Resources.Resources.apply_32x324
         Me.SimpleButton1.Location = New System.Drawing.Point(9, 8)
         Me.SimpleButton1.Name = "SimpleButton1"
         Me.SimpleButton1.Size = New System.Drawing.Size(105, 48)
@@ -1896,7 +1901,6 @@ Partial Class cari_tanim
     Friend WithEvents LabelControl50 As DevExpress.XtraEditors.LabelControl
     Friend WithEvents TextEdit43 As DevExpress.XtraEditors.TextEdit
     Friend WithEvents PanelControl4 As DevExpress.XtraEditors.PanelControl
-    Friend WithEvents SimpleButton6 As DevExpress.XtraEditors.SimpleButton
     Friend WithEvents SimpleButton5 As DevExpress.XtraEditors.SimpleButton
     Friend WithEvents SimpleButton4 As DevExpress.XtraEditors.SimpleButton
     Friend WithEvents SimpleButton3 As DevExpress.XtraEditors.SimpleButton

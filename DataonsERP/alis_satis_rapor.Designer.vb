@@ -416,7 +416,11 @@ Partial Class alis_satis_rapor
         '
         'SimpleButton1
         '
-        Me.SimpleButton1.Location = New System.Drawing.Point(957, 12)
+        Me.SimpleButton1.Appearance.Font = New System.Drawing.Font("Tahoma", 8.25!, System.Drawing.FontStyle.Bold)
+        Me.SimpleButton1.Appearance.Options.UseFont = True
+        Me.SimpleButton1.ImageOptions.Image = Global.DataonsERP.My.Resources.Resources.listnumbers_32x32
+        Me.SimpleButton1.ImageOptions.Location = DevExpress.XtraEditors.ImageLocation.TopCenter
+        Me.SimpleButton1.Location = New System.Drawing.Point(947, 12)
         Me.SimpleButton1.Name = "SimpleButton1"
         Me.SimpleButton1.Size = New System.Drawing.Size(120, 64)
         Me.SimpleButton1.TabIndex = 0
@@ -424,7 +428,11 @@ Partial Class alis_satis_rapor
         '
         'SimpleButton2
         '
-        Me.SimpleButton2.Location = New System.Drawing.Point(957, 120)
+        Me.SimpleButton2.Appearance.Font = New System.Drawing.Font("Tahoma", 8.25!, System.Drawing.FontStyle.Bold)
+        Me.SimpleButton2.Appearance.Options.UseFont = True
+        Me.SimpleButton2.ImageOptions.Image = Global.DataonsERP.My.Resources.Resources.printer_32x321
+        Me.SimpleButton2.ImageOptions.Location = DevExpress.XtraEditors.ImageLocation.TopCenter
+        Me.SimpleButton2.Location = New System.Drawing.Point(947, 119)
         Me.SimpleButton2.Name = "SimpleButton2"
         Me.SimpleButton2.Size = New System.Drawing.Size(120, 64)
         Me.SimpleButton2.TabIndex = 1

@@ -476,6 +476,35 @@ Public Class main
             'Display the new form.
             NewMDIChild.Show()
         End If
+
+        If (e.Node.Name = "Düğüm55") Then
+            Dim NewMDIChild As New masraf_grupkart_ekstre()
+            'Set the Parent Form of the Child window.
+            NewMDIChild.MdiParent = Me
+            'Display the new form.
+            NewMDIChild.Show()
+        End If
+        If (e.Node.Name = "Düğüm56") Then
+            Dim NewMDIChild As New masraf_grupkart_liste()
+            'Set the Parent Form of the Child window.
+            NewMDIChild.MdiParent = Me
+            'Display the new form.
+            NewMDIChild.Show()
+        End If
+        If (e.Node.Name = "Düğüm57") Then
+            Dim NewMDIChild As New masraf_grup_ekstresi()
+            'Set the Parent Form of the Child window.
+            NewMDIChild.MdiParent = Me
+            'Display the new form.
+            NewMDIChild.Show()
+        End If
+        If (e.Node.Name = "Düğüm58") Then
+            Dim NewMDIChild As New masraf_bakiye_list()
+            'Set the Parent Form of the Child window.
+            NewMDIChild.MdiParent = Me
+            'Display the new form.
+            NewMDIChild.Show()
+        End If
     End Sub
 
     Private Sub TreeView4_NodeMouseClick(sender As Object, e As TreeNodeMouseClickEventArgs) Handles TreeView4.NodeMouseClick
@@ -517,11 +546,21 @@ Public Class main
             NewMDIChild.MdiParent = Me
             NewMDIChild.Show()
         End If
-        'If (e.Node.Name = "Düğüm1") Then
-        '    Dim NewMDIChild As New top()
-        '    NewMDIChild.MdiParent = Me
-        '    NewMDIChild.Show()
-        'End If
+        If (e.Node.Name = "Düğüm1") Then
+            Dim NewMDIChild As New toptan_satis()
+            NewMDIChild.MdiParent = Me
+            NewMDIChild.Show()
+        End If
+        If (e.Node.Name = "Düğüm2") Then
+            Dim NewMDIChild As New alis_satis_rapor()
+            NewMDIChild.MdiParent = Me
+            NewMDIChild.Show()
+        End If
+        If (e.Node.Name = "Düğüm3") Then
+            Dim NewMDIChild As New satis_alis_rapor()
+            NewMDIChild.MdiParent = Me
+            NewMDIChild.Show()
+        End If
     End Sub
     Private Sub TreeView6_NodeMouseClick(sender As Object, e As TreeNodeMouseClickEventArgs) Handles TreeView6.NodeMouseClick
         'If (e.Node.Name = "Düğüm0") Then
@@ -549,5 +588,13 @@ Public Class main
         '    NewMDIChild.MdiParent = Me
         '    NewMDIChild.Show()
         'End If
+    End Sub
+
+    Private Sub TreeView4_AfterSelect(sender As Object, e As TreeViewEventArgs) Handles TreeView4.AfterSelect
+
+    End Sub
+
+    Private Sub TreeView6_AfterSelect(sender As Object, e As TreeViewEventArgs) Handles TreeView6.AfterSelect
+
     End Sub
 End Class

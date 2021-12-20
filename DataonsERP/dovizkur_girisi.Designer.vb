@@ -623,6 +623,7 @@ Partial Class dovizkur_girisi
         '
         'SimpleButton1
         '
+        Me.SimpleButton1.ImageOptions.Image = Global.DataonsERP.My.Resources.Resources.apply_32x325
         Me.SimpleButton1.Location = New System.Drawing.Point(87, 11)
         Me.SimpleButton1.Name = "SimpleButton1"
         Me.SimpleButton1.Size = New System.Drawing.Size(75, 41)
@@ -631,6 +632,7 @@ Partial Class dovizkur_girisi
         '
         'SimpleButton2
         '
+        Me.SimpleButton2.ImageOptions.Image = Global.DataonsERP.My.Resources.Resources.add_32x32
         Me.SimpleButton2.Location = New System.Drawing.Point(6, 11)
         Me.SimpleButton2.Name = "SimpleButton2"
         Me.SimpleButton2.Size = New System.Drawing.Size(75, 41)

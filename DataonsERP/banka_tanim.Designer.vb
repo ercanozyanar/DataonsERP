@@ -41,6 +41,9 @@ Partial Class banka_tanim
         Me.TextEdit2 = New DevExpress.XtraEditors.TextEdit()
         Me.GridControl1 = New DevExpress.XtraGrid.GridControl()
         Me.GridView1 = New DevExpress.XtraGrid.Views.Grid.GridView()
+        Me.SimpleButton2 = New DevExpress.XtraEditors.SimpleButton()
+        Me.SimpleButton1 = New DevExpress.XtraEditors.SimpleButton()
+        Me.GroupBox1 = New System.Windows.Forms.GroupBox()
         CType(Me.TextEdit7.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.ComboBoxEdit2.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.TextEdit5.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -51,6 +54,7 @@ Partial Class banka_tanim
         CType(Me.TextEdit2.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.GridControl1, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.GridView1, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.GroupBox1.SuspendLayout()
         Me.SuspendLayout()
         '
         'LabelControl1
@@ -97,7 +101,7 @@ Partial Class banka_tanim
         '
         Me.LabelControl5.Appearance.Font = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(162, Byte))
         Me.LabelControl5.Appearance.Options.UseFont = True
-        Me.LabelControl5.Location = New System.Drawing.Point(5, 148)
+        Me.LabelControl5.Location = New System.Drawing.Point(451, 42)
         Me.LabelControl5.Name = "LabelControl5"
         Me.LabelControl5.Size = New System.Drawing.Size(46, 14)
         Me.LabelControl5.TabIndex = 83
@@ -107,7 +111,7 @@ Partial Class banka_tanim
         '
         Me.LabelControl6.Appearance.Font = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(162, Byte))
         Me.LabelControl6.Appearance.Options.UseFont = True
-        Me.LabelControl6.Location = New System.Drawing.Point(5, 122)
+        Me.LabelControl6.Location = New System.Drawing.Point(451, 16)
         Me.LabelControl6.Name = "LabelControl6"
         Me.LabelControl6.Size = New System.Drawing.Size(52, 14)
         Me.LabelControl6.TabIndex = 81
@@ -117,7 +121,7 @@ Partial Class banka_tanim
         '
         Me.LabelControl17.Appearance.Font = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(162, Byte))
         Me.LabelControl17.Appearance.Options.UseFont = True
-        Me.LabelControl17.Location = New System.Drawing.Point(5, 173)
+        Me.LabelControl17.Location = New System.Drawing.Point(451, 67)
         Me.LabelControl17.Name = "LabelControl17"
         Me.LabelControl17.Size = New System.Drawing.Size(63, 14)
         Me.LabelControl17.TabIndex = 104
@@ -127,7 +131,7 @@ Partial Class banka_tanim
         '
         Me.LabelControl7.Appearance.Font = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(162, Byte))
         Me.LabelControl7.Appearance.Options.UseFont = True
-        Me.LabelControl7.Location = New System.Drawing.Point(5, 200)
+        Me.LabelControl7.Location = New System.Drawing.Point(451, 94)
         Me.LabelControl7.Name = "LabelControl7"
         Me.LabelControl7.Size = New System.Drawing.Size(96, 14)
         Me.LabelControl7.TabIndex = 107
@@ -135,7 +139,7 @@ Partial Class banka_tanim
         '
         'TextEdit7
         '
-        Me.TextEdit7.Location = New System.Drawing.Point(107, 197)
+        Me.TextEdit7.Location = New System.Drawing.Point(553, 91)
         Me.TextEdit7.Name = "TextEdit7"
         Me.TextEdit7.Properties.Appearance.Font = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(162, Byte))
         Me.TextEdit7.Properties.Appearance.Options.UseFont = True
@@ -144,7 +148,7 @@ Partial Class banka_tanim
         '
         'ComboBoxEdit2
         '
-        Me.ComboBoxEdit2.Location = New System.Drawing.Point(107, 171)
+        Me.ComboBoxEdit2.Location = New System.Drawing.Point(553, 65)
         Me.ComboBoxEdit2.Name = "ComboBoxEdit2"
         Me.ComboBoxEdit2.Properties.Appearance.Font = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(162, Byte))
         Me.ComboBoxEdit2.Properties.Appearance.Options.UseFont = True
@@ -155,7 +159,7 @@ Partial Class banka_tanim
         '
         'TextEdit5
         '
-        Me.TextEdit5.Location = New System.Drawing.Point(107, 145)
+        Me.TextEdit5.Location = New System.Drawing.Point(553, 39)
         Me.TextEdit5.Name = "TextEdit5"
         Me.TextEdit5.Properties.Appearance.Font = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(162, Byte))
         Me.TextEdit5.Properties.Appearance.Options.UseFont = True
@@ -164,7 +168,7 @@ Partial Class banka_tanim
         '
         'TextEdit6
         '
-        Me.TextEdit6.Location = New System.Drawing.Point(107, 119)
+        Me.TextEdit6.Location = New System.Drawing.Point(553, 13)
         Me.TextEdit6.Name = "TextEdit6"
         Me.TextEdit6.Properties.Appearance.Font = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(162, Byte))
         Me.TextEdit6.Properties.Appearance.Options.UseFont = True
@@ -209,10 +213,10 @@ Partial Class banka_tanim
         '
         'GridControl1
         '
-        Me.GridControl1.Location = New System.Drawing.Point(5, 237)
+        Me.GridControl1.Location = New System.Drawing.Point(5, 195)
         Me.GridControl1.MainView = Me.GridView1
         Me.GridControl1.Name = "GridControl1"
-        Me.GridControl1.Size = New System.Drawing.Size(1070, 388)
+        Me.GridControl1.Size = New System.Drawing.Size(1070, 430)
         Me.GridControl1.TabIndex = 108
         Me.GridControl1.ViewCollection.AddRange(New DevExpress.XtraGrid.Views.Base.BaseView() {Me.GridView1})
         '
@@ -221,11 +225,44 @@ Partial Class banka_tanim
         Me.GridView1.GridControl = Me.GridControl1
         Me.GridView1.Name = "GridView1"
         '
+        'SimpleButton2
+        '
+        Me.SimpleButton2.Appearance.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(162, Byte))
+        Me.SimpleButton2.Appearance.Options.UseFont = True
+        Me.SimpleButton2.ImageOptions.Image = Global.DataonsERP.My.Resources.Resources.cancel_32x323
+        Me.SimpleButton2.Location = New System.Drawing.Point(133, 11)
+        Me.SimpleButton2.Name = "SimpleButton2"
+        Me.SimpleButton2.Size = New System.Drawing.Size(98, 43)
+        Me.SimpleButton2.TabIndex = 110
+        Me.SimpleButton2.Text = "Sil"
+        '
+        'SimpleButton1
+        '
+        Me.SimpleButton1.Appearance.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(162, Byte))
+        Me.SimpleButton1.Appearance.Options.UseFont = True
+        Me.SimpleButton1.ImageOptions.Image = Global.DataonsERP.My.Resources.Resources.apply_32x323
+        Me.SimpleButton1.Location = New System.Drawing.Point(6, 11)
+        Me.SimpleButton1.Name = "SimpleButton1"
+        Me.SimpleButton1.Size = New System.Drawing.Size(98, 43)
+        Me.SimpleButton1.TabIndex = 109
+        Me.SimpleButton1.Text = "Kaydet"
+        '
+        'GroupBox1
+        '
+        Me.GroupBox1.Controls.Add(Me.SimpleButton1)
+        Me.GroupBox1.Controls.Add(Me.SimpleButton2)
+        Me.GroupBox1.Location = New System.Drawing.Point(5, 129)
+        Me.GroupBox1.Name = "GroupBox1"
+        Me.GroupBox1.Size = New System.Drawing.Size(240, 60)
+        Me.GroupBox1.TabIndex = 111
+        Me.GroupBox1.TabStop = False
+        '
         'banka_tanim
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(1079, 628)
+        Me.Controls.Add(Me.GroupBox1)
         Me.Controls.Add(Me.GridControl1)
         Me.Controls.Add(Me.LabelControl7)
         Me.Controls.Add(Me.TextEdit7)
@@ -255,6 +292,7 @@ Partial Class banka_tanim
         CType(Me.TextEdit2.Properties, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.GridControl1, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.GridView1, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.GroupBox1.ResumeLayout(False)
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
@@ -279,4 +317,7 @@ Partial Class banka_tanim
     Friend WithEvents TextEdit7 As DevExpress.XtraEditors.TextEdit
     Friend WithEvents GridControl1 As DevExpress.XtraGrid.GridControl
     Friend WithEvents GridView1 As DevExpress.XtraGrid.Views.Grid.GridView
+    Friend WithEvents SimpleButton2 As DevExpress.XtraEditors.SimpleButton
+    Friend WithEvents SimpleButton1 As DevExpress.XtraEditors.SimpleButton
+    Friend WithEvents GroupBox1 As GroupBox
 End Class
