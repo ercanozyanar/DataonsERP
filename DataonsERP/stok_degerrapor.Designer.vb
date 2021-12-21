@@ -61,6 +61,9 @@ Partial Class stok_degerrapor
         '
         'SimpleButton3
         '
+        Me.SimpleButton3.Appearance.Font = New System.Drawing.Font("Tahoma", 8.25!, System.Drawing.FontStyle.Bold)
+        Me.SimpleButton3.Appearance.Options.UseFont = True
+        Me.SimpleButton3.ImageOptions.Image = Global.DataonsERP.My.Resources.Resources.exporttoxls_32x3210
         Me.SimpleButton3.Location = New System.Drawing.Point(321, 11)
         Me.SimpleButton3.Name = "SimpleButton3"
         Me.SimpleButton3.Size = New System.Drawing.Size(140, 34)
@@ -69,6 +72,9 @@ Partial Class stok_degerrapor
         '
         'SimpleButton1
         '
+        Me.SimpleButton1.Appearance.Font = New System.Drawing.Font("Tahoma", 8.25!, System.Drawing.FontStyle.Bold)
+        Me.SimpleButton1.Appearance.Options.UseFont = True
+        Me.SimpleButton1.ImageOptions.Image = Global.DataonsERP.My.Resources.Resources.listnumbers_32x3210
         Me.SimpleButton1.Location = New System.Drawing.Point(6, 11)
         Me.SimpleButton1.Name = "SimpleButton1"
         Me.SimpleButton1.Size = New System.Drawing.Size(140, 34)
@@ -77,6 +83,9 @@ Partial Class stok_degerrapor
         '
         'SimpleButton2
         '
+        Me.SimpleButton2.Appearance.Font = New System.Drawing.Font("Tahoma", 8.25!, System.Drawing.FontStyle.Bold)
+        Me.SimpleButton2.Appearance.Options.UseFont = True
+        Me.SimpleButton2.ImageOptions.Image = Global.DataonsERP.My.Resources.Resources.printer_32x3210
         Me.SimpleButton2.Location = New System.Drawing.Point(163, 11)
         Me.SimpleButton2.Name = "SimpleButton2"
         Me.SimpleButton2.Size = New System.Drawing.Size(140, 34)

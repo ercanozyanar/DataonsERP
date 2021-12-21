@@ -139,9 +139,7 @@ Partial Class stok_tanimlama
         Me.SimpleButton9 = New DevExpress.XtraEditors.SimpleButton()
         Me.SimpleButton10 = New DevExpress.XtraEditors.SimpleButton()
         Me.SimpleButton11 = New DevExpress.XtraEditors.SimpleButton()
-        Me.SimpleButton12 = New DevExpress.XtraEditors.SimpleButton()
         Me.SimpleButton14 = New DevExpress.XtraEditors.SimpleButton()
-        Me.SimpleButton17 = New DevExpress.XtraEditors.SimpleButton()
         Me.SimpleButton18 = New DevExpress.XtraEditors.SimpleButton()
         Me.SimpleButton20 = New DevExpress.XtraEditors.SimpleButton()
         Me.SimpleButton1 = New DevExpress.XtraEditors.SimpleButton()
@@ -292,33 +290,41 @@ Partial Class stok_tanimlama
         '
         'SimpleButton4
         '
+        Me.SimpleButton4.Appearance.Font = New System.Drawing.Font("Tahoma", 8.25!, System.Drawing.FontStyle.Bold)
+        Me.SimpleButton4.Appearance.Options.UseFont = True
         Me.SimpleButton4.Location = New System.Drawing.Point(937, 365)
         Me.SimpleButton4.Name = "SimpleButton4"
-        Me.SimpleButton4.Size = New System.Drawing.Size(64, 36)
+        Me.SimpleButton4.Size = New System.Drawing.Size(64, 43)
         Me.SimpleButton4.TabIndex = 11
         Me.SimpleButton4.Text = "Foto Sil"
         '
         'SimpleButton5
         '
+        Me.SimpleButton5.Appearance.Font = New System.Drawing.Font("Tahoma", 8.25!, System.Drawing.FontStyle.Bold)
+        Me.SimpleButton5.Appearance.Options.UseFont = True
         Me.SimpleButton5.Location = New System.Drawing.Point(867, 365)
         Me.SimpleButton5.Name = "SimpleButton5"
-        Me.SimpleButton5.Size = New System.Drawing.Size(64, 36)
+        Me.SimpleButton5.Size = New System.Drawing.Size(64, 43)
         Me.SimpleButton5.TabIndex = 10
         Me.SimpleButton5.Text = "Foto Ekle"
         '
         'SimpleButton6
         '
+        Me.SimpleButton6.Appearance.Font = New System.Drawing.Font("Tahoma", 8.25!, System.Drawing.FontStyle.Bold)
+        Me.SimpleButton6.Appearance.Options.UseFont = True
         Me.SimpleButton6.Location = New System.Drawing.Point(797, 365)
         Me.SimpleButton6.Name = "SimpleButton6"
-        Me.SimpleButton6.Size = New System.Drawing.Size(64, 36)
+        Me.SimpleButton6.Size = New System.Drawing.Size(64, 43)
         Me.SimpleButton6.TabIndex = 9
         Me.SimpleButton6.Text = "Foto Çek"
         '
         'SimpleButton8
         '
+        Me.SimpleButton8.Appearance.Font = New System.Drawing.Font("Tahoma", 8.25!, System.Drawing.FontStyle.Bold)
+        Me.SimpleButton8.Appearance.Options.UseFont = True
         Me.SimpleButton8.Location = New System.Drawing.Point(1007, 365)
         Me.SimpleButton8.Name = "SimpleButton8"
-        Me.SimpleButton8.Size = New System.Drawing.Size(64, 36)
+        Me.SimpleButton8.Size = New System.Drawing.Size(64, 43)
         Me.SimpleButton8.TabIndex = 12
         Me.SimpleButton8.Text = "Göster"
         '
@@ -1451,7 +1457,10 @@ Partial Class stok_tanimlama
         '
         'SimpleButton9
         '
-        Me.SimpleButton9.Location = New System.Drawing.Point(102, 416)
+        Me.SimpleButton9.Appearance.Font = New System.Drawing.Font("Tahoma", 8.25!, System.Drawing.FontStyle.Bold)
+        Me.SimpleButton9.Appearance.Options.UseFont = True
+        Me.SimpleButton9.ImageOptions.Image = Global.DataonsERP.My.Resources.Resources.apply_32x3210
+        Me.SimpleButton9.Location = New System.Drawing.Point(116, 416)
         Me.SimpleButton9.Name = "SimpleButton9"
         Me.SimpleButton9.Size = New System.Drawing.Size(164, 34)
         Me.SimpleButton9.TabIndex = 17
@@ -1459,7 +1468,10 @@ Partial Class stok_tanimlama
         '
         'SimpleButton10
         '
-        Me.SimpleButton10.Location = New System.Drawing.Point(372, 416)
+        Me.SimpleButton10.Appearance.Font = New System.Drawing.Font("Tahoma", 8.25!, System.Drawing.FontStyle.Bold)
+        Me.SimpleButton10.Appearance.Options.UseFont = True
+        Me.SimpleButton10.ImageOptions.Image = Global.DataonsERP.My.Resources.Resources.convert_32x32
+        Me.SimpleButton10.Location = New System.Drawing.Point(402, 416)
         Me.SimpleButton10.Name = "SimpleButton10"
         Me.SimpleButton10.Size = New System.Drawing.Size(92, 34)
         Me.SimpleButton10.TabIndex = 18
@@ -1467,53 +1479,47 @@ Partial Class stok_tanimlama
         '
         'SimpleButton11
         '
-        Me.SimpleButton11.Location = New System.Drawing.Point(271, 416)
+        Me.SimpleButton11.Appearance.Font = New System.Drawing.Font("Tahoma", 8.25!, System.Drawing.FontStyle.Bold)
+        Me.SimpleButton11.Appearance.Options.UseFont = True
+        Me.SimpleButton11.ImageOptions.Image = Global.DataonsERP.My.Resources.Resources.cancel_32x3210
+        Me.SimpleButton11.Location = New System.Drawing.Point(293, 416)
         Me.SimpleButton11.Name = "SimpleButton11"
         Me.SimpleButton11.Size = New System.Drawing.Size(92, 34)
         Me.SimpleButton11.TabIndex = 19
         Me.SimpleButton11.Text = "Sil"
         '
-        'SimpleButton12
-        '
-        Me.SimpleButton12.Location = New System.Drawing.Point(568, 416)
-        Me.SimpleButton12.Name = "SimpleButton12"
-        Me.SimpleButton12.Size = New System.Drawing.Size(92, 34)
-        Me.SimpleButton12.TabIndex = 22
-        Me.SimpleButton12.Text = "Vazgeç"
-        '
         'SimpleButton14
         '
+        Me.SimpleButton14.Appearance.Font = New System.Drawing.Font("Tahoma", 8.25!, System.Drawing.FontStyle.Bold)
+        Me.SimpleButton14.Appearance.Options.UseFont = True
+        Me.SimpleButton14.ImageOptions.Image = Global.DataonsERP.My.Resources.Resources.add_32x322
         Me.SimpleButton14.Location = New System.Drawing.Point(4, 416)
         Me.SimpleButton14.Name = "SimpleButton14"
         Me.SimpleButton14.Size = New System.Drawing.Size(92, 34)
         Me.SimpleButton14.TabIndex = 20
         Me.SimpleButton14.Text = "Yeni"
         '
-        'SimpleButton17
-        '
-        Me.SimpleButton17.ImageOptions.Image = Global.DataonsERP.My.Resources.Resources.cancel_32x32
-        Me.SimpleButton17.Location = New System.Drawing.Point(797, 416)
-        Me.SimpleButton17.Name = "SimpleButton17"
-        Me.SimpleButton17.Size = New System.Drawing.Size(274, 34)
-        Me.SimpleButton17.TabIndex = 26
-        Me.SimpleButton17.Text = "Çıkış"
-        '
         'SimpleButton18
         '
+        Me.SimpleButton18.Appearance.Font = New System.Drawing.Font("Tahoma", 8.25!, System.Drawing.FontStyle.Bold)
+        Me.SimpleButton18.Appearance.Options.UseFont = True
         Me.SimpleButton18.ImageOptions.Image = Global.DataonsERP.My.Resources.Resources.barcode_32x32
-        Me.SimpleButton18.Location = New System.Drawing.Point(666, 416)
+        Me.SimpleButton18.Location = New System.Drawing.Point(797, 416)
         Me.SimpleButton18.Name = "SimpleButton18"
-        Me.SimpleButton18.Size = New System.Drawing.Size(125, 34)
+        Me.SimpleButton18.Size = New System.Drawing.Size(274, 34)
         Me.SimpleButton18.TabIndex = 25
         Me.SimpleButton18.Text = "Barkod"
         '
         'SimpleButton20
         '
-        Me.SimpleButton20.Location = New System.Drawing.Point(470, 416)
+        Me.SimpleButton20.Appearance.Font = New System.Drawing.Font("Tahoma", 8.25!, System.Drawing.FontStyle.Bold)
+        Me.SimpleButton20.Appearance.Options.UseFont = True
+        Me.SimpleButton20.ImageOptions.Image = Global.DataonsERP.My.Resources.Resources.undo_32x324
+        Me.SimpleButton20.Location = New System.Drawing.Point(510, 416)
         Me.SimpleButton20.Name = "SimpleButton20"
         Me.SimpleButton20.Size = New System.Drawing.Size(92, 34)
         Me.SimpleButton20.TabIndex = 23
-        Me.SimpleButton20.Text = "Değiştir"
+        Me.SimpleButton20.Text = "Vazgeç"
         '
         'SimpleButton1
         '
@@ -1637,10 +1643,8 @@ Partial Class stok_tanimlama
         Me.Controls.Add(Me.DataGridView1)
         Me.Controls.Add(Me.LabelControl4)
         Me.Controls.Add(Me.LabelControl2)
-        Me.Controls.Add(Me.SimpleButton17)
         Me.Controls.Add(Me.SimpleButton18)
         Me.Controls.Add(Me.SimpleButton20)
-        Me.Controls.Add(Me.SimpleButton12)
         Me.Controls.Add(Me.SimpleButton14)
         Me.Controls.Add(Me.SimpleButton11)
         Me.Controls.Add(Me.SimpleButton10)
@@ -1771,9 +1775,7 @@ Partial Class stok_tanimlama
     Friend WithEvents SimpleButton9 As DevExpress.XtraEditors.SimpleButton
     Friend WithEvents SimpleButton10 As DevExpress.XtraEditors.SimpleButton
     Friend WithEvents SimpleButton11 As DevExpress.XtraEditors.SimpleButton
-    Friend WithEvents SimpleButton12 As DevExpress.XtraEditors.SimpleButton
     Friend WithEvents SimpleButton14 As DevExpress.XtraEditors.SimpleButton
-    Friend WithEvents SimpleButton17 As DevExpress.XtraEditors.SimpleButton
     Friend WithEvents SimpleButton18 As DevExpress.XtraEditors.SimpleButton
     Friend WithEvents SimpleButton20 As DevExpress.XtraEditors.SimpleButton
     Friend WithEvents SimpleButton1 As DevExpress.XtraEditors.SimpleButton

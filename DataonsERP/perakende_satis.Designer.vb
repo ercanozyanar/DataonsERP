@@ -32,7 +32,6 @@ Partial Class perakende_satis
         Me.LabelControl14 = New DevExpress.XtraEditors.LabelControl()
         Me.LabelControl13 = New DevExpress.XtraEditors.LabelControl()
         Me.LabelControl17 = New DevExpress.XtraEditors.LabelControl()
-        Me.SimpleButton1 = New DevExpress.XtraEditors.SimpleButton()
         Me.LabelControl6 = New DevExpress.XtraEditors.LabelControl()
         Me.LabelControl7 = New DevExpress.XtraEditors.LabelControl()
         Me.LabelControl8 = New DevExpress.XtraEditors.LabelControl()
@@ -54,7 +53,6 @@ Partial Class perakende_satis
         Me.ComboBoxEdit2 = New DevExpress.XtraEditors.ComboBoxEdit()
         Me.TextEdit4 = New DevExpress.XtraEditors.TextEdit()
         Me.TextEdit5 = New DevExpress.XtraEditors.TextEdit()
-        Me.TextEdit6 = New DevExpress.XtraEditors.TextEdit()
         Me.LabelControl3 = New DevExpress.XtraEditors.LabelControl()
         Me.DateEdit1 = New DevExpress.XtraEditors.DateEdit()
         Me.LabelControl1 = New DevExpress.XtraEditors.LabelControl()
@@ -119,12 +117,13 @@ Partial Class perakende_satis
         Me.LabelControl37 = New DevExpress.XtraEditors.LabelControl()
         Me.TextEdit33 = New DevExpress.XtraEditors.TextEdit()
         Me.LabelControl36 = New DevExpress.XtraEditors.LabelControl()
-        Me.SimpleButton2 = New DevExpress.XtraEditors.SimpleButton()
-        Me.SimpleButton3 = New DevExpress.XtraEditors.SimpleButton()
-        Me.SimpleButton4 = New DevExpress.XtraEditors.SimpleButton()
-        Me.SimpleButton5 = New DevExpress.XtraEditors.SimpleButton()
-        Me.SimpleButton6 = New DevExpress.XtraEditors.SimpleButton()
+        Me.ButtonEdit1 = New DevExpress.XtraEditors.ButtonEdit()
         Me.SimpleButton7 = New DevExpress.XtraEditors.SimpleButton()
+        Me.SimpleButton5 = New DevExpress.XtraEditors.SimpleButton()
+        Me.SimpleButton4 = New DevExpress.XtraEditors.SimpleButton()
+        Me.SimpleButton3 = New DevExpress.XtraEditors.SimpleButton()
+        Me.SimpleButton2 = New DevExpress.XtraEditors.SimpleButton()
+        Me.SimpleButton6 = New DevExpress.XtraEditors.SimpleButton()
         CType(Me.DataGridView1, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PanelControl1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.PanelControl1.SuspendLayout()
@@ -143,7 +142,6 @@ Partial Class perakende_satis
         CType(Me.ComboBoxEdit2.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.TextEdit4.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.TextEdit5.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.TextEdit6.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.DateEdit1.Properties.CalendarTimeProperties, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.DateEdit1.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.TextEdit1.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -187,6 +185,7 @@ Partial Class perakende_satis
         CType(Me.TextEdit35.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.TextEdit34.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.TextEdit33.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.ButtonEdit1.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'DataGridView1
@@ -277,14 +276,6 @@ Partial Class perakende_satis
         Me.LabelControl17.TabIndex = 102
         Me.LabelControl17.Text = "Döviz Türü"
         '
-        'SimpleButton1
-        '
-        Me.SimpleButton1.Location = New System.Drawing.Point(477, 3)
-        Me.SimpleButton1.Name = "SimpleButton1"
-        Me.SimpleButton1.Size = New System.Drawing.Size(19, 19)
-        Me.SimpleButton1.TabIndex = 84
-        Me.SimpleButton1.Text = "*"
-        '
         'LabelControl6
         '
         Me.LabelControl6.Appearance.Font = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(162, Byte))
@@ -309,7 +300,7 @@ Partial Class perakende_satis
         '
         Me.LabelControl8.Appearance.Font = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(162, Byte))
         Me.LabelControl8.Appearance.Options.UseFont = True
-        Me.LabelControl8.Location = New System.Drawing.Point(249, 5)
+        Me.LabelControl8.Location = New System.Drawing.Point(250, 8)
         Me.LabelControl8.Name = "LabelControl8"
         Me.LabelControl8.Size = New System.Drawing.Size(51, 14)
         Me.LabelControl8.TabIndex = 79
@@ -317,6 +308,7 @@ Partial Class perakende_satis
         '
         'PanelControl1
         '
+        Me.PanelControl1.Controls.Add(Me.ButtonEdit1)
         Me.PanelControl1.Controls.Add(Me.GroupControl4)
         Me.PanelControl1.Controls.Add(Me.GroupControl2)
         Me.PanelControl1.Controls.Add(Me.LabelControl5)
@@ -333,13 +325,11 @@ Partial Class perakende_satis
         Me.PanelControl1.Controls.Add(Me.ComboBoxEdit2)
         Me.PanelControl1.Controls.Add(Me.LabelControl13)
         Me.PanelControl1.Controls.Add(Me.LabelControl17)
-        Me.PanelControl1.Controls.Add(Me.SimpleButton1)
         Me.PanelControl1.Controls.Add(Me.LabelControl6)
         Me.PanelControl1.Controls.Add(Me.TextEdit4)
         Me.PanelControl1.Controls.Add(Me.LabelControl7)
         Me.PanelControl1.Controls.Add(Me.TextEdit5)
         Me.PanelControl1.Controls.Add(Me.LabelControl8)
-        Me.PanelControl1.Controls.Add(Me.TextEdit6)
         Me.PanelControl1.Controls.Add(Me.LabelControl3)
         Me.PanelControl1.Controls.Add(Me.DateEdit1)
         Me.PanelControl1.Controls.Add(Me.LabelControl1)
@@ -539,15 +529,6 @@ Partial Class perakende_satis
         Me.TextEdit5.Properties.Appearance.Options.UseFont = True
         Me.TextEdit5.Size = New System.Drawing.Size(336, 20)
         Me.TextEdit5.TabIndex = 80
-        '
-        'TextEdit6
-        '
-        Me.TextEdit6.Location = New System.Drawing.Point(321, 2)
-        Me.TextEdit6.Name = "TextEdit6"
-        Me.TextEdit6.Properties.Appearance.Font = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(162, Byte))
-        Me.TextEdit6.Properties.Appearance.Options.UseFont = True
-        Me.TextEdit6.Size = New System.Drawing.Size(150, 20)
-        Me.TextEdit6.TabIndex = 78
         '
         'LabelControl3
         '
@@ -1243,53 +1224,79 @@ Partial Class perakende_satis
         Me.LabelControl36.TabIndex = 35
         Me.LabelControl36.Text = "TOPLAM"
         '
-        'SimpleButton2
+        'ButtonEdit1
         '
-        Me.SimpleButton2.Location = New System.Drawing.Point(3, 568)
-        Me.SimpleButton2.Name = "SimpleButton2"
-        Me.SimpleButton2.Size = New System.Drawing.Size(105, 39)
-        Me.SimpleButton2.TabIndex = 94
-        Me.SimpleButton2.Text = "Kaydet"
-        '
-        'SimpleButton3
-        '
-        Me.SimpleButton3.Location = New System.Drawing.Point(128, 568)
-        Me.SimpleButton3.Name = "SimpleButton3"
-        Me.SimpleButton3.Size = New System.Drawing.Size(105, 39)
-        Me.SimpleButton3.TabIndex = 95
-        Me.SimpleButton3.Text = "Fiş Sil"
-        '
-        'SimpleButton4
-        '
-        Me.SimpleButton4.Location = New System.Drawing.Point(252, 568)
-        Me.SimpleButton4.Name = "SimpleButton4"
-        Me.SimpleButton4.Size = New System.Drawing.Size(105, 39)
-        Me.SimpleButton4.TabIndex = 96
-        Me.SimpleButton4.Text = "Satır Sil"
-        '
-        'SimpleButton5
-        '
-        Me.SimpleButton5.Location = New System.Drawing.Point(376, 568)
-        Me.SimpleButton5.Name = "SimpleButton5"
-        Me.SimpleButton5.Size = New System.Drawing.Size(105, 39)
-        Me.SimpleButton5.TabIndex = 97
-        Me.SimpleButton5.Text = "Yazdır"
-        '
-        'SimpleButton6
-        '
-        Me.SimpleButton6.Location = New System.Drawing.Point(498, 568)
-        Me.SimpleButton6.Name = "SimpleButton6"
-        Me.SimpleButton6.Size = New System.Drawing.Size(105, 39)
-        Me.SimpleButton6.TabIndex = 98
-        Me.SimpleButton6.Text = "Satış Listesi"
+        Me.ButtonEdit1.Location = New System.Drawing.Point(321, 5)
+        Me.ButtonEdit1.Name = "ButtonEdit1"
+        Me.ButtonEdit1.Properties.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton()})
+        Me.ButtonEdit1.Size = New System.Drawing.Size(150, 20)
+        Me.ButtonEdit1.TabIndex = 117
         '
         'SimpleButton7
         '
-        Me.SimpleButton7.Location = New System.Drawing.Point(616, 568)
+        Me.SimpleButton7.Appearance.Font = New System.Drawing.Font("Tahoma", 8.25!, System.Drawing.FontStyle.Bold)
+        Me.SimpleButton7.Appearance.Options.UseFont = True
+        Me.SimpleButton7.ImageOptions.Image = Global.DataonsERP.My.Resources.Resources.undo_32x322
+        Me.SimpleButton7.Location = New System.Drawing.Point(632, 577)
         Me.SimpleButton7.Name = "SimpleButton7"
         Me.SimpleButton7.Size = New System.Drawing.Size(105, 39)
-        Me.SimpleButton7.TabIndex = 99
+        Me.SimpleButton7.TabIndex = 118
         Me.SimpleButton7.Text = "Vazgeç"
+        '
+        'SimpleButton5
+        '
+        Me.SimpleButton5.Appearance.Font = New System.Drawing.Font("Tahoma", 8.25!, System.Drawing.FontStyle.Bold)
+        Me.SimpleButton5.Appearance.Options.UseFont = True
+        Me.SimpleButton5.ImageOptions.Image = Global.DataonsERP.My.Resources.Resources.printer_32x329
+        Me.SimpleButton5.Location = New System.Drawing.Point(376, 577)
+        Me.SimpleButton5.Name = "SimpleButton5"
+        Me.SimpleButton5.Size = New System.Drawing.Size(105, 39)
+        Me.SimpleButton5.TabIndex = 116
+        Me.SimpleButton5.Text = "Yazdır"
+        '
+        'SimpleButton4
+        '
+        Me.SimpleButton4.Appearance.Font = New System.Drawing.Font("Tahoma", 8.25!, System.Drawing.FontStyle.Bold)
+        Me.SimpleButton4.Appearance.Options.UseFont = True
+        Me.SimpleButton4.ImageOptions.Image = Global.DataonsERP.My.Resources.Resources.removesheetrows_32x322
+        Me.SimpleButton4.Location = New System.Drawing.Point(252, 577)
+        Me.SimpleButton4.Name = "SimpleButton4"
+        Me.SimpleButton4.Size = New System.Drawing.Size(105, 39)
+        Me.SimpleButton4.TabIndex = 115
+        Me.SimpleButton4.Text = "Satır Sil"
+        '
+        'SimpleButton3
+        '
+        Me.SimpleButton3.Appearance.Font = New System.Drawing.Font("Tahoma", 8.25!, System.Drawing.FontStyle.Bold)
+        Me.SimpleButton3.Appearance.Options.UseFont = True
+        Me.SimpleButton3.ImageOptions.Image = Global.DataonsERP.My.Resources.Resources.deletelist2_32x32
+        Me.SimpleButton3.Location = New System.Drawing.Point(128, 577)
+        Me.SimpleButton3.Name = "SimpleButton3"
+        Me.SimpleButton3.Size = New System.Drawing.Size(105, 39)
+        Me.SimpleButton3.TabIndex = 114
+        Me.SimpleButton3.Text = "Fiş Sil"
+        '
+        'SimpleButton2
+        '
+        Me.SimpleButton2.Appearance.Font = New System.Drawing.Font("Tahoma", 8.25!, System.Drawing.FontStyle.Bold)
+        Me.SimpleButton2.Appearance.Options.UseFont = True
+        Me.SimpleButton2.ImageOptions.Image = Global.DataonsERP.My.Resources.Resources.apply_32x329
+        Me.SimpleButton2.Location = New System.Drawing.Point(3, 577)
+        Me.SimpleButton2.Name = "SimpleButton2"
+        Me.SimpleButton2.Size = New System.Drawing.Size(105, 39)
+        Me.SimpleButton2.TabIndex = 113
+        Me.SimpleButton2.Text = "Kaydet"
+        '
+        'SimpleButton6
+        '
+        Me.SimpleButton6.Appearance.Font = New System.Drawing.Font("Tahoma", 8.25!, System.Drawing.FontStyle.Bold)
+        Me.SimpleButton6.Appearance.Options.UseFont = True
+        Me.SimpleButton6.ImageOptions.Image = Global.DataonsERP.My.Resources.Resources.listbullets_32x322
+        Me.SimpleButton6.Location = New System.Drawing.Point(498, 577)
+        Me.SimpleButton6.Name = "SimpleButton6"
+        Me.SimpleButton6.Size = New System.Drawing.Size(115, 39)
+        Me.SimpleButton6.TabIndex = 117
+        Me.SimpleButton6.Text = "Satış Listesi"
         '
         'perakende_satis
         '
@@ -1297,11 +1304,11 @@ Partial Class perakende_satis
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(1079, 628)
         Me.Controls.Add(Me.SimpleButton7)
-        Me.Controls.Add(Me.SimpleButton6)
         Me.Controls.Add(Me.SimpleButton5)
         Me.Controls.Add(Me.SimpleButton4)
         Me.Controls.Add(Me.SimpleButton3)
         Me.Controls.Add(Me.SimpleButton2)
+        Me.Controls.Add(Me.SimpleButton6)
         Me.Controls.Add(Me.Panel1)
         Me.Controls.Add(Me.GroupControl6)
         Me.Controls.Add(Me.DataGridView1)
@@ -1332,7 +1339,6 @@ Partial Class perakende_satis
         CType(Me.ComboBoxEdit2.Properties, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.TextEdit4.Properties, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.TextEdit5.Properties, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.TextEdit6.Properties, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.DateEdit1.Properties.CalendarTimeProperties, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.DateEdit1.Properties, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.TextEdit1.Properties, System.ComponentModel.ISupportInitialize).EndInit()
@@ -1381,6 +1387,7 @@ Partial Class perakende_satis
         CType(Me.TextEdit35.Properties, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.TextEdit34.Properties, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.TextEdit33.Properties, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.ButtonEdit1.Properties, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
 
     End Sub
@@ -1407,7 +1414,6 @@ Partial Class perakende_satis
     Friend WithEvents ComboBoxEdit2 As DevExpress.XtraEditors.ComboBoxEdit
     Friend WithEvents TextEdit4 As DevExpress.XtraEditors.TextEdit
     Friend WithEvents TextEdit5 As DevExpress.XtraEditors.TextEdit
-    Friend WithEvents TextEdit6 As DevExpress.XtraEditors.TextEdit
     Friend WithEvents DateEdit1 As DevExpress.XtraEditors.DateEdit
     Friend WithEvents LabelControl27 As DevExpress.XtraEditors.LabelControl
     Friend WithEvents TextEdit2 As DevExpress.XtraEditors.TextEdit
@@ -1417,7 +1423,6 @@ Partial Class perakende_satis
     Friend WithEvents LabelControl14 As DevExpress.XtraEditors.LabelControl
     Friend WithEvents LabelControl13 As DevExpress.XtraEditors.LabelControl
     Friend WithEvents LabelControl17 As DevExpress.XtraEditors.LabelControl
-    Friend WithEvents SimpleButton1 As DevExpress.XtraEditors.SimpleButton
     Friend WithEvents LabelControl6 As DevExpress.XtraEditors.LabelControl
     Friend WithEvents LabelControl7 As DevExpress.XtraEditors.LabelControl
     Friend WithEvents LabelControl8 As DevExpress.XtraEditors.LabelControl
@@ -1482,10 +1487,11 @@ Partial Class perakende_satis
     Friend WithEvents LabelControl37 As DevExpress.XtraEditors.LabelControl
     Friend WithEvents TextEdit33 As DevExpress.XtraEditors.TextEdit
     Friend WithEvents LabelControl36 As DevExpress.XtraEditors.LabelControl
-    Friend WithEvents SimpleButton2 As DevExpress.XtraEditors.SimpleButton
-    Friend WithEvents SimpleButton3 As DevExpress.XtraEditors.SimpleButton
-    Friend WithEvents SimpleButton4 As DevExpress.XtraEditors.SimpleButton
-    Friend WithEvents SimpleButton5 As DevExpress.XtraEditors.SimpleButton
-    Friend WithEvents SimpleButton6 As DevExpress.XtraEditors.SimpleButton
+    Friend WithEvents ButtonEdit1 As DevExpress.XtraEditors.ButtonEdit
     Friend WithEvents SimpleButton7 As DevExpress.XtraEditors.SimpleButton
+    Friend WithEvents SimpleButton5 As DevExpress.XtraEditors.SimpleButton
+    Friend WithEvents SimpleButton4 As DevExpress.XtraEditors.SimpleButton
+    Friend WithEvents SimpleButton3 As DevExpress.XtraEditors.SimpleButton
+    Friend WithEvents SimpleButton2 As DevExpress.XtraEditors.SimpleButton
+    Friend WithEvents SimpleButton6 As DevExpress.XtraEditors.SimpleButton
 End Class

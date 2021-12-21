@@ -103,4 +103,8 @@ Public Class stok_tanimlama
 
         End Try
     End Sub
+
+    Private Sub SimpleButton17_Click(sender As Object, e As EventArgs)
+        Me.Close()
+    End Sub
 End Class

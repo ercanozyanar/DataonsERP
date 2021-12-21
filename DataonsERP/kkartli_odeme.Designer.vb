@@ -31,35 +31,33 @@ Partial Class kkartli_odeme
         Me.LabelControl17 = New DevExpress.XtraEditors.LabelControl()
         Me.LabelControl6 = New DevExpress.XtraEditors.LabelControl()
         Me.GroupBox1 = New System.Windows.Forms.GroupBox()
-        Me.LabelControl11 = New DevExpress.XtraEditors.LabelControl()
-        Me.LabelControl10 = New DevExpress.XtraEditors.LabelControl()
-        Me.GroupBox2 = New System.Windows.Forms.GroupBox()
-        Me.LabelControl8 = New DevExpress.XtraEditors.LabelControl()
-        Me.LabelControl7 = New DevExpress.XtraEditors.LabelControl()
-        Me.LabelControl5 = New DevExpress.XtraEditors.LabelControl()
-        Me.SimpleButton5 = New DevExpress.XtraEditors.SimpleButton()
-        Me.SimpleButton1 = New DevExpress.XtraEditors.SimpleButton()
-        Me.GroupBox4 = New System.Windows.Forms.GroupBox()
-        Me.SimpleButton7 = New DevExpress.XtraEditors.SimpleButton()
-        Me.SimpleButton6 = New DevExpress.XtraEditors.SimpleButton()
-        Me.SimpleButton4 = New DevExpress.XtraEditors.SimpleButton()
-        Me.SimpleButton3 = New DevExpress.XtraEditors.SimpleButton()
-        Me.SimpleButton2 = New DevExpress.XtraEditors.SimpleButton()
         Me.ComboBoxEdit3 = New DevExpress.XtraEditors.ComboBoxEdit()
+        Me.LabelControl11 = New DevExpress.XtraEditors.LabelControl()
         Me.ComboBoxEdit1 = New DevExpress.XtraEditors.ComboBoxEdit()
         Me.TextEdit8 = New DevExpress.XtraEditors.TextEdit()
+        Me.LabelControl10 = New DevExpress.XtraEditors.LabelControl()
         Me.DateEdit1 = New DevExpress.XtraEditors.DateEdit()
         Me.TextEdit2 = New DevExpress.XtraEditors.TextEdit()
         Me.TextEdit1 = New DevExpress.XtraEditors.TextEdit()
         Me.ComboBoxEdit2 = New DevExpress.XtraEditors.ComboBoxEdit()
         Me.TextEdit6 = New DevExpress.XtraEditors.TextEdit()
+        Me.GroupBox2 = New System.Windows.Forms.GroupBox()
+        Me.LabelControl8 = New DevExpress.XtraEditors.LabelControl()
         Me.TextEdit5 = New DevExpress.XtraEditors.TextEdit()
+        Me.LabelControl7 = New DevExpress.XtraEditors.LabelControl()
         Me.TextEdit4 = New DevExpress.XtraEditors.TextEdit()
+        Me.LabelControl5 = New DevExpress.XtraEditors.LabelControl()
         Me.TextEdit3 = New DevExpress.XtraEditors.TextEdit()
+        Me.GroupBox4 = New System.Windows.Forms.GroupBox()
+        Me.SimpleButton7 = New DevExpress.XtraEditors.SimpleButton()
+        Me.SimpleButton6 = New DevExpress.XtraEditors.SimpleButton()
+        Me.SimpleButton5 = New DevExpress.XtraEditors.SimpleButton()
+        Me.SimpleButton4 = New DevExpress.XtraEditors.SimpleButton()
+        Me.SimpleButton3 = New DevExpress.XtraEditors.SimpleButton()
+        Me.SimpleButton2 = New DevExpress.XtraEditors.SimpleButton()
+        Me.SimpleButton1 = New DevExpress.XtraEditors.SimpleButton()
         CType(Me.DataGridView1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.GroupBox1.SuspendLayout()
-        Me.GroupBox2.SuspendLayout()
-        Me.GroupBox4.SuspendLayout()
         CType(Me.ComboBoxEdit3.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.ComboBoxEdit1.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.TextEdit8.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -69,9 +67,11 @@ Partial Class kkartli_odeme
         CType(Me.TextEdit1.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.ComboBoxEdit2.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.TextEdit6.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.GroupBox2.SuspendLayout()
         CType(Me.TextEdit5.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.TextEdit4.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.TextEdit3.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.GroupBox4.SuspendLayout()
         Me.SuspendLayout()
         '
         'DataGridView1
@@ -166,6 +166,14 @@ Partial Class kkartli_odeme
         Me.GroupBox1.TabIndex = 20
         Me.GroupBox1.TabStop = False
         '
+        'ComboBoxEdit3
+        '
+        Me.ComboBoxEdit3.Location = New System.Drawing.Point(111, 63)
+        Me.ComboBoxEdit3.Name = "ComboBoxEdit3"
+        Me.ComboBoxEdit3.Properties.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)})
+        Me.ComboBoxEdit3.Size = New System.Drawing.Size(270, 20)
+        Me.ComboBoxEdit3.TabIndex = 122
+        '
         'LabelControl11
         '
         Me.LabelControl11.Appearance.Font = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(162, Byte))
@@ -175,140 +183,6 @@ Partial Class kkartli_odeme
         Me.LabelControl11.Size = New System.Drawing.Size(85, 14)
         Me.LabelControl11.TabIndex = 121
         Me.LabelControl11.Text = "Banka Kodu Adı"
-        '
-        'LabelControl10
-        '
-        Me.LabelControl10.Appearance.Font = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(162, Byte))
-        Me.LabelControl10.Appearance.Options.UseFont = True
-        Me.LabelControl10.Location = New System.Drawing.Point(6, 39)
-        Me.LabelControl10.Name = "LabelControl10"
-        Me.LabelControl10.Size = New System.Drawing.Size(92, 14)
-        Me.LabelControl10.TabIndex = 118
-        Me.LabelControl10.Text = "Müşteri Temsilcisi"
-        '
-        'GroupBox2
-        '
-        Me.GroupBox2.Controls.Add(Me.LabelControl8)
-        Me.GroupBox2.Controls.Add(Me.TextEdit5)
-        Me.GroupBox2.Controls.Add(Me.LabelControl7)
-        Me.GroupBox2.Controls.Add(Me.TextEdit4)
-        Me.GroupBox2.Controls.Add(Me.LabelControl5)
-        Me.GroupBox2.Controls.Add(Me.TextEdit3)
-        Me.GroupBox2.Location = New System.Drawing.Point(1, 512)
-        Me.GroupBox2.Name = "GroupBox2"
-        Me.GroupBox2.Size = New System.Drawing.Size(1076, 47)
-        Me.GroupBox2.TabIndex = 22
-        Me.GroupBox2.TabStop = False
-        Me.GroupBox2.Text = "Toplamlar"
-        '
-        'LabelControl8
-        '
-        Me.LabelControl8.Appearance.Font = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(162, Byte))
-        Me.LabelControl8.Appearance.Options.UseFont = True
-        Me.LabelControl8.Location = New System.Drawing.Point(9, 23)
-        Me.LabelControl8.Name = "LabelControl8"
-        Me.LabelControl8.Size = New System.Drawing.Size(94, 14)
-        Me.LabelControl8.TabIndex = 113
-        Me.LabelControl8.Text = "Seçili Cari Bakiyesi"
-        '
-        'LabelControl7
-        '
-        Me.LabelControl7.Appearance.Font = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(162, Byte))
-        Me.LabelControl7.Appearance.Options.UseFont = True
-        Me.LabelControl7.Location = New System.Drawing.Point(498, 23)
-        Me.LabelControl7.Name = "LabelControl7"
-        Me.LabelControl7.Size = New System.Drawing.Size(64, 14)
-        Me.LabelControl7.TabIndex = 111
-        Me.LabelControl7.Text = "Döviz Tutarı"
-        '
-        'LabelControl5
-        '
-        Me.LabelControl5.Appearance.Font = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(162, Byte))
-        Me.LabelControl5.Appearance.Options.UseFont = True
-        Me.LabelControl5.Location = New System.Drawing.Point(282, 23)
-        Me.LabelControl5.Name = "LabelControl5"
-        Me.LabelControl5.Size = New System.Drawing.Size(30, 14)
-        Me.LabelControl5.TabIndex = 109
-        Me.LabelControl5.Text = "Tutar"
-        '
-        'SimpleButton5
-        '
-        Me.SimpleButton5.Location = New System.Drawing.Point(528, 10)
-        Me.SimpleButton5.Name = "SimpleButton5"
-        Me.SimpleButton5.Size = New System.Drawing.Size(98, 35)
-        Me.SimpleButton5.TabIndex = 8
-        Me.SimpleButton5.Text = "Yazdır"
-        '
-        'SimpleButton1
-        '
-        Me.SimpleButton1.Location = New System.Drawing.Point(6, 10)
-        Me.SimpleButton1.Name = "SimpleButton1"
-        Me.SimpleButton1.Size = New System.Drawing.Size(98, 35)
-        Me.SimpleButton1.TabIndex = 4
-        Me.SimpleButton1.Text = "Kaydet"
-        '
-        'GroupBox4
-        '
-        Me.GroupBox4.Controls.Add(Me.SimpleButton7)
-        Me.GroupBox4.Controls.Add(Me.SimpleButton6)
-        Me.GroupBox4.Controls.Add(Me.SimpleButton5)
-        Me.GroupBox4.Controls.Add(Me.SimpleButton4)
-        Me.GroupBox4.Controls.Add(Me.SimpleButton3)
-        Me.GroupBox4.Controls.Add(Me.SimpleButton2)
-        Me.GroupBox4.Controls.Add(Me.SimpleButton1)
-        Me.GroupBox4.Location = New System.Drawing.Point(1, 576)
-        Me.GroupBox4.Name = "GroupBox4"
-        Me.GroupBox4.Size = New System.Drawing.Size(1076, 50)
-        Me.GroupBox4.TabIndex = 23
-        Me.GroupBox4.TabStop = False
-        '
-        'SimpleButton7
-        '
-        Me.SimpleButton7.Location = New System.Drawing.Point(320, 10)
-        Me.SimpleButton7.Name = "SimpleButton7"
-        Me.SimpleButton7.Size = New System.Drawing.Size(98, 35)
-        Me.SimpleButton7.TabIndex = 10
-        Me.SimpleButton7.Text = "Dekont Listesi"
-        '
-        'SimpleButton6
-        '
-        Me.SimpleButton6.Location = New System.Drawing.Point(632, 10)
-        Me.SimpleButton6.Name = "SimpleButton6"
-        Me.SimpleButton6.Size = New System.Drawing.Size(98, 35)
-        Me.SimpleButton6.TabIndex = 9
-        Me.SimpleButton6.Text = "Excel"
-        '
-        'SimpleButton4
-        '
-        Me.SimpleButton4.Location = New System.Drawing.Point(424, 10)
-        Me.SimpleButton4.Name = "SimpleButton4"
-        Me.SimpleButton4.Size = New System.Drawing.Size(98, 35)
-        Me.SimpleButton4.TabIndex = 7
-        Me.SimpleButton4.Text = "Bordro Listesi"
-        '
-        'SimpleButton3
-        '
-        Me.SimpleButton3.Location = New System.Drawing.Point(214, 10)
-        Me.SimpleButton3.Name = "SimpleButton3"
-        Me.SimpleButton3.Size = New System.Drawing.Size(98, 35)
-        Me.SimpleButton3.TabIndex = 6
-        Me.SimpleButton3.Text = "Satır Sil"
-        '
-        'SimpleButton2
-        '
-        Me.SimpleButton2.Location = New System.Drawing.Point(110, 10)
-        Me.SimpleButton2.Name = "SimpleButton2"
-        Me.SimpleButton2.Size = New System.Drawing.Size(98, 35)
-        Me.SimpleButton2.TabIndex = 5
-        Me.SimpleButton2.Text = "Sil"
-        '
-        'ComboBoxEdit3
-        '
-        Me.ComboBoxEdit3.Location = New System.Drawing.Point(111, 63)
-        Me.ComboBoxEdit3.Name = "ComboBoxEdit3"
-        Me.ComboBoxEdit3.Properties.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)})
-        Me.ComboBoxEdit3.Size = New System.Drawing.Size(270, 20)
-        Me.ComboBoxEdit3.TabIndex = 122
         '
         'ComboBoxEdit1
         '
@@ -326,6 +200,16 @@ Partial Class kkartli_odeme
         Me.TextEdit8.Properties.Appearance.Options.UseFont = True
         Me.TextEdit8.Size = New System.Drawing.Size(585, 20)
         Me.TextEdit8.TabIndex = 119
+        '
+        'LabelControl10
+        '
+        Me.LabelControl10.Appearance.Font = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(162, Byte))
+        Me.LabelControl10.Appearance.Options.UseFont = True
+        Me.LabelControl10.Location = New System.Drawing.Point(6, 39)
+        Me.LabelControl10.Name = "LabelControl10"
+        Me.LabelControl10.Size = New System.Drawing.Size(92, 14)
+        Me.LabelControl10.TabIndex = 118
+        Me.LabelControl10.Text = "Müşteri Temsilcisi"
         '
         'DateEdit1
         '
@@ -375,6 +259,31 @@ Partial Class kkartli_odeme
         Me.TextEdit6.Size = New System.Drawing.Size(138, 20)
         Me.TextEdit6.TabIndex = 106
         '
+        'GroupBox2
+        '
+        Me.GroupBox2.Controls.Add(Me.LabelControl8)
+        Me.GroupBox2.Controls.Add(Me.TextEdit5)
+        Me.GroupBox2.Controls.Add(Me.LabelControl7)
+        Me.GroupBox2.Controls.Add(Me.TextEdit4)
+        Me.GroupBox2.Controls.Add(Me.LabelControl5)
+        Me.GroupBox2.Controls.Add(Me.TextEdit3)
+        Me.GroupBox2.Location = New System.Drawing.Point(1, 512)
+        Me.GroupBox2.Name = "GroupBox2"
+        Me.GroupBox2.Size = New System.Drawing.Size(1076, 47)
+        Me.GroupBox2.TabIndex = 22
+        Me.GroupBox2.TabStop = False
+        Me.GroupBox2.Text = "Toplamlar"
+        '
+        'LabelControl8
+        '
+        Me.LabelControl8.Appearance.Font = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(162, Byte))
+        Me.LabelControl8.Appearance.Options.UseFont = True
+        Me.LabelControl8.Location = New System.Drawing.Point(9, 23)
+        Me.LabelControl8.Name = "LabelControl8"
+        Me.LabelControl8.Size = New System.Drawing.Size(94, 14)
+        Me.LabelControl8.TabIndex = 113
+        Me.LabelControl8.Text = "Seçili Cari Bakiyesi"
+        '
         'TextEdit5
         '
         Me.TextEdit5.Location = New System.Drawing.Point(111, 20)
@@ -385,6 +294,16 @@ Partial Class kkartli_odeme
         Me.TextEdit5.Properties.Appearance.Options.UseFont = True
         Me.TextEdit5.Size = New System.Drawing.Size(138, 20)
         Me.TextEdit5.TabIndex = 112
+        '
+        'LabelControl7
+        '
+        Me.LabelControl7.Appearance.Font = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(162, Byte))
+        Me.LabelControl7.Appearance.Options.UseFont = True
+        Me.LabelControl7.Location = New System.Drawing.Point(498, 23)
+        Me.LabelControl7.Name = "LabelControl7"
+        Me.LabelControl7.Size = New System.Drawing.Size(64, 14)
+        Me.LabelControl7.TabIndex = 111
+        Me.LabelControl7.Text = "Döviz Tutarı"
         '
         'TextEdit4
         '
@@ -397,6 +316,16 @@ Partial Class kkartli_odeme
         Me.TextEdit4.Size = New System.Drawing.Size(138, 20)
         Me.TextEdit4.TabIndex = 110
         '
+        'LabelControl5
+        '
+        Me.LabelControl5.Appearance.Font = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(162, Byte))
+        Me.LabelControl5.Appearance.Options.UseFont = True
+        Me.LabelControl5.Location = New System.Drawing.Point(282, 23)
+        Me.LabelControl5.Name = "LabelControl5"
+        Me.LabelControl5.Size = New System.Drawing.Size(30, 14)
+        Me.LabelControl5.TabIndex = 109
+        Me.LabelControl5.Text = "Tutar"
+        '
         'TextEdit3
         '
         Me.TextEdit3.Location = New System.Drawing.Point(320, 20)
@@ -407,6 +336,96 @@ Partial Class kkartli_odeme
         Me.TextEdit3.Properties.Appearance.Options.UseFont = True
         Me.TextEdit3.Size = New System.Drawing.Size(138, 20)
         Me.TextEdit3.TabIndex = 108
+        '
+        'GroupBox4
+        '
+        Me.GroupBox4.Controls.Add(Me.SimpleButton7)
+        Me.GroupBox4.Controls.Add(Me.SimpleButton6)
+        Me.GroupBox4.Controls.Add(Me.SimpleButton5)
+        Me.GroupBox4.Controls.Add(Me.SimpleButton4)
+        Me.GroupBox4.Controls.Add(Me.SimpleButton3)
+        Me.GroupBox4.Controls.Add(Me.SimpleButton2)
+        Me.GroupBox4.Controls.Add(Me.SimpleButton1)
+        Me.GroupBox4.Location = New System.Drawing.Point(1, 565)
+        Me.GroupBox4.Name = "GroupBox4"
+        Me.GroupBox4.Size = New System.Drawing.Size(1076, 61)
+        Me.GroupBox4.TabIndex = 23
+        Me.GroupBox4.TabStop = False
+        '
+        'SimpleButton7
+        '
+        Me.SimpleButton7.Appearance.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(162, Byte))
+        Me.SimpleButton7.Appearance.Options.UseFont = True
+        Me.SimpleButton7.ImageOptions.Image = Global.DataonsERP.My.Resources.Resources.up2_32x32
+        Me.SimpleButton7.Location = New System.Drawing.Point(319, 16)
+        Me.SimpleButton7.Name = "SimpleButton7"
+        Me.SimpleButton7.Size = New System.Drawing.Size(121, 35)
+        Me.SimpleButton7.TabIndex = 17
+        Me.SimpleButton7.Text = "Dekont Listesi"
+        '
+        'SimpleButton6
+        '
+        Me.SimpleButton6.Appearance.Font = New System.Drawing.Font("Tahoma", 8.25!, System.Drawing.FontStyle.Bold)
+        Me.SimpleButton6.Appearance.Options.UseFont = True
+        Me.SimpleButton6.ImageOptions.Image = Global.DataonsERP.My.Resources.Resources.exporttoxls_32x325
+        Me.SimpleButton6.Location = New System.Drawing.Point(682, 16)
+        Me.SimpleButton6.Name = "SimpleButton6"
+        Me.SimpleButton6.Size = New System.Drawing.Size(98, 35)
+        Me.SimpleButton6.TabIndex = 16
+        Me.SimpleButton6.Text = "Excel"
+        '
+        'SimpleButton5
+        '
+        Me.SimpleButton5.Appearance.Font = New System.Drawing.Font("Tahoma", 8.25!, System.Drawing.FontStyle.Bold)
+        Me.SimpleButton5.Appearance.Options.UseFont = True
+        Me.SimpleButton5.ImageOptions.Image = Global.DataonsERP.My.Resources.Resources.printer_32x326
+        Me.SimpleButton5.Location = New System.Drawing.Point(578, 16)
+        Me.SimpleButton5.Name = "SimpleButton5"
+        Me.SimpleButton5.Size = New System.Drawing.Size(98, 35)
+        Me.SimpleButton5.TabIndex = 15
+        Me.SimpleButton5.Text = "Yazdır"
+        '
+        'SimpleButton4
+        '
+        Me.SimpleButton4.Appearance.Font = New System.Drawing.Font("Tahoma", 8.25!, System.Drawing.FontStyle.Bold)
+        Me.SimpleButton4.Appearance.Options.UseFont = True
+        Me.SimpleButton4.ImageOptions.Image = Global.DataonsERP.My.Resources.Resources.editingfilldown_32x32
+        Me.SimpleButton4.Location = New System.Drawing.Point(446, 16)
+        Me.SimpleButton4.Name = "SimpleButton4"
+        Me.SimpleButton4.Size = New System.Drawing.Size(126, 35)
+        Me.SimpleButton4.TabIndex = 14
+        Me.SimpleButton4.Text = "Bordro Listesi"
+        '
+        'SimpleButton3
+        '
+        Me.SimpleButton3.Appearance.Font = New System.Drawing.Font("Tahoma", 8.25!, System.Drawing.FontStyle.Bold)
+        Me.SimpleButton3.Appearance.Options.UseFont = True
+        Me.SimpleButton3.ImageOptions.Image = Global.DataonsERP.My.Resources.Resources.removesheetrows_32x32
+        Me.SimpleButton3.Location = New System.Drawing.Point(215, 16)
+        Me.SimpleButton3.Name = "SimpleButton3"
+        Me.SimpleButton3.Size = New System.Drawing.Size(98, 35)
+        Me.SimpleButton3.TabIndex = 13
+        Me.SimpleButton3.Text = "Satır Sil"
+        '
+        'SimpleButton2
+        '
+        Me.SimpleButton2.Appearance.Font = New System.Drawing.Font("Tahoma", 8.25!, System.Drawing.FontStyle.Bold)
+        Me.SimpleButton2.Appearance.Options.UseFont = True
+        Me.SimpleButton2.ImageOptions.Image = Global.DataonsERP.My.Resources.Resources.cancel_32x326
+        Me.SimpleButton2.Location = New System.Drawing.Point(111, 16)
+        Me.SimpleButton2.Name = "SimpleButton2"
+        Me.SimpleButton2.Size = New System.Drawing.Size(98, 35)
+        Me.SimpleButton2.TabIndex = 12
+        Me.SimpleButton2.Text = "Sil"
+        '
+        'SimpleButton1
+        '
+        Me.SimpleButton1.ImageOptions.Image = Global.DataonsERP.My.Resources.Resources.apply_32x326
+        Me.SimpleButton1.Location = New System.Drawing.Point(7, 16)
+        Me.SimpleButton1.Name = "SimpleButton1"
+        Me.SimpleButton1.Size = New System.Drawing.Size(98, 35)
+        Me.SimpleButton1.TabIndex = 11
+        Me.SimpleButton1.Text = "Kaydet"
         '
         'kkartli_odeme
         '
@@ -422,9 +441,6 @@ Partial Class kkartli_odeme
         CType(Me.DataGridView1, System.ComponentModel.ISupportInitialize).EndInit()
         Me.GroupBox1.ResumeLayout(False)
         Me.GroupBox1.PerformLayout()
-        Me.GroupBox2.ResumeLayout(False)
-        Me.GroupBox2.PerformLayout()
-        Me.GroupBox4.ResumeLayout(False)
         CType(Me.ComboBoxEdit3.Properties, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.ComboBoxEdit1.Properties, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.TextEdit8.Properties, System.ComponentModel.ISupportInitialize).EndInit()
@@ -434,9 +450,12 @@ Partial Class kkartli_odeme
         CType(Me.TextEdit1.Properties, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.ComboBoxEdit2.Properties, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.TextEdit6.Properties, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.GroupBox2.ResumeLayout(False)
+        Me.GroupBox2.PerformLayout()
         CType(Me.TextEdit5.Properties, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.TextEdit4.Properties, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.TextEdit3.Properties, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.GroupBox4.ResumeLayout(False)
         Me.ResumeLayout(False)
 
     End Sub
@@ -467,12 +486,12 @@ Partial Class kkartli_odeme
     Friend WithEvents TextEdit4 As DevExpress.XtraEditors.TextEdit
     Friend WithEvents LabelControl5 As DevExpress.XtraEditors.LabelControl
     Friend WithEvents TextEdit3 As DevExpress.XtraEditors.TextEdit
-    Friend WithEvents SimpleButton5 As DevExpress.XtraEditors.SimpleButton
-    Friend WithEvents SimpleButton1 As DevExpress.XtraEditors.SimpleButton
     Friend WithEvents GroupBox4 As GroupBox
     Friend WithEvents SimpleButton7 As DevExpress.XtraEditors.SimpleButton
     Friend WithEvents SimpleButton6 As DevExpress.XtraEditors.SimpleButton
+    Friend WithEvents SimpleButton5 As DevExpress.XtraEditors.SimpleButton
     Friend WithEvents SimpleButton4 As DevExpress.XtraEditors.SimpleButton
     Friend WithEvents SimpleButton3 As DevExpress.XtraEditors.SimpleButton
     Friend WithEvents SimpleButton2 As DevExpress.XtraEditors.SimpleButton
+    Friend WithEvents SimpleButton1 As DevExpress.XtraEditors.SimpleButton
 End Class

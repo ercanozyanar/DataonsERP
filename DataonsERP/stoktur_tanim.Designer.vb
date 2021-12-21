@@ -113,6 +113,8 @@ Partial Class stoktur_tanim
         '
         'SimpleButton4
         '
+        Me.SimpleButton4.Appearance.Font = New System.Drawing.Font("Tahoma", 8.25!, System.Drawing.FontStyle.Bold)
+        Me.SimpleButton4.Appearance.Options.UseFont = True
         Me.SimpleButton4.ImageOptions.Image = Global.DataonsERP.My.Resources.Resources.close_32x32
         Me.SimpleButton4.Location = New System.Drawing.Point(361, 5)
         Me.SimpleButton4.Name = "SimpleButton4"
@@ -122,15 +124,19 @@ Partial Class stoktur_tanim
         '
         'SimpleButton3
         '
+        Me.SimpleButton3.Appearance.Font = New System.Drawing.Font("Tahoma", 8.25!, System.Drawing.FontStyle.Bold)
+        Me.SimpleButton3.Appearance.Options.UseFont = True
         Me.SimpleButton3.ImageOptions.Image = Global.DataonsERP.My.Resources.Resources.undo_32x32
         Me.SimpleButton3.Location = New System.Drawing.Point(179, 5)
         Me.SimpleButton3.Name = "SimpleButton3"
-        Me.SimpleButton3.Size = New System.Drawing.Size(75, 47)
+        Me.SimpleButton3.Size = New System.Drawing.Size(88, 47)
         Me.SimpleButton3.TabIndex = 2
         Me.SimpleButton3.Text = "Geri Al"
         '
         'SimpleButton2
         '
+        Me.SimpleButton2.Appearance.Font = New System.Drawing.Font("Tahoma", 8.25!, System.Drawing.FontStyle.Bold)
+        Me.SimpleButton2.Appearance.Options.UseFont = True
         Me.SimpleButton2.ImageOptions.Image = Global.DataonsERP.My.Resources.Resources.cancel_32x321
         Me.SimpleButton2.Location = New System.Drawing.Point(98, 5)
         Me.SimpleButton2.Name = "SimpleButton2"
@@ -140,6 +146,8 @@ Partial Class stoktur_tanim
         '
         'SimpleButton1
         '
+        Me.SimpleButton1.Appearance.Font = New System.Drawing.Font("Tahoma", 8.25!, System.Drawing.FontStyle.Bold)
+        Me.SimpleButton1.Appearance.Options.UseFont = True
         Me.SimpleButton1.ImageOptions.Image = Global.DataonsERP.My.Resources.Resources.apply_32x321
         Me.SimpleButton1.Location = New System.Drawing.Point(5, 5)
         Me.SimpleButton1.Name = "SimpleButton1"

@@ -39,32 +39,34 @@ Partial Class kasa_bakiye_liste
         Me.GroupBox6.Controls.Add(Me.SimpleButton1)
         Me.GroupBox6.Location = New System.Drawing.Point(3, 2)
         Me.GroupBox6.Name = "GroupBox6"
-        Me.GroupBox6.Size = New System.Drawing.Size(924, 40)
+        Me.GroupBox6.Size = New System.Drawing.Size(1076, 56)
         Me.GroupBox6.TabIndex = 22
         Me.GroupBox6.TabStop = False
         '
         'SimpleButton3
         '
+        Me.SimpleButton3.ImageOptions.Image = Global.DataonsERP.My.Resources.Resources.exporttoxls_32x326
         Me.SimpleButton3.Location = New System.Drawing.Point(129, 10)
         Me.SimpleButton3.Name = "SimpleButton3"
-        Me.SimpleButton3.Size = New System.Drawing.Size(117, 24)
+        Me.SimpleButton3.Size = New System.Drawing.Size(117, 40)
         Me.SimpleButton3.TabIndex = 2
         Me.SimpleButton3.Text = "Excel"
         '
         'SimpleButton1
         '
+        Me.SimpleButton1.ImageOptions.Image = Global.DataonsERP.My.Resources.Resources.listnumbers_32x325
         Me.SimpleButton1.Location = New System.Drawing.Point(6, 10)
         Me.SimpleButton1.Name = "SimpleButton1"
-        Me.SimpleButton1.Size = New System.Drawing.Size(117, 24)
+        Me.SimpleButton1.Size = New System.Drawing.Size(117, 40)
         Me.SimpleButton1.TabIndex = 0
         Me.SimpleButton1.Text = "Listele"
         '
         'GridControl1
         '
-        Me.GridControl1.Location = New System.Drawing.Point(3, 48)
+        Me.GridControl1.Location = New System.Drawing.Point(3, 64)
         Me.GridControl1.MainView = Me.GridView1
         Me.GridControl1.Name = "GridControl1"
-        Me.GridControl1.Size = New System.Drawing.Size(924, 577)
+        Me.GridControl1.Size = New System.Drawing.Size(1076, 561)
         Me.GridControl1.TabIndex = 23
         Me.GridControl1.ViewCollection.AddRange(New DevExpress.XtraGrid.Views.Base.BaseView() {Me.GridView1})
         '

@@ -25,6 +25,7 @@ Partial Class carihesap_islem
         Me.FormAssistant1 = New DevExpress.XtraBars.FormAssistant()
         Me.LabelControl2 = New DevExpress.XtraEditors.LabelControl()
         Me.PanelControl1 = New DevExpress.XtraEditors.PanelControl()
+        Me.ButtonEdit1 = New DevExpress.XtraEditors.ButtonEdit()
         Me.GroupControl2 = New DevExpress.XtraEditors.GroupControl()
         Me.TextEdit13 = New DevExpress.XtraEditors.TextEdit()
         Me.LabelControl19 = New DevExpress.XtraEditors.LabelControl()
@@ -35,6 +36,7 @@ Partial Class carihesap_islem
         Me.TextEdit10 = New DevExpress.XtraEditors.TextEdit()
         Me.LabelControl16 = New DevExpress.XtraEditors.LabelControl()
         Me.GroupControl1 = New DevExpress.XtraEditors.GroupControl()
+        Me.ButtonEdit2 = New DevExpress.XtraEditors.ButtonEdit()
         Me.ComboBoxEdit5 = New DevExpress.XtraEditors.ComboBoxEdit()
         Me.LabelControl14 = New DevExpress.XtraEditors.LabelControl()
         Me.TextEdit9 = New DevExpress.XtraEditors.TextEdit()
@@ -87,15 +89,13 @@ Partial Class carihesap_islem
         Me.LabelControl20 = New DevExpress.XtraEditors.LabelControl()
         Me.TextEdit14 = New DevExpress.XtraEditors.TextEdit()
         Me.LabelControl21 = New DevExpress.XtraEditors.LabelControl()
-        Me.SimpleButton7 = New DevExpress.XtraEditors.SimpleButton()
-        Me.ButtonEdit1 = New DevExpress.XtraEditors.ButtonEdit()
-        Me.ButtonEdit2 = New DevExpress.XtraEditors.ButtonEdit()
         Me.SimpleButton6 = New DevExpress.XtraEditors.SimpleButton()
         Me.SimpleButton5 = New DevExpress.XtraEditors.SimpleButton()
         Me.SimpleButton4 = New DevExpress.XtraEditors.SimpleButton()
         Me.SimpleButton3 = New DevExpress.XtraEditors.SimpleButton()
         CType(Me.PanelControl1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.PanelControl1.SuspendLayout()
+        CType(Me.ButtonEdit1.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.GroupControl2, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.GroupControl2.SuspendLayout()
         CType(Me.TextEdit13.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -104,6 +104,7 @@ Partial Class carihesap_islem
         CType(Me.TextEdit10.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.GroupControl1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.GroupControl1.SuspendLayout()
+        CType(Me.ButtonEdit2.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.ComboBoxEdit5.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.TextEdit9.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.TextEdit8.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -138,8 +139,6 @@ Partial Class carihesap_islem
         CType(Me.TextEdit16.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.TextEdit15.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.TextEdit14.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.ButtonEdit1.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.ButtonEdit2.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'LabelControl2
@@ -179,6 +178,14 @@ Partial Class carihesap_islem
         Me.PanelControl1.Name = "PanelControl1"
         Me.PanelControl1.Size = New System.Drawing.Size(772, 537)
         Me.PanelControl1.TabIndex = 33
+        '
+        'ButtonEdit1
+        '
+        Me.ButtonEdit1.Location = New System.Drawing.Point(78, 117)
+        Me.ButtonEdit1.Name = "ButtonEdit1"
+        Me.ButtonEdit1.Properties.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton()})
+        Me.ButtonEdit1.Size = New System.Drawing.Size(150, 20)
+        Me.ButtonEdit1.TabIndex = 83
         '
         'GroupControl2
         '
@@ -288,6 +295,14 @@ Partial Class carihesap_islem
         Me.GroupControl1.Size = New System.Drawing.Size(743, 115)
         Me.GroupControl1.TabIndex = 80
         Me.GroupControl1.Text = "Mal Karşılığı"
+        '
+        'ButtonEdit2
+        '
+        Me.ButtonEdit2.Location = New System.Drawing.Point(72, 26)
+        Me.ButtonEdit2.Name = "ButtonEdit2"
+        Me.ButtonEdit2.Properties.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton()})
+        Me.ButtonEdit2.Size = New System.Drawing.Size(150, 20)
+        Me.ButtonEdit2.TabIndex = 86
         '
         'ComboBoxEdit5
         '
@@ -826,30 +841,6 @@ Partial Class carihesap_islem
         Me.LabelControl21.TabIndex = 34
         Me.LabelControl21.Text = "USD"
         '
-        'SimpleButton7
-        '
-        Me.SimpleButton7.Location = New System.Drawing.Point(961, 552)
-        Me.SimpleButton7.Name = "SimpleButton7"
-        Me.SimpleButton7.Size = New System.Drawing.Size(106, 34)
-        Me.SimpleButton7.TabIndex = 39
-        Me.SimpleButton7.Text = "Çıkış"
-        '
-        'ButtonEdit1
-        '
-        Me.ButtonEdit1.Location = New System.Drawing.Point(78, 117)
-        Me.ButtonEdit1.Name = "ButtonEdit1"
-        Me.ButtonEdit1.Properties.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton()})
-        Me.ButtonEdit1.Size = New System.Drawing.Size(150, 20)
-        Me.ButtonEdit1.TabIndex = 83
-        '
-        'ButtonEdit2
-        '
-        Me.ButtonEdit2.Location = New System.Drawing.Point(72, 26)
-        Me.ButtonEdit2.Name = "ButtonEdit2"
-        Me.ButtonEdit2.Properties.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton()})
-        Me.ButtonEdit2.Size = New System.Drawing.Size(150, 20)
-        Me.ButtonEdit2.TabIndex = 86
-        '
         'SimpleButton6
         '
         Me.SimpleButton6.Appearance.Font = New System.Drawing.Font("Tahoma", 8.25!, System.Drawing.FontStyle.Bold)
@@ -904,7 +895,6 @@ Partial Class carihesap_islem
         Me.Controls.Add(Me.SimpleButton5)
         Me.Controls.Add(Me.SimpleButton4)
         Me.Controls.Add(Me.SimpleButton3)
-        Me.Controls.Add(Me.SimpleButton7)
         Me.Controls.Add(Me.PanelControl2)
         Me.Controls.Add(Me.PanelControl1)
         Me.Name = "carihesap_islem"
@@ -912,6 +902,7 @@ Partial Class carihesap_islem
         CType(Me.PanelControl1, System.ComponentModel.ISupportInitialize).EndInit()
         Me.PanelControl1.ResumeLayout(False)
         Me.PanelControl1.PerformLayout()
+        CType(Me.ButtonEdit1.Properties, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.GroupControl2, System.ComponentModel.ISupportInitialize).EndInit()
         Me.GroupControl2.ResumeLayout(False)
         Me.GroupControl2.PerformLayout()
@@ -922,6 +913,7 @@ Partial Class carihesap_islem
         CType(Me.GroupControl1, System.ComponentModel.ISupportInitialize).EndInit()
         Me.GroupControl1.ResumeLayout(False)
         Me.GroupControl1.PerformLayout()
+        CType(Me.ButtonEdit2.Properties, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.ComboBoxEdit5.Properties, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.TextEdit9.Properties, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.TextEdit8.Properties, System.ComponentModel.ISupportInitialize).EndInit()
@@ -959,8 +951,6 @@ Partial Class carihesap_islem
         CType(Me.TextEdit16.Properties, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.TextEdit15.Properties, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.TextEdit14.Properties, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.ButtonEdit1.Properties, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.ButtonEdit2.Properties, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
 
     End Sub
@@ -1030,7 +1020,6 @@ Partial Class carihesap_islem
     Friend WithEvents LabelControl20 As DevExpress.XtraEditors.LabelControl
     Friend WithEvents TextEdit14 As DevExpress.XtraEditors.TextEdit
     Friend WithEvents LabelControl21 As DevExpress.XtraEditors.LabelControl
-    Friend WithEvents SimpleButton7 As DevExpress.XtraEditors.SimpleButton
     Friend WithEvents ButtonEdit1 As DevExpress.XtraEditors.ButtonEdit
     Friend WithEvents ButtonEdit2 As DevExpress.XtraEditors.ButtonEdit
     Friend WithEvents SimpleButton6 As DevExpress.XtraEditors.SimpleButton

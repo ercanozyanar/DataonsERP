@@ -497,22 +497,31 @@ Partial Class tahsilat_giris
         '
         'SimpleButton4
         '
-        Me.SimpleButton4.Location = New System.Drawing.Point(889, 14)
+        Me.SimpleButton4.Appearance.Font = New System.Drawing.Font("Tahoma", 8.25!, System.Drawing.FontStyle.Bold)
+        Me.SimpleButton4.Appearance.Options.UseFont = True
+        Me.SimpleButton4.ImageOptions.Image = Global.DataonsERP.My.Resources.Resources.removesheetrows_32x324
+        Me.SimpleButton4.Location = New System.Drawing.Point(869, 14)
         Me.SimpleButton4.Name = "SimpleButton4"
-        Me.SimpleButton4.Size = New System.Drawing.Size(124, 46)
+        Me.SimpleButton4.Size = New System.Drawing.Size(144, 46)
         Me.SimpleButton4.TabIndex = 2
         Me.SimpleButton4.Text = "Tahsilat Satır Sil"
         '
         'SimpleButton3
         '
+        Me.SimpleButton3.Appearance.Font = New System.Drawing.Font("Tahoma", 8.25!, System.Drawing.FontStyle.Bold)
+        Me.SimpleButton3.Appearance.Options.UseFont = True
+        Me.SimpleButton3.ImageOptions.Image = Global.DataonsERP.My.Resources.Resources.cancel_32x3210
         Me.SimpleButton3.Location = New System.Drawing.Point(142, 14)
         Me.SimpleButton3.Name = "SimpleButton3"
-        Me.SimpleButton3.Size = New System.Drawing.Size(124, 46)
+        Me.SimpleButton3.Size = New System.Drawing.Size(137, 46)
         Me.SimpleButton3.TabIndex = 1
         Me.SimpleButton3.Text = "Tahsilat Satır Sil"
         '
         'SimpleButton2
         '
+        Me.SimpleButton2.Appearance.Font = New System.Drawing.Font("Tahoma", 8.25!, System.Drawing.FontStyle.Bold)
+        Me.SimpleButton2.Appearance.Options.UseFont = True
+        Me.SimpleButton2.ImageOptions.Image = Global.DataonsERP.My.Resources.Resources.apply_32x3210
         Me.SimpleButton2.Location = New System.Drawing.Point(7, 14)
         Me.SimpleButton2.Name = "SimpleButton2"
         Me.SimpleButton2.Size = New System.Drawing.Size(124, 46)

@@ -53,13 +53,13 @@ Partial Class emanet_liste
         Me.TextEdit1 = New DevExpress.XtraEditors.TextEdit()
         Me.DateEdit2 = New DevExpress.XtraEditors.DateEdit()
         Me.DateEdit1 = New DevExpress.XtraEditors.DateEdit()
-        Me.GroupBox6 = New System.Windows.Forms.GroupBox()
-        Me.SimpleButton3 = New DevExpress.XtraEditors.SimpleButton()
-        Me.SimpleButton2 = New DevExpress.XtraEditors.SimpleButton()
-        Me.SimpleButton1 = New DevExpress.XtraEditors.SimpleButton()
         Me.GroupBox5 = New System.Windows.Forms.GroupBox()
         Me.RadioButton2 = New System.Windows.Forms.RadioButton()
         Me.RadioButton1 = New System.Windows.Forms.RadioButton()
+        Me.GroupBox6 = New System.Windows.Forms.GroupBox()
+        Me.SimpleButton3 = New DevExpress.XtraEditors.SimpleButton()
+        Me.SimpleButton1 = New DevExpress.XtraEditors.SimpleButton()
+        Me.SimpleButton2 = New DevExpress.XtraEditors.SimpleButton()
         Me.GroupBox4.SuspendLayout()
         CType(Me.GridControl1, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.GridView1, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -84,8 +84,8 @@ Partial Class emanet_liste
         CType(Me.DateEdit2.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.DateEdit1.Properties.CalendarTimeProperties, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.DateEdit1.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
-        Me.GroupBox6.SuspendLayout()
         Me.GroupBox5.SuspendLayout()
+        Me.GroupBox6.SuspendLayout()
         Me.SuspendLayout()
         '
         'GroupBox4
@@ -344,41 +344,6 @@ Partial Class emanet_liste
         Me.DateEdit1.Size = New System.Drawing.Size(100, 20)
         Me.DateEdit1.TabIndex = 0
         '
-        'GroupBox6
-        '
-        Me.GroupBox6.Controls.Add(Me.SimpleButton3)
-        Me.GroupBox6.Controls.Add(Me.SimpleButton2)
-        Me.GroupBox6.Controls.Add(Me.SimpleButton1)
-        Me.GroupBox6.Location = New System.Drawing.Point(949, 2)
-        Me.GroupBox6.Name = "GroupBox6"
-        Me.GroupBox6.Size = New System.Drawing.Size(129, 180)
-        Me.GroupBox6.TabIndex = 27
-        Me.GroupBox6.TabStop = False
-        '
-        'SimpleButton3
-        '
-        Me.SimpleButton3.Location = New System.Drawing.Point(6, 123)
-        Me.SimpleButton3.Name = "SimpleButton3"
-        Me.SimpleButton3.Size = New System.Drawing.Size(117, 44)
-        Me.SimpleButton3.TabIndex = 2
-        Me.SimpleButton3.Text = "Excel"
-        '
-        'SimpleButton2
-        '
-        Me.SimpleButton2.Location = New System.Drawing.Point(6, 68)
-        Me.SimpleButton2.Name = "SimpleButton2"
-        Me.SimpleButton2.Size = New System.Drawing.Size(117, 44)
-        Me.SimpleButton2.TabIndex = 1
-        Me.SimpleButton2.Text = "Yazdır"
-        '
-        'SimpleButton1
-        '
-        Me.SimpleButton1.Location = New System.Drawing.Point(6, 16)
-        Me.SimpleButton1.Name = "SimpleButton1"
-        Me.SimpleButton1.Size = New System.Drawing.Size(117, 44)
-        Me.SimpleButton1.TabIndex = 0
-        Me.SimpleButton1.Text = "Listele"
-        '
         'GroupBox5
         '
         Me.GroupBox5.Controls.Add(Me.RadioButton2)
@@ -412,17 +377,61 @@ Partial Class emanet_liste
         Me.RadioButton1.Text = "Alınan Emanet Listesi"
         Me.RadioButton1.UseVisualStyleBackColor = True
         '
+        'GroupBox6
+        '
+        Me.GroupBox6.Controls.Add(Me.SimpleButton3)
+        Me.GroupBox6.Controls.Add(Me.SimpleButton1)
+        Me.GroupBox6.Controls.Add(Me.SimpleButton2)
+        Me.GroupBox6.Location = New System.Drawing.Point(926, 2)
+        Me.GroupBox6.Name = "GroupBox6"
+        Me.GroupBox6.Size = New System.Drawing.Size(152, 180)
+        Me.GroupBox6.TabIndex = 150
+        Me.GroupBox6.TabStop = False
+        '
+        'SimpleButton3
+        '
+        Me.SimpleButton3.Appearance.Font = New System.Drawing.Font("Tahoma", 8.25!, System.Drawing.FontStyle.Bold)
+        Me.SimpleButton3.Appearance.Options.UseFont = True
+        Me.SimpleButton3.ImageOptions.Image = Global.DataonsERP.My.Resources.Resources.exporttoxls_32x324
+        Me.SimpleButton3.Location = New System.Drawing.Point(6, 139)
+        Me.SimpleButton3.Name = "SimpleButton3"
+        Me.SimpleButton3.Size = New System.Drawing.Size(140, 34)
+        Me.SimpleButton3.TabIndex = 135
+        Me.SimpleButton3.Text = "Excel"
+        '
+        'SimpleButton1
+        '
+        Me.SimpleButton1.Appearance.Font = New System.Drawing.Font("Tahoma", 8.25!, System.Drawing.FontStyle.Bold)
+        Me.SimpleButton1.Appearance.Options.UseFont = True
+        Me.SimpleButton1.ImageOptions.Image = Global.DataonsERP.My.Resources.Resources.listnumbers_32x324
+        Me.SimpleButton1.Location = New System.Drawing.Point(6, 11)
+        Me.SimpleButton1.Name = "SimpleButton1"
+        Me.SimpleButton1.Size = New System.Drawing.Size(140, 34)
+        Me.SimpleButton1.TabIndex = 133
+        Me.SimpleButton1.Text = "Listele"
+        '
+        'SimpleButton2
+        '
+        Me.SimpleButton2.Appearance.Font = New System.Drawing.Font("Tahoma", 8.25!, System.Drawing.FontStyle.Bold)
+        Me.SimpleButton2.Appearance.Options.UseFont = True
+        Me.SimpleButton2.ImageOptions.Image = Global.DataonsERP.My.Resources.Resources.printer_32x325
+        Me.SimpleButton2.Location = New System.Drawing.Point(6, 73)
+        Me.SimpleButton2.Name = "SimpleButton2"
+        Me.SimpleButton2.Size = New System.Drawing.Size(140, 34)
+        Me.SimpleButton2.TabIndex = 134
+        Me.SimpleButton2.Text = "Yazdır"
+        '
         'emanet_liste
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(1079, 628)
+        Me.Controls.Add(Me.GroupBox6)
         Me.Controls.Add(Me.GroupBox4)
         Me.Controls.Add(Me.GridControl1)
         Me.Controls.Add(Me.GroupBox3)
         Me.Controls.Add(Me.GroupBox1)
         Me.Controls.Add(Me.GroupBox2)
-        Me.Controls.Add(Me.GroupBox6)
         Me.Controls.Add(Me.GroupBox5)
         Me.Name = "emanet_liste"
         Me.Text = "Emanet Liste"
@@ -452,9 +461,9 @@ Partial Class emanet_liste
         CType(Me.DateEdit2.Properties, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.DateEdit1.Properties.CalendarTimeProperties, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.DateEdit1.Properties, System.ComponentModel.ISupportInitialize).EndInit()
-        Me.GroupBox6.ResumeLayout(False)
         Me.GroupBox5.ResumeLayout(False)
         Me.GroupBox5.PerformLayout()
+        Me.GroupBox6.ResumeLayout(False)
         Me.ResumeLayout(False)
 
     End Sub
@@ -490,11 +499,11 @@ Partial Class emanet_liste
     Friend WithEvents TextEdit1 As DevExpress.XtraEditors.TextEdit
     Friend WithEvents DateEdit2 As DevExpress.XtraEditors.DateEdit
     Friend WithEvents DateEdit1 As DevExpress.XtraEditors.DateEdit
-    Friend WithEvents GroupBox6 As GroupBox
-    Friend WithEvents SimpleButton3 As DevExpress.XtraEditors.SimpleButton
-    Friend WithEvents SimpleButton2 As DevExpress.XtraEditors.SimpleButton
-    Friend WithEvents SimpleButton1 As DevExpress.XtraEditors.SimpleButton
     Friend WithEvents GroupBox5 As GroupBox
     Friend WithEvents RadioButton2 As RadioButton
     Friend WithEvents RadioButton1 As RadioButton
+    Friend WithEvents GroupBox6 As GroupBox
+    Friend WithEvents SimpleButton3 As DevExpress.XtraEditors.SimpleButton
+    Friend WithEvents SimpleButton1 As DevExpress.XtraEditors.SimpleButton
+    Friend WithEvents SimpleButton2 As DevExpress.XtraEditors.SimpleButton
 End Class

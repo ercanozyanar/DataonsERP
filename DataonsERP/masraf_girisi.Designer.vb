@@ -53,8 +53,8 @@ Partial Class masraf_girisi
         'GroupBox1
         '
         Me.GroupBox1.Controls.Add(Me.SimpleButton4)
-        Me.GroupBox1.Controls.Add(Me.SimpleButton2)
         Me.GroupBox1.Controls.Add(Me.SimpleButton3)
+        Me.GroupBox1.Controls.Add(Me.SimpleButton2)
         Me.GroupBox1.Controls.Add(Me.GroupBox3)
         Me.GroupBox1.Controls.Add(Me.GroupBox2)
         Me.GroupBox1.Controls.Add(Me.SimpleButton1)
@@ -69,25 +69,34 @@ Partial Class masraf_girisi
         '
         'SimpleButton4
         '
-        Me.SimpleButton4.Location = New System.Drawing.Point(904, 10)
+        Me.SimpleButton4.Appearance.Font = New System.Drawing.Font("Tahoma", 8.25!, System.Drawing.FontStyle.Bold)
+        Me.SimpleButton4.Appearance.Options.UseFont = True
+        Me.SimpleButton4.ImageOptions.Image = Global.DataonsERP.My.Resources.Resources.findcustomers_32x32
+        Me.SimpleButton4.Location = New System.Drawing.Point(944, 9)
         Me.SimpleButton4.Name = "SimpleButton4"
-        Me.SimpleButton4.Size = New System.Drawing.Size(162, 36)
+        Me.SimpleButton4.Size = New System.Drawing.Size(116, 36)
         Me.SimpleButton4.TabIndex = 10
         Me.SimpleButton4.Text = "İncele"
         '
         'SimpleButton2
         '
-        Me.SimpleButton2.Location = New System.Drawing.Point(568, 9)
+        Me.SimpleButton2.Appearance.Font = New System.Drawing.Font("Tahoma", 8.25!, System.Drawing.FontStyle.Bold)
+        Me.SimpleButton2.Appearance.Options.UseFont = True
+        Me.SimpleButton2.ImageOptions.Image = Global.DataonsERP.My.Resources.Resources.add_32x321
+        Me.SimpleButton2.Location = New System.Drawing.Point(700, 9)
         Me.SimpleButton2.Name = "SimpleButton2"
-        Me.SimpleButton2.Size = New System.Drawing.Size(162, 36)
+        Me.SimpleButton2.Size = New System.Drawing.Size(116, 36)
         Me.SimpleButton2.TabIndex = 8
         Me.SimpleButton2.Text = "Ekle"
         '
         'SimpleButton3
         '
-        Me.SimpleButton3.Location = New System.Drawing.Point(736, 10)
+        Me.SimpleButton3.Appearance.Font = New System.Drawing.Font("Tahoma", 8.25!, System.Drawing.FontStyle.Bold)
+        Me.SimpleButton3.Appearance.Options.UseFont = True
+        Me.SimpleButton3.ImageOptions.Image = Global.DataonsERP.My.Resources.Resources.refresh_32x32
+        Me.SimpleButton3.Location = New System.Drawing.Point(822, 9)
         Me.SimpleButton3.Name = "SimpleButton3"
-        Me.SimpleButton3.Size = New System.Drawing.Size(162, 36)
+        Me.SimpleButton3.Size = New System.Drawing.Size(116, 36)
         Me.SimpleButton3.TabIndex = 9
         Me.SimpleButton3.Text = "Değiştir"
         '
@@ -128,9 +137,12 @@ Partial Class masraf_girisi
         '
         'SimpleButton1
         '
-        Me.SimpleButton1.Location = New System.Drawing.Point(415, 9)
+        Me.SimpleButton1.Appearance.Font = New System.Drawing.Font("Tahoma", 8.25!, System.Drawing.FontStyle.Bold)
+        Me.SimpleButton1.Appearance.Options.UseFont = True
+        Me.SimpleButton1.ImageOptions.Image = Global.DataonsERP.My.Resources.Resources.listnumbers_32x328
+        Me.SimpleButton1.Location = New System.Drawing.Point(578, 9)
         Me.SimpleButton1.Name = "SimpleButton1"
-        Me.SimpleButton1.Size = New System.Drawing.Size(147, 36)
+        Me.SimpleButton1.Size = New System.Drawing.Size(116, 36)
         Me.SimpleButton1.TabIndex = 5
         Me.SimpleButton1.Text = "Listele"
         '

@@ -37,12 +37,7 @@ Partial Class kasa_virman_fisi
         Me.GroupBox3 = New System.Windows.Forms.GroupBox()
         Me.LabelControl8 = New DevExpress.XtraEditors.LabelControl()
         Me.LabelControl9 = New DevExpress.XtraEditors.LabelControl()
-        Me.SimpleButton5 = New DevExpress.XtraEditors.SimpleButton()
-        Me.SimpleButton1 = New DevExpress.XtraEditors.SimpleButton()
         Me.GroupBox4 = New System.Windows.Forms.GroupBox()
-        Me.SimpleButton4 = New DevExpress.XtraEditors.SimpleButton()
-        Me.SimpleButton3 = New DevExpress.XtraEditors.SimpleButton()
-        Me.SimpleButton2 = New DevExpress.XtraEditors.SimpleButton()
         Me.DataGridView1 = New System.Windows.Forms.DataGridView()
         Me.DateEdit1 = New DevExpress.XtraEditors.DateEdit()
         Me.MemoEdit1 = New DevExpress.XtraEditors.MemoEdit()
@@ -54,6 +49,11 @@ Partial Class kasa_virman_fisi
         Me.TextEdit3 = New DevExpress.XtraEditors.TextEdit()
         Me.TextEdit5 = New DevExpress.XtraEditors.TextEdit()
         Me.TextEdit7 = New DevExpress.XtraEditors.TextEdit()
+        Me.SimpleButton5 = New DevExpress.XtraEditors.SimpleButton()
+        Me.SimpleButton4 = New DevExpress.XtraEditors.SimpleButton()
+        Me.SimpleButton3 = New DevExpress.XtraEditors.SimpleButton()
+        Me.SimpleButton2 = New DevExpress.XtraEditors.SimpleButton()
+        Me.SimpleButton1 = New DevExpress.XtraEditors.SimpleButton()
         Me.GroupBox1.SuspendLayout()
         Me.GroupBox2.SuspendLayout()
         Me.GroupBox3.SuspendLayout()
@@ -74,6 +74,9 @@ Partial Class kasa_virman_fisi
         '
         'SimpleButton6
         '
+        Me.SimpleButton6.Appearance.Font = New System.Drawing.Font("Tahoma", 8.25!, System.Drawing.FontStyle.Bold)
+        Me.SimpleButton6.Appearance.Options.UseFont = True
+        Me.SimpleButton6.ImageOptions.Image = Global.DataonsERP.My.Resources.Resources.exporttoxls_32x328
         Me.SimpleButton6.Location = New System.Drawing.Point(526, 9)
         Me.SimpleButton6.Name = "SimpleButton6"
         Me.SimpleButton6.Size = New System.Drawing.Size(98, 35)
@@ -226,22 +229,6 @@ Partial Class kasa_virman_fisi
         Me.LabelControl9.TabIndex = 109
         Me.LabelControl9.Text = "Tutar"
         '
-        'SimpleButton5
-        '
-        Me.SimpleButton5.Location = New System.Drawing.Point(422, 9)
-        Me.SimpleButton5.Name = "SimpleButton5"
-        Me.SimpleButton5.Size = New System.Drawing.Size(98, 35)
-        Me.SimpleButton5.TabIndex = 8
-        Me.SimpleButton5.Text = "Yazdır"
-        '
-        'SimpleButton1
-        '
-        Me.SimpleButton1.Location = New System.Drawing.Point(6, 10)
-        Me.SimpleButton1.Name = "SimpleButton1"
-        Me.SimpleButton1.Size = New System.Drawing.Size(98, 35)
-        Me.SimpleButton1.TabIndex = 4
-        Me.SimpleButton1.Text = "Kaydet"
-        '
         'GroupBox4
         '
         Me.GroupBox4.Controls.Add(Me.SimpleButton6)
@@ -255,30 +242,6 @@ Partial Class kasa_virman_fisi
         Me.GroupBox4.Size = New System.Drawing.Size(1076, 50)
         Me.GroupBox4.TabIndex = 15
         Me.GroupBox4.TabStop = False
-        '
-        'SimpleButton4
-        '
-        Me.SimpleButton4.Location = New System.Drawing.Point(318, 9)
-        Me.SimpleButton4.Name = "SimpleButton4"
-        Me.SimpleButton4.Size = New System.Drawing.Size(98, 35)
-        Me.SimpleButton4.TabIndex = 7
-        Me.SimpleButton4.Text = "Fiş Listesi"
-        '
-        'SimpleButton3
-        '
-        Me.SimpleButton3.Location = New System.Drawing.Point(214, 9)
-        Me.SimpleButton3.Name = "SimpleButton3"
-        Me.SimpleButton3.Size = New System.Drawing.Size(98, 35)
-        Me.SimpleButton3.TabIndex = 6
-        Me.SimpleButton3.Text = "Satır Sil"
-        '
-        'SimpleButton2
-        '
-        Me.SimpleButton2.Location = New System.Drawing.Point(110, 9)
-        Me.SimpleButton2.Name = "SimpleButton2"
-        Me.SimpleButton2.Size = New System.Drawing.Size(98, 35)
-        Me.SimpleButton2.TabIndex = 5
-        Me.SimpleButton2.Text = "Sil"
         '
         'DataGridView1
         '
@@ -386,6 +349,61 @@ Partial Class kasa_virman_fisi
         Me.TextEdit7.Properties.Appearance.Options.UseFont = True
         Me.TextEdit7.Size = New System.Drawing.Size(138, 20)
         Me.TextEdit7.TabIndex = 108
+        '
+        'SimpleButton5
+        '
+        Me.SimpleButton5.Appearance.Font = New System.Drawing.Font("Tahoma", 8.25!, System.Drawing.FontStyle.Bold)
+        Me.SimpleButton5.Appearance.Options.UseFont = True
+        Me.SimpleButton5.ImageOptions.Image = Global.DataonsERP.My.Resources.Resources.printer_32x328
+        Me.SimpleButton5.Location = New System.Drawing.Point(422, 9)
+        Me.SimpleButton5.Name = "SimpleButton5"
+        Me.SimpleButton5.Size = New System.Drawing.Size(98, 35)
+        Me.SimpleButton5.TabIndex = 8
+        Me.SimpleButton5.Text = "Yazdır"
+        '
+        'SimpleButton4
+        '
+        Me.SimpleButton4.Appearance.Font = New System.Drawing.Font("Tahoma", 8.25!, System.Drawing.FontStyle.Bold)
+        Me.SimpleButton4.Appearance.Options.UseFont = True
+        Me.SimpleButton4.ImageOptions.Image = Global.DataonsERP.My.Resources.Resources.chartsshowlegend_32x32
+        Me.SimpleButton4.Location = New System.Drawing.Point(318, 9)
+        Me.SimpleButton4.Name = "SimpleButton4"
+        Me.SimpleButton4.Size = New System.Drawing.Size(98, 35)
+        Me.SimpleButton4.TabIndex = 7
+        Me.SimpleButton4.Text = "Fiş Listesi"
+        '
+        'SimpleButton3
+        '
+        Me.SimpleButton3.Appearance.Font = New System.Drawing.Font("Tahoma", 8.25!, System.Drawing.FontStyle.Bold)
+        Me.SimpleButton3.Appearance.Options.UseFont = True
+        Me.SimpleButton3.ImageOptions.Image = Global.DataonsERP.My.Resources.Resources.removesheetrows_32x321
+        Me.SimpleButton3.Location = New System.Drawing.Point(214, 9)
+        Me.SimpleButton3.Name = "SimpleButton3"
+        Me.SimpleButton3.Size = New System.Drawing.Size(98, 35)
+        Me.SimpleButton3.TabIndex = 6
+        Me.SimpleButton3.Text = "Satır Sil"
+        '
+        'SimpleButton2
+        '
+        Me.SimpleButton2.Appearance.Font = New System.Drawing.Font("Tahoma", 8.25!, System.Drawing.FontStyle.Bold)
+        Me.SimpleButton2.Appearance.Options.UseFont = True
+        Me.SimpleButton2.ImageOptions.Image = Global.DataonsERP.My.Resources.Resources.cancel_32x328
+        Me.SimpleButton2.Location = New System.Drawing.Point(110, 9)
+        Me.SimpleButton2.Name = "SimpleButton2"
+        Me.SimpleButton2.Size = New System.Drawing.Size(98, 35)
+        Me.SimpleButton2.TabIndex = 5
+        Me.SimpleButton2.Text = "Sil"
+        '
+        'SimpleButton1
+        '
+        Me.SimpleButton1.Appearance.Font = New System.Drawing.Font("Tahoma", 8.25!, System.Drawing.FontStyle.Bold)
+        Me.SimpleButton1.Appearance.Options.UseFont = True
+        Me.SimpleButton1.ImageOptions.Image = Global.DataonsERP.My.Resources.Resources.apply_32x328
+        Me.SimpleButton1.Location = New System.Drawing.Point(6, 10)
+        Me.SimpleButton1.Name = "SimpleButton1"
+        Me.SimpleButton1.Size = New System.Drawing.Size(98, 35)
+        Me.SimpleButton1.TabIndex = 4
+        Me.SimpleButton1.Text = "Kaydet"
         '
         'kasa_virman_fisi
         '

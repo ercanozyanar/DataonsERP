@@ -26,11 +26,11 @@ Partial Class doviz_tanim
         Me.DataGridView1 = New System.Windows.Forms.DataGridView()
         Me.FormAssistant2 = New DevExpress.XtraBars.FormAssistant()
         Me.PanelControl1 = New DevExpress.XtraEditors.PanelControl()
+        Me.TextEdit1 = New DevExpress.XtraEditors.TextEdit()
         Me.LabelControl2 = New DevExpress.XtraEditors.LabelControl()
+        Me.stokkodu = New DevExpress.XtraEditors.TextEdit()
         Me.LabelControl1 = New DevExpress.XtraEditors.LabelControl()
         Me.PanelControl2 = New DevExpress.XtraEditors.PanelControl()
-        Me.TextEdit1 = New DevExpress.XtraEditors.TextEdit()
-        Me.stokkodu = New DevExpress.XtraEditors.TextEdit()
         Me.SimpleButton4 = New DevExpress.XtraEditors.SimpleButton()
         Me.SimpleButton3 = New DevExpress.XtraEditors.SimpleButton()
         Me.SimpleButton2 = New DevExpress.XtraEditors.SimpleButton()
@@ -38,10 +38,10 @@ Partial Class doviz_tanim
         CType(Me.DataGridView1, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PanelControl1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.PanelControl1.SuspendLayout()
-        CType(Me.PanelControl2, System.ComponentModel.ISupportInitialize).BeginInit()
-        Me.PanelControl2.SuspendLayout()
         CType(Me.TextEdit1.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.stokkodu.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.PanelControl2, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.PanelControl2.SuspendLayout()
         Me.SuspendLayout()
         '
         'DataGridView1
@@ -63,6 +63,15 @@ Partial Class doviz_tanim
         Me.PanelControl1.Size = New System.Drawing.Size(441, 57)
         Me.PanelControl1.TabIndex = 9
         '
+        'TextEdit1
+        '
+        Me.TextEdit1.Location = New System.Drawing.Point(91, 23)
+        Me.TextEdit1.Name = "TextEdit1"
+        Me.TextEdit1.Properties.Appearance.Font = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(162, Byte))
+        Me.TextEdit1.Properties.Appearance.Options.UseFont = True
+        Me.TextEdit1.Size = New System.Drawing.Size(345, 20)
+        Me.TextEdit1.TabIndex = 5
+        '
         'LabelControl2
         '
         Me.LabelControl2.Appearance.Font = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(162, Byte))
@@ -72,6 +81,15 @@ Partial Class doviz_tanim
         Me.LabelControl2.Size = New System.Drawing.Size(55, 14)
         Me.LabelControl2.TabIndex = 4
         Me.LabelControl2.Text = "Döviz Cinsi"
+        '
+        'stokkodu
+        '
+        Me.stokkodu.Location = New System.Drawing.Point(9, 23)
+        Me.stokkodu.Name = "stokkodu"
+        Me.stokkodu.Properties.Appearance.Font = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(162, Byte))
+        Me.stokkodu.Properties.Appearance.Options.UseFont = True
+        Me.stokkodu.Size = New System.Drawing.Size(76, 20)
+        Me.stokkodu.TabIndex = 3
         '
         'LabelControl1
         '
@@ -94,26 +112,10 @@ Partial Class doviz_tanim
         Me.PanelControl2.Size = New System.Drawing.Size(441, 57)
         Me.PanelControl2.TabIndex = 11
         '
-        'TextEdit1
-        '
-        Me.TextEdit1.Location = New System.Drawing.Point(91, 23)
-        Me.TextEdit1.Name = "TextEdit1"
-        Me.TextEdit1.Properties.Appearance.Font = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(162, Byte))
-        Me.TextEdit1.Properties.Appearance.Options.UseFont = True
-        Me.TextEdit1.Size = New System.Drawing.Size(345, 20)
-        Me.TextEdit1.TabIndex = 5
-        '
-        'stokkodu
-        '
-        Me.stokkodu.Location = New System.Drawing.Point(9, 23)
-        Me.stokkodu.Name = "stokkodu"
-        Me.stokkodu.Properties.Appearance.Font = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(162, Byte))
-        Me.stokkodu.Properties.Appearance.Options.UseFont = True
-        Me.stokkodu.Size = New System.Drawing.Size(76, 20)
-        Me.stokkodu.TabIndex = 3
-        '
         'SimpleButton4
         '
+        Me.SimpleButton4.Appearance.Font = New System.Drawing.Font("Tahoma", 8.25!, System.Drawing.FontStyle.Bold)
+        Me.SimpleButton4.Appearance.Options.UseFont = True
         Me.SimpleButton4.ImageOptions.Image = Global.DataonsERP.My.Resources.Resources.close_32x32
         Me.SimpleButton4.Location = New System.Drawing.Point(361, 5)
         Me.SimpleButton4.Name = "SimpleButton4"
@@ -123,15 +125,19 @@ Partial Class doviz_tanim
         '
         'SimpleButton3
         '
+        Me.SimpleButton3.Appearance.Font = New System.Drawing.Font("Tahoma", 8.25!, System.Drawing.FontStyle.Bold)
+        Me.SimpleButton3.Appearance.Options.UseFont = True
         Me.SimpleButton3.ImageOptions.Image = Global.DataonsERP.My.Resources.Resources.undo_32x32
         Me.SimpleButton3.Location = New System.Drawing.Point(179, 5)
         Me.SimpleButton3.Name = "SimpleButton3"
-        Me.SimpleButton3.Size = New System.Drawing.Size(75, 47)
+        Me.SimpleButton3.Size = New System.Drawing.Size(84, 47)
         Me.SimpleButton3.TabIndex = 2
         Me.SimpleButton3.Text = "Geri Al"
         '
         'SimpleButton2
         '
+        Me.SimpleButton2.Appearance.Font = New System.Drawing.Font("Tahoma", 8.25!, System.Drawing.FontStyle.Bold)
+        Me.SimpleButton2.Appearance.Options.UseFont = True
         Me.SimpleButton2.ImageOptions.Image = Global.DataonsERP.My.Resources.Resources.cancel_32x321
         Me.SimpleButton2.Location = New System.Drawing.Point(98, 5)
         Me.SimpleButton2.Name = "SimpleButton2"
@@ -141,6 +147,8 @@ Partial Class doviz_tanim
         '
         'SimpleButton1
         '
+        Me.SimpleButton1.Appearance.Font = New System.Drawing.Font("Tahoma", 8.25!, System.Drawing.FontStyle.Bold)
+        Me.SimpleButton1.Appearance.Options.UseFont = True
         Me.SimpleButton1.ImageOptions.Image = Global.DataonsERP.My.Resources.Resources.apply_32x321
         Me.SimpleButton1.Location = New System.Drawing.Point(5, 5)
         Me.SimpleButton1.Name = "SimpleButton1"
@@ -165,10 +173,10 @@ Partial Class doviz_tanim
         CType(Me.PanelControl1, System.ComponentModel.ISupportInitialize).EndInit()
         Me.PanelControl1.ResumeLayout(False)
         Me.PanelControl1.PerformLayout()
-        CType(Me.PanelControl2, System.ComponentModel.ISupportInitialize).EndInit()
-        Me.PanelControl2.ResumeLayout(False)
         CType(Me.TextEdit1.Properties, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.stokkodu.Properties, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.PanelControl2, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.PanelControl2.ResumeLayout(False)
         Me.ResumeLayout(False)
 
     End Sub

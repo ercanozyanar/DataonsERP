@@ -56,13 +56,13 @@ Partial Class kkart_islem_rapor
         Me.DateEdit2 = New DevExpress.XtraEditors.DateEdit()
         Me.DateEdit1 = New DevExpress.XtraEditors.DateEdit()
         Me.GroupBox2 = New System.Windows.Forms.GroupBox()
-        Me.SimpleButton3 = New DevExpress.XtraEditors.SimpleButton()
-        Me.SimpleButton2 = New DevExpress.XtraEditors.SimpleButton()
-        Me.SimpleButton1 = New DevExpress.XtraEditors.SimpleButton()
-        Me.GroupBox6 = New System.Windows.Forms.GroupBox()
         Me.RadioButton2 = New System.Windows.Forms.RadioButton()
         Me.RadioButton1 = New System.Windows.Forms.RadioButton()
         Me.GroupBox5 = New System.Windows.Forms.GroupBox()
+        Me.GroupBox6 = New System.Windows.Forms.GroupBox()
+        Me.SimpleButton3 = New DevExpress.XtraEditors.SimpleButton()
+        Me.SimpleButton2 = New DevExpress.XtraEditors.SimpleButton()
+        Me.SimpleButton1 = New DevExpress.XtraEditors.SimpleButton()
         CType(Me.GridView1, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.GridControl1, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.TextEdit5.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -89,8 +89,8 @@ Partial Class kkart_islem_rapor
         CType(Me.DateEdit1.Properties.CalendarTimeProperties, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.DateEdit1.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.GroupBox2.SuspendLayout()
-        Me.GroupBox6.SuspendLayout()
         Me.GroupBox5.SuspendLayout()
+        Me.GroupBox6.SuspendLayout()
         Me.SuspendLayout()
         '
         'GridView1
@@ -374,41 +374,6 @@ Partial Class kkart_islem_rapor
         Me.GroupBox2.TabStop = False
         Me.GroupBox2.Text = "Koşul"
         '
-        'SimpleButton3
-        '
-        Me.SimpleButton3.Location = New System.Drawing.Point(6, 123)
-        Me.SimpleButton3.Name = "SimpleButton3"
-        Me.SimpleButton3.Size = New System.Drawing.Size(117, 44)
-        Me.SimpleButton3.TabIndex = 2
-        Me.SimpleButton3.Text = "Excel"
-        '
-        'SimpleButton2
-        '
-        Me.SimpleButton2.Location = New System.Drawing.Point(6, 68)
-        Me.SimpleButton2.Name = "SimpleButton2"
-        Me.SimpleButton2.Size = New System.Drawing.Size(117, 44)
-        Me.SimpleButton2.TabIndex = 1
-        Me.SimpleButton2.Text = "Yazdır"
-        '
-        'SimpleButton1
-        '
-        Me.SimpleButton1.Location = New System.Drawing.Point(6, 16)
-        Me.SimpleButton1.Name = "SimpleButton1"
-        Me.SimpleButton1.Size = New System.Drawing.Size(117, 44)
-        Me.SimpleButton1.TabIndex = 0
-        Me.SimpleButton1.Text = "Listele"
-        '
-        'GroupBox6
-        '
-        Me.GroupBox6.Controls.Add(Me.SimpleButton3)
-        Me.GroupBox6.Controls.Add(Me.SimpleButton2)
-        Me.GroupBox6.Controls.Add(Me.SimpleButton1)
-        Me.GroupBox6.Location = New System.Drawing.Point(949, 2)
-        Me.GroupBox6.Name = "GroupBox6"
-        Me.GroupBox6.Size = New System.Drawing.Size(129, 180)
-        Me.GroupBox6.TabIndex = 20
-        Me.GroupBox6.TabStop = False
-        '
         'RadioButton2
         '
         Me.RadioButton2.AutoSize = True
@@ -442,17 +407,61 @@ Partial Class kkart_islem_rapor
         Me.GroupBox5.TabStop = False
         Me.GroupBox5.Text = "Rapor Kriteri"
         '
+        'GroupBox6
+        '
+        Me.GroupBox6.Controls.Add(Me.SimpleButton3)
+        Me.GroupBox6.Controls.Add(Me.SimpleButton2)
+        Me.GroupBox6.Controls.Add(Me.SimpleButton1)
+        Me.GroupBox6.Location = New System.Drawing.Point(938, 2)
+        Me.GroupBox6.Name = "GroupBox6"
+        Me.GroupBox6.Size = New System.Drawing.Size(129, 180)
+        Me.GroupBox6.TabIndex = 140
+        Me.GroupBox6.TabStop = False
+        '
+        'SimpleButton3
+        '
+        Me.SimpleButton3.Appearance.Font = New System.Drawing.Font("Tahoma", 8.25!, System.Drawing.FontStyle.Bold)
+        Me.SimpleButton3.Appearance.Options.UseFont = True
+        Me.SimpleButton3.ImageOptions.Image = Global.DataonsERP.My.Resources.Resources.exporttoxls_32x327
+        Me.SimpleButton3.Location = New System.Drawing.Point(6, 137)
+        Me.SimpleButton3.Name = "SimpleButton3"
+        Me.SimpleButton3.Size = New System.Drawing.Size(117, 37)
+        Me.SimpleButton3.TabIndex = 2
+        Me.SimpleButton3.Text = "Excel"
+        '
+        'SimpleButton2
+        '
+        Me.SimpleButton2.Appearance.Font = New System.Drawing.Font("Tahoma", 8.25!, System.Drawing.FontStyle.Bold)
+        Me.SimpleButton2.Appearance.Options.UseFont = True
+        Me.SimpleButton2.ImageOptions.Image = Global.DataonsERP.My.Resources.Resources.printer_32x327
+        Me.SimpleButton2.Location = New System.Drawing.Point(6, 74)
+        Me.SimpleButton2.Name = "SimpleButton2"
+        Me.SimpleButton2.Size = New System.Drawing.Size(117, 42)
+        Me.SimpleButton2.TabIndex = 1
+        Me.SimpleButton2.Text = "Yazdır"
+        '
+        'SimpleButton1
+        '
+        Me.SimpleButton1.Appearance.Font = New System.Drawing.Font("Tahoma", 8.25!, System.Drawing.FontStyle.Bold)
+        Me.SimpleButton1.Appearance.Options.UseFont = True
+        Me.SimpleButton1.ImageOptions.Image = Global.DataonsERP.My.Resources.Resources.listnumbers_32x327
+        Me.SimpleButton1.Location = New System.Drawing.Point(6, 16)
+        Me.SimpleButton1.Name = "SimpleButton1"
+        Me.SimpleButton1.Size = New System.Drawing.Size(117, 34)
+        Me.SimpleButton1.TabIndex = 0
+        Me.SimpleButton1.Text = "Listele"
+        '
         'kkart_islem_rapor
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(1079, 628)
+        Me.Controls.Add(Me.GroupBox6)
         Me.Controls.Add(Me.GroupBox4)
         Me.Controls.Add(Me.GridControl1)
         Me.Controls.Add(Me.GroupBox3)
         Me.Controls.Add(Me.GroupBox1)
         Me.Controls.Add(Me.GroupBox2)
-        Me.Controls.Add(Me.GroupBox6)
         Me.Controls.Add(Me.GroupBox5)
         Me.Name = "kkart_islem_rapor"
         Me.Text = "Kredi Kartlı İşlemler Listesi"
@@ -484,9 +493,9 @@ Partial Class kkart_islem_rapor
         CType(Me.DateEdit1.Properties.CalendarTimeProperties, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.DateEdit1.Properties, System.ComponentModel.ISupportInitialize).EndInit()
         Me.GroupBox2.ResumeLayout(False)
-        Me.GroupBox6.ResumeLayout(False)
         Me.GroupBox5.ResumeLayout(False)
         Me.GroupBox5.PerformLayout()
+        Me.GroupBox6.ResumeLayout(False)
         Me.ResumeLayout(False)
 
     End Sub
@@ -525,11 +534,11 @@ Partial Class kkart_islem_rapor
     Friend WithEvents DateEdit2 As DevExpress.XtraEditors.DateEdit
     Friend WithEvents DateEdit1 As DevExpress.XtraEditors.DateEdit
     Friend WithEvents GroupBox2 As GroupBox
-    Friend WithEvents SimpleButton3 As DevExpress.XtraEditors.SimpleButton
-    Friend WithEvents SimpleButton2 As DevExpress.XtraEditors.SimpleButton
-    Friend WithEvents SimpleButton1 As DevExpress.XtraEditors.SimpleButton
-    Friend WithEvents GroupBox6 As GroupBox
     Friend WithEvents RadioButton2 As RadioButton
     Friend WithEvents RadioButton1 As RadioButton
     Friend WithEvents GroupBox5 As GroupBox
+    Friend WithEvents GroupBox6 As GroupBox
+    Friend WithEvents SimpleButton3 As DevExpress.XtraEditors.SimpleButton
+    Friend WithEvents SimpleButton2 As DevExpress.XtraEditors.SimpleButton
+    Friend WithEvents SimpleButton1 As DevExpress.XtraEditors.SimpleButton
 End Class

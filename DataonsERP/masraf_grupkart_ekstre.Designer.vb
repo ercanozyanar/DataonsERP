@@ -25,31 +25,30 @@ Partial Class masraf_grupkart_ekstre
         Me.FormAssistant1 = New DevExpress.XtraBars.FormAssistant()
         Me.GridControl1 = New DevExpress.XtraGrid.GridControl()
         Me.GridView1 = New DevExpress.XtraGrid.Views.Grid.GridView()
-        Me.GroupBox6 = New System.Windows.Forms.GroupBox()
-        Me.SimpleButton3 = New DevExpress.XtraEditors.SimpleButton()
-        Me.SimpleButton2 = New DevExpress.XtraEditors.SimpleButton()
-        Me.SimpleButton4 = New DevExpress.XtraEditors.SimpleButton()
         Me.GroupBox1 = New System.Windows.Forms.GroupBox()
         Me.LabelControl4 = New DevExpress.XtraEditors.LabelControl()
         Me.LabelControl2 = New DevExpress.XtraEditors.LabelControl()
         Me.LabelControl1 = New DevExpress.XtraEditors.LabelControl()
         Me.GroupBox2 = New System.Windows.Forms.GroupBox()
-        Me.SimpleButton1 = New DevExpress.XtraEditors.SimpleButton()
         Me.TextEdit4 = New DevExpress.XtraEditors.TextEdit()
-        Me.TextEdit1 = New DevExpress.XtraEditors.TextEdit()
         Me.DateEdit2 = New DevExpress.XtraEditors.DateEdit()
         Me.DateEdit1 = New DevExpress.XtraEditors.DateEdit()
+        Me.GroupBox3 = New System.Windows.Forms.GroupBox()
+        Me.SimpleButton5 = New DevExpress.XtraEditors.SimpleButton()
+        Me.SimpleButton6 = New DevExpress.XtraEditors.SimpleButton()
+        Me.SimpleButton7 = New DevExpress.XtraEditors.SimpleButton()
+        Me.ButtonEdit1 = New DevExpress.XtraEditors.ButtonEdit()
         CType(Me.GridControl1, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.GridView1, System.ComponentModel.ISupportInitialize).BeginInit()
-        Me.GroupBox6.SuspendLayout()
         Me.GroupBox1.SuspendLayout()
         Me.GroupBox2.SuspendLayout()
         CType(Me.TextEdit4.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.TextEdit1.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.DateEdit2.Properties.CalendarTimeProperties, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.DateEdit2.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.DateEdit1.Properties.CalendarTimeProperties, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.DateEdit1.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.GroupBox3.SuspendLayout()
+        CType(Me.ButtonEdit1.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'GridControl1
@@ -65,41 +64,6 @@ Partial Class masraf_grupkart_ekstre
         '
         Me.GridView1.GridControl = Me.GridControl1
         Me.GridView1.Name = "GridView1"
-        '
-        'GroupBox6
-        '
-        Me.GroupBox6.Controls.Add(Me.SimpleButton3)
-        Me.GroupBox6.Controls.Add(Me.SimpleButton2)
-        Me.GroupBox6.Controls.Add(Me.SimpleButton4)
-        Me.GroupBox6.Location = New System.Drawing.Point(949, 3)
-        Me.GroupBox6.Name = "GroupBox6"
-        Me.GroupBox6.Size = New System.Drawing.Size(129, 100)
-        Me.GroupBox6.TabIndex = 26
-        Me.GroupBox6.TabStop = False
-        '
-        'SimpleButton3
-        '
-        Me.SimpleButton3.Location = New System.Drawing.Point(6, 68)
-        Me.SimpleButton3.Name = "SimpleButton3"
-        Me.SimpleButton3.Size = New System.Drawing.Size(117, 24)
-        Me.SimpleButton3.TabIndex = 2
-        Me.SimpleButton3.Text = "Excel"
-        '
-        'SimpleButton2
-        '
-        Me.SimpleButton2.Location = New System.Drawing.Point(6, 40)
-        Me.SimpleButton2.Name = "SimpleButton2"
-        Me.SimpleButton2.Size = New System.Drawing.Size(117, 24)
-        Me.SimpleButton2.TabIndex = 1
-        Me.SimpleButton2.Text = "Yazdır"
-        '
-        'SimpleButton4
-        '
-        Me.SimpleButton4.Location = New System.Drawing.Point(6, 10)
-        Me.SimpleButton4.Name = "SimpleButton4"
-        Me.SimpleButton4.Size = New System.Drawing.Size(117, 24)
-        Me.SimpleButton4.TabIndex = 0
-        Me.SimpleButton4.Text = "Listele"
         '
         'GroupBox1
         '
@@ -139,9 +103,8 @@ Partial Class masraf_grupkart_ekstre
         '
         'GroupBox2
         '
-        Me.GroupBox2.Controls.Add(Me.SimpleButton1)
+        Me.GroupBox2.Controls.Add(Me.ButtonEdit1)
         Me.GroupBox2.Controls.Add(Me.TextEdit4)
-        Me.GroupBox2.Controls.Add(Me.TextEdit1)
         Me.GroupBox2.Controls.Add(Me.DateEdit2)
         Me.GroupBox2.Controls.Add(Me.DateEdit1)
         Me.GroupBox2.Location = New System.Drawing.Point(108, 3)
@@ -151,27 +114,12 @@ Partial Class masraf_grupkart_ekstre
         Me.GroupBox2.TabStop = False
         Me.GroupBox2.Text = "Koşul"
         '
-        'SimpleButton1
-        '
-        Me.SimpleButton1.Location = New System.Drawing.Point(196, 44)
-        Me.SimpleButton1.Name = "SimpleButton1"
-        Me.SimpleButton1.Size = New System.Drawing.Size(29, 20)
-        Me.SimpleButton1.TabIndex = 21
-        Me.SimpleButton1.Text = "*"
-        '
         'TextEdit4
         '
         Me.TextEdit4.Location = New System.Drawing.Point(6, 70)
         Me.TextEdit4.Name = "TextEdit4"
         Me.TextEdit4.Size = New System.Drawing.Size(219, 20)
         Me.TextEdit4.TabIndex = 4
-        '
-        'TextEdit1
-        '
-        Me.TextEdit1.Location = New System.Drawing.Point(6, 44)
-        Me.TextEdit1.Name = "TextEdit1"
-        Me.TextEdit1.Size = New System.Drawing.Size(184, 20)
-        Me.TextEdit1.TabIndex = 2
         '
         'DateEdit2
         '
@@ -193,29 +141,81 @@ Partial Class masraf_grupkart_ekstre
         Me.DateEdit1.Size = New System.Drawing.Size(100, 20)
         Me.DateEdit1.TabIndex = 0
         '
+        'GroupBox3
+        '
+        Me.GroupBox3.Controls.Add(Me.SimpleButton5)
+        Me.GroupBox3.Controls.Add(Me.SimpleButton6)
+        Me.GroupBox3.Controls.Add(Me.SimpleButton7)
+        Me.GroupBox3.Location = New System.Drawing.Point(699, 43)
+        Me.GroupBox3.Name = "GroupBox3"
+        Me.GroupBox3.Size = New System.Drawing.Size(379, 60)
+        Me.GroupBox3.TabIndex = 28
+        Me.GroupBox3.TabStop = False
+        '
+        'SimpleButton5
+        '
+        Me.SimpleButton5.Appearance.Font = New System.Drawing.Font("Tahoma", 8.25!, System.Drawing.FontStyle.Bold)
+        Me.SimpleButton5.Appearance.Options.UseFont = True
+        Me.SimpleButton5.ImageOptions.Image = Global.DataonsERP.My.Resources.Resources.exporttoxls_32x327
+        Me.SimpleButton5.Location = New System.Drawing.Point(252, 16)
+        Me.SimpleButton5.Name = "SimpleButton5"
+        Me.SimpleButton5.Size = New System.Drawing.Size(117, 31)
+        Me.SimpleButton5.TabIndex = 2
+        Me.SimpleButton5.Text = "Excel"
+        '
+        'SimpleButton6
+        '
+        Me.SimpleButton6.Appearance.Font = New System.Drawing.Font("Tahoma", 8.25!, System.Drawing.FontStyle.Bold)
+        Me.SimpleButton6.Appearance.Options.UseFont = True
+        Me.SimpleButton6.ImageOptions.Image = Global.DataonsERP.My.Resources.Resources.printer_32x327
+        Me.SimpleButton6.Location = New System.Drawing.Point(129, 16)
+        Me.SimpleButton6.Name = "SimpleButton6"
+        Me.SimpleButton6.Size = New System.Drawing.Size(117, 31)
+        Me.SimpleButton6.TabIndex = 1
+        Me.SimpleButton6.Text = "Yazdır"
+        '
+        'SimpleButton7
+        '
+        Me.SimpleButton7.Appearance.Font = New System.Drawing.Font("Tahoma", 8.25!, System.Drawing.FontStyle.Bold)
+        Me.SimpleButton7.Appearance.Options.UseFont = True
+        Me.SimpleButton7.ImageOptions.Image = Global.DataonsERP.My.Resources.Resources.listnumbers_32x327
+        Me.SimpleButton7.Location = New System.Drawing.Point(6, 16)
+        Me.SimpleButton7.Name = "SimpleButton7"
+        Me.SimpleButton7.Size = New System.Drawing.Size(117, 31)
+        Me.SimpleButton7.TabIndex = 0
+        Me.SimpleButton7.Text = "Listele"
+        '
+        'ButtonEdit1
+        '
+        Me.ButtonEdit1.Location = New System.Drawing.Point(6, 44)
+        Me.ButtonEdit1.Name = "ButtonEdit1"
+        Me.ButtonEdit1.Properties.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton()})
+        Me.ButtonEdit1.Size = New System.Drawing.Size(219, 20)
+        Me.ButtonEdit1.TabIndex = 84
+        '
         'masraf_grupkart_ekstre
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(1079, 628)
+        Me.Controls.Add(Me.GroupBox3)
         Me.Controls.Add(Me.GridControl1)
-        Me.Controls.Add(Me.GroupBox6)
         Me.Controls.Add(Me.GroupBox1)
         Me.Controls.Add(Me.GroupBox2)
         Me.Name = "masraf_grupkart_ekstre"
         Me.Text = "Masraf Grup Kartı Ekstresi"
         CType(Me.GridControl1, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.GridView1, System.ComponentModel.ISupportInitialize).EndInit()
-        Me.GroupBox6.ResumeLayout(False)
         Me.GroupBox1.ResumeLayout(False)
         Me.GroupBox1.PerformLayout()
         Me.GroupBox2.ResumeLayout(False)
         CType(Me.TextEdit4.Properties, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.TextEdit1.Properties, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.DateEdit2.Properties.CalendarTimeProperties, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.DateEdit2.Properties, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.DateEdit1.Properties.CalendarTimeProperties, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.DateEdit1.Properties, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.GroupBox3.ResumeLayout(False)
+        CType(Me.ButtonEdit1.Properties, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
 
     End Sub
@@ -223,18 +223,17 @@ Partial Class masraf_grupkart_ekstre
     Friend WithEvents FormAssistant1 As DevExpress.XtraBars.FormAssistant
     Friend WithEvents GridControl1 As DevExpress.XtraGrid.GridControl
     Friend WithEvents GridView1 As DevExpress.XtraGrid.Views.Grid.GridView
-    Friend WithEvents GroupBox6 As GroupBox
-    Friend WithEvents SimpleButton3 As DevExpress.XtraEditors.SimpleButton
-    Friend WithEvents SimpleButton2 As DevExpress.XtraEditors.SimpleButton
-    Friend WithEvents SimpleButton4 As DevExpress.XtraEditors.SimpleButton
     Friend WithEvents GroupBox1 As GroupBox
     Friend WithEvents LabelControl4 As DevExpress.XtraEditors.LabelControl
     Friend WithEvents LabelControl2 As DevExpress.XtraEditors.LabelControl
     Friend WithEvents LabelControl1 As DevExpress.XtraEditors.LabelControl
     Friend WithEvents GroupBox2 As GroupBox
-    Friend WithEvents SimpleButton1 As DevExpress.XtraEditors.SimpleButton
     Friend WithEvents TextEdit4 As DevExpress.XtraEditors.TextEdit
-    Friend WithEvents TextEdit1 As DevExpress.XtraEditors.TextEdit
     Friend WithEvents DateEdit2 As DevExpress.XtraEditors.DateEdit
     Friend WithEvents DateEdit1 As DevExpress.XtraEditors.DateEdit
+    Friend WithEvents GroupBox3 As GroupBox
+    Friend WithEvents SimpleButton5 As DevExpress.XtraEditors.SimpleButton
+    Friend WithEvents SimpleButton6 As DevExpress.XtraEditors.SimpleButton
+    Friend WithEvents SimpleButton7 As DevExpress.XtraEditors.SimpleButton
+    Friend WithEvents ButtonEdit1 As DevExpress.XtraEditors.ButtonEdit
 End Class

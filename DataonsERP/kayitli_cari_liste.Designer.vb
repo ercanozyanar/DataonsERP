@@ -26,6 +26,11 @@ Partial Class kayitli_cari_liste
         Me.GridControl1 = New DevExpress.XtraGrid.GridControl()
         Me.GridView1 = New DevExpress.XtraGrid.Views.Grid.GridView()
         Me.GroupBox2 = New System.Windows.Forms.GroupBox()
+        Me.TextEdit5 = New DevExpress.XtraEditors.TextEdit()
+        Me.TextEdit7 = New DevExpress.XtraEditors.TextEdit()
+        Me.TextEdit8 = New DevExpress.XtraEditors.TextEdit()
+        Me.TextEdit9 = New DevExpress.XtraEditors.TextEdit()
+        Me.TextEdit10 = New DevExpress.XtraEditors.TextEdit()
         Me.TextEdit2 = New DevExpress.XtraEditors.TextEdit()
         Me.TextEdit4 = New DevExpress.XtraEditors.TextEdit()
         Me.TextEdit6 = New DevExpress.XtraEditors.TextEdit()
@@ -37,11 +42,6 @@ Partial Class kayitli_cari_liste
         Me.LabelControl4 = New DevExpress.XtraEditors.LabelControl()
         Me.LabelControl1 = New DevExpress.XtraEditors.LabelControl()
         Me.LabelControl2 = New DevExpress.XtraEditors.LabelControl()
-        Me.TextEdit5 = New DevExpress.XtraEditors.TextEdit()
-        Me.TextEdit7 = New DevExpress.XtraEditors.TextEdit()
-        Me.TextEdit8 = New DevExpress.XtraEditors.TextEdit()
-        Me.TextEdit9 = New DevExpress.XtraEditors.TextEdit()
-        Me.TextEdit10 = New DevExpress.XtraEditors.TextEdit()
         Me.GroupBox3 = New System.Windows.Forms.GroupBox()
         Me.TextEdit11 = New DevExpress.XtraEditors.TextEdit()
         Me.TextEdit16 = New DevExpress.XtraEditors.TextEdit()
@@ -51,26 +51,31 @@ Partial Class kayitli_cari_liste
         Me.LabelControl8 = New DevExpress.XtraEditors.LabelControl()
         Me.LabelControl9 = New DevExpress.XtraEditors.LabelControl()
         Me.LabelControl10 = New DevExpress.XtraEditors.LabelControl()
+        Me.GroupBox6 = New System.Windows.Forms.GroupBox()
+        Me.SimpleButton3 = New DevExpress.XtraEditors.SimpleButton()
+        Me.SimpleButton2 = New DevExpress.XtraEditors.SimpleButton()
+        Me.SimpleButton1 = New DevExpress.XtraEditors.SimpleButton()
         CType(Me.GridControl1, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.GridView1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.GroupBox2.SuspendLayout()
+        CType(Me.TextEdit5.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.TextEdit7.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.TextEdit8.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.TextEdit9.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.TextEdit10.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.TextEdit2.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.TextEdit4.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.TextEdit6.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.TextEdit1.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.TextEdit3.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.GroupBox1.SuspendLayout()
-        CType(Me.TextEdit5.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.TextEdit7.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.TextEdit8.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.TextEdit9.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.TextEdit10.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.GroupBox3.SuspendLayout()
         CType(Me.TextEdit11.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.TextEdit16.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.TextEdit17.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.TextEdit19.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.GroupBox4.SuspendLayout()
+        Me.GroupBox6.SuspendLayout()
         Me.SuspendLayout()
         '
         'GridControl1
@@ -105,6 +110,51 @@ Partial Class kayitli_cari_liste
         Me.GroupBox2.TabIndex = 135
         Me.GroupBox2.TabStop = False
         Me.GroupBox2.Text = "Koşul"
+        '
+        'TextEdit5
+        '
+        Me.TextEdit5.Location = New System.Drawing.Point(105, 17)
+        Me.TextEdit5.Name = "TextEdit5"
+        Me.TextEdit5.Properties.Appearance.Font = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(162, Byte))
+        Me.TextEdit5.Properties.Appearance.Options.UseFont = True
+        Me.TextEdit5.Size = New System.Drawing.Size(93, 20)
+        Me.TextEdit5.TabIndex = 131
+        '
+        'TextEdit7
+        '
+        Me.TextEdit7.Location = New System.Drawing.Point(105, 69)
+        Me.TextEdit7.Name = "TextEdit7"
+        Me.TextEdit7.Properties.Appearance.Font = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(162, Byte))
+        Me.TextEdit7.Properties.Appearance.Options.UseFont = True
+        Me.TextEdit7.Size = New System.Drawing.Size(93, 20)
+        Me.TextEdit7.TabIndex = 133
+        '
+        'TextEdit8
+        '
+        Me.TextEdit8.Location = New System.Drawing.Point(105, 121)
+        Me.TextEdit8.Name = "TextEdit8"
+        Me.TextEdit8.Properties.Appearance.Font = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(162, Byte))
+        Me.TextEdit8.Properties.Appearance.Options.UseFont = True
+        Me.TextEdit8.Size = New System.Drawing.Size(93, 20)
+        Me.TextEdit8.TabIndex = 135
+        '
+        'TextEdit9
+        '
+        Me.TextEdit9.Location = New System.Drawing.Point(105, 43)
+        Me.TextEdit9.Name = "TextEdit9"
+        Me.TextEdit9.Properties.Appearance.Font = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(162, Byte))
+        Me.TextEdit9.Properties.Appearance.Options.UseFont = True
+        Me.TextEdit9.Size = New System.Drawing.Size(93, 20)
+        Me.TextEdit9.TabIndex = 132
+        '
+        'TextEdit10
+        '
+        Me.TextEdit10.Location = New System.Drawing.Point(105, 95)
+        Me.TextEdit10.Name = "TextEdit10"
+        Me.TextEdit10.Properties.Appearance.Font = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(162, Byte))
+        Me.TextEdit10.Properties.Appearance.Options.UseFont = True
+        Me.TextEdit10.Size = New System.Drawing.Size(93, 20)
+        Me.TextEdit10.TabIndex = 134
         '
         'TextEdit2
         '
@@ -215,51 +265,6 @@ Partial Class kayitli_cari_liste
         Me.LabelControl2.TabIndex = 123
         Me.LabelControl2.Text = "Cari Hesap Türü Aralığı"
         '
-        'TextEdit5
-        '
-        Me.TextEdit5.Location = New System.Drawing.Point(105, 17)
-        Me.TextEdit5.Name = "TextEdit5"
-        Me.TextEdit5.Properties.Appearance.Font = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(162, Byte))
-        Me.TextEdit5.Properties.Appearance.Options.UseFont = True
-        Me.TextEdit5.Size = New System.Drawing.Size(93, 20)
-        Me.TextEdit5.TabIndex = 131
-        '
-        'TextEdit7
-        '
-        Me.TextEdit7.Location = New System.Drawing.Point(105, 69)
-        Me.TextEdit7.Name = "TextEdit7"
-        Me.TextEdit7.Properties.Appearance.Font = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(162, Byte))
-        Me.TextEdit7.Properties.Appearance.Options.UseFont = True
-        Me.TextEdit7.Size = New System.Drawing.Size(93, 20)
-        Me.TextEdit7.TabIndex = 133
-        '
-        'TextEdit8
-        '
-        Me.TextEdit8.Location = New System.Drawing.Point(105, 121)
-        Me.TextEdit8.Name = "TextEdit8"
-        Me.TextEdit8.Properties.Appearance.Font = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(162, Byte))
-        Me.TextEdit8.Properties.Appearance.Options.UseFont = True
-        Me.TextEdit8.Size = New System.Drawing.Size(93, 20)
-        Me.TextEdit8.TabIndex = 135
-        '
-        'TextEdit9
-        '
-        Me.TextEdit9.Location = New System.Drawing.Point(105, 43)
-        Me.TextEdit9.Name = "TextEdit9"
-        Me.TextEdit9.Properties.Appearance.Font = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(162, Byte))
-        Me.TextEdit9.Properties.Appearance.Options.UseFont = True
-        Me.TextEdit9.Size = New System.Drawing.Size(93, 20)
-        Me.TextEdit9.TabIndex = 132
-        '
-        'TextEdit10
-        '
-        Me.TextEdit10.Location = New System.Drawing.Point(105, 95)
-        Me.TextEdit10.Name = "TextEdit10"
-        Me.TextEdit10.Properties.Appearance.Font = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(162, Byte))
-        Me.TextEdit10.Properties.Appearance.Options.UseFont = True
-        Me.TextEdit10.Size = New System.Drawing.Size(93, 20)
-        Me.TextEdit10.TabIndex = 134
-        '
         'GroupBox3
         '
         Me.GroupBox3.Controls.Add(Me.TextEdit11)
@@ -351,11 +356,56 @@ Partial Class kayitli_cari_liste
         Me.LabelControl10.TabIndex = 123
         Me.LabelControl10.Text = "Cari Hesap Kod Aralığı"
         '
+        'GroupBox6
+        '
+        Me.GroupBox6.Controls.Add(Me.SimpleButton3)
+        Me.GroupBox6.Controls.Add(Me.SimpleButton2)
+        Me.GroupBox6.Controls.Add(Me.SimpleButton1)
+        Me.GroupBox6.Location = New System.Drawing.Point(948, 4)
+        Me.GroupBox6.Name = "GroupBox6"
+        Me.GroupBox6.Size = New System.Drawing.Size(129, 149)
+        Me.GroupBox6.TabIndex = 139
+        Me.GroupBox6.TabStop = False
+        '
+        'SimpleButton3
+        '
+        Me.SimpleButton3.Appearance.Font = New System.Drawing.Font("Tahoma", 8.25!, System.Drawing.FontStyle.Bold)
+        Me.SimpleButton3.Appearance.Options.UseFont = True
+        Me.SimpleButton3.ImageOptions.Image = Global.DataonsERP.My.Resources.Resources.exporttoxls_32x327
+        Me.SimpleButton3.Location = New System.Drawing.Point(6, 104)
+        Me.SimpleButton3.Name = "SimpleButton3"
+        Me.SimpleButton3.Size = New System.Drawing.Size(117, 37)
+        Me.SimpleButton3.TabIndex = 2
+        Me.SimpleButton3.Text = "Excel"
+        '
+        'SimpleButton2
+        '
+        Me.SimpleButton2.Appearance.Font = New System.Drawing.Font("Tahoma", 8.25!, System.Drawing.FontStyle.Bold)
+        Me.SimpleButton2.Appearance.Options.UseFont = True
+        Me.SimpleButton2.ImageOptions.Image = Global.DataonsERP.My.Resources.Resources.printer_32x327
+        Me.SimpleButton2.Location = New System.Drawing.Point(6, 56)
+        Me.SimpleButton2.Name = "SimpleButton2"
+        Me.SimpleButton2.Size = New System.Drawing.Size(117, 42)
+        Me.SimpleButton2.TabIndex = 1
+        Me.SimpleButton2.Text = "Yazdır"
+        '
+        'SimpleButton1
+        '
+        Me.SimpleButton1.Appearance.Font = New System.Drawing.Font("Tahoma", 8.25!, System.Drawing.FontStyle.Bold)
+        Me.SimpleButton1.Appearance.Options.UseFont = True
+        Me.SimpleButton1.ImageOptions.Image = Global.DataonsERP.My.Resources.Resources.listnumbers_32x327
+        Me.SimpleButton1.Location = New System.Drawing.Point(6, 16)
+        Me.SimpleButton1.Name = "SimpleButton1"
+        Me.SimpleButton1.Size = New System.Drawing.Size(117, 34)
+        Me.SimpleButton1.TabIndex = 0
+        Me.SimpleButton1.Text = "Listele"
+        '
         'kayitli_cari_liste
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(1079, 628)
+        Me.Controls.Add(Me.GroupBox6)
         Me.Controls.Add(Me.GroupBox3)
         Me.Controls.Add(Me.GroupBox4)
         Me.Controls.Add(Me.GridControl1)
@@ -366,6 +416,11 @@ Partial Class kayitli_cari_liste
         CType(Me.GridControl1, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.GridView1, System.ComponentModel.ISupportInitialize).EndInit()
         Me.GroupBox2.ResumeLayout(False)
+        CType(Me.TextEdit5.Properties, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.TextEdit7.Properties, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.TextEdit8.Properties, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.TextEdit9.Properties, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.TextEdit10.Properties, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.TextEdit2.Properties, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.TextEdit4.Properties, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.TextEdit6.Properties, System.ComponentModel.ISupportInitialize).EndInit()
@@ -373,11 +428,6 @@ Partial Class kayitli_cari_liste
         CType(Me.TextEdit3.Properties, System.ComponentModel.ISupportInitialize).EndInit()
         Me.GroupBox1.ResumeLayout(False)
         Me.GroupBox1.PerformLayout()
-        CType(Me.TextEdit5.Properties, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.TextEdit7.Properties, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.TextEdit8.Properties, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.TextEdit9.Properties, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.TextEdit10.Properties, System.ComponentModel.ISupportInitialize).EndInit()
         Me.GroupBox3.ResumeLayout(False)
         CType(Me.TextEdit11.Properties, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.TextEdit16.Properties, System.ComponentModel.ISupportInitialize).EndInit()
@@ -385,6 +435,7 @@ Partial Class kayitli_cari_liste
         CType(Me.TextEdit19.Properties, System.ComponentModel.ISupportInitialize).EndInit()
         Me.GroupBox4.ResumeLayout(False)
         Me.GroupBox4.PerformLayout()
+        Me.GroupBox6.ResumeLayout(False)
         Me.ResumeLayout(False)
 
     End Sub
@@ -418,4 +469,8 @@ Partial Class kayitli_cari_liste
     Friend WithEvents LabelControl8 As DevExpress.XtraEditors.LabelControl
     Friend WithEvents LabelControl9 As DevExpress.XtraEditors.LabelControl
     Friend WithEvents LabelControl10 As DevExpress.XtraEditors.LabelControl
+    Friend WithEvents GroupBox6 As GroupBox
+    Friend WithEvents SimpleButton3 As DevExpress.XtraEditors.SimpleButton
+    Friend WithEvents SimpleButton2 As DevExpress.XtraEditors.SimpleButton
+    Friend WithEvents SimpleButton1 As DevExpress.XtraEditors.SimpleButton
 End Class

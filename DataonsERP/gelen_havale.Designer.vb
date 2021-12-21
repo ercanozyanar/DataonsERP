@@ -37,14 +37,7 @@ Partial Class gelen_havale
         Me.LabelControl8 = New DevExpress.XtraEditors.LabelControl()
         Me.LabelControl7 = New DevExpress.XtraEditors.LabelControl()
         Me.LabelControl5 = New DevExpress.XtraEditors.LabelControl()
-        Me.SimpleButton5 = New DevExpress.XtraEditors.SimpleButton()
-        Me.SimpleButton1 = New DevExpress.XtraEditors.SimpleButton()
         Me.GroupBox4 = New System.Windows.Forms.GroupBox()
-        Me.SimpleButton7 = New DevExpress.XtraEditors.SimpleButton()
-        Me.SimpleButton6 = New DevExpress.XtraEditors.SimpleButton()
-        Me.SimpleButton4 = New DevExpress.XtraEditors.SimpleButton()
-        Me.SimpleButton3 = New DevExpress.XtraEditors.SimpleButton()
-        Me.SimpleButton2 = New DevExpress.XtraEditors.SimpleButton()
         Me.ComboBoxEdit3 = New DevExpress.XtraEditors.ComboBoxEdit()
         Me.ComboBoxEdit1 = New DevExpress.XtraEditors.ComboBoxEdit()
         Me.TextEdit8 = New DevExpress.XtraEditors.TextEdit()
@@ -56,6 +49,13 @@ Partial Class gelen_havale
         Me.TextEdit5 = New DevExpress.XtraEditors.TextEdit()
         Me.TextEdit4 = New DevExpress.XtraEditors.TextEdit()
         Me.TextEdit3 = New DevExpress.XtraEditors.TextEdit()
+        Me.SimpleButton7 = New DevExpress.XtraEditors.SimpleButton()
+        Me.SimpleButton6 = New DevExpress.XtraEditors.SimpleButton()
+        Me.SimpleButton5 = New DevExpress.XtraEditors.SimpleButton()
+        Me.SimpleButton4 = New DevExpress.XtraEditors.SimpleButton()
+        Me.SimpleButton3 = New DevExpress.XtraEditors.SimpleButton()
+        Me.SimpleButton2 = New DevExpress.XtraEditors.SimpleButton()
+        Me.SimpleButton1 = New DevExpress.XtraEditors.SimpleButton()
         CType(Me.DataGridView1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.GroupBox1.SuspendLayout()
         Me.GroupBox2.SuspendLayout()
@@ -231,22 +231,6 @@ Partial Class gelen_havale
         Me.LabelControl5.TabIndex = 109
         Me.LabelControl5.Text = "Tutar"
         '
-        'SimpleButton5
-        '
-        Me.SimpleButton5.Location = New System.Drawing.Point(528, 10)
-        Me.SimpleButton5.Name = "SimpleButton5"
-        Me.SimpleButton5.Size = New System.Drawing.Size(98, 35)
-        Me.SimpleButton5.TabIndex = 8
-        Me.SimpleButton5.Text = "Yazdır"
-        '
-        'SimpleButton1
-        '
-        Me.SimpleButton1.Location = New System.Drawing.Point(6, 10)
-        Me.SimpleButton1.Name = "SimpleButton1"
-        Me.SimpleButton1.Size = New System.Drawing.Size(98, 35)
-        Me.SimpleButton1.TabIndex = 4
-        Me.SimpleButton1.Text = "Kaydet"
-        '
         'GroupBox4
         '
         Me.GroupBox4.Controls.Add(Me.SimpleButton7)
@@ -261,46 +245,6 @@ Partial Class gelen_havale
         Me.GroupBox4.Size = New System.Drawing.Size(1076, 50)
         Me.GroupBox4.TabIndex = 15
         Me.GroupBox4.TabStop = False
-        '
-        'SimpleButton7
-        '
-        Me.SimpleButton7.Location = New System.Drawing.Point(320, 10)
-        Me.SimpleButton7.Name = "SimpleButton7"
-        Me.SimpleButton7.Size = New System.Drawing.Size(98, 35)
-        Me.SimpleButton7.TabIndex = 10
-        Me.SimpleButton7.Text = "Dekont Listesi"
-        '
-        'SimpleButton6
-        '
-        Me.SimpleButton6.Location = New System.Drawing.Point(632, 10)
-        Me.SimpleButton6.Name = "SimpleButton6"
-        Me.SimpleButton6.Size = New System.Drawing.Size(98, 35)
-        Me.SimpleButton6.TabIndex = 9
-        Me.SimpleButton6.Text = "Excel"
-        '
-        'SimpleButton4
-        '
-        Me.SimpleButton4.Location = New System.Drawing.Point(424, 10)
-        Me.SimpleButton4.Name = "SimpleButton4"
-        Me.SimpleButton4.Size = New System.Drawing.Size(98, 35)
-        Me.SimpleButton4.TabIndex = 7
-        Me.SimpleButton4.Text = "Bordro Listesi"
-        '
-        'SimpleButton3
-        '
-        Me.SimpleButton3.Location = New System.Drawing.Point(214, 10)
-        Me.SimpleButton3.Name = "SimpleButton3"
-        Me.SimpleButton3.Size = New System.Drawing.Size(98, 35)
-        Me.SimpleButton3.TabIndex = 6
-        Me.SimpleButton3.Text = "Satır Sil"
-        '
-        'SimpleButton2
-        '
-        Me.SimpleButton2.Location = New System.Drawing.Point(110, 10)
-        Me.SimpleButton2.Name = "SimpleButton2"
-        Me.SimpleButton2.Size = New System.Drawing.Size(98, 35)
-        Me.SimpleButton2.TabIndex = 5
-        Me.SimpleButton2.Text = "Sil"
         '
         'ComboBoxEdit3
         '
@@ -407,6 +351,81 @@ Partial Class gelen_havale
         Me.TextEdit3.Properties.Appearance.Options.UseFont = True
         Me.TextEdit3.Size = New System.Drawing.Size(138, 20)
         Me.TextEdit3.TabIndex = 108
+        '
+        'SimpleButton7
+        '
+        Me.SimpleButton7.Appearance.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(162, Byte))
+        Me.SimpleButton7.Appearance.Options.UseFont = True
+        Me.SimpleButton7.ImageOptions.Image = Global.DataonsERP.My.Resources.Resources.up2_32x32
+        Me.SimpleButton7.Location = New System.Drawing.Point(318, 10)
+        Me.SimpleButton7.Name = "SimpleButton7"
+        Me.SimpleButton7.Size = New System.Drawing.Size(121, 35)
+        Me.SimpleButton7.TabIndex = 10
+        Me.SimpleButton7.Text = "Dekont Listesi"
+        '
+        'SimpleButton6
+        '
+        Me.SimpleButton6.Appearance.Font = New System.Drawing.Font("Tahoma", 8.25!, System.Drawing.FontStyle.Bold)
+        Me.SimpleButton6.Appearance.Options.UseFont = True
+        Me.SimpleButton6.ImageOptions.Image = Global.DataonsERP.My.Resources.Resources.exporttoxls_32x325
+        Me.SimpleButton6.Location = New System.Drawing.Point(681, 10)
+        Me.SimpleButton6.Name = "SimpleButton6"
+        Me.SimpleButton6.Size = New System.Drawing.Size(98, 35)
+        Me.SimpleButton6.TabIndex = 9
+        Me.SimpleButton6.Text = "Excel"
+        '
+        'SimpleButton5
+        '
+        Me.SimpleButton5.Appearance.Font = New System.Drawing.Font("Tahoma", 8.25!, System.Drawing.FontStyle.Bold)
+        Me.SimpleButton5.Appearance.Options.UseFont = True
+        Me.SimpleButton5.ImageOptions.Image = Global.DataonsERP.My.Resources.Resources.printer_32x326
+        Me.SimpleButton5.Location = New System.Drawing.Point(577, 10)
+        Me.SimpleButton5.Name = "SimpleButton5"
+        Me.SimpleButton5.Size = New System.Drawing.Size(98, 35)
+        Me.SimpleButton5.TabIndex = 8
+        Me.SimpleButton5.Text = "Yazdır"
+        '
+        'SimpleButton4
+        '
+        Me.SimpleButton4.Appearance.Font = New System.Drawing.Font("Tahoma", 8.25!, System.Drawing.FontStyle.Bold)
+        Me.SimpleButton4.Appearance.Options.UseFont = True
+        Me.SimpleButton4.ImageOptions.Image = Global.DataonsERP.My.Resources.Resources.editingfilldown_32x32
+        Me.SimpleButton4.Location = New System.Drawing.Point(445, 10)
+        Me.SimpleButton4.Name = "SimpleButton4"
+        Me.SimpleButton4.Size = New System.Drawing.Size(126, 35)
+        Me.SimpleButton4.TabIndex = 7
+        Me.SimpleButton4.Text = "Bordro Listesi"
+        '
+        'SimpleButton3
+        '
+        Me.SimpleButton3.Appearance.Font = New System.Drawing.Font("Tahoma", 8.25!, System.Drawing.FontStyle.Bold)
+        Me.SimpleButton3.Appearance.Options.UseFont = True
+        Me.SimpleButton3.ImageOptions.Image = Global.DataonsERP.My.Resources.Resources.removesheetrows_32x32
+        Me.SimpleButton3.Location = New System.Drawing.Point(214, 10)
+        Me.SimpleButton3.Name = "SimpleButton3"
+        Me.SimpleButton3.Size = New System.Drawing.Size(98, 35)
+        Me.SimpleButton3.TabIndex = 6
+        Me.SimpleButton3.Text = "Satır Sil"
+        '
+        'SimpleButton2
+        '
+        Me.SimpleButton2.Appearance.Font = New System.Drawing.Font("Tahoma", 8.25!, System.Drawing.FontStyle.Bold)
+        Me.SimpleButton2.Appearance.Options.UseFont = True
+        Me.SimpleButton2.ImageOptions.Image = Global.DataonsERP.My.Resources.Resources.cancel_32x326
+        Me.SimpleButton2.Location = New System.Drawing.Point(110, 10)
+        Me.SimpleButton2.Name = "SimpleButton2"
+        Me.SimpleButton2.Size = New System.Drawing.Size(98, 35)
+        Me.SimpleButton2.TabIndex = 5
+        Me.SimpleButton2.Text = "Sil"
+        '
+        'SimpleButton1
+        '
+        Me.SimpleButton1.ImageOptions.Image = Global.DataonsERP.My.Resources.Resources.apply_32x326
+        Me.SimpleButton1.Location = New System.Drawing.Point(6, 10)
+        Me.SimpleButton1.Name = "SimpleButton1"
+        Me.SimpleButton1.Size = New System.Drawing.Size(98, 35)
+        Me.SimpleButton1.TabIndex = 4
+        Me.SimpleButton1.Text = "Kaydet"
         '
         'gelen_havale
         '

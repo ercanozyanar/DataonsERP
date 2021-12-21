@@ -369,7 +369,7 @@ Partial Class cari_hesap_borc
         Me.GroupBox3.Controls.Add(Me.SimpleButton2)
         Me.GroupBox3.Location = New System.Drawing.Point(924, 4)
         Me.GroupBox3.Name = "GroupBox3"
-        Me.GroupBox3.Size = New System.Drawing.Size(152, 176)
+        Me.GroupBox3.Size = New System.Drawing.Size(152, 230)
         Me.GroupBox3.TabIndex = 146
         Me.GroupBox3.TabStop = False
         '

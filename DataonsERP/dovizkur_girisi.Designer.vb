@@ -182,7 +182,7 @@ Partial Class dovizkur_girisi
         Me.GroupControl1.Controls.Add(Me.TextEdit1)
         Me.GroupControl1.Location = New System.Drawing.Point(0, 53)
         Me.GroupControl1.Name = "GroupControl1"
-        Me.GroupControl1.Size = New System.Drawing.Size(701, 163)
+        Me.GroupControl1.Size = New System.Drawing.Size(780, 163)
         Me.GroupControl1.TabIndex = 1
         Me.GroupControl1.Text = "Döviz"
         '
@@ -381,15 +381,15 @@ Partial Class dovizkur_girisi
         Me.GroupControl2.Controls.Add(Me.TextEdit14)
         Me.GroupControl2.Controls.Add(Me.LabelControl16)
         Me.GroupControl2.Controls.Add(Me.TextEdit15)
-        Me.GroupControl2.Location = New System.Drawing.Point(707, 53)
+        Me.GroupControl2.Location = New System.Drawing.Point(786, 53)
         Me.GroupControl2.Name = "GroupControl2"
-        Me.GroupControl2.Size = New System.Drawing.Size(369, 228)
+        Me.GroupControl2.Size = New System.Drawing.Size(290, 229)
         Me.GroupControl2.TabIndex = 2
         Me.GroupControl2.Text = "Altın"
         '
         'TextEdit23
         '
-        Me.TextEdit23.Location = New System.Drawing.Point(255, 199)
+        Me.TextEdit23.Location = New System.Drawing.Point(179, 201)
         Me.TextEdit23.Name = "TextEdit23"
         Me.TextEdit23.Size = New System.Drawing.Size(100, 20)
         Me.TextEdit23.TabIndex = 150
@@ -398,7 +398,7 @@ Partial Class dovizkur_girisi
         '
         Me.LabelControl20.Appearance.Font = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(162, Byte))
         Me.LabelControl20.Appearance.Options.UseFont = True
-        Me.LabelControl20.Location = New System.Drawing.Point(23, 201)
+        Me.LabelControl20.Location = New System.Drawing.Point(6, 201)
         Me.LabelControl20.Name = "LabelControl20"
         Me.LabelControl20.Size = New System.Drawing.Size(64, 14)
         Me.LabelControl20.TabIndex = 149
@@ -406,14 +406,14 @@ Partial Class dovizkur_girisi
         '
         'TextEdit24
         '
-        Me.TextEdit24.Location = New System.Drawing.Point(149, 199)
+        Me.TextEdit24.Location = New System.Drawing.Point(73, 201)
         Me.TextEdit24.Name = "TextEdit24"
         Me.TextEdit24.Size = New System.Drawing.Size(100, 20)
         Me.TextEdit24.TabIndex = 148
         '
         'TextEdit21
         '
-        Me.TextEdit21.Location = New System.Drawing.Point(255, 173)
+        Me.TextEdit21.Location = New System.Drawing.Point(179, 175)
         Me.TextEdit21.Name = "TextEdit21"
         Me.TextEdit21.Size = New System.Drawing.Size(100, 20)
         Me.TextEdit21.TabIndex = 147
@@ -422,7 +422,7 @@ Partial Class dovizkur_girisi
         '
         Me.LabelControl19.Appearance.Font = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(162, Byte))
         Me.LabelControl19.Appearance.Options.UseFont = True
-        Me.LabelControl19.Location = New System.Drawing.Point(23, 175)
+        Me.LabelControl19.Location = New System.Drawing.Point(6, 175)
         Me.LabelControl19.Name = "LabelControl19"
         Me.LabelControl19.Size = New System.Drawing.Size(35, 14)
         Me.LabelControl19.TabIndex = 146
@@ -430,7 +430,7 @@ Partial Class dovizkur_girisi
         '
         'TextEdit22
         '
-        Me.TextEdit22.Location = New System.Drawing.Point(149, 173)
+        Me.TextEdit22.Location = New System.Drawing.Point(73, 175)
         Me.TextEdit22.Name = "TextEdit22"
         Me.TextEdit22.Size = New System.Drawing.Size(100, 20)
         Me.TextEdit22.TabIndex = 145
@@ -439,7 +439,7 @@ Partial Class dovizkur_girisi
         '
         Me.LabelControl18.Appearance.Font = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(162, Byte))
         Me.LabelControl18.Appearance.Options.UseFont = True
-        Me.LabelControl18.Location = New System.Drawing.Point(281, 23)
+        Me.LabelControl18.Location = New System.Drawing.Point(205, 25)
         Me.LabelControl18.Name = "LabelControl18"
         Me.LabelControl18.Size = New System.Drawing.Size(34, 14)
         Me.LabelControl18.TabIndex = 144
@@ -449,7 +449,7 @@ Partial Class dovizkur_girisi
         '
         Me.LabelControl17.Appearance.Font = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(162, Byte))
         Me.LabelControl17.Appearance.Options.UseFont = True
-        Me.LabelControl17.Location = New System.Drawing.Point(184, 23)
+        Me.LabelControl17.Location = New System.Drawing.Point(103, 25)
         Me.LabelControl17.Name = "LabelControl17"
         Me.LabelControl17.Size = New System.Drawing.Size(25, 14)
         Me.LabelControl17.TabIndex = 143
@@ -457,35 +457,35 @@ Partial Class dovizkur_girisi
         '
         'TextEdit16
         '
-        Me.TextEdit16.Location = New System.Drawing.Point(255, 147)
+        Me.TextEdit16.Location = New System.Drawing.Point(179, 149)
         Me.TextEdit16.Name = "TextEdit16"
         Me.TextEdit16.Size = New System.Drawing.Size(100, 20)
         Me.TextEdit16.TabIndex = 142
         '
         'TextEdit17
         '
-        Me.TextEdit17.Location = New System.Drawing.Point(255, 121)
+        Me.TextEdit17.Location = New System.Drawing.Point(179, 123)
         Me.TextEdit17.Name = "TextEdit17"
         Me.TextEdit17.Size = New System.Drawing.Size(100, 20)
         Me.TextEdit17.TabIndex = 141
         '
         'TextEdit18
         '
-        Me.TextEdit18.Location = New System.Drawing.Point(255, 95)
+        Me.TextEdit18.Location = New System.Drawing.Point(179, 97)
         Me.TextEdit18.Name = "TextEdit18"
         Me.TextEdit18.Size = New System.Drawing.Size(100, 20)
         Me.TextEdit18.TabIndex = 140
         '
         'TextEdit19
         '
-        Me.TextEdit19.Location = New System.Drawing.Point(255, 69)
+        Me.TextEdit19.Location = New System.Drawing.Point(179, 71)
         Me.TextEdit19.Name = "TextEdit19"
         Me.TextEdit19.Size = New System.Drawing.Size(100, 20)
         Me.TextEdit19.TabIndex = 139
         '
         'TextEdit20
         '
-        Me.TextEdit20.Location = New System.Drawing.Point(255, 43)
+        Me.TextEdit20.Location = New System.Drawing.Point(179, 45)
         Me.TextEdit20.Name = "TextEdit20"
         Me.TextEdit20.Size = New System.Drawing.Size(100, 20)
         Me.TextEdit20.TabIndex = 138
@@ -494,7 +494,7 @@ Partial Class dovizkur_girisi
         '
         Me.LabelControl12.Appearance.Font = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(162, Byte))
         Me.LabelControl12.Appearance.Options.UseFont = True
-        Me.LabelControl12.Location = New System.Drawing.Point(23, 75)
+        Me.LabelControl12.Location = New System.Drawing.Point(6, 75)
         Me.LabelControl12.Name = "LabelControl12"
         Me.LabelControl12.Size = New System.Drawing.Size(50, 14)
         Me.LabelControl12.TabIndex = 137
@@ -504,7 +504,7 @@ Partial Class dovizkur_girisi
         '
         Me.LabelControl13.Appearance.Font = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(162, Byte))
         Me.LabelControl13.Appearance.Options.UseFont = True
-        Me.LabelControl13.Location = New System.Drawing.Point(23, 149)
+        Me.LabelControl13.Location = New System.Drawing.Point(6, 149)
         Me.LabelControl13.Name = "LabelControl13"
         Me.LabelControl13.Size = New System.Drawing.Size(42, 14)
         Me.LabelControl13.TabIndex = 136
@@ -512,7 +512,7 @@ Partial Class dovizkur_girisi
         '
         'TextEdit11
         '
-        Me.TextEdit11.Location = New System.Drawing.Point(149, 147)
+        Me.TextEdit11.Location = New System.Drawing.Point(73, 149)
         Me.TextEdit11.Name = "TextEdit11"
         Me.TextEdit11.Size = New System.Drawing.Size(100, 20)
         Me.TextEdit11.TabIndex = 135
@@ -521,7 +521,7 @@ Partial Class dovizkur_girisi
         '
         Me.LabelControl14.Appearance.Font = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(162, Byte))
         Me.LabelControl14.Appearance.Options.UseFont = True
-        Me.LabelControl14.Location = New System.Drawing.Point(23, 123)
+        Me.LabelControl14.Location = New System.Drawing.Point(6, 123)
         Me.LabelControl14.Name = "LabelControl14"
         Me.LabelControl14.Size = New System.Drawing.Size(42, 14)
         Me.LabelControl14.TabIndex = 134
@@ -529,7 +529,7 @@ Partial Class dovizkur_girisi
         '
         'TextEdit12
         '
-        Me.TextEdit12.Location = New System.Drawing.Point(149, 121)
+        Me.TextEdit12.Location = New System.Drawing.Point(73, 123)
         Me.TextEdit12.Name = "TextEdit12"
         Me.TextEdit12.Size = New System.Drawing.Size(100, 20)
         Me.TextEdit12.TabIndex = 133
@@ -538,7 +538,7 @@ Partial Class dovizkur_girisi
         '
         Me.LabelControl15.Appearance.Font = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(162, Byte))
         Me.LabelControl15.Appearance.Options.UseFont = True
-        Me.LabelControl15.Location = New System.Drawing.Point(23, 97)
+        Me.LabelControl15.Location = New System.Drawing.Point(6, 97)
         Me.LabelControl15.Name = "LabelControl15"
         Me.LabelControl15.Size = New System.Drawing.Size(42, 14)
         Me.LabelControl15.TabIndex = 132
@@ -546,14 +546,14 @@ Partial Class dovizkur_girisi
         '
         'TextEdit13
         '
-        Me.TextEdit13.Location = New System.Drawing.Point(149, 95)
+        Me.TextEdit13.Location = New System.Drawing.Point(73, 97)
         Me.TextEdit13.Name = "TextEdit13"
         Me.TextEdit13.Size = New System.Drawing.Size(100, 20)
         Me.TextEdit13.TabIndex = 131
         '
         'TextEdit14
         '
-        Me.TextEdit14.Location = New System.Drawing.Point(149, 69)
+        Me.TextEdit14.Location = New System.Drawing.Point(73, 71)
         Me.TextEdit14.Name = "TextEdit14"
         Me.TextEdit14.Size = New System.Drawing.Size(100, 20)
         Me.TextEdit14.TabIndex = 130
@@ -562,7 +562,7 @@ Partial Class dovizkur_girisi
         '
         Me.LabelControl16.Appearance.Font = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(162, Byte))
         Me.LabelControl16.Appearance.Options.UseFont = True
-        Me.LabelControl16.Location = New System.Drawing.Point(23, 51)
+        Me.LabelControl16.Location = New System.Drawing.Point(6, 51)
         Me.LabelControl16.Name = "LabelControl16"
         Me.LabelControl16.Size = New System.Drawing.Size(51, 14)
         Me.LabelControl16.TabIndex = 129
@@ -570,7 +570,7 @@ Partial Class dovizkur_girisi
         '
         'TextEdit15
         '
-        Me.TextEdit15.Location = New System.Drawing.Point(149, 43)
+        Me.TextEdit15.Location = New System.Drawing.Point(73, 45)
         Me.TextEdit15.Name = "TextEdit15"
         Me.TextEdit15.Size = New System.Drawing.Size(100, 20)
         Me.TextEdit15.TabIndex = 128
@@ -585,53 +585,69 @@ Partial Class dovizkur_girisi
         Me.GroupBox2.Controls.Add(Me.SimpleButton2)
         Me.GroupBox2.Location = New System.Drawing.Point(0, 222)
         Me.GroupBox2.Name = "GroupBox2"
-        Me.GroupBox2.Size = New System.Drawing.Size(701, 59)
+        Me.GroupBox2.Size = New System.Drawing.Size(780, 59)
         Me.GroupBox2.TabIndex = 3
         Me.GroupBox2.TabStop = False
         '
         'SimpleButton5
         '
-        Me.SimpleButton5.Location = New System.Drawing.Point(582, 11)
+        Me.SimpleButton5.Appearance.Font = New System.Drawing.Font("Tahoma", 8.25!, System.Drawing.FontStyle.Bold)
+        Me.SimpleButton5.Appearance.Options.UseFont = True
+        Me.SimpleButton5.ImageOptions.Image = Global.DataonsERP.My.Resources.Resources.boproduct_32x32
+        Me.SimpleButton5.Location = New System.Drawing.Point(612, 11)
         Me.SimpleButton5.Name = "SimpleButton5"
-        Me.SimpleButton5.Size = New System.Drawing.Size(113, 42)
+        Me.SimpleButton5.Size = New System.Drawing.Size(162, 42)
         Me.SimpleButton5.TabIndex = 5
         Me.SimpleButton5.Text = "Altın Fiyat Girişi"
         '
         'SimpleButton6
         '
-        Me.SimpleButton6.Location = New System.Drawing.Point(463, 11)
+        Me.SimpleButton6.Appearance.Font = New System.Drawing.Font("Tahoma", 8.25!, System.Drawing.FontStyle.Bold)
+        Me.SimpleButton6.Appearance.Options.UseFont = True
+        Me.SimpleButton6.ImageOptions.Image = Global.DataonsERP.My.Resources.Resources.currency_32x321
+        Me.SimpleButton6.Location = New System.Drawing.Point(444, 11)
         Me.SimpleButton6.Name = "SimpleButton6"
-        Me.SimpleButton6.Size = New System.Drawing.Size(113, 42)
+        Me.SimpleButton6.Size = New System.Drawing.Size(162, 42)
         Me.SimpleButton6.TabIndex = 4
         Me.SimpleButton6.Text = "Döviz Alış Satış Girişi"
         '
         'SimpleButton4
         '
-        Me.SimpleButton4.Location = New System.Drawing.Point(249, 11)
+        Me.SimpleButton4.Appearance.Font = New System.Drawing.Font("Tahoma", 8.25!, System.Drawing.FontStyle.Bold)
+        Me.SimpleButton4.Appearance.Options.UseFont = True
+        Me.SimpleButton4.ImageOptions.Image = Global.DataonsERP.My.Resources.Resources.next_32x321
+        Me.SimpleButton4.Location = New System.Drawing.Point(325, 11)
         Me.SimpleButton4.Name = "SimpleButton4"
-        Me.SimpleButton4.Size = New System.Drawing.Size(75, 42)
+        Me.SimpleButton4.Size = New System.Drawing.Size(113, 42)
         Me.SimpleButton4.TabIndex = 3
         Me.SimpleButton4.Text = "Kurları İndir"
         '
         'SimpleButton3
         '
-        Me.SimpleButton3.Location = New System.Drawing.Point(168, 11)
+        Me.SimpleButton3.Appearance.Font = New System.Drawing.Font("Tahoma", 8.25!, System.Drawing.FontStyle.Bold)
+        Me.SimpleButton3.Appearance.Options.UseFont = True
+        Me.SimpleButton3.ImageOptions.Image = Global.DataonsERP.My.Resources.Resources.cancel_32x325
+        Me.SimpleButton3.Location = New System.Drawing.Point(182, 11)
         Me.SimpleButton3.Name = "SimpleButton3"
-        Me.SimpleButton3.Size = New System.Drawing.Size(75, 42)
+        Me.SimpleButton3.Size = New System.Drawing.Size(75, 41)
         Me.SimpleButton3.TabIndex = 2
         Me.SimpleButton3.Text = "Sil"
         '
         'SimpleButton1
         '
+        Me.SimpleButton1.Appearance.Font = New System.Drawing.Font("Tahoma", 8.25!, System.Drawing.FontStyle.Bold)
+        Me.SimpleButton1.Appearance.Options.UseFont = True
         Me.SimpleButton1.ImageOptions.Image = Global.DataonsERP.My.Resources.Resources.apply_32x325
         Me.SimpleButton1.Location = New System.Drawing.Point(87, 11)
         Me.SimpleButton1.Name = "SimpleButton1"
-        Me.SimpleButton1.Size = New System.Drawing.Size(75, 41)
+        Me.SimpleButton1.Size = New System.Drawing.Size(89, 41)
         Me.SimpleButton1.TabIndex = 0
         Me.SimpleButton1.Text = "Kaydet"
         '
         'SimpleButton2
         '
+        Me.SimpleButton2.Appearance.Font = New System.Drawing.Font("Tahoma", 8.25!, System.Drawing.FontStyle.Bold)
+        Me.SimpleButton2.Appearance.Options.UseFont = True
         Me.SimpleButton2.ImageOptions.Image = Global.DataonsERP.My.Resources.Resources.add_32x32
         Me.SimpleButton2.Location = New System.Drawing.Point(6, 11)
         Me.SimpleButton2.Name = "SimpleButton2"

@@ -25,10 +25,6 @@ Partial Class stok_hareketrapor
         Me.FormAssistant1 = New DevExpress.XtraBars.FormAssistant()
         Me.GridControl1 = New DevExpress.XtraGrid.GridControl()
         Me.GridView1 = New DevExpress.XtraGrid.Views.Grid.GridView()
-        Me.GroupBox3 = New System.Windows.Forms.GroupBox()
-        Me.SimpleButton3 = New DevExpress.XtraEditors.SimpleButton()
-        Me.SimpleButton1 = New DevExpress.XtraEditors.SimpleButton()
-        Me.SimpleButton2 = New DevExpress.XtraEditors.SimpleButton()
         Me.GroupBox2 = New System.Windows.Forms.GroupBox()
         Me.DateEdit2 = New DevExpress.XtraEditors.DateEdit()
         Me.DateEdit1 = New DevExpress.XtraEditors.DateEdit()
@@ -51,9 +47,12 @@ Partial Class stok_hareketrapor
         Me.RadioButton10 = New System.Windows.Forms.RadioButton()
         Me.RadioButton11 = New System.Windows.Forms.RadioButton()
         Me.RadioButton12 = New System.Windows.Forms.RadioButton()
+        Me.GroupBox3 = New System.Windows.Forms.GroupBox()
+        Me.SimpleButton3 = New DevExpress.XtraEditors.SimpleButton()
+        Me.SimpleButton1 = New DevExpress.XtraEditors.SimpleButton()
+        Me.SimpleButton2 = New DevExpress.XtraEditors.SimpleButton()
         CType(Me.GridControl1, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.GridView1, System.ComponentModel.ISupportInitialize).BeginInit()
-        Me.GroupBox3.SuspendLayout()
         Me.GroupBox2.SuspendLayout()
         CType(Me.DateEdit2.Properties.CalendarTimeProperties, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.DateEdit2.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -66,14 +65,15 @@ Partial Class stok_hareketrapor
         Me.GroupBox1.SuspendLayout()
         Me.GroupBox4.SuspendLayout()
         Me.GroupBox5.SuspendLayout()
+        Me.GroupBox3.SuspendLayout()
         Me.SuspendLayout()
         '
         'GridControl1
         '
-        Me.GridControl1.Location = New System.Drawing.Point(2, 157)
+        Me.GridControl1.Location = New System.Drawing.Point(2, 169)
         Me.GridControl1.MainView = Me.GridView1
         Me.GridControl1.Name = "GridControl1"
-        Me.GridControl1.Size = New System.Drawing.Size(1074, 467)
+        Me.GridControl1.Size = New System.Drawing.Size(1074, 455)
         Me.GridControl1.TabIndex = 145
         Me.GridControl1.ViewCollection.AddRange(New DevExpress.XtraGrid.Views.Base.BaseView() {Me.GridView1})
         '
@@ -81,41 +81,6 @@ Partial Class stok_hareketrapor
         '
         Me.GridView1.GridControl = Me.GridControl1
         Me.GridView1.Name = "GridView1"
-        '
-        'GroupBox3
-        '
-        Me.GroupBox3.Controls.Add(Me.SimpleButton3)
-        Me.GroupBox3.Controls.Add(Me.SimpleButton1)
-        Me.GroupBox3.Controls.Add(Me.SimpleButton2)
-        Me.GroupBox3.Location = New System.Drawing.Point(925, 4)
-        Me.GroupBox3.Name = "GroupBox3"
-        Me.GroupBox3.Size = New System.Drawing.Size(152, 149)
-        Me.GroupBox3.TabIndex = 144
-        Me.GroupBox3.TabStop = False
-        '
-        'SimpleButton3
-        '
-        Me.SimpleButton3.Location = New System.Drawing.Point(6, 109)
-        Me.SimpleButton3.Name = "SimpleButton3"
-        Me.SimpleButton3.Size = New System.Drawing.Size(140, 34)
-        Me.SimpleButton3.TabIndex = 135
-        Me.SimpleButton3.Text = "Excel"
-        '
-        'SimpleButton1
-        '
-        Me.SimpleButton1.Location = New System.Drawing.Point(6, 11)
-        Me.SimpleButton1.Name = "SimpleButton1"
-        Me.SimpleButton1.Size = New System.Drawing.Size(140, 34)
-        Me.SimpleButton1.TabIndex = 133
-        Me.SimpleButton1.Text = "Listele"
-        '
-        'SimpleButton2
-        '
-        Me.SimpleButton2.Location = New System.Drawing.Point(6, 63)
-        Me.SimpleButton2.Name = "SimpleButton2"
-        Me.SimpleButton2.Size = New System.Drawing.Size(140, 34)
-        Me.SimpleButton2.TabIndex = 134
-        Me.SimpleButton2.Text = "Yazdır"
         '
         'GroupBox2
         '
@@ -127,7 +92,7 @@ Partial Class stok_hareketrapor
         Me.GroupBox2.Controls.Add(Me.TextEdit3)
         Me.GroupBox2.Location = New System.Drawing.Point(128, 4)
         Me.GroupBox2.Name = "GroupBox2"
-        Me.GroupBox2.Size = New System.Drawing.Size(294, 149)
+        Me.GroupBox2.Size = New System.Drawing.Size(294, 159)
         Me.GroupBox2.TabIndex = 143
         Me.GroupBox2.TabStop = False
         Me.GroupBox2.Text = "Koşul"
@@ -195,7 +160,7 @@ Partial Class stok_hareketrapor
         Me.GroupBox1.Controls.Add(Me.LabelControl2)
         Me.GroupBox1.Location = New System.Drawing.Point(1, 4)
         Me.GroupBox1.Name = "GroupBox1"
-        Me.GroupBox1.Size = New System.Drawing.Size(121, 149)
+        Me.GroupBox1.Size = New System.Drawing.Size(121, 159)
         Me.GroupBox1.TabIndex = 142
         Me.GroupBox1.TabStop = False
         Me.GroupBox1.Text = "Filtre"
@@ -240,7 +205,7 @@ Partial Class stok_hareketrapor
         Me.GroupBox4.Controls.Add(Me.RadioButton1)
         Me.GroupBox4.Location = New System.Drawing.Point(428, 4)
         Me.GroupBox4.Name = "GroupBox4"
-        Me.GroupBox4.Size = New System.Drawing.Size(139, 149)
+        Me.GroupBox4.Size = New System.Drawing.Size(139, 159)
         Me.GroupBox4.TabIndex = 146
         Me.GroupBox4.TabStop = False
         Me.GroupBox4.Text = "Faturalar"
@@ -248,7 +213,7 @@ Partial Class stok_hareketrapor
         'RadioButton6
         '
         Me.RadioButton6.AutoSize = True
-        Me.RadioButton6.Location = New System.Drawing.Point(15, 126)
+        Me.RadioButton6.Location = New System.Drawing.Point(15, 132)
         Me.RadioButton6.Name = "RadioButton6"
         Me.RadioButton6.Size = New System.Drawing.Size(95, 17)
         Me.RadioButton6.TabIndex = 5
@@ -319,7 +284,7 @@ Partial Class stok_hareketrapor
         Me.GroupBox5.Controls.Add(Me.RadioButton12)
         Me.GroupBox5.Location = New System.Drawing.Point(573, 4)
         Me.GroupBox5.Name = "GroupBox5"
-        Me.GroupBox5.Size = New System.Drawing.Size(139, 149)
+        Me.GroupBox5.Size = New System.Drawing.Size(139, 159)
         Me.GroupBox5.TabIndex = 147
         Me.GroupBox5.TabStop = False
         Me.GroupBox5.Text = "Rapor Türü"
@@ -358,22 +323,65 @@ Partial Class stok_hareketrapor
         Me.RadioButton12.Text = "Hepsi"
         Me.RadioButton12.UseVisualStyleBackColor = True
         '
+        'GroupBox3
+        '
+        Me.GroupBox3.Controls.Add(Me.SimpleButton3)
+        Me.GroupBox3.Controls.Add(Me.SimpleButton1)
+        Me.GroupBox3.Controls.Add(Me.SimpleButton2)
+        Me.GroupBox3.Location = New System.Drawing.Point(924, 4)
+        Me.GroupBox3.Name = "GroupBox3"
+        Me.GroupBox3.Size = New System.Drawing.Size(152, 159)
+        Me.GroupBox3.TabIndex = 148
+        Me.GroupBox3.TabStop = False
+        '
+        'SimpleButton3
+        '
+        Me.SimpleButton3.Appearance.Font = New System.Drawing.Font("Tahoma", 8.25!, System.Drawing.FontStyle.Bold)
+        Me.SimpleButton3.Appearance.Options.UseFont = True
+        Me.SimpleButton3.ImageOptions.Image = Global.DataonsERP.My.Resources.Resources.exporttoxls_32x329
+        Me.SimpleButton3.Location = New System.Drawing.Point(6, 115)
+        Me.SimpleButton3.Name = "SimpleButton3"
+        Me.SimpleButton3.Size = New System.Drawing.Size(140, 34)
+        Me.SimpleButton3.TabIndex = 135
+        Me.SimpleButton3.Text = "Excel"
+        '
+        'SimpleButton1
+        '
+        Me.SimpleButton1.Appearance.Font = New System.Drawing.Font("Tahoma", 8.25!, System.Drawing.FontStyle.Bold)
+        Me.SimpleButton1.Appearance.Options.UseFont = True
+        Me.SimpleButton1.ImageOptions.Image = Global.DataonsERP.My.Resources.Resources.listnumbers_32x329
+        Me.SimpleButton1.Location = New System.Drawing.Point(6, 11)
+        Me.SimpleButton1.Name = "SimpleButton1"
+        Me.SimpleButton1.Size = New System.Drawing.Size(140, 34)
+        Me.SimpleButton1.TabIndex = 133
+        Me.SimpleButton1.Text = "Listele"
+        '
+        'SimpleButton2
+        '
+        Me.SimpleButton2.Appearance.Font = New System.Drawing.Font("Tahoma", 8.25!, System.Drawing.FontStyle.Bold)
+        Me.SimpleButton2.Appearance.Options.UseFont = True
+        Me.SimpleButton2.ImageOptions.Image = Global.DataonsERP.My.Resources.Resources.printer_32x3210
+        Me.SimpleButton2.Location = New System.Drawing.Point(6, 63)
+        Me.SimpleButton2.Name = "SimpleButton2"
+        Me.SimpleButton2.Size = New System.Drawing.Size(140, 34)
+        Me.SimpleButton2.TabIndex = 134
+        Me.SimpleButton2.Text = "Yazdır"
+        '
         'stok_hareketrapor
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(1079, 628)
+        Me.Controls.Add(Me.GroupBox3)
         Me.Controls.Add(Me.GroupBox5)
         Me.Controls.Add(Me.GroupBox4)
         Me.Controls.Add(Me.GridControl1)
-        Me.Controls.Add(Me.GroupBox3)
         Me.Controls.Add(Me.GroupBox2)
         Me.Controls.Add(Me.GroupBox1)
         Me.Name = "stok_hareketrapor"
         Me.Text = "Stok Hareketleri"
         CType(Me.GridControl1, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.GridView1, System.ComponentModel.ISupportInitialize).EndInit()
-        Me.GroupBox3.ResumeLayout(False)
         Me.GroupBox2.ResumeLayout(False)
         CType(Me.DateEdit2.Properties.CalendarTimeProperties, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.DateEdit2.Properties, System.ComponentModel.ISupportInitialize).EndInit()
@@ -389,6 +397,7 @@ Partial Class stok_hareketrapor
         Me.GroupBox4.PerformLayout()
         Me.GroupBox5.ResumeLayout(False)
         Me.GroupBox5.PerformLayout()
+        Me.GroupBox3.ResumeLayout(False)
         Me.ResumeLayout(False)
 
     End Sub
@@ -396,10 +405,6 @@ Partial Class stok_hareketrapor
     Friend WithEvents FormAssistant1 As DevExpress.XtraBars.FormAssistant
     Friend WithEvents GridControl1 As DevExpress.XtraGrid.GridControl
     Friend WithEvents GridView1 As DevExpress.XtraGrid.Views.Grid.GridView
-    Friend WithEvents GroupBox3 As GroupBox
-    Friend WithEvents SimpleButton3 As DevExpress.XtraEditors.SimpleButton
-    Friend WithEvents SimpleButton1 As DevExpress.XtraEditors.SimpleButton
-    Friend WithEvents SimpleButton2 As DevExpress.XtraEditors.SimpleButton
     Friend WithEvents GroupBox2 As GroupBox
     Friend WithEvents DateEdit2 As DevExpress.XtraEditors.DateEdit
     Friend WithEvents DateEdit1 As DevExpress.XtraEditors.DateEdit
@@ -422,4 +427,8 @@ Partial Class stok_hareketrapor
     Friend WithEvents RadioButton10 As RadioButton
     Friend WithEvents RadioButton11 As RadioButton
     Friend WithEvents RadioButton12 As RadioButton
+    Friend WithEvents GroupBox3 As GroupBox
+    Friend WithEvents SimpleButton3 As DevExpress.XtraEditors.SimpleButton
+    Friend WithEvents SimpleButton1 As DevExpress.XtraEditors.SimpleButton
+    Friend WithEvents SimpleButton2 As DevExpress.XtraEditors.SimpleButton
 End Class
