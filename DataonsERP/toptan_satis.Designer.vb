@@ -24,6 +24,7 @@ Partial Class toptan_satis
     Private Sub InitializeComponent()
         Me.FormAssistant1 = New DevExpress.XtraBars.FormAssistant()
         Me.PanelControl1 = New DevExpress.XtraEditors.PanelControl()
+        Me.ButtonEdit1 = New DevExpress.XtraEditors.ButtonEdit()
         Me.LabelControl20 = New DevExpress.XtraEditors.LabelControl()
         Me.MemoEdit1 = New DevExpress.XtraEditors.MemoEdit()
         Me.TextEdit13 = New DevExpress.XtraEditors.TextEdit()
@@ -99,9 +100,9 @@ Partial Class toptan_satis
         Me.Panel1 = New System.Windows.Forms.Panel()
         Me.TextEdit28 = New DevExpress.XtraEditors.TextEdit()
         Me.LabelControl35 = New DevExpress.XtraEditors.LabelControl()
-        Me.ButtonEdit1 = New DevExpress.XtraEditors.ButtonEdit()
         CType(Me.PanelControl1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.PanelControl1.SuspendLayout()
+        CType(Me.ButtonEdit1.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.MemoEdit1.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.TextEdit13.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.DateEdit3.Properties.CalendarTimeProperties, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -147,7 +148,6 @@ Partial Class toptan_satis
         CType(Me.TextEdit27.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.Panel1.SuspendLayout()
         CType(Me.TextEdit28.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.ButtonEdit1.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'PanelControl1
@@ -196,6 +196,14 @@ Partial Class toptan_satis
         Me.PanelControl1.Name = "PanelControl1"
         Me.PanelControl1.Size = New System.Drawing.Size(1072, 131)
         Me.PanelControl1.TabIndex = 0
+        '
+        'ButtonEdit1
+        '
+        Me.ButtonEdit1.Location = New System.Drawing.Point(321, 5)
+        Me.ButtonEdit1.Name = "ButtonEdit1"
+        Me.ButtonEdit1.Properties.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton()})
+        Me.ButtonEdit1.Size = New System.Drawing.Size(150, 20)
+        Me.ButtonEdit1.TabIndex = 110
         '
         'LabelControl20
         '
@@ -974,14 +982,6 @@ Partial Class toptan_satis
         Me.LabelControl35.TabIndex = 35
         Me.LabelControl35.Text = "TOPLAM TL"
         '
-        'ButtonEdit1
-        '
-        Me.ButtonEdit1.Location = New System.Drawing.Point(321, 5)
-        Me.ButtonEdit1.Name = "ButtonEdit1"
-        Me.ButtonEdit1.Properties.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton()})
-        Me.ButtonEdit1.Size = New System.Drawing.Size(150, 20)
-        Me.ButtonEdit1.TabIndex = 110
-        '
         'toptan_satis
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
@@ -999,6 +999,7 @@ Partial Class toptan_satis
         CType(Me.PanelControl1, System.ComponentModel.ISupportInitialize).EndInit()
         Me.PanelControl1.ResumeLayout(False)
         Me.PanelControl1.PerformLayout()
+        CType(Me.ButtonEdit1.Properties, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.MemoEdit1.Properties, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.TextEdit13.Properties, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.DateEdit3.Properties.CalendarTimeProperties, System.ComponentModel.ISupportInitialize).EndInit()
@@ -1048,7 +1049,6 @@ Partial Class toptan_satis
         Me.Panel1.ResumeLayout(False)
         Me.Panel1.PerformLayout()
         CType(Me.TextEdit28.Properties, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.ButtonEdit1.Properties, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
 
     End Sub

@@ -387,6 +387,12 @@
     <Compile Include="satis_alis_rapor.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="SplashScreen1.Designer.vb">
+      <DependentUpon>SplashScreen1.vb</DependentUpon>
+    </Compile>
+    <Compile Include="SplashScreen1.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="stok_carihareketrapor.Designer.vb">
       <DependentUpon>stok_carihareketrapor.vb</DependentUpon>
     </Compile>
@@ -708,6 +714,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="satis_alis_rapor.resx">
       <DependentUpon>satis_alis_rapor.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SplashScreen1.resx">
+      <DependentUpon>SplashScreen1.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="stok_carihareketrapor.resx">
       <DependentUpon>stok_carihareketrapor.vb</DependentUpon>

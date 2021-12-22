@@ -36,6 +36,7 @@ Partial Class perakende_satis
         Me.LabelControl7 = New DevExpress.XtraEditors.LabelControl()
         Me.LabelControl8 = New DevExpress.XtraEditors.LabelControl()
         Me.PanelControl1 = New DevExpress.XtraEditors.PanelControl()
+        Me.ButtonEdit1 = New DevExpress.XtraEditors.ButtonEdit()
         Me.GroupControl4 = New DevExpress.XtraEditors.GroupControl()
         Me.RadioButton3 = New System.Windows.Forms.RadioButton()
         Me.RadioButton4 = New System.Windows.Forms.RadioButton()
@@ -117,7 +118,6 @@ Partial Class perakende_satis
         Me.LabelControl37 = New DevExpress.XtraEditors.LabelControl()
         Me.TextEdit33 = New DevExpress.XtraEditors.TextEdit()
         Me.LabelControl36 = New DevExpress.XtraEditors.LabelControl()
-        Me.ButtonEdit1 = New DevExpress.XtraEditors.ButtonEdit()
         Me.SimpleButton7 = New DevExpress.XtraEditors.SimpleButton()
         Me.SimpleButton5 = New DevExpress.XtraEditors.SimpleButton()
         Me.SimpleButton4 = New DevExpress.XtraEditors.SimpleButton()
@@ -127,6 +127,7 @@ Partial Class perakende_satis
         CType(Me.DataGridView1, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PanelControl1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.PanelControl1.SuspendLayout()
+        CType(Me.ButtonEdit1.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.GroupControl4, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.GroupControl4.SuspendLayout()
         CType(Me.GroupControl2, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -185,7 +186,6 @@ Partial Class perakende_satis
         CType(Me.TextEdit35.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.TextEdit34.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.TextEdit33.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.ButtonEdit1.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'DataGridView1
@@ -340,6 +340,14 @@ Partial Class perakende_satis
         Me.PanelControl1.Name = "PanelControl1"
         Me.PanelControl1.Size = New System.Drawing.Size(1072, 131)
         Me.PanelControl1.TabIndex = 87
+        '
+        'ButtonEdit1
+        '
+        Me.ButtonEdit1.Location = New System.Drawing.Point(321, 5)
+        Me.ButtonEdit1.Name = "ButtonEdit1"
+        Me.ButtonEdit1.Properties.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton()})
+        Me.ButtonEdit1.Size = New System.Drawing.Size(150, 20)
+        Me.ButtonEdit1.TabIndex = 117
         '
         'GroupControl4
         '
@@ -1224,14 +1232,6 @@ Partial Class perakende_satis
         Me.LabelControl36.TabIndex = 35
         Me.LabelControl36.Text = "TOPLAM"
         '
-        'ButtonEdit1
-        '
-        Me.ButtonEdit1.Location = New System.Drawing.Point(321, 5)
-        Me.ButtonEdit1.Name = "ButtonEdit1"
-        Me.ButtonEdit1.Properties.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton()})
-        Me.ButtonEdit1.Size = New System.Drawing.Size(150, 20)
-        Me.ButtonEdit1.TabIndex = 117
-        '
         'SimpleButton7
         '
         Me.SimpleButton7.Appearance.Font = New System.Drawing.Font("Tahoma", 8.25!, System.Drawing.FontStyle.Bold)
@@ -1322,6 +1322,7 @@ Partial Class perakende_satis
         CType(Me.PanelControl1, System.ComponentModel.ISupportInitialize).EndInit()
         Me.PanelControl1.ResumeLayout(False)
         Me.PanelControl1.PerformLayout()
+        CType(Me.ButtonEdit1.Properties, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.GroupControl4, System.ComponentModel.ISupportInitialize).EndInit()
         Me.GroupControl4.ResumeLayout(False)
         Me.GroupControl4.PerformLayout()
@@ -1387,7 +1388,6 @@ Partial Class perakende_satis
         CType(Me.TextEdit35.Properties, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.TextEdit34.Properties, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.TextEdit33.Properties, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.ButtonEdit1.Properties, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
 
     End Sub

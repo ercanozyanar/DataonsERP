@@ -1,21 +1,23 @@
 ﻿Imports System.Data.OleDb
 Public Class stok_tanimlama
 
-    ' Dim con As New OleDb.OleDbConnection("Provider=Microsoft.ACE.OLEDB.12.0;Data Source=D:\Ercan_OZYANAR_DATA\DataonsERP\DataonsERP\DataonsERP\dataons.accdb")
-
     Sub New()
-
         InitializeComponent()
-
     End Sub
-
     Dim CuRWidth As Integer = Me.Width
     Dim CuRHeight As Integer = Me.Height
-
-    Private Sub SimpleButton8_Click(sender As Object, e As EventArgs) Handles SimpleButton8.Click
-
+    Private Sub stok_tanimlama_Resize(sender As Object, e As EventArgs) Handles MyBase.Resize
+        Dim RaitoHeight As Double = (Me.Height - CuRHeight) / CuRHeight
+        Dim RaitoWidth As Double = (Me.Width - CuRWidth) / CuRWidth
+        For Each Ctrl As Control In Controls
+            Ctrl.Width += Ctrl.Width * RaitoWidth
+            Ctrl.Left += Ctrl.Left * RaitoWidth
+            Ctrl.Top += Ctrl.Top * RaitoHeight
+            Ctrl.Height += Ctrl.Height * RaitoHeight
+        Next
+        CuRHeight = Me.Height
+        CuRWidth = Me.Width
     End Sub
-
     Private Sub stok_tanimlama_Load(sender As Object, e As EventArgs) Handles MyBase.Load
 
         Dim cn = New OleDb.OleDbConnection
@@ -42,22 +44,7 @@ Public Class stok_tanimlama
         End Try
     End Sub
 
-    Private Sub stok_tanimlama_Resize(sender As Object, e As EventArgs) Handles MyBase.Resize
-        Dim RaitoHeight As Double = (Me.Height - CuRHeight) / CuRHeight
-        Dim RaitoWidth As Double = (Me.Width - CuRWidth) / CuRWidth
 
-        For Each Ctrl As Control In Controls
-            Ctrl.Width += Ctrl.Width * RaitoWidth
-            Ctrl.Left += Ctrl.Left * RaitoWidth
-            Ctrl.Top += Ctrl.Top * RaitoHeight
-            Ctrl.Height += Ctrl.Height * RaitoHeight
-        Next
-        CuRHeight = Me.Height
-        CuRWidth = Me.Width
-
-
-
-    End Sub
     Private Sub SimpleButton9_Click(sender As Object, e As EventArgs) Handles SimpleButton9.Click
 
         Me.stokkodu.Text = CStr(Convert.ToString((Me.stokkodu)))
@@ -72,10 +59,6 @@ Public Class stok_tanimlama
             Me.stokkodu.Select()
             Exit Sub
         End If
-
-
-
-
 
         Dim cn = New OleDb.OleDbConnection
         With cn

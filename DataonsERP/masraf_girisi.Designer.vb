@@ -25,8 +25,8 @@ Partial Class masraf_girisi
         Me.FormAssistant1 = New DevExpress.XtraBars.FormAssistant()
         Me.GroupBox1 = New System.Windows.Forms.GroupBox()
         Me.SimpleButton4 = New DevExpress.XtraEditors.SimpleButton()
-        Me.SimpleButton2 = New DevExpress.XtraEditors.SimpleButton()
         Me.SimpleButton3 = New DevExpress.XtraEditors.SimpleButton()
+        Me.SimpleButton2 = New DevExpress.XtraEditors.SimpleButton()
         Me.GroupBox3 = New System.Windows.Forms.GroupBox()
         Me.TextEdit1 = New DevExpress.XtraEditors.TextEdit()
         Me.GroupBox2 = New System.Windows.Forms.GroupBox()
@@ -78,17 +78,6 @@ Partial Class masraf_girisi
         Me.SimpleButton4.TabIndex = 10
         Me.SimpleButton4.Text = "İncele"
         '
-        'SimpleButton2
-        '
-        Me.SimpleButton2.Appearance.Font = New System.Drawing.Font("Tahoma", 8.25!, System.Drawing.FontStyle.Bold)
-        Me.SimpleButton2.Appearance.Options.UseFont = True
-        Me.SimpleButton2.ImageOptions.Image = Global.DataonsERP.My.Resources.Resources.add_32x321
-        Me.SimpleButton2.Location = New System.Drawing.Point(700, 9)
-        Me.SimpleButton2.Name = "SimpleButton2"
-        Me.SimpleButton2.Size = New System.Drawing.Size(116, 36)
-        Me.SimpleButton2.TabIndex = 8
-        Me.SimpleButton2.Text = "Ekle"
-        '
         'SimpleButton3
         '
         Me.SimpleButton3.Appearance.Font = New System.Drawing.Font("Tahoma", 8.25!, System.Drawing.FontStyle.Bold)
@@ -99,6 +88,17 @@ Partial Class masraf_girisi
         Me.SimpleButton3.Size = New System.Drawing.Size(116, 36)
         Me.SimpleButton3.TabIndex = 9
         Me.SimpleButton3.Text = "Değiştir"
+        '
+        'SimpleButton2
+        '
+        Me.SimpleButton2.Appearance.Font = New System.Drawing.Font("Tahoma", 8.25!, System.Drawing.FontStyle.Bold)
+        Me.SimpleButton2.Appearance.Options.UseFont = True
+        Me.SimpleButton2.ImageOptions.Image = Global.DataonsERP.My.Resources.Resources.add_32x321
+        Me.SimpleButton2.Location = New System.Drawing.Point(700, 9)
+        Me.SimpleButton2.Name = "SimpleButton2"
+        Me.SimpleButton2.Size = New System.Drawing.Size(116, 36)
+        Me.SimpleButton2.TabIndex = 8
+        Me.SimpleButton2.Text = "Ekle"
         '
         'GroupBox3
         '

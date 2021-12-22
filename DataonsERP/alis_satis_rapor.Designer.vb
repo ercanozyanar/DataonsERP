@@ -22,8 +22,8 @@ Partial Class alis_satis_rapor
     'Kod düzenleyicisini kullanarak değiştirmeyin.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
-        Dim GridLevelNode3 As DevExpress.XtraGrid.GridLevelNode = New DevExpress.XtraGrid.GridLevelNode()
-        Dim GridLevelNode4 As DevExpress.XtraGrid.GridLevelNode = New DevExpress.XtraGrid.GridLevelNode()
+        Dim GridLevelNode1 As DevExpress.XtraGrid.GridLevelNode = New DevExpress.XtraGrid.GridLevelNode()
+        Dim GridLevelNode2 As DevExpress.XtraGrid.GridLevelNode = New DevExpress.XtraGrid.GridLevelNode()
         Me.FormAssistant1 = New DevExpress.XtraBars.FormAssistant()
         Me.GroupBox1 = New System.Windows.Forms.GroupBox()
         Me.LabelControl6 = New DevExpress.XtraEditors.LabelControl()
@@ -440,9 +440,9 @@ Partial Class alis_satis_rapor
         '
         'GridControl1
         '
-        GridLevelNode3.RelationName = "Level1"
-        GridLevelNode4.RelationName = "Level2"
-        Me.GridControl1.LevelTree.Nodes.AddRange(New DevExpress.XtraGrid.GridLevelNode() {GridLevelNode3, GridLevelNode4})
+        GridLevelNode1.RelationName = "Level1"
+        GridLevelNode2.RelationName = "Level2"
+        Me.GridControl1.LevelTree.Nodes.AddRange(New DevExpress.XtraGrid.GridLevelNode() {GridLevelNode1, GridLevelNode2})
         Me.GridControl1.Location = New System.Drawing.Point(3, 191)
         Me.GridControl1.MainView = Me.GridView1
         Me.GridControl1.Name = "GridControl1"
