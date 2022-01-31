@@ -153,7 +153,7 @@ Partial Class banka_tanim
         Me.ComboBoxEdit2.Properties.Appearance.Font = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(162, Byte))
         Me.ComboBoxEdit2.Properties.Appearance.Options.UseFont = True
         Me.ComboBoxEdit2.Properties.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)})
-        Me.ComboBoxEdit2.Properties.Items.AddRange(New Object() {"GRAM", "ADET", "MILYEM"})
+        Me.ComboBoxEdit2.Properties.Items.AddRange(New Object() {"Vadeli", "Vadesiz", "Altın", "Dolar", "Euro", "Sterlin", "Gümüş", "TL"})
         Me.ComboBoxEdit2.Size = New System.Drawing.Size(138, 20)
         Me.ComboBoxEdit2.TabIndex = 105
         '

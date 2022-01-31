@@ -25,22 +25,21 @@ Partial Class masraf_grup_tanim
         Me.FormAssistant1 = New DevExpress.XtraBars.FormAssistant()
         Me.DataGridView1 = New System.Windows.Forms.DataGridView()
         Me.PanelControl1 = New DevExpress.XtraEditors.PanelControl()
+        Me.grupadi = New DevExpress.XtraEditors.TextEdit()
         Me.LabelControl2 = New DevExpress.XtraEditors.LabelControl()
+        Me.grupkodu = New DevExpress.XtraEditors.TextEdit()
         Me.LabelControl1 = New DevExpress.XtraEditors.LabelControl()
         Me.PanelControl2 = New DevExpress.XtraEditors.PanelControl()
-        Me.TextEdit1 = New DevExpress.XtraEditors.TextEdit()
-        Me.stokkodu = New DevExpress.XtraEditors.TextEdit()
         Me.SimpleButton4 = New DevExpress.XtraEditors.SimpleButton()
-        Me.SimpleButton3 = New DevExpress.XtraEditors.SimpleButton()
         Me.SimpleButton2 = New DevExpress.XtraEditors.SimpleButton()
         Me.SimpleButton1 = New DevExpress.XtraEditors.SimpleButton()
         CType(Me.DataGridView1, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PanelControl1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.PanelControl1.SuspendLayout()
+        CType(Me.grupadi.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.grupkodu.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PanelControl2, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.PanelControl2.SuspendLayout()
-        CType(Me.TextEdit1.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.stokkodu.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'DataGridView1
@@ -53,14 +52,23 @@ Partial Class masraf_grup_tanim
         '
         'PanelControl1
         '
-        Me.PanelControl1.Controls.Add(Me.TextEdit1)
+        Me.PanelControl1.Controls.Add(Me.grupadi)
         Me.PanelControl1.Controls.Add(Me.LabelControl2)
-        Me.PanelControl1.Controls.Add(Me.stokkodu)
+        Me.PanelControl1.Controls.Add(Me.grupkodu)
         Me.PanelControl1.Controls.Add(Me.LabelControl1)
         Me.PanelControl1.Location = New System.Drawing.Point(12, 9)
         Me.PanelControl1.Name = "PanelControl1"
         Me.PanelControl1.Size = New System.Drawing.Size(441, 57)
         Me.PanelControl1.TabIndex = 9
+        '
+        'grupadi
+        '
+        Me.grupadi.Location = New System.Drawing.Point(91, 23)
+        Me.grupadi.Name = "grupadi"
+        Me.grupadi.Properties.Appearance.Font = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(162, Byte))
+        Me.grupadi.Properties.Appearance.Options.UseFont = True
+        Me.grupadi.Size = New System.Drawing.Size(345, 20)
+        Me.grupadi.TabIndex = 5
         '
         'LabelControl2
         '
@@ -71,6 +79,15 @@ Partial Class masraf_grup_tanim
         Me.LabelControl2.Size = New System.Drawing.Size(47, 14)
         Me.LabelControl2.TabIndex = 4
         Me.LabelControl2.Text = "Grup Adı"
+        '
+        'grupkodu
+        '
+        Me.grupkodu.Location = New System.Drawing.Point(9, 23)
+        Me.grupkodu.Name = "grupkodu"
+        Me.grupkodu.Properties.Appearance.Font = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(162, Byte))
+        Me.grupkodu.Properties.Appearance.Options.UseFont = True
+        Me.grupkodu.Size = New System.Drawing.Size(76, 20)
+        Me.grupkodu.TabIndex = 3
         '
         'LabelControl1
         '
@@ -85,31 +102,12 @@ Partial Class masraf_grup_tanim
         'PanelControl2
         '
         Me.PanelControl2.Controls.Add(Me.SimpleButton4)
-        Me.PanelControl2.Controls.Add(Me.SimpleButton3)
         Me.PanelControl2.Controls.Add(Me.SimpleButton2)
         Me.PanelControl2.Controls.Add(Me.SimpleButton1)
         Me.PanelControl2.Location = New System.Drawing.Point(12, 445)
         Me.PanelControl2.Name = "PanelControl2"
         Me.PanelControl2.Size = New System.Drawing.Size(441, 57)
         Me.PanelControl2.TabIndex = 11
-        '
-        'TextEdit1
-        '
-        Me.TextEdit1.Location = New System.Drawing.Point(91, 23)
-        Me.TextEdit1.Name = "TextEdit1"
-        Me.TextEdit1.Properties.Appearance.Font = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(162, Byte))
-        Me.TextEdit1.Properties.Appearance.Options.UseFont = True
-        Me.TextEdit1.Size = New System.Drawing.Size(345, 20)
-        Me.TextEdit1.TabIndex = 5
-        '
-        'stokkodu
-        '
-        Me.stokkodu.Location = New System.Drawing.Point(9, 23)
-        Me.stokkodu.Name = "stokkodu"
-        Me.stokkodu.Properties.Appearance.Font = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(162, Byte))
-        Me.stokkodu.Properties.Appearance.Options.UseFont = True
-        Me.stokkodu.Size = New System.Drawing.Size(76, 20)
-        Me.stokkodu.TabIndex = 3
         '
         'SimpleButton4
         '
@@ -121,17 +119,6 @@ Partial Class masraf_grup_tanim
         Me.SimpleButton4.Size = New System.Drawing.Size(75, 47)
         Me.SimpleButton4.TabIndex = 3
         Me.SimpleButton4.Text = "Çıkış"
-        '
-        'SimpleButton3
-        '
-        Me.SimpleButton3.Appearance.Font = New System.Drawing.Font("Tahoma", 8.25!, System.Drawing.FontStyle.Bold)
-        Me.SimpleButton3.Appearance.Options.UseFont = True
-        Me.SimpleButton3.ImageOptions.Image = Global.DataonsERP.My.Resources.Resources.undo_32x32
-        Me.SimpleButton3.Location = New System.Drawing.Point(179, 5)
-        Me.SimpleButton3.Name = "SimpleButton3"
-        Me.SimpleButton3.Size = New System.Drawing.Size(92, 47)
-        Me.SimpleButton3.TabIndex = 2
-        Me.SimpleButton3.Text = "Geri Al"
         '
         'SimpleButton2
         '
@@ -151,7 +138,7 @@ Partial Class masraf_grup_tanim
         Me.SimpleButton1.ImageOptions.Image = Global.DataonsERP.My.Resources.Resources.apply_32x321
         Me.SimpleButton1.Location = New System.Drawing.Point(5, 5)
         Me.SimpleButton1.Name = "SimpleButton1"
-        Me.SimpleButton1.Size = New System.Drawing.Size(80, 47)
+        Me.SimpleButton1.Size = New System.Drawing.Size(87, 47)
         Me.SimpleButton1.TabIndex = 0
         Me.SimpleButton1.Text = "Kaydet"
         '
@@ -172,10 +159,10 @@ Partial Class masraf_grup_tanim
         CType(Me.PanelControl1, System.ComponentModel.ISupportInitialize).EndInit()
         Me.PanelControl1.ResumeLayout(False)
         Me.PanelControl1.PerformLayout()
+        CType(Me.grupadi.Properties, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.grupkodu.Properties, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.PanelControl2, System.ComponentModel.ISupportInitialize).EndInit()
         Me.PanelControl2.ResumeLayout(False)
-        CType(Me.TextEdit1.Properties, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.stokkodu.Properties, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
 
     End Sub
@@ -183,13 +170,12 @@ Partial Class masraf_grup_tanim
     Friend WithEvents FormAssistant1 As DevExpress.XtraBars.FormAssistant
     Friend WithEvents DataGridView1 As DataGridView
     Friend WithEvents PanelControl1 As DevExpress.XtraEditors.PanelControl
-    Friend WithEvents TextEdit1 As DevExpress.XtraEditors.TextEdit
+    Friend WithEvents grupadi As DevExpress.XtraEditors.TextEdit
     Friend WithEvents LabelControl2 As DevExpress.XtraEditors.LabelControl
-    Friend WithEvents stokkodu As DevExpress.XtraEditors.TextEdit
+    Friend WithEvents grupkodu As DevExpress.XtraEditors.TextEdit
     Friend WithEvents LabelControl1 As DevExpress.XtraEditors.LabelControl
     Friend WithEvents PanelControl2 As DevExpress.XtraEditors.PanelControl
     Friend WithEvents SimpleButton4 As DevExpress.XtraEditors.SimpleButton
-    Friend WithEvents SimpleButton3 As DevExpress.XtraEditors.SimpleButton
     Friend WithEvents SimpleButton2 As DevExpress.XtraEditors.SimpleButton
     Friend WithEvents SimpleButton1 As DevExpress.XtraEditors.SimpleButton
 End Class

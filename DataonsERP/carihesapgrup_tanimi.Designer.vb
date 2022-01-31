@@ -25,28 +25,26 @@ Partial Class carihesapgrup_tanimi
         Me.FormAssistant1 = New DevExpress.XtraBars.FormAssistant()
         Me.PanelControl2 = New DevExpress.XtraEditors.PanelControl()
         Me.SimpleButton4 = New DevExpress.XtraEditors.SimpleButton()
-        Me.SimpleButton3 = New DevExpress.XtraEditors.SimpleButton()
         Me.SimpleButton2 = New DevExpress.XtraEditors.SimpleButton()
         Me.SimpleButton1 = New DevExpress.XtraEditors.SimpleButton()
         Me.DataGridView1 = New System.Windows.Forms.DataGridView()
         Me.PanelControl1 = New DevExpress.XtraEditors.PanelControl()
-        Me.TextEdit1 = New DevExpress.XtraEditors.TextEdit()
+        Me.adi = New DevExpress.XtraEditors.TextEdit()
         Me.LabelControl2 = New DevExpress.XtraEditors.LabelControl()
-        Me.stokkodu = New DevExpress.XtraEditors.TextEdit()
+        Me.kodu = New DevExpress.XtraEditors.TextEdit()
         Me.LabelControl1 = New DevExpress.XtraEditors.LabelControl()
         CType(Me.PanelControl2, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.PanelControl2.SuspendLayout()
         CType(Me.DataGridView1, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PanelControl1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.PanelControl1.SuspendLayout()
-        CType(Me.TextEdit1.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.stokkodu.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.adi.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.kodu.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'PanelControl2
         '
         Me.PanelControl2.Controls.Add(Me.SimpleButton4)
-        Me.PanelControl2.Controls.Add(Me.SimpleButton3)
         Me.PanelControl2.Controls.Add(Me.SimpleButton2)
         Me.PanelControl2.Controls.Add(Me.SimpleButton1)
         Me.PanelControl2.Location = New System.Drawing.Point(3, 448)
@@ -64,17 +62,6 @@ Partial Class carihesapgrup_tanimi
         Me.SimpleButton4.Size = New System.Drawing.Size(75, 47)
         Me.SimpleButton4.TabIndex = 3
         Me.SimpleButton4.Text = "Çıkış"
-        '
-        'SimpleButton3
-        '
-        Me.SimpleButton3.Appearance.Font = New System.Drawing.Font("Tahoma", 8.25!, System.Drawing.FontStyle.Bold)
-        Me.SimpleButton3.Appearance.Options.UseFont = True
-        Me.SimpleButton3.ImageOptions.Image = Global.DataonsERP.My.Resources.Resources.undo_32x32
-        Me.SimpleButton3.Location = New System.Drawing.Point(179, 5)
-        Me.SimpleButton3.Name = "SimpleButton3"
-        Me.SimpleButton3.Size = New System.Drawing.Size(88, 47)
-        Me.SimpleButton3.TabIndex = 2
-        Me.SimpleButton3.Text = "Geri Al"
         '
         'SimpleButton2
         '
@@ -94,7 +81,7 @@ Partial Class carihesapgrup_tanimi
         Me.SimpleButton1.ImageOptions.Image = Global.DataonsERP.My.Resources.Resources.apply_32x321
         Me.SimpleButton1.Location = New System.Drawing.Point(5, 5)
         Me.SimpleButton1.Name = "SimpleButton1"
-        Me.SimpleButton1.Size = New System.Drawing.Size(80, 47)
+        Me.SimpleButton1.Size = New System.Drawing.Size(87, 47)
         Me.SimpleButton1.TabIndex = 0
         Me.SimpleButton1.Text = "Kaydet"
         '
@@ -108,23 +95,23 @@ Partial Class carihesapgrup_tanimi
         '
         'PanelControl1
         '
-        Me.PanelControl1.Controls.Add(Me.TextEdit1)
+        Me.PanelControl1.Controls.Add(Me.adi)
         Me.PanelControl1.Controls.Add(Me.LabelControl2)
-        Me.PanelControl1.Controls.Add(Me.stokkodu)
+        Me.PanelControl1.Controls.Add(Me.kodu)
         Me.PanelControl1.Controls.Add(Me.LabelControl1)
         Me.PanelControl1.Location = New System.Drawing.Point(3, 12)
         Me.PanelControl1.Name = "PanelControl1"
         Me.PanelControl1.Size = New System.Drawing.Size(441, 57)
         Me.PanelControl1.TabIndex = 6
         '
-        'TextEdit1
+        'adi
         '
-        Me.TextEdit1.Location = New System.Drawing.Point(91, 23)
-        Me.TextEdit1.Name = "TextEdit1"
-        Me.TextEdit1.Properties.Appearance.Font = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(162, Byte))
-        Me.TextEdit1.Properties.Appearance.Options.UseFont = True
-        Me.TextEdit1.Size = New System.Drawing.Size(345, 20)
-        Me.TextEdit1.TabIndex = 5
+        Me.adi.Location = New System.Drawing.Point(91, 23)
+        Me.adi.Name = "adi"
+        Me.adi.Properties.Appearance.Font = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(162, Byte))
+        Me.adi.Properties.Appearance.Options.UseFont = True
+        Me.adi.Size = New System.Drawing.Size(345, 20)
+        Me.adi.TabIndex = 5
         '
         'LabelControl2
         '
@@ -136,14 +123,14 @@ Partial Class carihesapgrup_tanimi
         Me.LabelControl2.TabIndex = 4
         Me.LabelControl2.Text = "Adı"
         '
-        'stokkodu
+        'kodu
         '
-        Me.stokkodu.Location = New System.Drawing.Point(9, 23)
-        Me.stokkodu.Name = "stokkodu"
-        Me.stokkodu.Properties.Appearance.Font = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(162, Byte))
-        Me.stokkodu.Properties.Appearance.Options.UseFont = True
-        Me.stokkodu.Size = New System.Drawing.Size(76, 20)
-        Me.stokkodu.TabIndex = 3
+        Me.kodu.Location = New System.Drawing.Point(9, 23)
+        Me.kodu.Name = "kodu"
+        Me.kodu.Properties.Appearance.Font = New System.Drawing.Font("Tahoma", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(162, Byte))
+        Me.kodu.Properties.Appearance.Options.UseFont = True
+        Me.kodu.Size = New System.Drawing.Size(76, 20)
+        Me.kodu.TabIndex = 3
         '
         'LabelControl1
         '
@@ -174,8 +161,8 @@ Partial Class carihesapgrup_tanimi
         CType(Me.PanelControl1, System.ComponentModel.ISupportInitialize).EndInit()
         Me.PanelControl1.ResumeLayout(False)
         Me.PanelControl1.PerformLayout()
-        CType(Me.TextEdit1.Properties, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.stokkodu.Properties, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.adi.Properties, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.kodu.Properties, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
 
     End Sub
@@ -183,13 +170,12 @@ Partial Class carihesapgrup_tanimi
     Friend WithEvents FormAssistant1 As DevExpress.XtraBars.FormAssistant
     Friend WithEvents PanelControl2 As DevExpress.XtraEditors.PanelControl
     Friend WithEvents SimpleButton4 As DevExpress.XtraEditors.SimpleButton
-    Friend WithEvents SimpleButton3 As DevExpress.XtraEditors.SimpleButton
     Friend WithEvents SimpleButton2 As DevExpress.XtraEditors.SimpleButton
     Friend WithEvents SimpleButton1 As DevExpress.XtraEditors.SimpleButton
     Friend WithEvents DataGridView1 As DataGridView
     Friend WithEvents PanelControl1 As DevExpress.XtraEditors.PanelControl
-    Friend WithEvents TextEdit1 As DevExpress.XtraEditors.TextEdit
+    Friend WithEvents adi As DevExpress.XtraEditors.TextEdit
     Friend WithEvents LabelControl2 As DevExpress.XtraEditors.LabelControl
-    Friend WithEvents stokkodu As DevExpress.XtraEditors.TextEdit
+    Friend WithEvents kodu As DevExpress.XtraEditors.TextEdit
     Friend WithEvents LabelControl1 As DevExpress.XtraEditors.LabelControl
 End Class
